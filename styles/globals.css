@@ -15,3 +15,7 @@ html {
   /* background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
   background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 }
+
+.logo-img {
+  background-image: url(https://user-images.githubusercontent.com/77664153/217368657-f27c2e4f-aaf3-4eec-ba4d-6df13275e064.png)
+}

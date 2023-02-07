@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-import navlogotransparent from "../public/navlogotransparent";
+// import navlogotransparent from "../public/navlogotransparent";
+import Image from "next/image";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
@@ -33,6 +34,9 @@ const NavBar = () => {
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
           <div className="logo-img"></div>
+          {/* <Image src='/../public/navlogotransparent.png' width='87' height='35' /> */}
+          <Image src='https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png' width='87' height='35' />
+          {/* <Image src='https://user-images.githubusercontent.com/77664153/217392544-87c17d30-7161-485c-b09e-7fa0500c7425.png' width='87' height='35' /> */}
           {/* <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl '> Reliance
                     </h1> */}
         </Link>
