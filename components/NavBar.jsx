@@ -76,7 +76,7 @@ const NavBar = () => {
         <div
           className={
             nav
-              ? "med:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#0089B9] z-5 text-center ease-in duration-300"
+              ? "med:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#0284c7] z-5 text-center ease-in duration-300"
               : "med:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#0089B9] text-center ease-in duration-300"
           }
         >
