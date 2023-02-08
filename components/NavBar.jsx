@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
-// import navlogotransparent from "../public/navlogotransparent";
 import Image from "next/image";
 
 const NavBar = () => {
@@ -35,11 +34,12 @@ const NavBar = () => {
         <Link href="/">
           <div className="logo-img"></div>
           {/* <Image src='/../public/navlogotransparent.png' width='87' height='35' /> */}
-          <Image src='https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png' width='87' height='35' />
+          {/* <Image src='https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png' width='87' height='35' /> */}
           {/* <Image src='https://user-images.githubusercontent.com/77664153/217392544-87c17d30-7161-485c-b09e-7fa0500c7425.png' width='87' height='35' /> */}
-          {/* <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl '> Reliance
-                    </h1> */}
+          <h1 style={{ color: `${textColor}` }} className='font-bold text-4xl '> Reliance
+                    </h1>
         </Link>
+        
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4">
             <Link href="/">Home</Link>
@@ -69,59 +69,48 @@ const NavBar = () => {
             <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
           )}
         </div>
+        
         {/* Mobile Menu */}
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
-              : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              ? "med:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
+              : "med:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
           }
         >
           <ul>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/">Home</Link>
             </li>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/products">Products</Link>
             </li>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/technical info">Technical Info</Link>
             </li>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/faq">FAQ</Link>
             </li>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/about">About Us</Link>
             </li>
             <li
-              onClick={() => {
-                setNav(false);
-              }}
+              onClick={handleNav}
               className="p-4 text-4xl hover:text-gray-500"
             >
               <Link href="/contact">Contact Us</Link>
