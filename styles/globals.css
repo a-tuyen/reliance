@@ -2,20 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
   scroll-behavior: smooth;
   font-family: "Archivo Narrow", sans-serif;
 }
 
+@layer base {
+  h1, h2, h3, h4, h5 {
+    @apply font-bold text-black
+  }
+}
+
 .custom-img {
   /* background-image: url(https://images.unsplash.com/photo-1618947084583-07ff857ca918?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80); */
-  /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
   /* background-image: url(https://images.pexels.com/photos/3693581/pexels-photo-3693581.jpeg); */
-  /* background-image: url(https://images.pexels.com/photos/2253573/pexels-photo-2253573.jpeg); */
-  background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/2253573/pexels-photo-2253573.jpeg);
+  /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
+  /* background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
   /* background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
 }
 
 .logo-img {
   background-image: url(https://user-images.githubusercontent.com/77664153/217368657-f27c2e4f-aaf3-4eec-ba4d-6df13275e064.png)
 }
+
