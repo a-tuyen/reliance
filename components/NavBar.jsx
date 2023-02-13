@@ -39,8 +39,8 @@ const NavBar = () => {
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
         <Link href="/">
-
-          <div className={logoDark ? "absolute top-1.5 left-3.5" : " sm-hidden"}>
+{/* Dark Logo  */}
+          <div className={logoDark ? "fixed top-3.5 left-4.5" : " sm-hidden"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
               width="200"
@@ -48,8 +48,8 @@ const NavBar = () => {
               
               />
           </div>
-
-          <div className={logoDark ? "sm-hidden" : "absolute top-3.5 left-3.1"}>
+{/* White Logo */}
+          <div className={logoDark ? "sm-hidden" : "fixed top-4 left-3.8"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
               width="200"
@@ -94,15 +94,15 @@ const NavBar = () => {
 
         <div
           className={
-            nav ? "fixed left-0 top-0 w-full h-screen bg-black/40" : ""
+            nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""
           }
         >
           {/* Mobile Menu */}
           <div
             className={
               nav
-                ? "med:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-5 text-center ease-in duration-300"
-                : "med:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] text-center ease-in duration-300"
+                ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-5 text-center ease-in duration-300"
+                : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] text-center ease-in duration-300"
             }
           >
             <ul>
