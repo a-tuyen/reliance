@@ -16,7 +16,11 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Hero heading='Reliance Anodes' message='A Tradition of Excellence' />
+      {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
+      <Hero heading="World Leader in Cathodic Protection" message='' />
     </>
   )
 }
+
+
+{/* <Hero heading="Don't let CORROSION eat into your investment" message='Demand Reliance Anodes' /> */}
