@@ -21,7 +21,6 @@ const NavBar = () => {
         setColor("#ffffff");
         setTextColor("#52525b");
         setLogoDark(true);
-
       } else {
         setColor("transparent");
         setTextColor("#d4d4d8");
@@ -35,20 +34,19 @@ const NavBar = () => {
   return (
     <div
       style={{ backgroundColor: `${color}` }}
-      className="fixed left-0 top-0 w-full z-10 ease-in duration-300 block"
+      className="fixed left-0 top-0 w-[100%] z-40 ease-in duration-300 block"
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
+      <div className="m-auto flex justify-between items-end p-4 z-1 text-white  z-10">
         <Link href="/">
-{/* Dark Logo  */}
+          {/* Dark Logo  */}
           <div className={logoDark ? "fixed top-3.5 left-4.5" : " sm-hidden"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
               width="200"
               height="30"
-              
-              />
+            />
           </div>
-{/* White Logo */}
+          {/* White Logo */}
           <div className={logoDark ? "sm-hidden" : "fixed top-4 left-3.8"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
@@ -56,10 +54,9 @@ const NavBar = () => {
               height="30"
             />
           </div>
-
         </Link>
 
-        <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
+        <ul style={{ color: `${textColor}` }} className=" z-40 fixed right-5 top-15 hidden sm:flex">
           <li className="p-4">
             <Link href="/">Home</Link>
           </li>
@@ -75,7 +72,7 @@ const NavBar = () => {
           <li className="p-4">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="p-4">
+          <li className="p-4 pr-0 mr-0">
             <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
@@ -94,7 +91,9 @@ const NavBar = () => {
 
         <div
           className={
-            nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/40" : ""
+            nav
+              ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/40"
+              : ""
           }
         >
           {/* Mobile Menu */}
