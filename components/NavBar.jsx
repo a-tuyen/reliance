@@ -39,7 +39,7 @@ const NavBar = () => {
       <div className="m-auto flex justify-between items-end p-4 z-1 text-white  z-10">
         <Link href="/">
           {/* Dark Logo  */}
-          <div className={logoDark ? "fixed top-3.5 left-4.5" : " sm-hidden"}>
+          <div className={logoDark ? "fixed top-3.5 left-4.5" : " md-hidden"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
               width="200"
@@ -47,7 +47,7 @@ const NavBar = () => {
             />
           </div>
           {/* White Logo */}
-          <div className={logoDark ? "sm-hidden" : "fixed top-4 left-3.8"}>
+          <div className={logoDark ? "md-hidden" : "fixed top-4 left-3.8"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
               width="200"
@@ -56,23 +56,23 @@ const NavBar = () => {
           </div>
         </Link>
 
-        <ul style={{ color: `${textColor}` }} className=" z-40 fixed right-5 top-15 hidden sm:flex">
-          <li className="p-4">
+        <ul style={{ color: `${textColor}` }} className=" z-40 fixed right-5 top-22 hidden md:flex h-7 text-xl">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
             <Link href="/">Home</Link>
           </li>
-          <li className="p-4">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/products">Products</Link>
           </li>
-          <li className="p-4">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/technical info">Technical Info</Link>
           </li>
-          <li className="p-4">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/faq">FAQ</Link>
           </li>
-          <li className="p-4">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/about">About Us</Link>
           </li>
-          <li className="p-4 pr-0 mr-0">
+          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/contact">Contact Us</Link>
           </li>
         </ul>
@@ -80,7 +80,7 @@ const NavBar = () => {
         {/* Mobile Button */}
         <div
           onClick={handleNav}
-          className="absolute right-4 top-10 sm:hidden z-10"
+          className="absolute right-4 top-10 md:hidden z-10"
         >
           {nav ? (
             <CgCloseO size={70} style={{ color: `${textColor}` }} />
