@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import Hero from '../components/Hero'
-import NavBar from '@/components/NavBar'
+import Intro from '@/components/Intro'
 // import styles from '@/styles/Home.module.css'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -18,6 +18,7 @@ export default function Home() {
       </Head>
       {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
       <Hero heading="World Leader in Cathodic Protection" message='' />
+      <Intro />
     </>
   )
 }
