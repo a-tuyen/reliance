@@ -89,7 +89,7 @@ const NavBar = () => {
             class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
           >
             <div class="relative group">
-              <Link href="#">Technical Info
+              <Link href="/TechnicalInfo">Technical Info
               </Link>
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div class="bg-gray-200 shadow-lg">
