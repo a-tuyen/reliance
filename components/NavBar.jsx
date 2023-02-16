@@ -56,22 +56,56 @@ const NavBar = () => {
           </div>
         </Link>
 
-        <ul style={{ color: `${textColor}` }} className=" z-40 fixed right-5 top-22 hidden md:flex h-7 text-xl">
+        <ul
+          style={{ color: `${textColor}` }}
+          className=" z-40 fixed right-5 top-22 hidden md:flex h-9 text-xl"
+        >
           <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
             <Link href="/">Home</Link>
           </li>
-          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
-            <Link href="/products">Products</Link>
-          </li>
-          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
-            <Link href="/technical info">Technical Info</Link>
-          </li>
-          <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
-            <Link href="/faq">FAQ</Link>
-          </li>
+
           <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/about">About Us</Link>
           </li>
+          
+          <li
+            class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
+          >
+            <div class="relative group">
+              <Link href="#">Products</Link>
+              <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
+                <div class="bg-white bg-gray-200 shadow-lg">
+                  <div class="w-[100%] text-blaxk">
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Commercial Anodes</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Pleasure Craft Anodes</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Zinc Caps</Link>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li
+            class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
+          >
+            <div class="relative group">
+              <Link href="#">Technical Info
+              </Link>
+              <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
+                <div class="bg-white bg-gray-200 shadow-lg">
+                  <div class="w-[100%]">
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Why Choose Mil-Spec?</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Boat Protection Basics</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >FAQ</Link>
+
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
           <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/contact">Contact Us</Link>
           </li>
@@ -115,7 +149,7 @@ const NavBar = () => {
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/products">Products</Link>
+                <Link href="/">Home</Link>
               </li>
               <li
                 onClick={handleNav}
@@ -145,6 +179,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+    
     </div>
   );
 };

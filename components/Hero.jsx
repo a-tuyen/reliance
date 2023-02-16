@@ -12,7 +12,7 @@ const Hero = ({heading, message}) => {
                 {/* <div className='flex justify-center py-10'>
                 <Image  src='https://user-images.githubusercontent.com/77664153/218575157-76eeb38c-3faa-40dd-ad1b-4e1b79979718.png' width="300" height="350"/>
                 </div> */}
-                <p className='flex justify-center w-[70%] py-10 text-3xl text-white text-center'>{message}</p>
+                <p className='flex justify-center w-[70%] py-10 text-3xl text-white text-center font-thin'>{message}</p>
                 {/* <button className=' px-8 py-2 border'>Enter</button> */}
             </div>
         </div>
