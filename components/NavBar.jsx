@@ -22,11 +22,10 @@ const NavBar = () => {
         setTextColor("#52525b");
         setLogoDark(true);
       } else {
-        setColor("transparent");
+        setColor("rgba(0, 0, 0, 0.2)");
         setTextColor("#d4d4d8");
         setLogoDark(false);
       }
-      return console.log(logoDark);
     };
     window.addEventListener("scroll", changeColor);
   }, []);
@@ -67,18 +66,18 @@ const NavBar = () => {
           <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52] ">
             <Link href="/about">About Us</Link>
           </li>
-          
+
           <li
             class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
           >
             <div class="relative group">
               <Link href="#">Products</Link>
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
-                <div class="bg-white bg-gray-200 shadow-lg">
+                <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%] text-blaxk">
                     <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Commercial Anodes</Link>
                     <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Pleasure Craft Anodes</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Zinc Caps</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/" >Zinc Caps</Link>
 
                   </div>
                 </div>
@@ -93,11 +92,11 @@ const NavBar = () => {
               <Link href="#">Technical Info
               </Link>
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
-                <div class="bg-white bg-gray-200 shadow-lg">
+                <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%]">
                     <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Why Choose Mil-Spec?</Link>
                     <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Boat Protection Basics</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >FAQ</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/" >FAQ</Link>
 
 
                   </div>
@@ -149,7 +148,13 @@ const NavBar = () => {
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/">Home</Link>
+                <Link href="/about">About Us</Link>
+              </li>
+              <li
+                onClick={handleNav}
+                className="p-4 text-4xl hover:text-gray-500"
+              >
+                <Link href="/about">Products</Link>
               </li>
               <li
                 onClick={handleNav}
@@ -163,12 +168,7 @@ const NavBar = () => {
               >
                 <Link href="/faq">FAQ</Link>
               </li>
-              <li
-                onClick={handleNav}
-                className="p-4 text-4xl hover:text-gray-500"
-              >
-                <Link href="/about">About Us</Link>
-              </li>
+
               <li
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
