@@ -94,9 +94,9 @@ const NavBar = () => {
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%]">
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Why Choose Mil-Spec?</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Boat Protection Basics</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/" >FAQ</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/technicalinfo/milspec" >Why Choose Mil-Spec?</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/technicalinfo/protection" >Boat Protection Basics</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/technicalinfo/faq" >FAQ</Link>
 
 
                   </div>
