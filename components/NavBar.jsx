@@ -77,9 +77,9 @@ const NavBar = () => {
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%] text-blaxk">
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Commercial Anodes</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/" >Pleasure Craft Anodes</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/" >Zinc Caps</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/products/commercial" >Commercial Anodes</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/products/pleasureCraft" >Pleasure Craft Anodes</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/products/zincCap" >Zinc Caps</Link>
 
                   </div>
                 </div>
