@@ -1,13 +1,9 @@
-import Hero from '@/components/Hero'
 import React from 'react'
 
-const TechnicalInfo = () => {
+const index = () => {
   return (
-    <div className='bg-white'>
-      < Hero />
-      TechnicalInfo
-      </div>
+    <div>index</div>
   )
 }
 
-export default TechnicalInfo
+export default index

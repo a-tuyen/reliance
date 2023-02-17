@@ -18,9 +18,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
-      <Hero heading="A World Leader in Cathodic Protection" message='Reliance Anodes are made of the highest quality Mil-Spec grade metals. You can always rely on us for all your corrosion needs' />
+      <Hero heading="A World Leader in Cathodic Protection" message='Reliance Anodes are made of the highest quality Mil-Spec grade metals. You can always rely on us for your corrosion needs' />
       <Intro />
-      <TechnicalInfo/>
     </>
   )
 }
