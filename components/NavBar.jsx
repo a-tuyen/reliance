@@ -91,13 +91,13 @@ const NavBar = () => {
             className=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
           >
             <div className="relative group">
-              <Link href="/technicalinfo">Technical Info</Link>
+              <Link href="/technicalInfo">Technical Info</Link>
               <div className="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div className="bg-gray-200 shadow-lg">
                   <div className="w-[100%]">
-                    <p className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"><Link href="/technicalinfo/milspec" >Why Choose Mil-Spec?</Link></p>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/technicalinfo/protection" >Boat Protection Basics</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/technicalinfo/faq" >FAQ</Link>
+                    <p className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"><Link href="/technicalInfo/milSpec" >Why Choose Mil-Spec?</Link></p>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/technicalInfo/protection" >Boat Protection Basics</Link>
+                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/technicalInfo/faq" >FAQ</Link>
 
 
                   </div>
