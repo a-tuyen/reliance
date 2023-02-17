@@ -42,7 +42,8 @@ const NavBar = () => {
             <Image
               src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
               width="200"
-              height="30"
+              height="100"
+              alt="dark logo"
             />
           </div>
           {/* White Logo */}
@@ -50,7 +51,8 @@ const NavBar = () => {
             <Image
               src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
               width="200"
-              height="30"
+              height="100"
+              alt="light logo"
             />
           </div>
         </Link>
@@ -71,7 +73,7 @@ const NavBar = () => {
             class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
           >
             <div class="relative group">
-              <Link href="#">Products</Link>
+              <Link href="/products">Products</Link>
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%] text-blaxk">
