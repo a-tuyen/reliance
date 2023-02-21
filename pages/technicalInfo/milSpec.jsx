@@ -2,7 +2,7 @@ import React from 'react'
 
 const milSpec = () => {
   return (
-    <div>milSpec</div>
+    <div className="bg-white flex justify-center">milSpec</div>
   )
 }
 

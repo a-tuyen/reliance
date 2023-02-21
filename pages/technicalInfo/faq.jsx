@@ -2,7 +2,7 @@ import React from 'react'
 
 const faq = () => {
   return (
-    <div>faq</div>
+    <div className="bg-white flex justify-center">faq</div>
   )
 }
 

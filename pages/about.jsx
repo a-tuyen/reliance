@@ -2,7 +2,7 @@ import React from 'react'
 
 const about = () => {
   return (
-    <div>about</div>
+    <div className="bg-white flex justify-center">about</div>
   )
 }
 

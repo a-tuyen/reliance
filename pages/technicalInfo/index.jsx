@@ -2,7 +2,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>index</div>
+    <div className="bg-white flex justify-center">index</div>
   )
 }
 

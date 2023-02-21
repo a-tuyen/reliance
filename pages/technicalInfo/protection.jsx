@@ -2,7 +2,7 @@ import React from 'react'
 
 const protection = () => {
   return (
-    <div>protection</div>
+    <div className="bg-white flex justify-center">protection</div>
   )
 }
 
