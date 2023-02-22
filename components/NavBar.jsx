@@ -35,26 +35,47 @@ const NavBar = () => {
       style={{ backgroundColor: `${color}` }}
       className="fixed left-0 top-0 w-[100%] z-40 ease-in duration-300 block"
     >
-      <div className="m-auto flex justify-between items-end p-4 z-1 text-white  z-10">
+      <div className="m-auto flex justify-between items-end p-4 z-1 text-white  z-10 h-[120px]">
         <Link href="/">
           {/* Dark Logo  */}
-          <div className={logoDark ? "fixed top-3.5 left-4.5" : " md-hidden"}>
+          {/* <div className={logoDark ? "fixed top-3.5 left-4.5" : " md-hidden"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
               width="200"
               height="100"
               alt="dark logo"
             />
-          </div>
+          </div> */}
           {/* White Logo */}
-          <div className={logoDark ? "md-hidden" : "fixed top-4 left-3.8"}>
+          {/* <div className={logoDark ? "md-hidden" : "fixed top-4 left-3.8"}>
             <Image
               src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
               width="200"
               height="100"
               alt="light logo"
             />
-          </div>
+          </div> */}
+
+          {/* Dark Logo  */}
+   
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
+              width="200"
+              height="100"
+              alt="dark logo"
+              className={logoDark ? "fixed top-2 left-4.5" : "hidden"}
+            />
+  
+          {/* White Logo */}
+     
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/217941326-12656f81-91f2-4e81-982b-f6a1a55bfa1b.png"
+              width="200"
+              height="100"
+              alt="light logo"
+              className={logoDark ? "hidden" : "fixed top-2 left-3.8"}
+            />
+  
         </Link>
 
         <ul
@@ -69,37 +90,59 @@ const NavBar = () => {
             <Link href="/about">About Us</Link>
           </li>
 
-          <li
-            class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
-          >
+          <li class=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
             <div class="relative group">
               <Link href="/products">Products</Link>
               <div class="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div class="bg-gray-200 shadow-lg">
                   <div class="w-[100%] text-blaxk">
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/products/commercial" >Commercial Anodes</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/products/pleasureCraft" >Pleasure Craft Anodes</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/products/zincCap" >Zinc Caps</Link>
-
+                    <Link
+                      className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"
+                      href="/products/commercial"
+                    >
+                      Commercial Anodes
+                    </Link>
+                    <Link
+                      className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"
+                      href="/products/pleasureCraft"
+                    >
+                      Pleasure Craft Anodes
+                    </Link>
+                    <Link
+                      className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]"
+                      href="/products/zincCap"
+                    >
+                      Zinc Caps
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
           </li>
 
-          <li
-            className=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]"
-          >
+          <li className=" flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
             <div className="relative group">
               <Link href="/technicalInfo">Technical Info</Link>
               <div className="absolute z-10 hidden bg-grey-300 group-hover:block mt-[0px]">
                 <div className="bg-gray-200 shadow-lg">
                   <div className="w-[100%]">
-                    <p className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"><Link href="/technicalInfo/milSpec" >Why Choose Mil-Spec?</Link></p>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]" href="/technicalInfo/protection" >Boat Protection Basics</Link>
-                    <Link className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]" href="/technicalInfo/faq" >FAQ</Link>
-
-
+                    <p className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]">
+                      <Link href="/technicalInfo/milSpec">
+                        Why Choose Mil-Spec?
+                      </Link>
+                    </p>
+                    <Link
+                      className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px]"
+                      href="/technicalInfo/protection"
+                    >
+                      Boat Protection Basics
+                    </Link>
+                    <Link
+                      className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]"
+                      href="/technicalInfo/faq"
+                    >
+                      FAQ
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -180,7 +223,6 @@ const NavBar = () => {
           </div>
         </div>
       </div>
-    
     </div>
   );
 };
