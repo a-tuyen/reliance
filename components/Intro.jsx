@@ -15,7 +15,7 @@ const Intro = () => {
           Lead Bricks for radiation shielding, Lead Anodes for electroplating
           and Lead Sash Weights for counter balances. We also offer our Reliance
           brand of sacrificial anodes​ and custom die casting and CNC services.
-          View our full lineup of products <a href="/products">here.</a>
+          View our full lineup of products <Link href="/products">here.</Link>
         </p>
         <p>
           Our technicians are knowledgeable in all aspects of metalwork, from
