@@ -1,6 +1,15 @@
 import React from 'react'
 
 const Hero = ({heading, message}) => {
+
+    const imgArr = ['img', 'img2', 'img3', 'img4']
+
+    const test = (imgArr) => {
+        console.log(imgArr)
+    }
+
+   const picSelector = 'img3';
+
     return (
 
         <div className='flex items-center justify-center h-screen mb-0 bg-fixed bg-center bg-cover bg-img1'>
