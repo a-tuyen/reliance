@@ -60,13 +60,14 @@ const faqData = [
 
 const faq = () => {
   return (
-    <div className="bg-white flex flex-col justify-center">
+    <div className="bg-white flex flex-col justify-center items">
       <Hero heading={"Frequently Asked Questions"} />
+      <div className="flex flex-col ml-[20%] mr-[20%]">
       {/* <FaqItem /> */}
       {faqData.map((item, id) => (
         <FaqItem key={id} question={item.question} answer={item.answer} />
       ))}
-      [faqData.map((question))]
+      </div>
     </div>
   );
 };
