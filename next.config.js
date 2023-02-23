@@ -5,7 +5,7 @@ const nextConfig = {
 
 module.exports = {
   images: {
-    domains: ['user-images.githubusercontent.com']
+    domains: ['user-images.githubusercontent.com', 'images.pexels.com']
     // remotePatterns: [
     //   {
     //     protocol: "https",
