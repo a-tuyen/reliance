@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import bg1 from '../public/backgrounds/relianceBg1.png'
+import bg1 from '../public/backgrounds/relianceBg1.jpeg'
 import bg2 from '../public/backgrounds/relianceBg2.jpeg'
 
 
@@ -15,8 +15,8 @@ const Hero = ({ heading, message }) => {
 
   return (
     <div className="h-screen">
-      <div className="absolute -z-10">
-        <Image src={pic} width={1280} height={1000} quality={100} />
+      <div className="fixed -z-10">
+        <Image src={bg1} fill objectFit="cover" quality={100} />
       </div>
       <div classname="bg-white" > Some overlay things go in here </div>
     </div>
