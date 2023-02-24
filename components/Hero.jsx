@@ -2,21 +2,24 @@ import React from "react";
 import Image from "next/image";
 import bg1 from '../public/backgrounds/relianceBg1.jpeg'
 import bg2 from '../public/backgrounds/relianceBg2.jpeg'
+import bg3 from '../public/backgrounds/relianceBg3.jpeg'
+import bg4 from '../public/backgrounds/relianceBg4.jpeg'
 
 
 const Hero = ({ heading, message }) => {
   const imgArr = ["img", "img2", "img3", "img4"];
 
-  const pic = () => {
-    return "../public/backgrounds/relianceBg1.png";
+  const picSelector = () => {
+
+    return bg2;
+  
   };
 
-  const picSelector = "img3";
 
   return (
     <div className="h-screen">
-      <div className="fixed -z-10">
-        <Image src={bg1} fill objectFit="cover" quality={100} />
+      <div className="fixed z-5">
+        <Image src={picSelector} width={2400} height={1000} objectFit="cover" quality={100} />
       </div>
       <div classname="bg-white" > Some overlay things go in here </div>
     </div>
