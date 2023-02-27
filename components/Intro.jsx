@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Intro = () => {
   return (
-    <div className="bg-white flex justify-center">
+    <div className="bg-white flex justify-center mt-0">
       <div className="w-[70%] text-center py-[50px]">
         <p>
           ​​Metal Distributors is a leading non-ferrous metal manufacturer and
