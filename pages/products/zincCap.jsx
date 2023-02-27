@@ -4,7 +4,7 @@ import React from 'react'
 const zincCap = () => {
   return (
     <div className="bg-white flex flex-col justify-center">
-      <Hero heading={'Zinc Caps'} />
+      <Hero heading={'Zinc Caps'} img={"/../public/backgrounds/relianceBg2.jpeg"} />
     </div>
   )
 }
