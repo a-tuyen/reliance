@@ -7,7 +7,7 @@ import { GrMapLocation } from "react-icons/gr";
 
 const Footer = () => {
   return (
-    <div className="bg-[#4C4E52]">
+    <div className="bg-[#4C4E52] z-auto">
     <div className="bg-[#393b3e] h-[17rem] w-[100%] md:w-[60%] lg:w-[35%] pl-[2%] ml-[0] md:ml-[4%] flex justify-center">
       <ul className="text-white text-xl ">
         <h2 className="text-4xl pt-6 pb-3 font-heading tracking-wide">WE ARE HERE TO HELP</h2>
