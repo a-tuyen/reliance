@@ -4,7 +4,7 @@ import React from 'react'
 const contact = () => {
   return (
     <div className="bg-white flex flex-col justify-center">
-      <Hero heading={"Contact Us"} img={"/../public/backgrounds/relianceBg1.jpeg"}/>
+      <Hero heading={"Contact Us"} img={"bg-img4"}/>
     </div>
   )
 }

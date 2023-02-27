@@ -25,23 +25,28 @@ html {
   /* background-image: url(https://images.pexels.com/photos/2253573/pexels-photo-2253573.jpeg); */
   /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
   /* background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
-  background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+
 }
 
 .bg-img1 {
   background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* sunset */
 }
 
 .bg-img2 {
     background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg);
+    /* underwater */
 }
 
 .bg-img3 {
   background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* city */
 }
 
 .bg-img4 {
   background-image: url(https://images.pexels.com/photos/2253573/pexels-photo-2253573.jpeg);
+  /* waves */
 }
 
 

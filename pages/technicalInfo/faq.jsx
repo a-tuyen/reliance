@@ -61,7 +61,7 @@ const faqData = [
 const faq = () => {
   return (
     <div className="bg-white flex flex-col justify-center items">
-      <Hero heading={"Frequently Asked Questions"} img={"bg-img1"} />
+      <Hero heading={"Frequently Asked Questions"} message={"This is a test"} img={"bg-img4"} />
       <div className="flex flex-col ml-[20%] mr-[20%]">
       {/* <FaqItem /> */}
       {faqData.map((item, id) => (
