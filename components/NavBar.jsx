@@ -157,7 +157,7 @@ const NavBar = () => {
         {/* Mobile Button */}
         <div
           onClick={handleNav}
-          className="absolute right-4 top-10 md:hidden z-10"
+          className="absolute right-4 top-10 md:hidden z-[10]"
         >
           {nav ? (
             <CgCloseO size={70} style={{ color: `${textColor}` }} />
@@ -177,8 +177,8 @@ const NavBar = () => {
           <div
             className={
               nav
-                ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-5 text-center ease-in duration-300"
-                : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] text-center ease-in duration-300"
+                ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-[10] text-center ease-in duration-300"
+                : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-[10] text-center ease-in duration-300"
             }
           >
             <ul>
@@ -198,20 +198,20 @@ const NavBar = () => {
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/about">Products</Link>
+                <Link href="/products">Products</Link>
               </li>
               <li
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/technical info">Technical Info</Link>
+                <Link href="/technicalInfo">Technical Info</Link>
               </li>
-              <li
+              {/* <li
                 onClick={handleNav}
                 className="p-4 text-4xl hover:text-gray-500"
               >
-                <Link href="/faq">FAQ</Link>
-              </li>
+                <Link href="/products/faq">FAQ</Link>
+              </li> */}
 
               <li
                 onClick={handleNav}
