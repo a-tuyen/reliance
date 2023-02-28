@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import React from "react";
 import Link from "next/link";
+import SideBarComm from "@/components/SideBarComm";
 
 const commercial = () => {
   return (
@@ -8,12 +9,13 @@ const commercial = () => {
       <Hero
         heading={"Commercial Anodes"}
         message={
-          "We offer anodes to protect a wide range of commercial assets including: Merchant and naval vessels, piers, dry docks and retaining walls, offshore driling platforms and pipelines and oceanographic equipment"
+          "We offer anodes to protect a wide range of commercial assets including: Merchant and naval vessels, piers, dry docks and retaining walls, offshore drilling platforms and pipelines and oceanographic equipment"
         }
         img={"bg-img4"}
       />
       <section>
-        <ul>
+        <SideBarComm />
+        {/* <ul>
           <li>
             <Link href="/products/commercial/ballast">Ballast Tank Anodes</Link>
           </li>
@@ -65,7 +67,7 @@ const commercial = () => {
           <li>
             <Link href="/products/commercial/ballast">Teardrop Anodes</Link>
           </li>
-        </ul>
+        </ul> */}
       </section>
     </div>
   );
