@@ -1,11 +1,12 @@
-import Head from 'next/head'
-import { Inter } from '@next/font/google'
-import Hero from '../components/Hero'
-import Link from 'next/link'
-import Intro from '@/components/Intro'
+import Head from "next/head";
+import { Inter } from "@next/font/google";
+import Hero from "../components/Hero";
+import Link from "next/link";
+import Image from "next/image";
+import Intro from "@/components/Intro";
 // import styles from '@/styles/Home.module.css'
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -17,32 +18,58 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
-      <Hero heading="A World Leader in Cathodic Protection" message='Reliance Anodes are made of the highest quality Mil-Spec grade metals. You can always rely on us for your corrosion needs' img={"bg-img4"} />
-      <div className="bg-white flex justify-center mt-0">
-      <div className="w-[70%] text-center py-[50px]">
-        <p>
-          ​​Metal Distributors is a leading non-ferrous metal manufacturer and
-          precision machining company serving a variety of different industries
-          including the marine, nuclear, plumbing, construction and medical
-          industries.
-        </p>
-        <p>
-          We specialize in lead and lead-based products such as Sheet Lead and
-          Lead Bricks for radiation shielding, Lead Anodes for electroplating
-          and Lead Sash Weights for counter balances. We also offer our Reliance
-          brand of sacrificial anodes​ and custom die casting and CNC services.
-          View our full lineup of products <Link href="/products">here.</Link>
-        </p>
-        <p>
-          Our technicians are knowledgeable in all aspects of metalwork, from
-          design and pouring to metal finishing and coating. We can help you
-          find a solution to your metal needs.
-        </p>
+      <Hero
+        heading="A World Leader in Cathodic Protection"
+        message="Reliance Anodes are made of the highest quality Mil-Spec grade metals. You can always rely on us for your corrosion needs"
+        img={"bg-img4"}
+      />
+      <div className="bg-white flex flex-col justify-center items-center mt-0">
+        <div className="w-[70%] text-center py-[50px]">
+          <p>
+            ​​Metal Distributors is a leading non-ferrous metal manufacturer and
+            precision machining company serving a variety of different
+            industries including the marine, nuclear, plumbing, construction and
+            medical industries.
+          </p>
+          <p>
+            We specialize in lead and lead-based products such as Sheet Lead and
+            Lead Bricks for radiation shielding, Lead Anodes for electroplating
+            and Lead Sash Weights for counter balances. We also offer our
+            Reliance brand of sacrificial anodes​ and custom die casting and CNC
+            services. View our full lineup of products{" "}
+            <Link href="/products">here.</Link>
+          </p>
+          <p>
+            Our technicians are knowledgeable in all aspects of metalwork, from
+            design and pouring to metal finishing and coating. We can help you
+            find a solution to your metal needs.
+          </p>
+        </div>
+        <div className="flex">
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/221998844-d806f1f0-d9f7-4f77-81ee-3332a12586fa.png"
+          width="200"
+          height="200"
+          className="m-5 rounded-xl"
+        />
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/221998839-63620bc9-de61-43db-84bf-0aceaf1537d9.png"
+          width="200"
+          height="200"
+          className="m-5 rounded-xl"
+        />
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/221998841-13941609-ac4b-4cd5-801d-0efb0cf4b978.png"
+          width="200"
+          height="200"
+          className="m-5 rounded-xl"
+        />
+        </div>
       </div>
-    </div>
     </>
-  )
+  );
 }
 
-
-{/* <Hero heading="Don't let CORROSION eat into your investment" message='Demand Reliance Anodes' /> */}
+{
+  /* <Hero heading="Don't let CORROSION eat into your investment" message='Demand Reliance Anodes' /> */
+}
