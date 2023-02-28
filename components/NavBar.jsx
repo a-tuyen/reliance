@@ -9,7 +9,7 @@ const NavBar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("white");
-  const [logoDark, setLogoDark] = useState(true);
+  const [logoDark, setLogoDark] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -56,16 +56,6 @@ const NavBar = () => {
             />
           </div> */}
 
-          {/* Dark Logo  */}
-   
-            <Image
-              src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
-              width="200"
-              height="100"
-              alt="dark logo"
-              className={logoDark ? "fixed top-2 left-4.5" : "hidden"}
-            />
-  
           {/* White Logo */}
      
             <Image
@@ -76,6 +66,17 @@ const NavBar = () => {
               className={logoDark ? "hidden" : "fixed top-2 left-3.8"}
             />
   
+            {/* Dark Logo  */}
+   
+            <Image
+              src="https://user-images.githubusercontent.com/77664153/217392543-b5a88ff3-8546-4130-87fb-4b385a295ee6.png"
+              width="200"
+              height="100"
+              alt="dark logo"
+              className={logoDark ? "fixed top-2 left-4.5" : "hidden"}
+            />
+  
+
         </Link>
 
         <ul
