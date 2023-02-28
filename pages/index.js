@@ -46,24 +46,24 @@ export default function Home() {
           </p>
         </div>
         <div className="flex">
-        <Image
+        <Link href="/products/commercial"><Image
           src="https://user-images.githubusercontent.com/77664153/221998844-d806f1f0-d9f7-4f77-81ee-3332a12586fa.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
-        />
-        <Image
+        /></Link>
+        <Link href="/products/pleasureCraft"><Image
           src="https://user-images.githubusercontent.com/77664153/221998839-63620bc9-de61-43db-84bf-0aceaf1537d9.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
-        />
-        <Image
+        /></Link>
+        <Link href="/products/zincCap"><Image
           src="https://user-images.githubusercontent.com/77664153/221998841-13941609-ac4b-4cd5-801d-0efb0cf4b978.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
-        />
+        /></Link>
         </div>
       </div>
     </>
