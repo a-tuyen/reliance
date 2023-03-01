@@ -44,26 +44,90 @@ export default function Home() {
             design and pouring to metal finishing and coating. We can help you
             find a solution to your metal needs.
           </p>
+          <h1 className="text-5xl mt-[2rem]">Our Products</h1>
         </div>
-        <div className="flex">
-        <Link href="/products/commercial"><Image
-          src="https://user-images.githubusercontent.com/77664153/221998844-d806f1f0-d9f7-4f77-81ee-3332a12586fa.png"
+        <div className="grid grid-cols-1 md:grid-cols-3">
+          <Link href="/products/commercial">
+            <div className="relative">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/222281908-00f261f9-58e7-410d-8a3c-89381ed67eff.png"
+                width="200"
+                height="200"
+                className="m-5 rounded-xl"
+              />
+              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
+                <p className="hidden group-hover:block">
+                  <Image
+                    src="https://user-images.githubusercontent.com/77664153/222214493-729de5a9-b5ad-443b-b5c5-8d9f296f54b9.png"
+                    width="200"
+                    height="200"
+                    className="m-5 rounded-xl"
+                  />
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/products/pleasureCraft">
+            <div className="relative">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/222281911-7bbd782b-83fc-4d37-acc5-bc6fc1be8b70.png"
+                width="200"
+                height="200"
+                className="m-5 rounded-xl"
+              />
+              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
+                <p className="hidden group-hover:block">
+                  <Image
+                    src="https://user-images.githubusercontent.com/77664153/222215824-61e99c3b-4243-4760-853b-30ed501ddc73.png"
+                    width="200"
+                    height="200"
+                    className="m-5 rounded-xl"
+                  />
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          <Link href="/products/zincCap">
+            <div className="relative">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/222281913-00374a4a-38f1-40c9-b6cf-fc4f82627b68.png"
+                width="200"
+                height="200"
+                className="m-5 rounded-xl"
+              />
+              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
+                <p className="hidden group-hover:block">
+                  <Image
+                    src="https://user-images.githubusercontent.com/77664153/222214492-7f878efc-9be3-497c-890c-981d6e0f9d62.png"
+                    width="200"
+                    height="200"
+                    className="m-5 rounded-xl"
+                  />
+                </p>
+              </div>
+            </div>
+          </Link>
+
+          {/* <Link href="/products/commercial"><Image
+          src="https://user-images.githubusercontent.com/77664153/222214493-729de5a9-b5ad-443b-b5c5-8d9f296f54b9.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
         /></Link>
         <Link href="/products/pleasureCraft"><Image
-          src="https://user-images.githubusercontent.com/77664153/221998839-63620bc9-de61-43db-84bf-0aceaf1537d9.png"
+          src="https://user-images.githubusercontent.com/77664153/222215824-61e99c3b-4243-4760-853b-30ed501ddc73.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
         /></Link>
         <Link href="/products/zincCap"><Image
-          src="https://user-images.githubusercontent.com/77664153/221998841-13941609-ac4b-4cd5-801d-0efb0cf4b978.png"
+          src="https://user-images.githubusercontent.com/77664153/222214492-7f878efc-9be3-497c-890c-981d6e0f9d62.png"
           width="200"
           height="200"
           className="m-5 rounded-xl"
-        /></Link>
+        /></Link> */}
         </div>
       </div>
     </>
