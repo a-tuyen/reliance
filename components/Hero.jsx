@@ -13,7 +13,7 @@ const Hero = ({ heading, message, img }) => {
         <Image src={bg1} alt="/" priority fill objectFit="cover" objectPosition="center" quality={100} className="z-0 top-0 left-0" />
       </div> */}
       {/* Overlay */}
-      <div className="absolute top-0 left-0 right-0 bottom-0 bg-black/30 z-[1]" />
+      <div className="absolute top-0 left-0 right-0 bottom-0 h-[100vh] bg-black/30 z-[1]" />
       <div className="flex flex-col items-center text-white z-[1]">
         <h2 className="absolute text-6xl text-white font-boldHeading tracking-wider top-[45%] text-center z-[10]">
           {heading}

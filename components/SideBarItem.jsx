@@ -5,9 +5,9 @@ const SideBarItem = ({ category, link }) => {
   return (
     <div>
       <ul>
-      <Link href={link}><li className="border-[1px] border-white bg-gray-300 w-[16%] text-center">
-          {category}
-        </li></Link>
+        <li className="border-[1px] border-white bg-gray-300 w-[16%] text-center">
+          <Link href={link}>{category}</Link>
+        </li>
       </ul>
     </div>
   );
