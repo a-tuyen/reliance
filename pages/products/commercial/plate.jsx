@@ -2,7 +2,7 @@ import React from 'react'
 
 const plate = () => {
   return (
-    <div>plate</div>
+    <div className='bg-white'>plate</div>
   )
 }
 
