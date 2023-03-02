@@ -5,6 +5,7 @@ import bg2 from "../public/backgrounds/relianceBg2.jpeg";
 import bg3 from "../public/backgrounds/relianceBg3.jpeg";
 import bg4 from "../public/backgrounds/relianceBg4.jpeg";
 
+
 const Hero = ({ heading, message, img }) => {
   return (
     <div className="h-[100%] pb-0 mb-0">
