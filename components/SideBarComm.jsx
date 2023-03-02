@@ -9,12 +9,12 @@ const commData = [
     { category: "Crab Trap Anodes", link: "/products/commercial/crabTrap" },
     { category: "Heat Exchanger Anodes", link: "/products/commercial/heatExchanger" },
     { category: "Heater Treater Anodes", link: "/products/commercial/heaterTreater" },
-    { category: "Hull Anodes", link: "/products/commercial/Hull" },
-    { category: "Propeller Nut Anodes", link: "/products/commercial/PropNut" },
+    { category: "Hull Anodes", link: "/products/commercial/hull" },
+    { category: "Propeller Nut Anodes", link: "/products/commercial/propNut" },
     { category: "Semi-Streamlined Anodes", link: "/products/commercial/semiStreamlined" },
     { category: "Weld On and Bolt On Anodes", link: "/products/commercial/weldOn" },
     { category: "Streamlined Anodes", link: "/products/commercial/streamlined" },
-    { category: "Teardrop Anodes", link: "/products/commercial/Teardrop" },
+    { category: "Teardrop Anodes", link: "/products/commercial/teardrop" },
      
 ];
 
