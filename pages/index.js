@@ -156,7 +156,7 @@ export default function Home() {
           <Link href="/products/zincCap">
             <div className="relative">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/222294011-9eff42da-d8e7-45f9-a4d8-354c4b73fe38.png"
+                src="https://user-images.githubusercontent.com/77664153/222497524-34cea9df-3134-4d04-be46-a8da13df7416.png"
                 width="200"
                 height="200"
                 className="m-5 rounded-xl"
@@ -164,7 +164,7 @@ export default function Home() {
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="https://user-images.githubusercontent.com/77664153/222294001-c38f7053-9bcb-4f99-a316-a2fd9518154d.png"
+                    src="https://user-images.githubusercontent.com/77664153/222496861-bab7a987-f244-4c02-b59a-4ab1bf53dbe2.png"
                     width="200"
                     height="200"
                     className="m-5 rounded-xl"
