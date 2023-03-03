@@ -85,7 +85,7 @@ const zincCap = () => {
           <th>kg</th>
         </tr>
         <tr>
-          <td>1/2" x 13 UNC</td>
+          <td>1/2&quot; x 13 UNC</td>
           <td></td>
           <td></td>
           <td></td>
@@ -96,7 +96,7 @@ const zincCap = () => {
           <td></td>
         </tr>
         <tr>
-          <td>5/8" x 11 UNC</td>
+          <td>5/8&quot; x 11 UNC</td>
           <td></td>
           <td></td>
           <td></td>
@@ -107,7 +107,7 @@ const zincCap = () => {
           <td></td>
         </tr>
         <tr>
-          <td>3/4" x 10 UNC</td>
+          <td>3/4&quot; x 10 UNC</td>
           <td></td>
           <td></td>
           <td></td>
@@ -118,7 +118,7 @@ const zincCap = () => {
           <td></td>
         </tr>
         <tr>
-          <td>7/8" x 9 UNC</td>
+          <td>7/8&quot; x 9 UNC</td>
           <td></td>
           <td></td>
           <td></td>
@@ -129,7 +129,7 @@ const zincCap = () => {
           <td></td>
         </tr>
         <tr>
-          <td>1" x 8 UNC</td>
+          <td>1&quot; x 8 UNC</td>
           <td></td>
           <td></td>
           <td></td>
