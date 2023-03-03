@@ -14,9 +14,9 @@ html {
     @apply font-bold
   }
 
-  /* h1 {
-    @apply font-Bebas Neue;
-  } */
+  h1 {
+    @apply text-3xl md:text-6xl font-boldHeading
+  }
 }
 
 .custom-img {
