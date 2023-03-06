@@ -20,7 +20,7 @@ const pcData = [
     { category: "Grouper Anodes", link: "/products/pleasureCraft/grouper" },
     { category: "Hamilton Jet", link: "/products/pleasureCraft/hj" },
     { category: "Honda Anodes", link: "/products/pleasureCraft/honda" },
-    {   category: "Hull Anodes", link: "/products/pleasureCraft/Hull" },
+    { category: "Hull Anodes", link: "/products/pleasureCraft/Hull" },
     { category: "Individual Anode Kits", link: "/products/pleasureCraft/indivKits" },
     { category: "Keel Cooler Anodes", link: "/products/pleasureCraft/keelCooler" },
     { category: "Marine Engine Anodes", link: "/products/pleasureCraft/engine" },
@@ -53,7 +53,7 @@ const pcData = [
 const SideBarPC = () => {
   return (
     <div>
-        <h2 className="border-[1px] border-white bg-gray-300 w-[16%] text-center uppercase">Pleasure Craft</h2>
+        <h4 className="border-[1px] border-white bg-gray-300 w-[16%] text-center uppercase">Pleasure Craft</h4>
         {pcData.map((item, id) => (
             <SideBarItem key={id} category={item.category} link={item.link} />
         ))}

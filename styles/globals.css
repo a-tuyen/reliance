@@ -15,7 +15,23 @@ html {
   }
 
   h1 {
-    @apply text-3xl md:text-6xl font-boldHeading
+    @apply text-4xl md:text-6xl font-boldHeading
+  }
+
+  h2 {
+    @apply text-4xl md:text-5xl font-heading text-gray-600
+  }
+
+  table {
+    @apply bg-gray-300 mx-[3%] md:mx-[10%] my-[5%]
+  }
+
+  th {
+    @apply bg-black text-white text-center border-2 border-white
+  }
+
+  td {
+    @apply text-center border-2 border-white
   }
 }
 

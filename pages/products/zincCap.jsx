@@ -14,7 +14,7 @@ const zincCap = () => {
       <table>
         <tbody>
           <tr>
-            <th colSpan={"3"}> SHG ZINC COMPOSITION</th>
+            <th colSpan={"3"} className="border-2 border-white py-4"><h1>SHG ZINC COMPOSITION</h1></th>
           </tr>
           <tr>
             <th>MATERIAL</th>
@@ -60,22 +60,22 @@ const zincCap = () => {
       </table>
 
       {/* <h1>Reliance Zinc Cap - 6 oz</h1> */}
-      <table className="bg-gray-300 mx-[10%]">
+      <table>
         <tbody>
-        <tr className="bg-black text-white">
-          <th colSpan={"9"} className="border-2 border-white py-4"><h1>Reliance Zinc Cap Specifications</h1></th>
+        <tr>
+          <th colSpan={"9"} className="py-4"><h1>Reliance Zinc Cap Specifications</h1></th>
         </tr>
-        <tr className="uppercase bg-black text-white">
-        <th className="border-2 border-white">Thread Size</th>
-          <th colSpan={"6"} className="border-2 border-white">Dimensions</th>
-          <th colSpan={"2"} className="border-2 border-white">Nominal Weight</th>
+        <tr className="uppercase">
+        <th>Thread Size</th>
+          <th colSpan={"6"}>Dimensions</th>
+          <th colSpan={"2"}>Nominal Weight</th>
         </tr>
-        <tr className="uppercase bg-black text-white">
+        <tr className="uppercase">
           <th>A</th>
-          <th colSpan={"2"} className="border-2 border-white">B</th>
-          <th colSpan={"2"} className="border-2 border-white">C</th>
-          <th colSpan={"2"} className="border-2 border-white">D</th>
-          <th colSpan={"2"} className="border-2 border-white"></th>
+          <th colSpan={"2"}>B</th>
+          <th colSpan={"2"}>C</th>
+          <th colSpan={"2"}>D</th>
+          <th colSpan={"2"}></th>
         </tr>
         <tr>
           <th className="border-2 border-white text-center">Reliance Zinc Cap - 6 oz</th>

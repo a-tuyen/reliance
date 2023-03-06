@@ -44,7 +44,7 @@ export default function Home() {
             design and pouring to metal finishing and coating. We can help you
             find a solution to your metal needs.
           </p>
-          <h1 className="text-5xl mt-[2rem]">Our Products</h1>
+          <h2 className="mt-[2rem] mb-[0]">Our Products</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3">
           {/* <Link href="/products/commercial">
