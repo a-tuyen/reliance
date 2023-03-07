@@ -2,7 +2,7 @@ import React from 'react'
 
 const ballast = () => {
   return (
-    <div className='bg-white'>ballast</div>
+    <article className='bg-white'>ballast</article>
   )
 }
 
