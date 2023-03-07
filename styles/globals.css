@@ -11,8 +11,16 @@ html {
 
 @layer base {
 
-  article {
+  body {
+    @apply bg-white
+  }
+
+  main {
     @apply bg-white flex flex-col justify-center items-center
+  }
+
+  article {
+    @apply w-[80%] flex flex-col items-center
   }
 
   h1, h2, h3, h4, h5 {
@@ -24,11 +32,11 @@ html {
   }
 
   h2 {
-    @apply text-4xl md:text-5xl font-heading text-gray-600 text-center
+    @apply text-4xl md:text-5xl font-heading text-gray-600 text-center my-[3%]
   }
 
   table {
-    @apply bg-gray-300 mx-[3%] md:mx-[10%] my-[5%]
+    @apply my-[5%] w-[80%]
   }
 
   th {
@@ -36,7 +44,7 @@ html {
   }
 
   td {
-    @apply text-center border-2 border-white
+    @apply bg-gray-300 text-center border-2 border-white
   }
 }
 
