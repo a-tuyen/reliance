@@ -21,8 +21,8 @@ const zincCap = () => {
             common battery as an example, moisture becomes the electrolyte while
             the different metals in the system (such as bolts, nuts, fittings
             etc.) become the positive and negative ends of the battery. The
-            "more negative" component loses material thru corrosion while
-            protecting the "positive" component, which becomes shielded. Zinc
+            &quot;more negative&quot; component loses material thru corrosion while
+            protecting the &quot;positive&quot; component, which becomes shielded. Zinc
             being much more negative than most other materials, the protected
             component is essentially immune to corrosion as long as there is
             Zinc remaining to consume. Zinc Anode Caps offer protection for
@@ -44,7 +44,7 @@ const zincCap = () => {
           </ul>
 
           <p>
-            Reliance Zinc Anode Caps are made from "Special High Grade" Zinc
+            Reliance Zinc Anode Caps are made from &quot;Special High Grade&quot; Zinc
             that conforms to the highest industry standards. All Reliance Zinc
             Caps meet or exceed all MIL-A-18001J and ASTM B418-80
             specifications. Reliance Zinc Caps should be installed on all
