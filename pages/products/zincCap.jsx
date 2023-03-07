@@ -79,13 +79,13 @@ const zincCap = () => {
         </tr>
         <tr>
           <th className="border-2 border-white text-center">Reliance Zinc Cap - 6 oz</th>
-          <th className="border-2 border-white border-r-0 text-center">Inches</th>
+          <th className="border-2 border-white border-r-0 text-center">in</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">Inches</th>
+          <th className="border-2 border-white border-r-0 text-center">in</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">Inches</th>
+          <th className="border-2 border-white border-r-0 text-center">in</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">lbs</th>
+          <th className="border-2 border-white border-r-0 text-center">lb</th>
           <th className="border-2 border-white border-l-0 text-center">kg</th>
         </tr>
         <tr>
@@ -147,11 +147,11 @@ const zincCap = () => {
           <th className="border-2 border-white text-center">Reliance Zinc Cap - 14 oz</th>
           <th className="border-2 border-white border-r-0 text-center">Inches</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">Inches</th>
+          <th className="border-2 border-white border-r-0 text-center">in</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">Inches</th>
+          <th className="border-2 border-white border-r-0 text-center">in</th>
           <th className="border-2 border-white border-l-0 text-center">mm</th>
-          <th className="border-2 border-white border-r-0 text-center">lbs</th>
+          <th className="border-2 border-white border-r-0 text-center">lb</th>
           <th className="border-2 border-white border-l-0 text-center">kg</th>
         </tr>
         <tr>
