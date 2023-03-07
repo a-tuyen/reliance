@@ -3,7 +3,7 @@ import React from "react";
 
 const zincCap = () => {
   return (
-    <div className="bg-white flex flex-col justify-center">
+    <article className="bg-white flex flex-col justify-center items-center">
       <Hero
         heading={"Zinc Caps"}
         message={
@@ -11,6 +11,30 @@ const zincCap = () => {
         }
         img={"bg-img3"}
       />
+      <section className="flex flex-col items-center w-[80%]">
+      <h2>How Zinc Caps Work</h2>
+      <p>Corrosion is an electro chemical process in which metal parts form a galvanic cell when they are in contact with moisture.  Using the common battery as an example, moisture becomes the electrolyte while the different metals in the system (such as bolts, nuts, fittings etc.) become the positive and negative ends of the battery.  The "more negative" component loses material thru corrosion while protecting the "positive" component, which becomes shielded.  Zinc being much more negative than most other materials, the protected component is essentially immune to corrosion as long as there is Zinc remaining to consume.  Zinc Anode Caps offer protection for other system components made of steel, cast iron, ductile iron, brass and copper.  The quantity of Zinc Anode Caps used determines the service life of the protected component.</p>
+
+      <h2>These anodes are suitable for:</h2>
+      <ul className="">
+        <li> Pipeline installers and manufacturers</li>
+        <li>Pipeline flange manufacturers and suppliers</li>
+        <li>   Dredging companies</li>
+        <li>Submersible pump manufacturers and suppliers</li>
+        <li>   Water boards and Utility providers</li>
+        <li></li>   Councils, water and sewage departments
+
+        <li>   Corrosion engineering</li>
+        <li> Wharf and jetty construction companies  </li>
+      </ul>
+
+<p>
+Reliance Zinc Anode Caps are made from "Special High Grade" Zinc that conforms to the highest industry standards.
+
+
+
+All Reliance Zinc Caps meet or exceed all MIL-A-18001J and ASTM B418-80 specifications.  Reliance Zinc Caps should be installed on all exposed bolts of pipeline fittings depending on soil conditions.</p>
+</section>
       <table>
         <tbody>
           <tr>
@@ -189,7 +213,7 @@ const zincCap = () => {
         </tr>
         </tbody>
       </table>
-    </div>
+    </article>
   );
 };
 
