@@ -5,12 +5,25 @@ const SideBarItem = ({ category, link }) => {
   return (
     <div>
       <ul>
-        <li className="border-[1px] border-white bg-gray-300 w-[16%] text-center">
+        <li className="border-[1px] border-white bg-gray-300  text-center">
           <Link href={link}>{category}</Link>
         </li>
       </ul>
     </div>
+
+    
+
+    
   );
 };
 
 export default SideBarItem;
+
+
+{/* <div>
+<ul>
+  <li className="border-[1px] border-white bg-gray-300 w-[16%] text-center">
+    <Link href={link}>{category}</Link>
+  </li>
+</ul>
+</div> */}
