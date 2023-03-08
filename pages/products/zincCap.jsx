@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import React from "react";
+import Image from "next/image";
 
 const zincCap = () => {
   return (
@@ -85,11 +86,11 @@ const zincCap = () => {
             shielded. Zinc being much more negative than most other materials,
             the protected &quot;positive&quot; component is essentially immune
             to corrosion as long as there is Zinc remaining to consume. Zinc
-            Anode Caps offer protection for system components made of
-            steel, cast iron, ductile iron, brass and copper. The quantity of
-            Zinc Anode Caps used determines the service life of the protected
-            component. Zinc Anode Caps should be installed on all exposed bolts of
-            pipeline fittings depending on soil conditions.
+            Anode Caps offer protection for system components made of steel,
+            cast iron, ductile iron, brass and copper. The quantity of Zinc
+            Anode Caps used determines the service life of the protected
+            component. Zinc Anode Caps should be installed on all exposed bolts
+            of pipeline fittings depending on soil conditions.
           </p>
 
           <h3>These anodes are suitable for:</h3>
@@ -108,7 +109,7 @@ const zincCap = () => {
             <tbody>
               <tr>
                 <th colSpan={"9"} className="py-4">
-                  <h1>Reliance Zinc Cap Specs</h1>
+                  <h1>Reliance Zinc Cap Specificationss</h1>
                 </th>
               </tr>
               <tr className="uppercase">
@@ -415,6 +416,10 @@ const zincCap = () => {
               </tr>
             </tbody>
           </table>
+          <div className="flex mb-10">
+          <Image src="https://user-images.githubusercontent.com/77664153/223801644-dc344141-f089-4946-b770-16100e070bd4.png" width={200} height="200" className="mr-5" />
+          <Image src="https://user-images.githubusercontent.com/77664153/223801648-40575300-8898-404b-8dea-11824d5c6fa8.png" width={200} height="200" className="ml-5"/>
+          </div>
         </article>
       </main>
     </div>
