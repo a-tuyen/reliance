@@ -113,7 +113,7 @@ const NavBar = () => {
                       className="whitespace-nowrap block hover:bg-[#587cc5] px-[8px] pt-[5px] pb-[5px]"
                       href="/products/zincCap"
                     >
-                      Zinc Caps
+                      Zinc Anode Caps
                     </Link>
                   </div>
                 </div>

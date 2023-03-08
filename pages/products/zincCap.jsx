@@ -5,21 +5,22 @@ const zincCap = () => {
   return (
     <div className="w-[100%]">
       <Hero
-        heading={"Zinc Caps"}
+        heading={"Zinc Anode Caps"}
         message={
-          "Reliance Zinc Caps offer cathodic protection to underground and submerged threads, bolts and nuts on glands, flanges and mechanical fittings.  They are designed to be used on buried pipelines, in water treatment plants, weirs, lock gates and any other structures with exposed metallic threads."
+          "Reliance Zinc Anode Caps offer cathodic protection to underground and submerged threads, bolts and nuts on glands, flanges and mechanical fittings.  They are designed to be used on buried pipelines, in water treatment plants, weirs, lock gates and any other structures with exposed metallic threads."
         }
         img={"bg-img3"}
       />
 
       <main>
         <article>
-        <h2>Why Choose Reliance Zinc Caps?</h2>
-        <p>
-            Reliance Zinc Anode Caps are made from &quot;Special High Grade&quot; Zinc
-            that conforms to the highest industry standards. All Reliance Zinc
-            Caps meet or exceed all MIL-A-18001J and ASTM B418-80
-            specifications. We offer Reliance Branded zinc caps as well as private label caps.
+          <h2>Why Choose Reliance Zinc Anode Caps?</h2>
+          <p>
+            Reliance Zinc Anode Caps are made from &quot;Special High
+            Grade&quot; Zinc that conforms to the highest industry standards.
+            All our Zinc Caps meet or exceed all MIL-A-18001J and ASTM B418-80
+            specifications. We offer Reliance branded zinc caps as well as
+            private label caps.
           </p>
 
           <table>
@@ -72,21 +73,23 @@ const zincCap = () => {
             </tbody>
           </table>
 
-          <h2>How Zinc Caps Work</h2>
+          <h2>How Zinc Anode Caps Work</h2>
           <p className="">
-            Corrosion is an electro chemical process in which metal parts form a
+            Corrosion is an electrochemical process in which metal parts form a
             galvanic cell when they are in contact with moisture. Using the
             common battery as an example, moisture becomes the electrolyte while
             the different metals in the system (such as bolts, nuts, fittings
             etc.) become the positive and negative ends of the battery. The
-            &quot;more negative&quot; component loses material thru corrosion while
-            protecting the &quot;positive&quot; component, which becomes shielded. Zinc
-            being much more negative than most other materials, the protected
-            component is essentially immune to corrosion as long as there is
-            Zinc remaining to consume. Zinc Anode Caps offer protection for
-            other system components made of steel, cast iron, ductile iron,
-            brass and copper. The quantity of Zinc Anode Caps used determines
-            the service life of the protected component. Zinc Caps should be installed on all exposed bolts of pipeline fittings depending on soil conditions.
+            &quot;more negative&quot; component loses material thru corrosion
+            while protecting the &quot;positive&quot; component, which becomes
+            shielded. Zinc being much more negative than most other materials,
+            the protected &quot;positive&quot; component is essentially immune
+            to corrosion as long as there is Zinc remaining to consume. Zinc
+            Anode Caps offer protection for system components made of
+            steel, cast iron, ductile iron, brass and copper. The quantity of
+            Zinc Anode Caps used determines the service life of the protected
+            component. Zinc Anode Caps should be installed on all exposed bolts of
+            pipeline fittings depending on soil conditions.
           </p>
 
           <h3>These anodes are suitable for:</h3>
@@ -101,12 +104,11 @@ const zincCap = () => {
             <li>Wharf and jetty construction companies </li>
           </ul>
 
-       
           <table>
             <tbody>
               <tr>
                 <th colSpan={"9"} className="py-4">
-                  <h1>Reliance Zinc Cap Specifications</h1>
+                  <h1>Reliance Zinc Cap Specs</h1>
                 </th>
               </tr>
               <tr className="uppercase">
