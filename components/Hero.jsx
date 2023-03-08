@@ -19,7 +19,7 @@ const Hero = ({ heading, message, img }) => {
         <h1 className="absolute text-white tracking-wider top-[40%] text-center z-[10]">
           {heading}
         </h1>
-        <p className="absolute justify-center w-[80%] md:[70%] py-2 md:py-10 top-[60%] sm:top-[55%] font-heading text-xl md:text-3xl text-white text-center font-thin z-[10]">
+        <p className="absolute justify-center w-[80%] md:[70%] py-2 md:py-10 top-[60%] sm:top-[55%] font-heading text-2xl md:text-3xl text-white text-center font-thin z-[10]">
           {message}
         </p>
       </div>
