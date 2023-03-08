@@ -13,9 +13,14 @@ const index = () => {
         }
         img={"bg-img5"}
       />
-      <section>
-        <SideBarComm />
-      </section>
+     <div className="flex flex-row w-[100%]">
+     <SideBarComm />
+     <main>
+      <article>
+
+      </article>
+     </main>
+     </div>
     </div>
   );
 };

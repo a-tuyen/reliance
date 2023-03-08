@@ -26,7 +26,7 @@ const SideBarComm = () => {
     
     <div>
     {/* <h4 className="border-[1px] border-white bg-gray-300 w-[100%] text-center uppercase">Commercial Anodes</h4> */}
-    <div className="grid grid-cols-2 md:grid-cols-1">
+    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1">
       {commData.map((item, id) => (
     <SideBarItem key={id} category={item.category} link={item.link} />            
       ))}

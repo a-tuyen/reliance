@@ -6,11 +6,11 @@ const plate = () => {
   return (
     <div className="w-[100%]">
       <Hero heading={"Commercial Plate Anodes"} message={""} img={"bg-img5"} />
-      <div className="flex flex-row w-[100%]">
+      <div className="flex flex-col lg:flex-row items-center lg:justify-start w-[100%]">
         <SideBarComm />
         <main>
           <article>
-            <table>
+            <table className="w-[100%]">
               <tbody>
                 <tr>
                   <th colSpan={3}>COMMERCIAL ZINC PLATES</th>
