@@ -81,7 +81,7 @@ const NavBar = () => {
 
         <ul
           style={{ color: `${textColor}` }}
-          className=" z-40 fixed right-5 top-22 hidden md:flex h-9 text-xl"
+          className=" z-40 fixed right-5 top-22 hidden md:flex h-9 text-2xl"
         >
           <li className="flex items-center mx-2 hover:text-[#4C4E52] hover:border-b-[2px] border-solid border-[#4C4E52]">
             <Link href="/">Home</Link>

@@ -16,7 +16,7 @@ html {
   }
 
   main {
-    @apply bg-white flex flex-col justify-center items-center
+    @apply bg-white flex flex-col justify-center items-center w-[100%]
   }
 
   article {
@@ -41,7 +41,7 @@ html {
 
 
   table {
-    @apply my-[5%]  w-[100%]
+    @apply my-[5%]
   }
 
   th {
