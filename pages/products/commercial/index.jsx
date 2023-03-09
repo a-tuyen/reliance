@@ -13,7 +13,7 @@ const index = () => {
         }
         img={"bg-img5"}
       />
-     <div className="flex flex-row w-[100%]">
+     <div className="flex flex-col items-center lg:flex-row w-[100%]">
      <SideBarComm />
      <main>
       <article>
