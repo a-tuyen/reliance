@@ -11,10 +11,17 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        // sans: ["Archivo Narrow", ...defaultTheme.fontFamily.sans],
         boldHeading: ["Bebas Neue"],
         heading: ["Oswald"]
       },
+      colors: {
+        darkMain: '#393b3e',
+        main: '#4C4E52',
+        lightMain:'',
+        accent: '',
+        alum:''
+      }
+
     },
   },
   plugins: [],

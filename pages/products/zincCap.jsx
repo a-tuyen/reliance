@@ -109,7 +109,7 @@ const zincCap = () => {
             <tbody>
               <tr>
                 <th colSpan={"9"} className="py-4">
-                  <h1>Reliance Zinc Cap Specificationss</h1>
+                  <h1>Reliance Zinc Cap Specifications</h1>
                 </th>
               </tr>
               <tr className="uppercase">
