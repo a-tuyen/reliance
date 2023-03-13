@@ -14,7 +14,7 @@ const ballastData = [
     diaIn: '60.0',
     diaMm: '(1524)',
     widIn: '2.5',
-    widMm: '64',
+    widMm: '(64)',
     cDiaIn: '3.0',
     cDiaMm: '(76)',
 
@@ -44,7 +44,7 @@ const ballast = () => {
         </th>
         <th colSpan={2}>DIAMETER</th>
         <th colSpan={2}>WIDTH</th>
-        <th colSpan={2}>BOLT DIAMETER</th>
+        <th colSpan={2}>C-DEPTH</th>
       </tr>
 
       <tr>

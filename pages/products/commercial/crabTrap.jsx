@@ -14,7 +14,7 @@ const crabTrapData = [
     diaIn: '3 1/4',
     diaMm: '(83)',
     widIn: '1 1/4',
-    widMm: '32',
+    widMm: '(32)',
     cDiaIn: '1/2',
     cDiaMm: '(13)',
   },
@@ -28,7 +28,7 @@ const crabTrapData = [
     diaIn: '3',
     diaMm: '(76)',
     widIn: '1 3/8',
-    widMm: '35',
+    widMm: '(35)',
     cDiaIn: '1/2',
     cDiaMm: '(13)',
 
@@ -43,7 +43,7 @@ const crabTrapData = [
     diaIn: '3 3/4',
     diaMm: '(95)',
     widIn: '1 1/4',
-    widMm: '32',
+    widMm: '(32)',
     cDiaIn: '1/2',
     cDiaMm: '(13)',
   }
