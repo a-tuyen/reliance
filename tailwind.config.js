@@ -19,7 +19,11 @@ module.exports = {
         main: '#4C4E52',
         lightMain:'',
         accent: '',
-        alum:''
+        alum:'#0D47A1',
+        alumLight:'#BBDEFB',
+        zinc:'#00796B',
+        zincLight:'#B2DFDB'
+
       }
 
     },
