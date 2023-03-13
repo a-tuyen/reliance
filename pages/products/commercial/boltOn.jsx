@@ -15,23 +15,42 @@ const boltOnData = [
     diaMm: "(216)",
     widIn: "-",
     widMm: "-",
-    boltDiaIn: "7/16",
-    boltDiaMm: "(17)",
+    cDiaIn: "7/16",
+    cDiaMm: "(17)",
   },
   {
-    znCode: "Z-7",
-    znLb: "12.5",
-    znKg: "(6.000)",
-    alCode: "AZ-7",
-    alLb: "5.5",
-    alKg: "2.500",
-    diaIn: "8 1/2",
-    diaMm: "(216)",
-    widIn: "-",
-    widMm: "-",
-    boltDiaIn: "7/16",
-    boltDiaMm: "(17)",
+    znCode: 'ZD-56',
+    znLb: '2.5',
+    znKg: '(1.136)',
+    alCode: 'AZD-56',
+    alLb: '0.80',
+    alKg: '(0.364)',
+    diaIn: '4',
+    diaMm: '(101)',
+    widIn: '-',
+    widMm: '-',
+    cDiaIn: '7/16',
+    cDiaMm: '(17)',
+
+
   },
+  {
+    znCode: 'ZD-58',
+    znLb: '4.40',
+    znKg: '(2.000)',
+    alCode: 'AZ-58',
+    alLb: '1.31',
+    alKg: '(0.595)',
+    diaIn: '5.9',
+    diaMm: '(132)',
+    widIn: '-',
+    widMm: '-',
+    cDiaIn: '7/16',
+    cDiaMm: '(17)',
+
+
+  },
+
 ];
 
 const boltOn = () => {
@@ -87,8 +106,8 @@ const boltOn = () => {
                   diaMm={item.diaMm}
                   widIn={item.widIn}
                   widMm={item.widMm}
-                  boltDiaIn={item.boltDiaIn}
-                  boltDiaMm={item.boltDiaMm}
+                  cDiaIn={item.cDiaIn}
+                  cDiaMm={item.cDiaMm}
                 />
               ))}
             </tbody>

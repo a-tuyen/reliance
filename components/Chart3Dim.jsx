@@ -11,8 +11,8 @@ const Chart3Dim = ({
   diaMm,
   widIn,
   widMm,
-  boltDiaIn,
-  boltDiaMm,
+  cDiaIn,
+  cDiaMm,
 }) => {
   return (
 
@@ -27,8 +27,8 @@ const Chart3Dim = ({
           <td className="border-l-0">{diaMm}</td>
           <td className="border-r-0">{widIn}</td>
           <td className="border-l-0">{widMm}</td>
-          <td className="border-r-0">{boltDiaIn}</td>
-          <td className="border-l-0">{boltDiaMm}</td>
+          <td className="border-r-0">{cDiaIn}</td>
+          <td className="border-l-0">{cDiaMm}</td>
         </tr>
 
   );
