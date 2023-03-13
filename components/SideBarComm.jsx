@@ -12,7 +12,7 @@ const commData = [
     { category: "Hull Anodes", link: "/products/commercial/hull" },
     { category: "Propeller Nut Anodes", link: "/products/commercial/propNut" },
     { category: "Semi-Streamlined Anodes", link: "/products/commercial/semiStreamlined" },
-    { category: "Weld On and Bolt On Anodes", link: "/products/commercial/weldOn" },
+    { category: "Weld On/Bolt On Anodes", link: "/products/commercial/weldOn" },
     { category: "Streamlined Anodes", link: "/products/commercial/streamlined" },
     { category: "Teardrop Anodes", link: "/products/commercial/teardrop" },
      
