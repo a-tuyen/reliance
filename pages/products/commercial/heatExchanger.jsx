@@ -132,6 +132,11 @@ const heatExchanger = () => {
             <table>
               <tbody>
                 <tr>
+                  <th colSpan={12} className="py-8">
+                    <h1>HEAT EXCHANGER ANODE SPECIFICATIONS</h1>
+                  </th>
+                </tr>
+                <tr>
                   <th colSpan={6}>NOMINAL WEIGHT</th>
                   <th colSpan={6}>NOMINAL DIMENSIONS</th>
                 </tr>
