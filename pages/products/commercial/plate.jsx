@@ -105,7 +105,7 @@ const plateData = [
 const plate = () => {
   return (
     <div>
-      <Hero heading={"plate Anodes"} message={""} img={"bg-img5"} />
+      <Hero heading={"commercial plate Anodes"} message={""} img={"bg-img5"} />
       <div className="flex flex-col lg:flex-row items-center lg:justify-start w-[100%]">
         <SideBarComm />
         <article>

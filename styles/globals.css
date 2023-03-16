@@ -41,7 +41,7 @@ html {
 
 
   table {
-    @apply my-[5%] w-[100%] md:w-[80%]
+    @apply my-[5%] mx-[5%] w-[100%] md:w-[80%]
   }
 
   th {
