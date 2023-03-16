@@ -12,7 +12,7 @@ html {
 @layer base {
 
   body {
-    @apply bg-white text-xl
+    @apply bg-white text-xl w-[100%]
   }
 
   main {
