@@ -135,7 +135,7 @@ const hull = () => {
       <Hero
         heading={"Hull Anodes"}
         message={
-          "Suitale for small, medium and large vessels. Often found on hulls, sea tanks, bilges, ballast tanks, and structures."
+          "This line provides a full range of types and sizes of hull anodes for small to large commercial vessels and structures. Available in weld-on and bolt-on styles with steel or aluminum insterts cast as integral parts of the anodes."
         }
         img={"bg-img5"}
       />
@@ -222,6 +222,9 @@ const hull = () => {
                   <td className="bg-alumLight">AMD-VETUS 25</td>
                   <td className="bg-alumLight border-r-0">2.50</td>
                   <td className="bg-alumLight border-l-0">1.100</td>
+                </tr>
+                <tr>
+                  <td colspan={14} className="text-left pl-4">Notes:</td>
                 </tr>
                 {/* <tr>
                   <th colSpan={15} className="text-left px-5">
