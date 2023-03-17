@@ -4,8 +4,7 @@ import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
 import Chart4DimNote from "@/components/Chart4DimNote";
 // import bg4 from "../public/backgrounds/relianceBg4.jpeg";
-import vetus25 from "../../../public/vetus25.png"
-
+import vetus25 from "../../../public/vetus25.png";
 
 const hullData = [
   {
@@ -156,16 +155,17 @@ const hull = () => {
                   <th colSpan={9}>NOMINAL DIMENSIONS</th>
                 </tr>
                 <tr>
-
                   <th colSpan={6}></th>
-                  <th colSpan={2}>DIAMETER</th>
-                  <th colSpan={2}>WIDTH</th>
+                  <th colSpan={2}>A-LENGTH</th>
+                  <th colSpan={2}>B-WIDTH</th>
                   <th colSpan={2}>C-DEPTH</th>
                   <th colSpan={2}>D-C/C</th>
                 </tr>
 
                 <tr>
-                  <th colspan={2} className="">DIAGRAM</th>
+                  <th colspan={2} className="">
+                    DIAGRAM
+                  </th>
                   <th className="border-l-0">METAL</th>
                   <th>ITEM #</th>
                   <th className="border-r-0">lb</th>
@@ -180,14 +180,14 @@ const hull = () => {
                   <th className="border-l-0">(mm)</th>
                 </tr>
                 <tr>
-                  <td colspan={2} rowspan={2} className="horizontal-align-center">
+                  <td colspan={2} rowspan={2}>
                     <Image
-                    src={vetus25}
-                    alt="diagram of Vetus 25"
-                    className="min-w-[80px] block ml-auto mr-auto"
+                      src={vetus25}
+                      alt="diagram of Vetus 25"
+                      className="min-w-[80px] block ml-auto mr-auto"
                     />
                   </td>
-      
+
                   <td className="bg-zinc text-white border-l-0">ZN</td>
                   <td className="bg-zincLight">MD-VETUS 25</td>
                   <td className="bg-zincLight border-r-0">5.10</td>
@@ -216,7 +216,7 @@ const hull = () => {
                   <td rowspan={2} className="border-l-0">
                     35
                   </td>
-                 </tr>
+                </tr>
                 <tr>
                   <td className="bg-alum text-white border-l-0">AL</td>
                   <td className="bg-alumLight">AMD-VETUS 25</td>
@@ -224,7 +224,9 @@ const hull = () => {
                   <td className="bg-alumLight border-l-0">1.100</td>
                 </tr>
                 <tr>
-                  <td colspan={14} className="text-left pl-4">Notes:</td>
+                  <td colspan={14} className="text-left pl-4">
+                    Notes:
+                  </td>
                 </tr>
                 {/* <tr>
                   <th colSpan={15} className="text-left px-5">
