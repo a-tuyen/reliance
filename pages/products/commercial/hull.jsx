@@ -5,127 +5,27 @@ import SideBarComm from "@/components/SideBarComm";
 import Chart4DimNote from "@/components/Chart4DimNote";
 // import bg4 from "../public/backgrounds/relianceBg4.jpeg";
 import vetus25 from "../../../public/vetus25.png";
+import Chart4DimPic from "@/components/Chart4DimPic";
 
 const hullData = [
-  {
-    znCode: "Z3 / ZSS",
-    znLb: "10.0",
-    znKg: "(4.54)",
-    alCode: "AZ3 / ZSS",
-    alLb: "5.0",
-    alKg: "(2.27)",
-    diaIn: "12.0",
-    diaMm: "(305)",
-    widIn: "3.0",
-    widMm: "(76)",
-    cDiaIn: "1.25",
-    cDiaMm: "(31)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "Z4",
-    znLb: "5.0",
-    znKg: "(2.27)",
-    alCode: "AZ4",
-    alLb: "2.1",
-    alKg: "(0.95)",
-    diaIn: "6.0",
-    diaMm: "(152)",
-    widIn: "3.5",
-    widMm: "(89)",
-    cDiaIn: "1.0",
-    cDiaMm: "(25)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "Z6",
-    znLb: "3.0",
-    znKg: "(1.36)",
-    alCode: "AZ6",
-    alLb: "1.3",
-    alKg: "(0.59)",
-    diaIn: "5.0",
-    diaMm: "(127)",
-    widIn: "2.5",
-    widMm: "(64)",
-    cDiaIn: "1.0",
-    cDiaMm: "(25)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "Z19",
-    znLb: "23",
-    znKg: "(10.43)",
-    alCode: "AZ19",
-    alLb: "10.0",
-    alKg: "(0.59)",
-    diaIn: "5.0",
-    diaMm: "(127)",
-    widIn: "2.5",
-    widMm: "(64)",
-    cDiaIn: "1.0",
-    cDiaMm: "(25)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "Z-220",
-    znLb: "62.0",
-    znKg: "(28.12)",
-    alCode: "AZ-220",
-    alLb: "26.0",
-    alKg: "(11.79)",
-    diaIn: "27.0",
-    diaMm: "(686)",
-    widIn: "5.0",
-    widMm: "(127)",
-    cDiaIn: "1.75",
-    cDiaMm: "(44)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "ZC-5",
-    znLb: "5.0",
-    znKg: "(2.27)",
-    alCode: "AZC-5",
-    alLb: "2.1",
-    alKg: "(0.95)",
-    diaIn: "9.0",
-    diaMm: "(229)",
-    widIn: "2.25",
-    widMm: "(57)",
-    cDiaIn: "1.25",
-    cDiaMm: "(31)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
-  {
-    znCode: "ZC-7",
-    znLb: "7.0",
-    znKg: "(3.18)",
-    alCode: "AZC-7",
-    alLb: "3.0",
-    alKg: "(1.36)",
-    diaIn: "9.0",
-    diaMm: "(229)",
-    widIn: "2.25",
-    widMm: "(57)",
-    cDiaIn: "1.625",
-    cDiaMm: "(41)",
-    dMeasureIn: "-",
-    dMeasureMm: "(-)",
-    notes: "",
-  },
+  {img: 'https://user-images.githubusercontent.com/77664153/225975176-5ae73ef9-ef39-4e91-86f9-f0944f53b09d.png',
+    znCode: 'MD-VETUS25',
+znLb: '5.1',
+znKg: '(2.313)',
+alCode: 'AMD-VETUS 25',
+alLb: '2.5',
+alKg: '(1.134)',
+diaIn: '9.5',
+diaMm: '(241)',
+widIn: '2.4',
+widMm: '(61)',
+cDiaIn: '1.25',
+cDiaMm: '(32)',
+dMeasureIn: '7.875',
+dMeasureMm: '(200)',
+notes: '',},
+
+
 ];
 
 const hull = () => {
@@ -179,55 +79,28 @@ const hull = () => {
                   <th className="border-r-0">in</th>
                   <th className="border-l-0">(mm)</th>
                 </tr>
-                <tr>
-                  <td colspan={2} rowspan={2}>
-                    <Image
-                      src={vetus25}
-                      alt="diagram of Vetus 25"
-                      className="min-w-[80px] block ml-auto mr-auto"
-                    />
-                  </td>
-
-                  <td className="bg-zinc text-white border-l-0">ZN</td>
-                  <td className="bg-zincLight">MD-VETUS 25</td>
-                  <td className="bg-zincLight border-r-0">5.10</td>
-                  <td className="bg-zincLight border-l-0">2.300</td>
-                  <td rowspan={2} className="border-r-0">
-                    1.11
-                  </td>
-                  <td rowspan={2} className="border-l-0">
-                    2.20
-                  </td>
-                  <td rowspan={2} className="border-r-0">
-                    3.65
-                  </td>
-                  <td rowspan={2} className="border-l-0">
-                    295
-                  </td>
-                  <td rowspan={2} className="border-r-0">
-                    25.2
-                  </td>
-                  <td rowspan={2} className="border-l-0">
-                    1.11
-                  </td>
-                  <td rowspan={2} className="border-r-0">
-                    0.25
-                  </td>
-                  <td rowspan={2} className="border-l-0">
-                    35
-                  </td>
-                </tr>
-                <tr>
-                  <td className="bg-alum text-white border-l-0">AL</td>
-                  <td className="bg-alumLight">AMD-VETUS 25</td>
-                  <td className="bg-alumLight border-r-0">2.50</td>
-                  <td className="bg-alumLight border-l-0">1.100</td>
-                </tr>
-                <tr>
-                  <td colspan={14} className="text-left pl-4">
-                    Notes:
-                  </td>
-                </tr>
+                {hullData.map((item, id) => (
+                  <Chart4DimPic
+                    key={id}
+                    img={item.img}
+                    // imgAlt=
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    alCode={item.alCode}
+                    alLb={item.alLb}
+                    alKg={item.alKg}
+                    diaIn={item.diaIn}
+                    diaMm={item.diaMm}
+                    widIn={item.widIn}
+                    widMm={item.widMm}
+                    cDiaIn={item.cDiaIn}
+                    cDiaMm={item.cDiaMm}
+                    dMeasureIn={item.dMeasureIn}
+                    dMeasureMm={item.dMeasureMm}
+                    notes={item.notes}
+                  />
+                ))}
                 {/* <tr>
                   <th colSpan={15} className="text-left px-5">
                     WELD ON
