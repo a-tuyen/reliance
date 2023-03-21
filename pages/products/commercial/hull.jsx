@@ -9,20 +9,20 @@ import Chart4DimPic from "@/components/Chart4DimPic";
 
 const hullData = [
   {img: 'https://user-images.githubusercontent.com/77664153/225975176-5ae73ef9-ef39-4e91-86f9-f0944f53b09d.png',
-    znCode: 'MD-VETUS25',
+    znCode: 'MD-VETUS 25',
 znLb: '5.1',
 znKg: '(2.313)',
 alCode: 'AMD-VETUS 25',
 alLb: '2.5',
 alKg: '(1.134)',
 diaIn: '9.5"',
-diaMm: '(241mm)',
+diaMm: '(241 mm)',
 widIn: '2.4"',
-widMm: '(61mm)',
+widMm: '(61 mm)',
 cDiaIn: '1.25"',
 cDiaMm: '(32)',
 dMeasureIn: '7.875"',
-dMeasureMm: '(200mm)',
+dMeasureMm: '(200 mm)',
 notes: '',},
 
 
