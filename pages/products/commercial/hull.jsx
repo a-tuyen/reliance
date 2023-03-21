@@ -55,11 +55,11 @@ const hull = () => {
                   <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
                    <tr>
-                  <th colspan={2} className="">
+                  {/* <th colspan={2} className="">
                     DIAGRAM
-                  </th>
-                  <th className="border-l-0">METAL</th>
-                  <th>ITEM #</th>
+                  </th> */}
+                  {/* <th className="border-l-0">METAL</th> */}
+                  <th colspan={4}>ITEM #</th>
 
                   <th className="border-r-0">lb</th>
                   {/* <th className="border-l-0">(kg)</th> */}
