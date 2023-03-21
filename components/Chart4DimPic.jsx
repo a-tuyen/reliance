@@ -24,7 +24,7 @@ const Chart4DimPic = ({
       <tr>
          <td className="bg-zinc text-white border-l-0">ZN</td>
         <td className="bg-zincLight">{znCode}</td>
-        <td className="bg-zincLight border-r-0">{znLb} lb {znKg}</td>
+        <td className="bg-zincLight border-r-0">{znLb} {znKg}</td>
         {/* <td className="bg-zincLight border-l-0">{znKg}</td> */}
         <td className="border-b-0">{diaIn}</td>
 
@@ -38,7 +38,7 @@ const Chart4DimPic = ({
       <tr>
         <td className="bg-alum text-white border-l-0">AL</td>
         <td className="bg-alumLight">{alCode}</td>
-        <td className="bg-alumLight border-r-0">{alLb} lb {alKg}</td>
+        <td className="bg-alumLight border-r-0">{alLb} {alKg}</td>
         {/* <td className="bg-alumLight border-l-0">{alKg}</td> */}
         <td className="border-t-0">{diaMm}</td>
         <td className="border-t-0">{widMm}</td>
