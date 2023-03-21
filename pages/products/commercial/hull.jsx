@@ -10,8 +10,8 @@ import Chart4DimPic from "@/components/Chart4DimPic";
 const hullData = [
   {img: 'https://user-images.githubusercontent.com/77664153/225975176-5ae73ef9-ef39-4e91-86f9-f0944f53b09d.png',
     znCode: 'MD-VETUS 25',
-znLb: '5.1',
-znKg: '(2.313)',
+znLb: '5.1lb (2.313 kg)',
+znKg: '(2.313 kg)',
 alCode: 'AMD-VETUS 25',
 alLb: '2.5',
 alKg: '(1.134)',
@@ -62,7 +62,7 @@ const hull = () => {
                   <th>ITEM #</th>
 
                   <th className="border-r-0">lb</th>
-                  <th className="border-l-0">(kg)</th>
+                  {/* <th className="border-l-0">(kg)</th> */}
 
                   <th>A - LENGTH</th>
                   <th>B - WIDTH</th>
@@ -84,10 +84,10 @@ const hull = () => {
                     // imgAlt=
                     znCode={item.znCode}
                     znLb={item.znLb}
-                    znKg={item.znKg}
+                    // znKg={item.znKg}
                     alCode={item.alCode}
                     alLb={item.alLb}
-                    alKg={item.alKg}
+                    // alKg={item.alKg}
                     diaIn={item.diaIn}
                     diaMm={item.diaMm}
                     widIn={item.widIn}

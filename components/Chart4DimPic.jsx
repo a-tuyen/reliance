@@ -1,10 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-
 const Chart4DimPic = ({
-    img,
-    imgAlt,
+  img,
+  imgAlt,
   znCode,
   znLb,
   znKg,
@@ -37,42 +36,25 @@ const Chart4DimPic = ({
         <td className="bg-zinc text-white border-l-0">ZN</td>
         <td className="bg-zincLight">{znCode}</td>
         <td className="bg-zincLight border-r-0">{znLb}</td>
-        <td className="bg-zincLight border-l-0">{znKg}</td>
-        <td className="border-b-0">
-          {diaIn}
-        </td>
+        {/* <td className="bg-zincLight border-l-0">{znKg}</td> */}
+        <td className="border-b-0">{diaIn}</td>
 
-        <td className="border-b-0">
-          {widIn}
-        </td>
+        <td className="border-b-0">{widIn}</td>
 
-        <td className="border-b-0">
-          {cDiaIn}
-        </td>
+        <td className="border-b-0">{cDiaIn}</td>
 
-        <td className="border-b-0">
-          {dMeasureIn}
-        </td>
-
+        <td className="border-b-0">{dMeasureIn}</td>
       </tr>
 
       <tr>
         <td className="bg-alum text-white border-l-0">AL</td>
         <td className="bg-alumLight">{alCode}</td>
         <td className="bg-alumLight border-r-0">{alLb}</td>
-        <td className="bg-alumLight border-l-0">{alKg}</td>
-        <td className="border-t-0">
-          {diaMm}
-        </td>
-        <td className="border-t-0">
-          {widMm}
-        </td>
-        <td className="border-t-0">
-          {cDiaMm}
-        </td>
-        <td className="border-t-0">
-          {dMeasureMm}
-        </td>
+        {/* <td className="bg-alumLight border-l-0">{alKg}</td> */}
+        <td className="border-t-0">{diaMm}</td>
+        <td className="border-t-0">{widMm}</td>
+        <td className="border-t-0">{cDiaMm}</td>
+        <td className="border-t-0">{dMeasureMm}</td>
       </tr>
       <tr>
         <td colspan={14} className="text-left pl-4">
@@ -85,8 +67,8 @@ const Chart4DimPic = ({
 
 export default Chart4DimPic;
 
-
-{/* <td rowspan={2} className="border-l-0">
+{
+  /* <td rowspan={2} className="border-l-0">
 {diaMm}
 </td>
 <td rowspan={2} className="border-r-0">
@@ -106,4 +88,5 @@ export default Chart4DimPic;
 </td>
 <td rowspan={2} className="border-l-0">
 {dMeasureMm}
-</td> */}
+</td> */
+}
