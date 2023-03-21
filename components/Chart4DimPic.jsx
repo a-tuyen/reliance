@@ -51,9 +51,9 @@ const Chart4DimPic = ({
             <Image
               src={img}
               alt="picture of anode"
-              className="min-w-[80px]"
-              width={100}
-              height={100}
+              className="min-w-[80px] py-1"
+              width={150}
+              height={150}
             />
             {notes}
           </div>
