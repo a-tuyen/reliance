@@ -38,30 +38,22 @@ const Chart4DimPic = ({
         <td className="bg-zincLight">{znCode}</td>
         <td className="bg-zincLight border-r-0">{znLb}</td>
         <td className="bg-zincLight border-l-0">{znKg}</td>
-        <td rowspan={2} className="border-r-0">
+        <td className="border-b-0">
           {diaIn}
         </td>
-        <td rowspan={2} className="border-l-0">
-          {diaMm}
-        </td>
-        <td rowspan={2} className="border-r-0">
+
+        <td className="border-b-0">
           {widIn}
         </td>
-        <td rowspan={2} className="border-l-0">
-          {widMm}
-        </td>
-        <td rowspan={2} className="border-r-0">
+
+        <td className="border-b-0">
           {cDiaIn}
         </td>
-        <td rowspan={2} className="border-l-0">
-          {cDiaMm}
-        </td>
-        <td rowspan={2} className="border-r-0">
+
+        <td className="border-b-0">
           {dMeasureIn}
         </td>
-        <td rowspan={2} className="border-l-0">
-          {dMeasureMm}
-        </td>
+
       </tr>
 
       <tr>
@@ -69,6 +61,18 @@ const Chart4DimPic = ({
         <td className="bg-alumLight">{alCode}</td>
         <td className="bg-alumLight border-r-0">{alLb}</td>
         <td className="bg-alumLight border-l-0">{alKg}</td>
+        <td className="border-t-0">
+          {diaMm}
+        </td>
+        <td className="border-t-0">
+          {widMm}
+        </td>
+        <td className="border-t-0">
+          {cDiaMm}
+        </td>
+        <td className="border-t-0">
+          {dMeasureMm}
+        </td>
       </tr>
       <tr>
         <td colspan={14} className="text-left pl-4">
@@ -80,3 +84,26 @@ const Chart4DimPic = ({
 };
 
 export default Chart4DimPic;
+
+
+{/* <td rowspan={2} className="border-l-0">
+{diaMm}
+</td>
+<td rowspan={2} className="border-r-0">
+{widIn}
+</td>
+<td rowspan={2} className="border-l-0">
+{widMm}
+</td>
+<td rowspan={2} className="border-r-0">
+{cDiaIn}
+</td>
+<td rowspan={2} className="border-l-0">
+{cDiaMm}
+</td>
+<td rowspan={2} className="border-r-0">
+{dMeasureIn}
+</td>
+<td rowspan={2} className="border-l-0">
+{dMeasureMm}
+</td> */}

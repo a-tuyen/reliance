@@ -15,14 +15,14 @@ znKg: '(2.313)',
 alCode: 'AMD-VETUS 25',
 alLb: '2.5',
 alKg: '(1.134)',
-diaIn: '9.5',
-diaMm: '(241)',
-widIn: '2.4',
-widMm: '(61)',
-cDiaIn: '1.25',
+diaIn: '9.5"',
+diaMm: '(241mm)',
+widIn: '2.4"',
+widMm: '(61mm)',
+cDiaIn: '1.25"',
 cDiaMm: '(32)',
-dMeasureIn: '7.875',
-dMeasureMm: '(200)',
+dMeasureIn: '7.875"',
+dMeasureMm: '(200mm)',
 notes: '',},
 
 
@@ -45,39 +45,37 @@ const hull = () => {
             <table>
               <tbody>
                 <tr>
-                  <th colSpan={14} className="py-8">
+                  <th colSpan={10} className="py-8">
                     <h1>HULL ANODE SPECIFICATIONS</h1>
                   </th>
                 </tr>
                 <tr>
                   {/* <th colSpan={2}></th> */}
                   <th colSpan={6}>NOMINAL WEIGHT</th>
-                  <th colSpan={9}>NOMINAL DIMENSIONS</th>
+                  <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
-                <tr>
-                  <th colSpan={6}></th>
-                  <th colSpan={2}>A-LENGTH</th>
-                  <th colSpan={2}>B-WIDTH</th>
-                  <th colSpan={2}>C-DEPTH</th>
-                  <th colSpan={2}>D-C/C</th>
-                </tr>
-
-                <tr>
+                   <tr>
                   <th colspan={2} className="">
                     DIAGRAM
                   </th>
                   <th className="border-l-0">METAL</th>
                   <th>ITEM #</th>
+
                   <th className="border-r-0">lb</th>
                   <th className="border-l-0">(kg)</th>
-                  <th className="border-r-0">in</th>
+
+                  <th>A - LENGTH</th>
+                  <th>B - WIDTH</th>
+                  <th>C - DEPTH</th>
+                  <th>D - C/C</th>
+                  {/* <th className="border-r-0">in</th>
                   <th className="border-l-0">(mm)</th>
                   <th className="border-r-0">in</th>
                   <th className="border-l-0">(mm)</th>
                   <th className="border-r-0">in</th>
                   <th className="border-l-0">(mm)</th>
                   <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
+                  <th className="border-l-0">(mm)</th> */}
                 </tr>
                 {hullData.map((item, id) => (
                   <Chart4DimPic
