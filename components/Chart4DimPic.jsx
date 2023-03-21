@@ -3,7 +3,6 @@ import Image from "next/image";
 
 const Chart4DimPic = ({
   img,
-  imgAlt,
   znCode,
   znLb,
   znKg,
@@ -69,26 +68,3 @@ const Chart4DimPic = ({
 
 export default Chart4DimPic;
 
-{
-  /* <td rowspan={2} className="border-l-0">
-{diaMm}
-</td>
-<td rowspan={2} className="border-r-0">
-{widIn}
-</td>
-<td rowspan={2} className="border-l-0">
-{widMm}
-</td>
-<td rowspan={2} className="border-r-0">
-{cDiaIn}
-</td>
-<td rowspan={2} className="border-l-0">
-{cDiaMm}
-</td>
-<td rowspan={2} className="border-r-0">
-{dMeasureIn}
-</td>
-<td rowspan={2} className="border-l-0">
-{dMeasureMm}
-</td> */
-}
