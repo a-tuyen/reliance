@@ -76,7 +76,9 @@ const Chart5DimPic = ({
               width={150}
               height={150}
             />
+            <div className="flex justify-center items-center">
             {notes}
+            </div>
           </div>
         </td>
       </tr>

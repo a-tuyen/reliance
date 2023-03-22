@@ -1,38 +1,44 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
-import Chart3Dim from "@/components/Chart3Dim";
+import Chart4DimPic from "@/components/Chart4DimPic";
 
 const streamlinedData = [
-  {
-    znCode: "Z-22",
-    znLb: "23.0",
-    znKg: "(10.43)",
-    alCode: "AZ-22",
-    alLb: "10.0",
-    alKg: "(4.54)",
-    diaIn: "14.0",
-    diaMm: "(356)",
-    widIn: "6.5",
-    widMm: "(165)",
-    cDiaIn: "1 1/2",
-    cDiaMm: "(38)",
-  },
+  {img: '',
+  znCode: 'MD-Z-22',
+  znLb: '23.0 lb',
+  znKg: '(10.43 kg)',
+  alCode: 'AMD-Z-22',
+  alLb: '10.0 lb',
+  alKg: '(4.54 kg)',
+  diaIn: '14.0"',
+  diaMm: '(356 mm)',
+  widIn: '6.5"',
+  widMm: '(165 mm)',
+  cDiaIn: '1 1/2"',
+  cDiaMm: '(38 mm)',
+  dMeasureIn: '-"',
+  dMeasureMm: '(- mm)',
+  notes: 'Available with steel or aluminum straps',},
+  
 
-  {
-    znCode: "Z-26 / ZHS-26",
-    znLb: "25.0",
-    znKg: "(11.34)",
-    alCode: "AZ-26 / AZHS-26",
-    alLb: "12.0",
-    alKg: "(5.44)",
-    diaIn: "13.25",
-    diaMm: "(337)",
-    widIn: "4.25",
-    widMm: "(108)",
-    cDiaIn: "2 1/4",
-    cDiaMm: "(57)",
-  },
+  {img: '',
+  znCode: 'MD-Z-26 / MD-ZHS-26',
+  znLb: '25 lb',
+  znKg: '(11.34 kg)',
+  alCode: 'AMD-Z-26 / AMD-ZHS-26',
+  alLb: '12 lb',
+  alKg: '(5.44 kg)',
+  diaIn: '13.25"',
+  diaMm: '(337 mm)',
+  widIn: '4.25"',
+  widMm: '(108 mm)',
+  cDiaIn: '2 1/4"',
+  cDiaMm: '(57 mm)',
+  dMeasureIn: '-"',
+  dMeasureMm: '(- mm)',
+  notes: 'Available with steel or aluminum straps',},
+  
 ];
 
 const streamlined = () => {
@@ -43,46 +49,22 @@ const streamlined = () => {
         <SideBarComm />
         <article>
           <main>
-            <table>
+          <table>
               <tbody>
                 <tr>
-                  <th colSpan={12} className="py-8">
-                    <h1>streamlined ANODE SPECIFICATIONS</h1>
+                  <th colSpan={8} className="py-8">
+                    <h1>STREAMLINED ANODE SPECIFICATIONS</h1>
                   </th>
                 </tr>
                 <tr>
-                  <th colSpan={6}>NOMINAL WEIGHT</th>
-                  <th colSpan={6}>NOMINAL DIMENSIONS</th>
-                </tr>
-                <tr>
-                  <th colSpan={3} className="bg-zinc">
-                    ZINC ANODE
-                  </th>
-                  <th colSpan={3} className="bg-alum">
-                    ALUMINUM ANODE
-                  </th>
-                  <th colSpan={2}>A-LENGTH</th>
-                  <th colSpan={2}>B-WIDTH</th>
-                  <th colSpan={2}>C-DEPTH</th>
+                  <th colSpan={3}>NOMINAL WEIGHT</th>
+                  <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
 
-                <tr>
-                  <th className="bg-zinc">ITEM #</th>
-                  <th className="bg-zinc border-r-0">lb</th>
-                  <th className="bg-zinc border-l-0">(kg)</th>
-                  <th className="bg-alum">ITEM #</th>
-                  <th className="bg-alum border-r-0">lb</th>
-                  <th className="bg-alum border-l-0">(kg)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                </tr>
                 {streamlinedData.map((item, id) => (
-                  <Chart3Dim
+                  <Chart4DimPic
                     key={id}
+                    img={item.img}
                     znCode={item.znCode}
                     znLb={item.znLb}
                     znKg={item.znKg}
@@ -95,11 +77,13 @@ const streamlined = () => {
                     widMm={item.widMm}
                     cDiaIn={item.cDiaIn}
                     cDiaMm={item.cDiaMm}
+                    dMeasureIn={item.dMeasureIn}
+                    dMeasureMm={item.dMeasureMm}
+                    notes={item.notes}
                   />
                 ))}
               </tbody>
             </table>
-            <p>Available with steel or aluminum straps.</p>
           </main>
         </article>
       </div>
