@@ -110,7 +110,12 @@ const hull = () => {
 
                   <th colSpan={2}>ITEM #</th>
 
-                  <th className="border-r-0">lb (kg)</th>
+                  <th className="border-r-0 ">
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                    <div>lb</div>
+                    <div className="px-2">(kg)</div>
+                    </div>
+                    </th>
 
 
                   <th>A - LENGTH</th>

@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
-import Chart4DimNote from "@/components/Chart4DimNote";
+import Chart4DimPic from "@/components/Chart4DimPic";
 
 const semiStreamlinedWeldData = [
   {
@@ -161,53 +161,39 @@ const semiStreamlined = () => {
           <main>
             <table>
               <tbody>
-                <tr>
-                  <th colSpan={15} className="py-8">
+              <tr>
+                  <th colSpan={7} className="py-8">
                     <h1>SEMI-STREAMLINED ANODE SPECIFICATIONS</h1>
                   </th>
                 </tr>
                 <tr>
-                  <th colSpan={6}>NOMINAL WEIGHT</th>
-                  <th colSpan={9}>NOMINAL DIMENSIONS</th>
+                  <th colSpan={3}>NOMINAL WEIGHT</th>
+                  <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
                 <tr>
-                  <th colSpan={3} className="bg-zinc">
-                    ZINC ANODE
-                  </th>
-                  <th colSpan={3} className="bg-alum">
-                    ALUMINUM ANODE
-                  </th>
-                  <th colSpan={2}>DIAMETER</th>
-                  <th colSpan={2}>WIDTH</th>
-                  <th colSpan={2}>C-DEPTH</th>
-                  <th colSpan={2}>D-C/C</th>
-                  <th>NOTES</th>
-                </tr>
 
-                <tr>
-                  <th className="bg-zinc">ITEM #</th>
-                  <th className="bg-zinc border-r-0">lb</th>
-                  <th className="bg-zinc border-l-0">(kg)</th>
-                  <th className="bg-alum">ITEM #</th>
-                  <th className="bg-alum border-r-0">lb</th>
-                  <th className="bg-alum border-l-0">(kg)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th></th>
+                  <th colSpan={2}>ITEM #</th>
+
+                  <th className="border-r-0 ">
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                    <div>lb</div>
+                    <div className="px-2">(kg)</div>
+                    </div>
+                    </th>
+
+
+                  <th>A - LENGTH</th>
+                  <th>B - WIDTH</th>
+                  <th>C - DEPTH</th>
+                  <th>D - C/C</th>
                 </tr>
                 <tr>
-                  <th colSpan={15} className="text-left px-5">
+                  <th colSpan={7} className="text-left px-5">
                     WELD ON
                   </th>
                 </tr>
                 {semiStreamlinedWeldData.map((item, id) => (
-                  <Chart4DimNote
+                  <Chart4DimPic
                     key={id}
                     znCode={item.znCode}
                     znLb={item.znLb}
@@ -227,12 +213,12 @@ const semiStreamlined = () => {
                   />
                 ))}
                 <tr>
-                  <th colSpan={15} className="text-left px-5">
+                  <th colSpan={7} className="text-left px-5">
                     BOLT ON
                   </th>
                 </tr>
                 {semiStreamlinedBoltData.map((item, id) => (
-                  <Chart4DimNote
+                  <Chart4DimPic
                     key={id}
                     znCode={item.znCode}
                     znLb={item.znLb}

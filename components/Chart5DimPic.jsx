@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Chart4DimPic = ({
+const Chart5DimPic = ({
   img,
   znCode,
   znLb,
@@ -9,6 +9,8 @@ const Chart4DimPic = ({
   alCode,
   alLb,
   alKg,
+  mountingIn,
+  mountingMm,
   diaIn,
   diaMm,
   widIn,
@@ -22,9 +24,27 @@ const Chart4DimPic = ({
   return (
     <>
       <tr>
-         <td className="bg-zinc text-white border-l-0">ZN</td>
+        <th colSpan={2}>ITEM #</th>
+
+        <th className="border-r-0 ">
+          <div className="flex flex-col md:flex-row justify-center items-center">
+            <div>lb</div>
+            <div className="px-2">(kg)</div>
+          </div>
+        </th>
+        <th>MOUNTING</th>
+        <th>A - LENGTH</th>
+        <th>B - WIDTH</th>
+        <th>C - DEPTH</th>
+        <th>D - C/C</th>
+      </tr>
+      <tr>
+        <td className="bg-zinc text-white border-l-0">ZN</td>
         <td className="bg-zincLight">{znCode}</td>
-        <td className="bg-zincLight border-r-0">{znLb} {znKg}</td>
+        <td className="bg-zincLight border-r-0">
+          {znLb} {znKg}
+        </td>
+        <td className="border-b-0">{mountingIn}</td>
         <td className="border-b-0">{diaIn}</td>
 
         <td className="border-b-0">{widIn}</td>
@@ -37,7 +57,10 @@ const Chart4DimPic = ({
       <tr>
         <td className="bg-alum text-white border-l-0">AL</td>
         <td className="bg-alumLight">{alCode}</td>
-        <td className="bg-alumLight border-r-0">{alLb} {alKg}</td>
+        <td className="bg-alumLight border-r-0">
+          {alLb} {alKg}
+        </td>
+        <td className="border-t-0">{mountingMm}</td>
         <td className="border-t-0">{diaMm}</td>
         <td className="border-t-0">{widMm}</td>
         <td className="border-t-0">{cDiaMm}</td>
@@ -57,12 +80,9 @@ const Chart4DimPic = ({
           </div>
         </td>
       </tr>
-      <tr>
-
-      </tr>
+      <tr></tr>
     </>
   );
 };
 
-export default Chart4DimPic;
-
+export default Chart5DimPic;
