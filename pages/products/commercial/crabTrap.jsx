@@ -52,7 +52,7 @@ const crabTrap = () => {
   return (
     <div>
       <Hero heading={"Crab Trap Anodes"} message={""} img={"bg-img5"} />
-      <div className="flex flex-col lg:flex-row items-center lg:justify-start w-[100%]">
+      <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarComm />
         <article>
           <main>

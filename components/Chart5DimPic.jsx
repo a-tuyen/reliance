@@ -39,7 +39,7 @@ const Chart5DimPic = ({
         <th>D - C/C</th>
       </tr>
       <tr>
-        <td className="bg-zinc text-white border-l-0">ZN</td>
+        <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
         <td className="bg-zincLight">{znCode}</td>
         <td className="bg-zincLight border-r-0">
           {znLb} {znKg}
@@ -55,7 +55,7 @@ const Chart5DimPic = ({
       </tr>
 
       <tr>
-        <td className="bg-alum text-white border-l-0">AL</td>
+        <td className="bg-alum text-white border-l-0 px-1">AL</td>
         <td className="bg-alumLight">{alCode}</td>
         <td className="bg-alumLight border-r-0">
           {alLb} {alKg}

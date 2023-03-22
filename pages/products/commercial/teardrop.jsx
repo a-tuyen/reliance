@@ -70,17 +70,95 @@ const teardropWeldData = [
   },
 ];
 
+const teardropBoltData = [
+  {
+    img: "",
+    znCode: "MD-Z-12",
+    znLb: "0.75 lb",
+    znKg: "(0.34 kg)",
+    alCode: "AMD-Z-12",
+    alLb: ".38 lb",
+    alKg: "(0.17 kg)",
+    mountingIn: '0.25"',
+    mountingMm: "(6 mm)",
+    diaIn: '4.0"',
+    diaMm: "(102 mm)",
+    widIn: '1.25"',
+    widMm: "(32 mm)",
+    cDiaIn: '0.75"',
+    cDiaMm: "(19 mm)",
+    dMeasureIn: '2.00"',
+    dMeasureMm: "(51 mm)",
+    notes: "",
+  },
+
+  {
+    img: "",
+    znCode: "MD-Z-13",
+    znLb: "1.50 lb",
+    znKg: "(0.68 kg)",
+    alCode: "AMD-Z-13",
+    alLb: "0.65 lb",
+    alKg: "(0.29 kg)",
+    mountingIn: '0.25"',
+    mountingMm: "(6 mm)",
+    diaIn: '6.0"',
+    diaMm: "(152 mm)",
+    widIn: '1.75"',
+    widMm: "(44 mm)",
+    cDiaIn: '1.00"',
+    cDiaMm: "(25 mm)",
+    dMeasureIn: '3.25"',
+    dMeasureMm: "(83 mm)",
+    notes: "",
+  },
+  {
+    img: "",
+    znCode: "MD-Z-14",
+    znLb: "3.25 lb",
+    znKg: "(1.47 kg)",
+    alCode: "AMD-Z-14",
+    alLb: "1.35 lb",
+    alKg: "(0.61 kg)",
+    mountingIn: '0.25"',
+    mountingMm: "(6 mm)",
+    diaIn: '8.0"',
+    diaMm: "(203 mm)",
+    widIn: '2.625"',
+    widMm: "(67 mm)",
+    cDiaIn: '1.5"',
+    cDiaMm: "(38 mm)",
+    dMeasureIn: '4.0"',
+    dMeasureMm: "(102 mm)",
+    notes: "",
+  },
+  {
+    img: "",
+    znCode: "MD-ZTS SLOTTED",
+    znLb: "5.0 lb",
+    znKg: "(2.27 kg)",
+    alCode: "AMD-ZTS SLOTTED",
+    alLb: "2.1 lb",
+    alKg: "(0.95 kg)",
+    mountingIn: '0.25"',
+    mountingMm: "(6 mm)",
+    diaIn: '9.0"',
+    diaMm: "(229 mm)",
+    widIn: '3.0"',
+    widMm: "(76 mm)",
+    cDiaIn: '1.375"',
+    cDiaMm: "(35 mm)",
+    dMeasureIn: '10.75"',
+    dMeasureMm: "(273 mm)",
+    notes: "",
+  },
+];
+
 const teardrop = () => {
   return (
     <div>
-      <Hero
-        heading={"Teardrop Anodes"}
-        message={
-          ""
-        }
-        img={"bg-img5"}
-      />
-      <div className="flex flex-col lg:flex-row items-center lg:justify-start w-[100%]">
+      <Hero heading={"Teardrop Anodes"} message={""} img={"bg-img5"} />
+      <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarComm />
         <article>
           <main>
@@ -95,7 +173,11 @@ const teardrop = () => {
                   <th colSpan={3}>NOMINAL WEIGHT</th>
                   <th colSpan={5}>NOMINAL DIMENSIONS</th>
                 </tr>
-
+                <tr>
+                  <th colSpan={15} className="text-center text-2xl py-1">
+                    WELD ON
+                  </th>
+                </tr>
                 {teardropWeldData.map((item, id) => (
                   <Chart5DimPic
                     key={id}
@@ -119,16 +201,35 @@ const teardrop = () => {
                     notes={item.notes}
                   />
                 ))}
-                {/* <tr>
-                  <th colSpan={15} className="text-left px-5">
-                    WELD ON
-                  </th>
-                </tr> */}
-                {/* <tr>
-                  <th colSpan={15} className="text-left px-5">
+
+                <tr>
+                <th colSpan={15} className="text-center text-2xl py-1">
                     BOLT ON
                   </th>
-                </tr> */}
+                </tr>
+                {teardropBoltData.map((item, id) => (
+                  <Chart5DimPic
+                    key={id}
+                    img={item.img}
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    alCode={item.alCode}
+                    alLb={item.alLb}
+                    alKg={item.alKg}
+                    mountingIn={item.mountingIn}
+                    mountingMm={item.mountingMm}
+                    diaIn={item.diaIn}
+                    diaMm={item.diaMm}
+                    widIn={item.widIn}
+                    widMm={item.widMm}
+                    cDiaIn={item.cDiaIn}
+                    cDiaMm={item.cDiaMm}
+                    dMeasureIn={item.dMeasureIn}
+                    dMeasureMm={item.dMeasureMm}
+                    notes={item.notes}
+                  />
+                ))}
               </tbody>
             </table>
           </main>
