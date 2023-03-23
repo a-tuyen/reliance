@@ -64,39 +64,21 @@ const boltOn = () => {
             <table>
               <tbody>
                 <tr>
-                  <th colSpan={12} className="py-8">
+                  <th colSpan={6} className="py-8">
                     <h1>BOLT-ON (PIE ANODE) SPECIFICATIONS</h1>
                   </th>
                 </tr>
                 <tr>
-                  <th colSpan={6}>NOMINAL WEIGHT</th>
-                  <th colSpan={6}>NOMINAL DIMENSIONS</th>
-                </tr>
-                <tr>
-                  <th colSpan={3} className="bg-zinc">
-                    ZINC ANODE
-                  </th>
-                  <th colSpan={3} className="bg-alum">
-                    ALUMINUM ANODE
-                  </th>
-                  <th colSpan={2}>DIAMETER</th>
-                  <th colSpan={2}>WIDTH</th>
-                  <th colSpan={2}>BOLT DIAMETER</th>
+                  <th colSpan={3}>NOMINAL WEIGHT</th>
+                  <th colSpan={3}>NOMINAL DIMENSIONS</th>
                 </tr>
 
                 <tr>
-                  <th className="bg-zinc">ITEM #</th>
-                  <th className="bg-zinc border-r-0">lb</th>
-                  <th className="bg-zinc border-l-0">(kg)</th>
-                  <th className="bg-alum">ITEM #</th>
-                  <th className="bg-alum border-r-0">lb</th>
-                  <th className="bg-alum border-l-0">(kg)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
-                  <th className="border-r-0">in</th>
-                  <th className="border-l-0">(mm)</th>
+                  <th colspan={2} className="">ITEM #</th>
+                  <th>lb  (kg)</th>
+                  <th>DIAMETER</th>
+                  <th>WIDTH</th>
+                  <th>BOLT DIAMETER</th>
                 </tr>
                 {boltOnData.map((item, id) => (
                   <Chart3Dim
