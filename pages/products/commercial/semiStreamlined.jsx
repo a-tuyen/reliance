@@ -5,7 +5,7 @@ import Chart4DimPic from "@/components/Chart4DimPic";
 
 const semiStreamlinedWeldData = [
   {
-    img: "https://user-images.githubusercontent.com/77664153/227280101-9f117f9f-67bd-4694-ad22-808673d4f2f8.png",
+    img: "https://user-images.githubusercontent.com/77664153/227307976-40c804a7-015b-41fd-b5f6-c992db124d37.png",
     znCode: "MD-Z-3 / MD-ZSS",
     znLb: "10.0 lb",
     znKg: "(4.54 kg)",
@@ -24,7 +24,7 @@ const semiStreamlinedWeldData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/227308113-6e120520-f49e-451f-b886-2747712e2fab.png",
     znCode: "MD-Z-4",
     znLb: "5.0 lb",
     znKg: "(2.27 kg)",
@@ -373,7 +373,7 @@ const semiStreamlined = () => {
       <Hero
         heading={"Semi-Streamlined Anodes"}
         message={
-          "Suitale for small, medium and large vessels. Often found on hulls, sea tanks, bilges, ballast tanks, and structures."
+          "Suitable for small, medium and large vessels. Often found on hulls, sea tanks, bilges, ballast tanks, and structures."
         }
         img={"bg-img5"}
       />
@@ -393,7 +393,7 @@ const semiStreamlined = () => {
                   <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
                 <tr>
-                  <th colSpan={7} className="text-left px-5">
+                  <th colSpan={15} className="text-center text-2xl py-1">
                     WELD ON
                   </th>
                 </tr>
@@ -419,7 +419,7 @@ const semiStreamlined = () => {
                   />
                 ))}
                 <tr>
-                  <th colSpan={7} className="text-left px-5">
+                  <th colSpan={15} className="text-center text-2xl py-1">
                     BOLT ON
                   </th>
                 </tr>

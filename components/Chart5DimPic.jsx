@@ -67,8 +67,8 @@ const Chart5DimPic = ({
         <td className="border-t-0">{dMeasureMm}</td>
       </tr>
       <tr>
-        <td colSpan={8} className="border-r-0">
-          <div className="flex justify-center">
+      <td colSpan={8} className="bg-white">
+          <div className="flex flex-col justify-center items-center">
             <Image
               src={img}
               alt="picture of anode"
@@ -76,7 +76,7 @@ const Chart5DimPic = ({
               width={150}
               height={150}
             />
-            <div className="flex justify-center items-center">
+            <div className="flex flex-col justify-center items-center px-4">
             {notes}
             </div>
           </div>

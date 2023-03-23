@@ -68,8 +68,8 @@ const Chart4DimPic = ({
             <Image
               src={img}
               alt="picture of anode"
-              className="min-w-[80px] py-1"
-              width={150}
+              className="min-w-[80px] py-4"
+              width={200}
               height={100}
             />
             <div className="flex flex-col justify-center items-center px-4">
