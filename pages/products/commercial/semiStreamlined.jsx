@@ -381,7 +381,7 @@ const semiStreamlined = () => {
         <SideBarComm />
         <article>
           <main>
-            <table>
+            <table className="border-none border-collapse">
               <tbody>
                 <tr>
                   <th colSpan={7} className="py-8">
