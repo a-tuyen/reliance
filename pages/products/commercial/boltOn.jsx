@@ -2,6 +2,7 @@ import React from "react";
 import Chart3Dim from "@/components/Chart3Dim";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
+import Image from "next/image";
 
 const boltOnData = [
   {
@@ -116,6 +117,28 @@ const boltOn = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex flex-row">
+              <div className="flex flex-col items-center mx-8">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/227375989-41edee47-7c80-4036-92d1-bfba65d1b1c8.png"
+                  alt="picture of anode"
+                  className="min-w-[80px] py-4"
+                  width={200}
+                  height={100}
+                />
+                <p>Z-7</p>
+              </div>
+              <div className="flex flex-col items-center mx-8">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/227376003-f3889d35-0e22-4d65-bbf8-c9b6477d130b.png"
+                  alt="picture of anode"
+                  className="min-w-[80px] py-4"
+                  width={200}
+                  height={100}
+                />
+                <p>ZD-56 / ZD-58</p>
+              </div>
+            </div>
           </main>
         </article>
       </div>
