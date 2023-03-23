@@ -63,16 +63,16 @@ const Chart4DimPic = ({
         <td className="border-t-0">{dMeasureMm}</td>
       </tr>
       <tr>
-        <td colSpan={8} className="border-r-0">
-          <div className="flex justify-evenly">
+        <td colSpan={8} className="border-0">
+          <div className="flex justify-center bg-white">
             <Image
               src={img}
               alt="picture of anode"
               className="min-w-[80px] py-1"
               width={150}
-              height={150}
+              height={100}
             />
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center text-center">
             {notes}
             </div>
           </div>
