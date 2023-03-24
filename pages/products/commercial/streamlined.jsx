@@ -17,8 +17,8 @@ const streamlinedData = [
   widMm: '(165 mm)',
   cDiaIn: '1 1/2"',
   cDiaMm: '(38 mm)',
-  dMeasureIn: '-"',
-  dMeasureMm: '(- mm)',
+  dMeasureIn: '-',
+  dMeasureMm: '-',
   notes: 'AVAILABLE WITH STEEL OR ALUMINUM STRAPS',},
   
 
@@ -35,8 +35,8 @@ const streamlinedData = [
   widMm: '(108 mm)',
   cDiaIn: '2 1/4"',
   cDiaMm: '(57 mm)',
-  dMeasureIn: '-"',
-  dMeasureMm: '(- mm)',
+  dMeasureIn: '-',
+  dMeasureMm: '-',
   notes: 'AVAILABLE WITH STEEL OR ALUMINUM STRAPS',},
   
 ];
