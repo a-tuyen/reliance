@@ -42,13 +42,13 @@ const Chart4DimPic = ({
         <td className="bg-zincLight border-r-0">
           {znLb} {znKg}
         </td>
-        <td className="border-b-0">{diaIn}</td>
+        <td className="border-b-0 align-bottom">{diaIn}</td>
 
-        <td className="border-b-0">{widIn}</td>
+        <td className="border-b-0 align-bottom">{widIn}</td>
 
-        <td className="border-b-0">{cDiaIn}</td>
+        <td className="border-b-0 align-bottom">{cDiaIn}</td>
 
-        <td className="border-b-0">{dMeasureIn}</td>
+        <td className="border-b-0 align-bottom">{dMeasureIn}</td>
       </tr>
 
       <tr>
@@ -57,10 +57,10 @@ const Chart4DimPic = ({
         <td className="bg-alumLight border-r-0">
           {alLb} {alKg}
         </td>
-        <td className="border-t-0">{diaMm}</td>
-        <td className="border-t-0">{widMm}</td>
-        <td className="border-t-0">{cDiaMm}</td>
-        <td className="border-t-0">{dMeasureMm}</td>
+        <td className="border-t-0 align-top">{diaMm}</td>
+        <td className="border-t-0 align-top">{widMm}</td>
+        <td className="border-t-0 align-top">{cDiaMm}</td>
+        <td className="border-t-0 align-top">{dMeasureMm}</td>
       </tr>
       <tr>
         <td colSpan={8} className="bg-white">
