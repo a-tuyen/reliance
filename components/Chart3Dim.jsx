@@ -20,7 +20,10 @@ const Chart3Dim = ({
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
         <td className="bg-zincLight">{znCode}</td>
         <td className="bg-zincLight border-r-0">
-          {znLb} {znKg}
+        <div className="flex flex-col md:flex-row justify-center items-center">
+            <div>{znLb}</div>
+            <div className="px-2">{znKg}</div>
+          </div>
         </td>
         <td className="border-b-0">{diaIn}</td>
         <td className="border-b-0">{widIn}</td>

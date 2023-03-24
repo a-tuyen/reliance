@@ -24,8 +24,8 @@ const teardropWeldData = [
     widMm: "(76 mm)",
     cDiaIn: '1.375"',
     cDiaMm: "(35 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: "-",
+    dMeasureMm: "-",
     notes: "",
   },
   {
@@ -44,8 +44,8 @@ const teardropWeldData = [
     widMm: "(61 mm)",
     cDiaIn: '1.375"',
     cDiaMm: "(35 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "",
   },
   {
@@ -65,7 +65,7 @@ const teardropWeldData = [
     cDiaIn: '1.5"',
     cDiaMm: "(38 mm)",
     dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureMm: "-",
     notes: "",
   },
 ];
@@ -203,7 +203,7 @@ const teardrop = () => {
                 ))}
 
                 <tr>
-                <th colSpan={15} className="text-center text-2xl py-1">
+                  <th colSpan={15} className="text-center text-2xl py-1">
                     BOLT ON
                   </th>
                 </tr>

@@ -37,7 +37,7 @@ const boltOnData = [
   {
     znCode: "MD-ZD-58",
     znLb: "4.40 lb",
-    znKg: "(2.000 kg)",
+    znKg: "(2.0 kg)",
     alCode: "AMD-ZD-58",
     alLb: "1.31 lb",
     alKg: "(0.595 kg)",
