@@ -32,11 +32,11 @@ const Chart5DimPic = ({
             <div className="px-2">(kg)</div>
           </div>
         </th>
-        <th>MOUNTING</th>
-        <th>A - LENGTH</th>
-        <th>B - WIDTH</th>
-        <th>C - DEPTH</th>
-        <th>D - C/C</th>
+        <th>MOUNT-ING</th>
+        <th>A: LENGTH</th>
+        <th>B: WIDTH</th>
+        <th>C: DEPTH</th>
+        <th>D: C/C</th>
       </tr>
       <tr>
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
@@ -47,14 +47,11 @@ const Chart5DimPic = ({
             <div className="px-2">{znKg}</div>
           </div>
         </td>
-        <td className="border-b-0">{mountingIn}</td>
-        <td className="border-b-0">{diaIn}</td>
-
-        <td className="border-b-0">{widIn}</td>
-
-        <td className="border-b-0">{cDiaIn}</td>
-
-        <td className="border-b-0">{dMeasureIn}</td>
+        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{mountingIn}</td>
+        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{diaIn}</td>
+        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{widIn}</td>
+        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{cDiaIn}</td>
+        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{dMeasureIn}</td>
       </tr>
 
       <tr>
@@ -63,21 +60,21 @@ const Chart5DimPic = ({
         <td className="bg-alumLight border-r-0">
           {alLb} {alKg}
         </td>
-        <td className="border-t-0">{mountingMm}</td>
-        <td className="border-t-0">{diaMm}</td>
-        <td className="border-t-0">{widMm}</td>
-        <td className="border-t-0">{cDiaMm}</td>
-        <td className="border-t-0">{dMeasureMm}</td>
+        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{mountingMm}</td>
+        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{diaMm}</td>
+        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{widMm}</td>
+        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{cDiaMm}</td>
+        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{dMeasureMm}</td>
       </tr>
       <tr>
-        <td colSpan={8} className="bg-white">
+        <td colSpan={8} className="bg-white py-4">
           <div className="flex flex-col justify-center items-center">
             <Image
               src={img}
               alt="picture of anode"
               className="min-w-[80px] py-1"
-              width={150}
-              height={150}
+              width={200}
+              height={120}
             />
             <div className="flex flex-col justify-center items-center px-4">
               {notes}
