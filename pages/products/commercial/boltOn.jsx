@@ -6,46 +6,47 @@ import Image from "next/image";
 
 const boltOnData = [
   {
-    znCode: "Z-7",
-    znLb: "12.5",
-    znKg: "(6.000)",
-    alCode: "AZ-7",
-    alLb: "5.5",
-    alKg: "2.500",
-    diaIn: "8 1/2",
-    diaMm: "(216)",
+    znCode: "MD-Z-7",
+    znLb: "12.5 lb",
+    znKg: "(6.0 kg)",
+    alCode: "AMD-Z-7",
+    alLb: "5.5 lb",
+    alKg: "(2.49 kg)",
+    diaIn: '8 1/2"',
+    diaMm: "(216 mm)",
     widIn: "-",
     widMm: "-",
-    cDiaIn: "7/16",
-    cDiaMm: "(17)",
+    cDiaIn: '7/16"',
+    cDiaMm: "(17 mm)",
+  },
+
+  {
+    znCode: "MD-ZD-56",
+    znLb: "2.5 lb",
+    znKg: "(1.136 kg)",
+    alCode: "AMD-ZD-56",
+    alLb: "0.80 lb",
+    alKg: "(0.364 kg)",
+    diaIn: '4"',
+    diaMm: "(101 mm)",
+    widIn: "-",
+    widMm: "-",
+    cDiaIn: '7/16"',
+    cDiaMm: "(17 mm)",
   },
   {
-    znCode: "ZD-56",
-    znLb: "2.5",
-    znKg: "(1.136)",
-    alCode: "AZD-56",
-    alLb: "0.80",
-    alKg: "(0.364)",
-    diaIn: "4",
-    diaMm: "(101)",
+    znCode: "MD-ZD-58",
+    znLb: "4.40 lb",
+    znKg: "(2.000 kg)",
+    alCode: "AMD-ZD-58",
+    alLb: "1.31 lb",
+    alKg: "(0.595 kg)",
+    diaIn: '5.9"',
+    diaMm: "(132 mm)",
     widIn: "-",
     widMm: "-",
-    cDiaIn: "7/16",
-    cDiaMm: "(17)",
-  },
-  {
-    znCode: "ZD-58",
-    znLb: "4.40",
-    znKg: "(2.000)",
-    alCode: "AZ-58",
-    alLb: "1.31",
-    alKg: "(0.595)",
-    diaIn: "5.9",
-    diaMm: "(132)",
-    widIn: "-",
-    widMm: "-",
-    cDiaIn: "7/16",
-    cDiaMm: "(17)",
+    cDiaIn: '7/16"',
+    cDiaMm: "(17 mm)",
   },
 ];
 
@@ -74,8 +75,16 @@ const boltOn = () => {
                 </tr>
 
                 <tr>
-                  <th colspan={2} className="">ITEM #</th>
-                  <th>lb  (kg)</th>
+                  <th colspan={2} className="">
+                    ITEM #
+                  </th>
+                  <th>
+                    {" "}
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                      <div>lb</div>
+                      <div className="px-2">(kg)</div>
+                    </div>
+                  </th>
                   <th>DIAMETER</th>
                   <th>WIDTH</th>
                   <th>BOLT DIAMETER</th>
@@ -100,21 +109,21 @@ const boltOn = () => {
               </tbody>
             </table>
             <div className="flex flex-row">
-              <div className="flex flex-col items-center mx-8">
+              <div className="flex flex-col items-center mr-3 mb-3">
                 <Image
                   src="https://user-images.githubusercontent.com/77664153/227375989-41edee47-7c80-4036-92d1-bfba65d1b1c8.png"
                   alt="picture of anode"
-                  className="min-w-[80px] py-4"
+                  className="min-w-[80px]"
                   width={200}
                   height={100}
                 />
                 <p>Z-7</p>
               </div>
-              <div className="flex flex-col items-center mx-8">
+              <div className="flex flex-col items-center ml-3 mr-8 mb-3">
                 <Image
                   src="https://user-images.githubusercontent.com/77664153/227376003-f3889d35-0e22-4d65-bbf8-c9b6477d130b.png"
                   alt="picture of anode"
-                  className="min-w-[80px] py-4"
+                  className="min-w-[80px]"
                   width={200}
                   height={100}
                 />
