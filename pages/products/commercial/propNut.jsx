@@ -240,7 +240,7 @@ const propNut = () => {
                   </th>
                   <th>A: DIAMETER (ID)</th>
                   <th>B: DIAMETER (OD)</th>
-                  <th>C" DEPTH</th>
+                  <th>C: DEPTH</th>
                 </tr>
                 {propNutData.map((item, id) => (
                   <Chart3Dim
