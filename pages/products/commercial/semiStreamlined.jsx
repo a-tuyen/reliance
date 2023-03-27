@@ -5,7 +5,7 @@ import Chart4DimPic from "@/components/Chart4DimPic";
 
 const semiStreamlinedWeldData = [
   {
-    img: "https://user-images.githubusercontent.com/77664153/227307976-40c804a7-015b-41fd-b5f6-c992db124d37.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-Z-3 / MD-ZSS",
     znLb: "10.0 lb",
     znKg: "(4.54 kg)",
@@ -18,13 +18,13 @@ const semiStreamlinedWeldData = [
     widMm: "(76 mm)",
     cDiaIn: '1 1/4"',
     cDiaMm: "(32 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "BOLT HOLES CAN BE ADDED ON STRAPS AS REQUIRED",
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227308113-6e120520-f49e-451f-b886-2747712e2fab.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-Z-4",
     znLb: "5.0 lb",
     znKg: "(2.27 kg)",
@@ -37,13 +37,13 @@ const semiStreamlinedWeldData = [
     widMm: "(89 mm)",
     cDiaIn: '1"',
     cDiaMm: "(25 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "BOLT HOLES CAN BE ADDED ON STRAPS AS REQUIRED",
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-Z-6",
     znLb: "3.0 lb",
     znKg: "(1.36 kg)",
@@ -56,13 +56,13 @@ const semiStreamlinedWeldData = [
     widMm: "(64 mm)",
     cDiaIn: '1"',
     cDiaMm: "(25 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "BOLT HOLES CAN BE ADDED ON STRAPS AS REQUIRED",
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-Z-19",
     znLb: "23 lb",
     znKg: "(10.43 kg)",
@@ -75,13 +75,14 @@ const semiStreamlinedWeldData = [
     widMm: "(64 mm)",
     cDiaIn: '1"',
     cDiaMm: "(25 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "BOLT HOLES CAN BE ADDED ON STRAPS AS REQUIRED",
   },
 
+
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-Z-220",
     znLb: "62.0 lb",
     znKg: "(28.12 kg)",
@@ -94,13 +95,13 @@ const semiStreamlinedWeldData = [
     widMm: "(127 mm)",
     cDiaIn: '1 3/4"',
     cDiaMm: "(44 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: "BOLT HOLES CAN BE ADDED ON STRAPS AS REQUIRED",
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-ZC-5",
     znLb: "5.0 lb",
     znKg: "(2.27 kg)",
@@ -113,13 +114,13 @@ const semiStreamlinedWeldData = [
     widMm: "(57 mm)",
     cDiaIn: '1 1/4"',
     cDiaMm: "(32 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: 'THESE ARE USED FOR CRAB TRAPS - 7/16" SLOT',
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228051830-67c5c6b0-7a2d-4a93-b05a-44141b81a033.png",
     znCode: "MD-ZC-7",
     znLb: "7.0 lb",
     znKg: "(3.18 kg)",
@@ -132,15 +133,15 @@ const semiStreamlinedWeldData = [
     widMm: "(57 mm)",
     cDiaIn: '1 5/8"',
     cDiaMm: "(41 mm)",
-    dMeasureIn: '-"',
-    dMeasureMm: "(- mm)",
+    dMeasureIn: '-',
+    dMeasureMm: "-",
     notes: 'THESE ARE USED FOR CRAB TRAPS - 7/16" SLOT',
   },
 ];
 
 const semiStreamlinedBoltData = [
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-Z-3BS",
     znLb: "8.5 lb",
     znKg: "(3.86 kg)",
@@ -159,7 +160,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZHC-11",
     znLb: "11.0 lb",
     znKg: "(4.99 kg)",
@@ -178,7 +179,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228068691-369dde4e-33ab-4e83-b185-86e846224d8d.png",
     znCode: "MD-ZHC-12",
     znLb: "10.0 lb",
     znKg: "(4.54 kg)",
@@ -197,7 +198,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZHC-15",
     znLb: "16.0 lb",
     znKg: "(7.26 kg)",
@@ -216,7 +217,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZHC-16",
     znLb: "16.0 lb",
     znKg: "(7.26 kg)",
@@ -235,7 +236,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZHC-18 / CL-18",
     znLb: "18 lb",
     znKg: "(8.16 kg)",
@@ -254,7 +255,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZD-72B",
     znLb: "26.0 lb",
     znKg: "(11.79 kg)",
@@ -273,7 +274,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZD-72BM",
     znLb: "17.0 lb",
     znKg: "(7.71 kg)",
@@ -292,7 +293,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228068691-369dde4e-33ab-4e83-b185-86e846224d8d.png",
     znCode: "MD-Z-15B",
     znLb: "15.0 lb",
     znKg: "(6.8 kg)",
@@ -311,7 +312,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228071062-4d9a2fbe-3bfe-4b98-af6f-10de414825db.png",
     znCode: "MD-ZD-76 MINI EURO",
     znLb: "3.0 lb",
     znKg: "(1.36 kg)",
@@ -329,7 +330,7 @@ const semiStreamlinedBoltData = [
     notes: "SLOTTED W/ ALUMINUM INSERT",
   },
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
     znCode: "MD-ZD-77 EURO",
     znLb: "5.0 lb",
     znKg: "(2.27 kg)",
@@ -348,7 +349,7 @@ const semiStreamlinedBoltData = [
   },
 
   {
-    img: "https://user-images.githubusercontent.com/77664153/227269660-99d82a1d-d49b-4114-bde9-7626bf985818.png",
+    img: "https://user-images.githubusercontent.com/77664153/228072906-00579c86-5938-4d89-84a8-a1da10918a7f.png",
     znCode: "MD-Z-H55GB",
     znLb: "9.5 lb",
     znKg: "(4.31 kg)",
