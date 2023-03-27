@@ -31,14 +31,14 @@ const Chart3Dim = ({
       </tr>
 
       <tr>
-        <td className="bg-alum text-white border-l-0">AL</td>
-        <td className="bg-alumLight">{alCode}</td>
-        <td className="bg-alumLight border-r-0">
+        <td className="bg-alum text-white border-l-0 border-b-4">AL</td>
+        <td className="bg-alumLight border-b-4">{alCode}</td>
+        <td className="bg-alumLight border-r-0 border-b-4">
           {alLb} {alKg}
         </td>
-        <td className="border-t-0">{diaMm}</td>
-        <td className="border-t-0">{widMm}</td>
-        <td className="border-t-0">{cDiaMm}</td>
+        <td className="border-t-0 border-b-4">{diaMm}</td>
+        <td className="border-t-0 border-b-4">{widMm}</td>
+        <td className="border-t-0 border-b-4">{cDiaMm}</td>
       </tr>
     </>
   );
