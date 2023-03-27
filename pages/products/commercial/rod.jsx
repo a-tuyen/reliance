@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
 import ChartNoDim from "@/components/ChartNoDim";
+import Image from "next/image";
 
 const rodData = [
   {
@@ -166,6 +167,16 @@ const rod = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex flex-col items-center pb-4">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/228049429-342a25b8-a01a-45c4-88dd-4b1f084b5f26.png"
+                alt="picture of anode"
+                className="min-w-[80px] lg:pr-8"
+                width={200}
+                height={100}
+              />
+              <p className="pt-4">RODS ARE ALSO AVAILABLE IN 12&quot; LENGTHS</p>
+            </div>
           </main>
         </article>
       </div>
