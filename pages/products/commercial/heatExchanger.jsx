@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
 import Chart3Dim from "@/components/Chart3Dim";
+import Image from "next/image";
 
 const heatExchangerSquareData = [
   {
@@ -31,7 +32,7 @@ const heatExchangerCircleData = [
     diaIn: "2.0",
     diaMm: "(50)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -45,7 +46,7 @@ const heatExchangerCircleData = [
     diaIn: "3.0",
     diaMm: "(76)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -59,7 +60,7 @@ const heatExchangerCircleData = [
     diaIn: "4.0",
     diaMm: "(101)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -73,7 +74,7 @@ const heatExchangerCircleData = [
     diaIn: "5.0",
     diaMm: "(127)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -87,7 +88,7 @@ const heatExchangerCircleData = [
     diaIn: "6.0",
     diaMm: "(152)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -101,7 +102,7 @@ const heatExchangerCircleData = [
     diaIn: "9.0",
     diaMm: "(229)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -115,7 +116,7 @@ const heatExchangerCircleData = [
     diaIn: "11.0",
     diaMm: "(279)",
     widIn: "-",
-    widMm: "(-)",
+    widMm: "-",
     cDiaIn: "1.0",
     cDiaMm: "(25)",
   },
@@ -199,6 +200,22 @@ const heatExchanger = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex pb-6">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/228010869-9e860457-5051-48af-b23c-e97646465f06.png"
+                alt="picture of anode"
+                className="min-w-[80px] lg:pr-8"
+                width={200}
+                height={100}
+              />
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/228010876-69ca6917-cc47-48eb-93aa-630c0c4f15e2.png"
+                alt="picture of anode"
+                className="min-w-[80px] lg:pl-8"
+                width={200}
+                height={100}
+              />
+            </div>
           </main>
         </article>
       </div>
