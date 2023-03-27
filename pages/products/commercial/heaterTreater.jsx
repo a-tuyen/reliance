@@ -87,9 +87,9 @@ const heaterTreater = () => {
                       <div className="px-2">(kg)</div>
                     </div>
                   </th>
-                  <th>DIAMETER</th>
-                  <th>WIDTH</th>
-                  <th>C-DEPTH</th>
+                  <th>A: LENGTH</th>
+                  <th>B:WIDTH</th>
+                  <th>X</th>
                 </tr>
                 {heaterTreaterData.map((item, id) => (
                   <Chart3Dim
