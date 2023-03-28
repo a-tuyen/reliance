@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
 import ChartNoDim from "@/components/ChartNoDim";
+import Image from "next/image";
 
 const plateData = [
   {
@@ -150,6 +151,17 @@ const plate = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex flex-col items-center pb-6">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/228350506-05ba5a7c-ba42-4711-9424-f07f0920ac19.png"
+                alt="picture of anode"
+                className="min-w-[80px] lg:pr-8"
+                width={200}
+                height={100}
+              />
+              {/* <p>*Plates also available in Aluminum Alloy</p> */}
+              <p className="pt-4">*Bonding Wire available for 1/2” Plates</p>
+            </div>
           </main>
         </article>
       </div>
