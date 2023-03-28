@@ -88,7 +88,7 @@ const heaterTreater = () => {
                     </div>
                   </th>
                   <th>A: LENGTH</th>
-                  <th>B:WIDTH</th>
+                  <th>B: WIDTH</th>
                   <th>X</th>
                 </tr>
                 {heaterTreaterData.map((item, id) => (
