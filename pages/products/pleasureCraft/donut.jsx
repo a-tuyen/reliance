@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import Chart3Dim from "@/components/Chart3Dim";
 
-const donutData = [
+const donutStdData = [
   {
     znCode: "MDC-A",
     znLb: "0.9 lb",
@@ -272,6 +272,14 @@ const donutData = [
   },
 ];
 
+const donutHvyData =[
+
+];
+
+const donutMetricData =[
+    
+];
+
 const donut = () => {
   return (
     <div>
@@ -279,7 +287,8 @@ const donut = () => {
         heading={"Donut Anodes"}
         message={
           "Reliance Donut Anodes mount to the shaft with stainless steel slot head screws. Socket cap screws available upon request"
-        }
+          }
+          img={"bg-img2"}
       />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
@@ -308,7 +317,7 @@ const donut = () => {
                   <th>B: WIDTH</th>
                   <th>C: THICKNESS</th>
                 </tr>
-                {donutData.map((item, id) => (
+                {donutStdData.map((item, id) => (
                   <Chart3Dim
                     key={id}
                     znCode={item.znCode}
