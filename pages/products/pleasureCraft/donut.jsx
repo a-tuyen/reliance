@@ -437,7 +437,7 @@ const donut = () => {
   return (
     <div>
       <Hero
-        heading={"Donut Anodes (Limited Clearance)"}
+        heading={"Donut (Limited Clearance) Anodes "}
         message={
           "Reliance Donut Anodes mount to the shaft with stainless steel slot head screws. Socket cap screws available upon request"
         }
