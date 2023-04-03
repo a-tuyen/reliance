@@ -67,7 +67,7 @@ const pcData = [
   },
   { category: "Spur Line Cutter", link: "/products/pleasureCraft/spur" },
   { category: "Suzuki Anodes", link: "/products/pleasureCraft/suzuki" },
-  { category: "Teardrop Anodes", link: "/products/pleasureCraft/teardrop" },
+  { category: "Teardrop Anodes", link: "/products/pleasureCraft/teardropPC" },
   { category: "Vetus Anodes", link: "/products/pleasureCraft/vetus" },
   { category: "Volvo Penta Anodes", link: "/products/pleasureCraft/volvo" },
   { category: "Volvo Anode Kits", link: "/products/pleasureCraft/volvoKits" },
