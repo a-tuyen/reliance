@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import Hero from "@/components/Hero";
 import SideBarComm from "@/components/SideBarComm";
-import Chart4DimNote from "@/components/Chart4DimNote";
 // import bg4 from "../public/backgrounds/relianceBg4.jpeg";
 // import vetus25 from "../../../public/vetus25.png";
 import Chart4DimPic from "@/components/Chart4DimPic";
@@ -509,25 +508,6 @@ const hullPlateBoltData = [
     dMeasureIn: '5.0"',
     dMeasureMm: "(127 mm)",
     notes: "SLOTTED WITH ALUMINUM INSERT",
-  },
-
-  {
-    img: "https://user-images.githubusercontent.com/77664153/228066886-41ed1f10-ffa0-4bb1-924b-e2467068ef8e.png",
-    znCode: "MD-ZHC-15 HEAVY",
-    znLb: "18.0 lb",
-    znKg: "(8.16 kg)",
-    alCode: "AMD-ZHC-15 HEAVY",
-    alLb: "8.65 lb",
-    alKg: "(4 kg)",
-    diaIn: '18.0"',
-    diaMm: "(457 mm)",
-    widIn: '4.0"',
-    widMm: "(102 mm)",
-    cDiaIn: '1 3/4"',
-    cDiaMm: "(44 mm)",
-    dMeasureIn: '9"',
-    dMeasureMm: "(229 mm)",
-    notes: "",
   },
   {
     img: "https://user-images.githubusercontent.com/77664153/228323266-5542f35d-e4d6-40ac-9c2c-d33960daad35.png",
