@@ -1,6 +1,285 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
+import ChartEngine4Dim from "@/components/ChartEngine4Dim";
+
+const engineData = [
+    {compCode: 'MDE-00C',
+    compLb: '0.05 lb',
+    compKg: '(0.02 kg)',
+    replCode: 'MDE-00Z',
+    replLb: '0.02 lb',
+    replKg: '(0.01 kg)',
+    diaIn: '2"',
+    diaMm: '(51 mm)',
+    widIn: '1/4"',
+    widMm: '(6 mm)',
+    cDiaIn: '1/8"',
+    cDiaMm: '(3 mm)',
+    cPlugThread: '1/4 - 20 NC',},
+    {compCode: 'MDE-0C',
+    compLb: '0.05 lb',
+    compKg: '(0.02 kg)',
+    replCode: 'MDE-0Z',
+    replLb: '0.05 lb',
+    replKg: '(0.02 kg)',
+    diaIn: '1 3/4"',
+    diaMm: '(44 mm)',
+    widIn: '3/8"',
+    widMm: '(10 mm)',
+    cDiaIn: '1/4"',
+    cDiaMm: '(6 mm)',
+    cPlugThread: '5/16 - 18 NC',},
+    {compCode: 'MDE-0AC',
+    compLb: '0.08 lb',
+    compKg: '(0.04 kg)',
+    replCode: 'MDE-0AZ',
+    replLb: '0.08 lb',
+    replKg: '(0.04 kg)',
+    diaIn: '2 1/2"',
+    diaMm: '(64 mm)',
+    widIn: '3/8"',
+    widMm: '(10 mm)',
+    cDiaIn: '1/4"',
+    cDiaMm: '(6 mm)',
+    cPlugThread: '5/16 -18 NC',},
+    {compCode: 'MDE-0BC',
+    compLb: '0.04 lb',
+    compKg: '(0.02 kg)',
+    replCode: 'MDE-0BZ',
+    replLb: '0.04 lb',
+    replKg: '(0.02 kg)',
+    diaIn: '3/4"',
+    diaMm: '(19 mm)',
+    widIn: '3/8"',
+    widMm: '(10 mm)',
+    cDiaIn: '1/4"',
+    cDiaMm: '(6 mm)',
+    cPlugThread: '5/16 - 18 NC',},
+    {compCode: 'MDE-0HC',
+    compLb: '0.14 lb',
+    compKg: '(0.06 kg)',
+    replCode: 'MDE-0HZ',
+    replLb: '0.08 lb',
+    replKg: '(0.04 kg)',
+    diaIn: '1 5/8"',
+    diaMm: '(41 mm)',
+    widIn: '1/2"',
+    widMm: '(13 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 NC',},
+    {compCode: 'MDE-1C',
+    compLb: '0.1 lb',
+    compKg: '(0.05 kg)',
+    replCode: 'MDE-1Z',
+    replLb: '0.08 lb',
+    replKg: '(0.04 kg)',
+    diaIn: '2"',
+    diaMm: '(51 mm)',
+    widIn: '1/2"',
+    widMm: '(13 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 UNC',},
+    {compCode: 'MDE-1DC',
+    compLb: '0.15 lb',
+    compKg: '(0.07 kg)',
+    replCode: 'MDE-1DZ',
+    replLb: '0.07 lb',
+    replKg: '(0.03 kg)',
+    diaIn: '1 3/4"',
+    diaMm: '(44 mm)',
+    widIn: '1/2"',
+    widMm: '(10 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 UNC',},
+    {compCode: 'MDE-1EC',
+    compLb: '0.15 lb',
+    compKg: '(0.07 kg)',
+    replCode: 'MDE-1EZ',
+    replLb: '0.09 lb',
+    replKg: '(0.04 kg)',
+    diaIn: '1 1/2"',
+    diaMm: '(38 mm)',
+    widIn: '1/2"',
+    widMm: '(13 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 UNC',},
+    {compCode: 'MDE-1FC',
+    compLb: '0.13 lb',
+    compKg: '(0.06 kg)',
+    replCode: 'MDE-1FZ',
+    replLb: '0.07 lb',
+    replKg: '(0.03 kg)',
+    diaIn: '1 1/4"',
+    diaMm: '(32 mm)',
+    widIn: '1/2"',
+    widMm: '(13 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 UNC',},
+    {compCode: 'MDE-1GC',
+    compLb: '0.1 lb',
+    compKg: '(0.05 kg)',
+    replCode: 'MDE-1GZ',
+    replLb: '0.06 lb',
+    replKg: '(0.03 kg)',
+    diaIn: '1"',
+    diaMm: '(25 mm)',
+    widIn: '1/2"',
+    widMm: '(13 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 NC',},
+    {compCode: 'MDE-1HC',
+    compLb: '0.06 lb',
+    compKg: '(0.03 kg)',
+    replCode: 'MDE-1HZ',
+    replLb: '0.07 lb',
+    replKg: '(0.03 kg)',
+    diaIn: '2"',
+    diaMm: '(51 mm)',
+    widIn: '3/8"',
+    widMm: '(10 mm)',
+    cDiaIn: '3/8"',
+    cDiaMm: '(10 mm)',
+    cPlugThread: '3/8 - 16 NC',},
+    {compCode: 'MDE-2C',
+    compLb: '0.16 lb',
+    compKg: '(0.07 kg)',
+    replCode: 'MDE-2Z',
+    replLb: '0.15 lb',
+    replKg: '(0.07 kg)',
+    diaIn: '2"',
+    diaMm: '(51 mm)',
+    widIn: '5/8"',
+    widMm: '(16 mm)',
+    cDiaIn: '1/2"',
+    cDiaMm: '(13 mm)',
+    cPlugThread: '7/16 - 20 NC',},
+    {compCode: 'MDE-2BC',
+    compLb: '0.26 lb',
+    compKg: '(0.12 kg)',
+    replCode: 'MDE-2BZ',
+    replLb: '0.26 lb',
+    replKg: '(0.12 kg)',
+    diaIn: '3"',
+    diaMm: '(76 mm)',
+    widIn: '5/8"',
+    widMm: '(16 mm)',
+    cDiaIn: '1/2"',
+    cDiaMm: '(13 mm)',
+    cPlugThread: '7/16 - 14 NC',},
+    {compCode: 'MDE-3C',
+    compLb: '0.22 lb',
+    compKg: '(0.1 kg)',
+    replCode: 'MDE-3Z',
+    replLb: '0.22 lb',
+    replKg: '(0.1 kg)',
+    diaIn: '2"',
+    diaMm: '(51 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)',
+    cDiaIn: '3/4"',
+    cDiaMm: '(19 mm)',
+    cPlugThread: '1/2 - 13 NC',},
+    {compCode: 'MDE-3AC',
+    compLb: '0.22 lb',
+    compKg: '(0.1 kg)',
+    replCode: 'MDE-3AZ',
+    replLb: '0.22 lb',
+    replKg: '(0.1 kg)',
+    diaIn: '3/4"',
+    diaMm: '(19 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)',
+    cDiaIn: '3/4"',
+    cDiaMm: '(19 mm)',
+    cPlugThread: '1/2 - 13 NC',},
+    {compCode: 'MDE-4C',
+    compLb: '0.37 lb',
+    compKg: '(0.17 kg)',
+    replCode: 'MDE-4Z',
+    replLb: '0.38 lb',
+    replKg: '(0.17 kg)',
+    diaIn: '3 3/8"',
+    diaMm: '(86 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)',
+    cDiaIn: '3/4"',
+    cDiaMm: '(19 mm)',
+    cPlugThread: '1/2 - 13 NC',},
+    {compCode: 'MDE-5C',
+    compLb: '0.38 lb',
+    compKg: '(0.17 kg)',
+    replCode: 'MDE-5Z',
+    replLb: '0.41 lb',
+    replKg: '(0.19 kg)',
+    diaIn: '3 5/8"',
+    diaMm: '(92 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)',
+    cDiaIn: '3/4"',
+    cDiaMm: '(19 mm)',
+    cPlugThread: '1/2 - 13 NC',},
+    {compCode: 'MDE-6C',
+    compLb: '0.76 lb',
+    compKg: '(0.34 kg)',
+    replCode: 'MDE-6Z',
+    replLb: '0.55 lb',
+    replKg: '(0.25 kg)',
+    diaIn: '4 3/4"',
+    diaMm: '(121 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)',
+    cDiaIn: '3/4"',
+    cDiaMm: '(19 mm)',
+    cPlugThread: '1/2 - 13 NC',},
+    {compCode: 'MDE-6LC',
+    compLb: '0.04 lb',
+    compKg: '(0.02 kg)',
+    replCode: 'MDE-6LZ',
+    replLb: '0.02 lb',
+    replKg: '(0.01 kg)',
+    diaIn: '1 1/2"',
+    diaMm: '(38 mm)',
+    widIn: '3/8"',
+    widMm: '(10 mm)',
+    cDiaIn: '-"',
+    cDiaMm: '(- mm)',
+    cPlugThread: '1/4 - 20 NC',},
+    {compCode: 'MDE-7C',
+    compLb: '1.54 lb',
+    compKg: '(0.7 kg)',
+    replCode: 'MDE-7Z',
+    replLb: '1.1 lb',
+    replKg: '(0.5 kg)',
+    diaIn: '5"',
+    diaMm: '(127 mm)',
+    widIn: '1 1/16"',
+    widMm: '(27 mm)',
+    cDiaIn: '1"',
+    cDiaMm: '(25 mm)',
+    cPlugThread: '3/4 - 10 NC',},
+    {compCode: 'MDE-8C',
+    compLb: '1.78 lb',
+    compKg: '(0.81 kg)',
+    replCode: 'MDE-8Z',
+    replLb: '0.9 lb',
+    replKg: '(0.41 kg)',
+    diaIn: '2 15/16"',
+    diaMm: '(75 mm)',
+    widIn: '1 1/4"',
+    widMm: '(32 mm)',
+    cDiaIn: '1 1/4"',
+    cDiaMm: '(32 mm)',
+    cPlugThread: '3/4 - 10 NC',},
+    
+];
+
 const engine = () => {
   return (
     <div>
@@ -14,13 +293,15 @@ const engine = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
         <article>
-          <main >
+          <main>
             <table>
               <tbody>
                 <tr>
                   <th colSpan={7} className="py-8">
                     <h1>ENGINE ANODES SPECIFICATIONS</h1>
-                    <p>Only available in ZINC</p>
+                    <p>Not available in Aluminum</p>
+                    <p>REPLACEMENT comes with just the Anode</p>
+                    <p>COMPLETE comes with the Anode and Brass Plug</p>
                   </th>
                 </tr>
                 <tr>
@@ -35,53 +316,41 @@ const engine = () => {
                       <div className="px-2">(kg)</div>
                     </div>
                   </th>
-                  <th>A:
-                    <p className="text-sm">LENGTH</p>
-                  </th>
-                  <th>B:
-                  <p className="text-sm">DIA</p>
-                  </th>
-                  <th>C:
-                  <p className="text-sm">PLUG OD (NPT)</p>
+                  <th>
+                    A:
+                    <p className="text-sm md:text-lg">LENGTH</p>
                   </th>
                   <th>
-                  
-                      C: PLUG<p className="px-2 text-sm">(Thread Interval)</p>
-                
+                    B:
+                    <p className="text-sm md:text-lg">DIA</p>
+                  </th>
+                  <th>
+                    C:
+                    <p className="text-sm md:text-lg">PLUG OD (NPT)</p>
+                  </th>
+                  <th>
+                    C: PLUG<p className="px-2 text-sm md:text-lg">(Thread Interval)</p>
                   </th>
                 </tr>
-                <tr>
-                  <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
-                  <td className="bg-zincLight pl-1">MDE-00Z -<p className="text-sm">REPLACEMENT</p></td>
-                  <td className="bg-zincLight border-r-0">
-                    <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                      <div>0.05</div>
-                      <div className="pl-2">(0.023)</div>
-                    </div>
-                  </td>
-                  <td className="border-b-0">2&quot;</td>
+                {engineData.map((item, id) => (
+                    <ChartEngine4Dim 
+                    key={id}
+                    compCode={item.compCode}
+                    compLb={item.compLb}
+                    compKg={item.compKg}
+                    replCode={item.replCode}
+                    replLb={item.replLb}
+                    replKg={item.replKg}
+                    diaIn={item.diaIn}
+                    diaMm={item.diaMm}
+                    widIn={item.widIn}
+                    widMm={item.widMm}
+                    cDiaIn={item.cDiaIn}
+                    cDiaMm={item.cDiaMm}
+                    cPlugThread={item.cPlugThread}
+                    />
 
-                  <td className="border-b-0">1/4&quot;</td>
-                  <td className="border-b-0">1/8&quot;</td>
-                  <td rowSpan={2} className="border-b-0">
-                    1/4 - 20 NC
-                  </td>
-                </tr>
-                <tr>
-                  <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
-
-                  <td className="bg-zincLight pl-1">MDE-00C - <p className="text-sm">COMPLETE</p></td>
-                  <td className="bg-zincLight border-r-0">
-                    <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                      <div>0.05</div>
-                      <div className="pl-2">(0.023)</div>
-                    </div>
-                  </td>
-
-                  <td className="border-t-0">(50 mm)</td>
-                  <td className="border-t-0">(6 mm)</td>
-                  <td className="border-t-0">(3 mm)</td>
-                </tr>
+                ))}
               </tbody>
             </table>
           </main>
