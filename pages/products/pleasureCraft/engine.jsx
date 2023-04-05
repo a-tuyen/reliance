@@ -14,7 +14,8 @@ const engine = () => {
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
         <article>
-          <main>
+          <main >
+            <div className="relative overflow-x-auto">
             <table>
               <tbody>
                 <tr>
@@ -29,9 +30,14 @@ const engine = () => {
                 </tr>
                 <tr>
                   <th colSpan={2}>ITEM #</th>
-                  <th>lb (kg)</th>
+                  <th>
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                      <div>lb</div>
+                      <div className="px-2">(kg)</div>
+                    </div>
+                  </th>
                   <th>A: LENGTH</th>
-                  <th>B: DIA</th>
+                  <th>B: DIAMETER</th>
                   <th>PLUG OD (NPT)</th>
                   <th>
                     <div className="flex flex-col md:flex-row justify-center items-center">
@@ -41,21 +47,12 @@ const engine = () => {
                   </th>
                 </tr>
                 <tr>
-                  <td className="bg-zinc text-white content-start border-l-0 px-1">
-                    ZN
-                  </td>
-                  <td className="bg-zincLight">
-                    <div className="flex flex-col md:flex-row  md:justify-start justify-center items-start">
-                      <div>MDE-00 - </div>
-                      <div className="flex justify-center items-start">
-                        COMPLETE
-                      </div>
-                    </div>
-                  </td>
+                  <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
+                  <td className="bg-zincLight text-left pl-1">MDE-00Z - REPLACEMENT</td>
                   <td className="bg-zincLight border-r-0">
-                    <div className="flex flex-col md:flex-row justify-center items-center">
+                    <div className="flex flex-col md:flex-row justify-center items-center px-1">
                       <div>0.05</div>
-                      <div className="px-2">(0.023)</div>
+                      <div className="pl-2">(0.023)</div>
                     </div>
                   </td>
                   <td className="border-b-0">2&quot;</td>
@@ -68,18 +65,12 @@ const engine = () => {
                 </tr>
                 <tr>
                   <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
-                  <td className="bg-zincLight">
-                    <div className="flex flex-col md:flex-row justify-center md:justify-start items-start">
-                      <div>MDE-00 - </div>
-                      <div className="flex justify-center items-start">
-                        REPLACEMENT
-                      </div>
-                    </div>
-                  </td>
+
+                  <td className="bg-zincLight text-left pl-1">MDE-00C - COMPLETE</td>
                   <td className="bg-zincLight border-r-0">
-                    <div className="flex flex-col md:flex-row justify-center items-center">
-                      <div>0.02</div>
-                      <div className="px-2">(0.010)</div>
+                    <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                      <div>0.05</div>
+                      <div className="pl-2">(0.023)</div>
                     </div>
                   </td>
 
@@ -89,6 +80,7 @@ const engine = () => {
                 </tr>
               </tbody>
             </table>
+            </div>
           </main>
         </article>
       </div>
