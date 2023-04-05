@@ -7,7 +7,7 @@ const engine = () => {
       <Hero
         heading={"Engine Anodes"}
         message={
-          "Reliance MDE Series of Marine Engine Anodes consists of a brass plug with anode attached"
+          "Reliance MDE Series of Engine Anodes comes complete with an anode and a brass plug attached or as a replacement of just an anode without brass plug"
         }
         img={"bg-img2"}
       />
@@ -15,7 +15,6 @@ const engine = () => {
         <SideBarPC />
         <article>
           <main >
-            <div className="relative overflow-x-auto">
             <table>
               <tbody>
                 <tr>
@@ -36,19 +35,24 @@ const engine = () => {
                       <div className="px-2">(kg)</div>
                     </div>
                   </th>
-                  <th>A: LENGTH</th>
-                  <th>B: DIAMETER</th>
-                  <th>PLUG OD (NPT)</th>
+                  <th>A:
+                    <p className="text-sm">LENGTH</p>
+                  </th>
+                  <th>B:
+                  <p className="text-sm">DIA</p>
+                  </th>
+                  <th>C:
+                  <p className="text-sm">PLUG OD (NPT)</p>
+                  </th>
                   <th>
-                    <div className="flex flex-col md:flex-row justify-center items-center">
-                      <div>C-PLUG</div>
-                      <div className="px-2">(Thread Interval)</div>
-                    </div>
+                  
+                      C: PLUG<p className="px-2 text-sm">(Thread Interval)</p>
+                
                   </th>
                 </tr>
                 <tr>
                   <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
-                  <td className="bg-zincLight text-left pl-1">MDE-00Z - REPLACEMENT</td>
+                  <td className="bg-zincLight pl-1">MDE-00Z -<p className="text-sm">REPLACEMENT</p></td>
                   <td className="bg-zincLight border-r-0">
                     <div className="flex flex-col md:flex-row justify-center items-center px-1">
                       <div>0.05</div>
@@ -60,13 +64,13 @@ const engine = () => {
                   <td className="border-b-0">1/4&quot;</td>
                   <td className="border-b-0">1/8&quot;</td>
                   <td rowSpan={2} className="border-b-0">
-                    1/4-20 NC
+                    1/4 - 20 NC
                   </td>
                 </tr>
                 <tr>
                   <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
 
-                  <td className="bg-zincLight text-left pl-1">MDE-00C - COMPLETE</td>
+                  <td className="bg-zincLight pl-1">MDE-00C - <p className="text-sm">COMPLETE</p></td>
                   <td className="bg-zincLight border-r-0">
                     <div className="flex flex-col md:flex-row justify-center items-center px-1">
                       <div>0.05</div>
@@ -80,7 +84,6 @@ const engine = () => {
                 </tr>
               </tbody>
             </table>
-            </div>
           </main>
         </article>
       </div>

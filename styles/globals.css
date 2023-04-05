@@ -41,15 +41,15 @@ html {
 
 
   table {
-    @apply my-[5%] mx-[5%] w-[100%] md:w-[80%] border-none
+    @apply my-[5%] w-[100%] md:w-[80%] border-none
   }
 
   th {
-    @apply bg-black text-white text-center border-2 border-white
+    @apply bg-black text-white text-center border-2 border-white 
   }
 
   td {
-    @apply bg-gray-300 text-center border-2 border-white
+    @apply bg-gray-300 text-center border-2 border-white 
   }
 
 }
