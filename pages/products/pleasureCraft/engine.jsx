@@ -2,6 +2,8 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import ChartEngine4Dim from "@/components/ChartEngine4Dim";
+import Image from "next/image";
+import Link from "next/link";
 
 const engineData = [
   {
@@ -285,7 +287,7 @@ const engineData = [
     diaMm: "(38 mm)",
     widIn: '3/8"',
     widMm: "(10 mm)",
-    cDiaIn: '-',
+    cDiaIn: "-",
     cDiaMm: "-",
     cPlugThread: "1/4 - 20 NC",
   },
@@ -371,7 +373,9 @@ const engine = () => {
                   </th>
                   <th>
                     C:
-                    <p className="px-2 text-sm md:text-lg">THREAD INTERVAL (NPT)</p>
+                    <p className="px-2 text-sm md:text-lg">
+                      THREAD INTERVAL (NPT)
+                    </p>
                   </th>
                 </tr>
                 {engineData.map((item, id) => (
@@ -394,6 +398,40 @@ const engine = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex">
+              <div className="flex flex-col items-center lg:pr-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/230451905-ec4c863a-ef8b-426e-bf3f-338cb250fe59.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+              </div>
+              <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/230496615-0482b4f2-6dfd-4aca-a8e2-50c433736e0b.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                <p>Engine Replacement Anode</p>
+              </div>
+              <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/230496617-d40b4723-cf00-4542-a22f-892ce6e5bfb4.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                <p>Engine Brass Plug</p>
+              </div>
+            </div>
+            <p className="pt-10">For more engine anodes, please see our <Link href="/pleasureCraft/engine" >CATERPILLAR</Link> and <Link href="/pleasureCraft/detroit">DETROIT DIESEL</Link> sections.</p>
+
+            
           </main>
         </article>
       </div>
