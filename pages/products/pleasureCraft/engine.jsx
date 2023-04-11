@@ -429,6 +429,19 @@ const engine = () => {
                 <p>Engine Brass Plug</p>
               </div>
             </div>
+            <table>
+              <tbody>
+                <tr>
+                <th colSpan={4}>BRASS PLUG SPECIFICATIONS</th>
+                </tr>
+                <tr>
+                  <th>ITEM #</th>
+                  <th>lb</th>
+                  <th>(kg)</th>
+                  <th>UNC</th>
+                </tr>
+              </tbody>
+            </table>
             <p className="pt-10">For more engine anodes, please see our <Link href="/pleasureCraft/engine" >CATERPILLAR</Link> and <Link href="/pleasureCraft/detroit">DETROIT DIESEL</Link> sections.</p>
 
             
