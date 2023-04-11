@@ -440,8 +440,8 @@ const engine = () => {
                 ))}
               </tbody>
             </table>
-            <div className="flex">
-              <div className="flex flex-col items-center lg:pr-10">
+            <div className="flex flex-col lg:flex-row">
+              <div className="flex flex-col items-center justify-center lg:pr-10">
                 <Image
                   src="https://user-images.githubusercontent.com/77664153/230451905-ec4c863a-ef8b-426e-bf3f-338cb250fe59.png"
                   alt="picture of anode"
@@ -497,10 +497,10 @@ const engine = () => {
                 ))}
               </tbody>
             </table>
-            <p>
+            <p className="text-center pb-4">
               For more engine anodes, please see our{" "}
-              <Link href="/pleasureCraft/engine">CATERPILLAR</Link> and{" "}
-              <Link href="/pleasureCraft/detroit">DETROIT DIESEL</Link>{" "}
+              <Link href="/products/pleasureCraft/caterpillar">CATERPILLAR</Link> and{" "}
+              <Link href="/products/pleasureCraft/detroit">DETROIT DIESEL</Link>{" "}
               sections.
             </p>
           </main>
