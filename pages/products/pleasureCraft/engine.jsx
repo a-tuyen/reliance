@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import ChartEngine4Dim from "@/components/ChartEngine4Dim";
+import ChartEngine2Dim from "@/components/ChartEngine2Dim";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -323,6 +324,47 @@ const engineData = [
   },
 ];
 
+const engineBPData = [
+  {
+    itemCode: "MDE-00 BP",
+    itemLb: "0.01 lb",
+    itemKg: "(0.005 kg)",
+    unc: '1/4"',
+  },
+  {
+    itemCode: "MDE-0 BP",
+    itemLb: "0.03 lb",
+    itemKg: "(0.014 kg)",
+    unc: '5/16"',
+  },
+  {
+    itemCode: "MDE-1 BP",
+    itemLb: "0.06 lb",
+    itemKg: "(0.027 kg)",
+    unc: '3/8"',
+  },
+  { itemCode: "MDE-2 BP", itemLb: "0.11 lb", itemKg: "(0.05 kg)", unc: '3/8"' },
+  {
+    itemCode: "MDE-3/4/5 BP",
+    itemLb: "0.21 lb",
+    itemKg: "(0.095 kg)",
+    unc: '3/8"',
+  },
+  {
+    itemCode: "MDE-6 BP",
+    itemLb: "0.21 lb",
+    itemKg: "(0.095 kg)",
+    unc: '1/2"',
+  },
+  { itemCode: "MDE-7 BP", itemLb: "0.44 lb", itemKg: "(0.2 kg)", unc: '3/4"' },
+  {
+    itemCode: "MDE-8 BP",
+    itemLb: "0.88 lb",
+    itemKg: "(0.399 kg)",
+    unc: '3/4"',
+  },
+];
+
 const engine = () => {
   return (
     <div>
@@ -432,19 +474,35 @@ const engine = () => {
             <table>
               <tbody>
                 <tr>
-                <th colSpan={4}>BRASS PLUG SPECIFICATIONS</th>
+                  <th colSpan={4} className="py-8"><h1>BRASS PLUG SPECIFICATIONS</h1></th>
                 </tr>
                 <tr>
                   <th>ITEM #</th>
-                  <th>lb</th>
-                  <th>(kg)</th>
+                  <th>
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                      <div>lb</div>
+                      <div className="px-2">(kg)</div>
+                    </div>
+                  </th>
                   <th>UNC</th>
                 </tr>
+                {engineBPData.map((item, id) => (
+                  <ChartEngine2Dim
+                    key={id}
+                    itemCode={item.itemCode}
+                    itemLb={item.itemLb}
+                    itemKg={item.itemKg}
+                    unc={item.unc}
+                  />
+                ))}
               </tbody>
             </table>
-            <p className="pt-10">For more engine anodes, please see our <Link href="/pleasureCraft/engine" >CATERPILLAR</Link> and <Link href="/pleasureCraft/detroit">DETROIT DIESEL</Link> sections.</p>
-
-            
+            <p>
+              For more engine anodes, please see our{" "}
+              <Link href="/pleasureCraft/engine">CATERPILLAR</Link> and{" "}
+              <Link href="/pleasureCraft/detroit">DETROIT DIESEL</Link>{" "}
+              sections.
+            </p>
           </main>
         </article>
       </div>
