@@ -5,7 +5,7 @@ import SideBarItem from "./SideBarItem";
 const pcData = [
   { category: "Arneson", link: "/products/pleasureCraft/arneson" },
   { category: "Azimut", link: "/products/pleasureCraft/azimut" },
-  { category: "Beneteau ", link: "/products/pleasureCraft/beneteau" },
+  // { category: "Beneteau ", link: "/products/pleasureCraft/beneteau" },
   { category: "Beneteau LC Collars", link: "/products/pleasureCraft/benLC" },
   { category: "Bow Thrusters", link: "/products/pleasureCraft/bowThruster" },
   { category: "Bennett Anodes", link: "/products/pleasureCraft/bnt" },

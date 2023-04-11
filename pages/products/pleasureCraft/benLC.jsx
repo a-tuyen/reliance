@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import Chart3Dim from "@/components/Chart3Dim";
 import Image from "next/image";
+import Link from "next/link";
 
 const benEuroData = [
   {
@@ -300,6 +301,11 @@ const benLC = () => {
                 ))}
               </tbody>
             </table>
+            <p className="text-center pb-4">
+              For more LC Collar Anodes, please see our{" "}
+              <Link href="/products/pleasureCraft/donut">DONUT</Link>{" "}
+              section.
+            </p>
           </main>
         </article>
       </div>
