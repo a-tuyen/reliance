@@ -27,7 +27,7 @@ const pcData = [
   { category: "Grouper Anodes", link: "/products/pleasureCraft/grouper" },
   { category: "Hamilton Jet", link: "/products/pleasureCraft/hj" },
   { category: "Honda Anodes", link: "/products/pleasureCraft/honda" },
-  { category: "Hull Anodes", link: "/products/pleasureCraft/Hull" },
+  { category: "Hull Anodes", link: "/products/pleasureCraft/hullPC" },
   {
     category: "Individual Anode Kits",
     link: "/products/pleasureCraft/indivKits",
