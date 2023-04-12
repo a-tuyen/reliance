@@ -16,7 +16,7 @@ const Hero = ({ heading, message, img }) => {
       {/* Overlay */}
       <div className="absolute top-0 left-0 right-0 bottom-0 h-[100vh] bg-black/30 z-[1]" />
       <div className="flex flex-col items-center text-white z-[1]">
-        <h1 className="absolute text-white tracking-wider top-[40%] text-center z-[10]">
+        <h1 className="absolute text-white tracking-wider top-[40%] text-center z-[10] px-4">
           {heading}
         </h1>
         <p className="absolute justify-center w-[80%] md:[70%] py-2 md:py-10 top-[60%] sm:top-[55%] font-heading text-2xl md:text-3xl text-white text-center font-thin z-[10]">
