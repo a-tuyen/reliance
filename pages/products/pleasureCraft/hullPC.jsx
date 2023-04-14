@@ -489,7 +489,7 @@ const hullPC = () => {
         message={
           "These plate and streamlined bolt-on anodes are used to protect the hull and other areas of pleasure craft subject to galvanic corrosion."
         }
-        img={"bg-img5"}
+        img={"bg-img2"}
       />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
