@@ -3,7 +3,47 @@ import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import Chart2Dim from "@/components/Chart2Dim";
 
-const spurData = [];
+const spurData = [
+    {znCode: 'SIZE A',
+    znLb: '0.05 lb',
+    znKg: '(0.02 kg)',
+    alCode: 'SIZE A',
+    alLb: '0.03 lb',
+    alKg: '(0.01 kg)',
+    diaIn: '10/27"',
+    diaMm: '(9 mm)',
+    widIn: '0.68"',
+    widMm: '(17 mm)'},
+    {znCode: 'SIZE B',
+    znLb: '0.05 lb',
+    znKg: '(0.02 kg)',
+    alCode: 'SIZE B',
+    alLb: '0.03 lb',
+    alKg: '(0.01 kg)',
+    diaIn: '2/5"',
+    diaMm: '(10 mm)',
+    widIn: '0.68"',
+    widMm: '(17 mm)'},
+    {znCode: 'SIZE C-D-E',
+    znLb: '0.10 lb',
+    znKg: '(0.05 kg)',
+    alCode: 'SIZE C-D-E',
+    alLb: '0.05 lb',
+    widIn: '1.25"',
+    widMm: '(32 mm)'},
+    {znCode: 'SIZE F-F1',
+    znLb: '0.20 lb',
+    znKg: '(0.09 kg)',
+    alCode: 'SIZE F-F1',
+    alLb: '0.08 lb',
+    alKg: '(0.04 kg)',
+    diaIn: '10/27"',
+    diaMm: '(9 mm)',
+    widIn: '0.68"',
+    widMm: '(17 mm)'},
+    
+
+];
 
 const spur = () => {
   return (
