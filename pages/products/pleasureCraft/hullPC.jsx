@@ -381,7 +381,7 @@ const hullBarWeldData = [
   dMeasureMm: '(SEE BELOW mm)',
   notes: '',},
   
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/232089509-df31a435-c11e-4d56-b2b5-16a32e27ac50.png',
   znCode: 'MD-Z-404 / A-90 / MD-900',
   znLb: '9.00 lb',
   znKg: '(4.08 kg)',
@@ -398,7 +398,7 @@ const hullBarWeldData = [
   dMeasureMm: '(- mm)',
   notes: '',},
   
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/232089543-c441d545-8010-4079-a790-b74060acbe68.png',
   znCode: 'MD-M-30',
   znLb: '2.10 lb',
   znKg: '(0.95 kg)',
@@ -415,7 +415,7 @@ const hullBarWeldData = [
   dMeasureMm: '(114 mm)',
   notes: '',},
   
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/232089576-3c733b1e-7d4e-4437-a4a1-8b1812f7a5fb.png',
   znCode: 'MD-M-40',
   znLb: '2.1 lb',
   znKg: '(0.95 kg)',
@@ -432,7 +432,7 @@ const hullBarWeldData = [
   dMeasureMm: '(51 mm)',
   notes: '',},
   
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/232089509-df31a435-c11e-4d56-b2b5-16a32e27ac50.png',
   znCode: 'MD-N-1',
   znLb: '2.63 lb',
   znKg: '(1.19 kg)',
@@ -449,7 +449,7 @@ const hullBarWeldData = [
   dMeasureMm: '(- mm)',
   notes: '',},
   
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/232089509-df31a435-c11e-4d56-b2b5-16a32e27ac50.png',
   znCode: 'MD-N-1 HEAVY',
   znLb: '5 lb',
   znKg: '(2.27 kg)',
