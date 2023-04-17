@@ -4,62 +4,61 @@ import SideBarPC from "@/components/SideBarPC";
 import Chart2Dim from "@/components/Chart2Dim";
 import Image from "next/image";
 
-const spurData = [
+const bowThrusterData = [
   {
-    znCode: "SIZE A",
-    znLb: "0.05 lb",
-    znKg: "(0.02 kg)",
-    alCode: "SIZE A",
-    alLb: "0.03 lb",
-    alKg: "(0.01 kg)",
-    diaIn: '10/27"',
-    diaMm: "(9 mm)",
-    widIn: '0.68"',
-    widMm: "(17 mm)",
-  },
-  {
-    znCode: "SIZE B",
-    znLb: "0.05 lb",
-    znKg: "(0.02 kg)",
-    alCode: "SIZE B",
-    alLb: "0.03 lb",
-    alKg: "(0.01 kg)",
-    diaIn: '2/5"',
-    diaMm: "(10 mm)",
-    widIn: '0.68"',
-    widMm: "(17 mm)",
-  },
-  {
-    znCode: "SIZE C-D-E",
-    znLb: "0.10 lb",
-    znKg: "(0.05 kg)",
-    alCode: "SIZE C-D-E",
-    alLb: "0.05 lb",
-    alKg: "(0.02 kg)",
-    diaIn: '13/25"',
-    diaMm: "(13 mm)",
-    widIn: '1.25"',
+    znCode: "MD-BTQ140MM",
+    znLb: "0.3 lb",
+    znKg: "(0.14 kg)",
+    alCode: "AMD-BTQ140MM",
+    alLb: "0.12 lb",
+    alKg: "(0.05 kg)",
+    diaIn: '1 7/8"',
+    diaMm: "(48 mm)",
+    widIn: '1 1/4"',
     widMm: "(32 mm)",
   },
-
   {
-    znCode: "SIZE F-F1",
-    znLb: "0.20 lb",
-    znKg: "(0.09 kg)",
-    alCode: "SIZE F-F1",
-    alLb: "0.08 lb",
-    alKg: "(0.04 kg)",
-    diaIn: '10/27"',
-    diaMm: "(9 mm)",
-    widIn: '0.68"',
-    widMm: "(17 mm)",
+    znCode: "MD-BTQ185MM",
+    znLb: "0.6 lb",
+    znKg: "(0.27 kg)",
+    alCode: "AMD-BTQ185MM",
+    alLb: "0.23 lb",
+    alKg: "(0.1 kg)",
+    diaIn: '1 7/8"',
+    diaMm: "(48 mm)",
+    widIn: '1 1/4"',
+    widMm: "(32 mm)",
+  },
+  {
+    znCode: "MD-BTQ250MM",
+    znLb: "0.80 lb",
+    znKg: "(0.36 kg)",
+    alCode: "AMD-BTQ250MM",
+    alLb: "0.31 lb",
+    alKg: "(0.14 kg)",
+    diaIn: '2 3/10"',
+    diaMm: "(58 mm)",
+    widIn: '1 3/4"',
+    widMm: "(44 mm)",
+  },
+  {
+    znCode: "MD-BTQ-300MM",
+    znLb: "0.6 lb",
+    znKg: "(0.27 kg)",
+    alCode: "AMD-BTQ-300MM",
+    alLb: "0.23 lb",
+    alKg: "(0.1 kg)",
+    diaIn: '2 3/4"',
+    diaMm: "(70 mm)",
+    widIn: '2"',
+    widMm: "(51 mm)",
   },
 ];
 
-const spur = () => {
+const bowThruster = () => {
   return (
     <div>
-      <Hero heading={"Spurs Line Cutter Anodes"} message={""} img={"bg-img2"} />
+      <Hero heading={"Bow Thruster Anodes"} message={""} img={"bg-img2"} />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
         <article>
@@ -69,7 +68,7 @@ const spur = () => {
                 <tr>
                   <th colSpan={5} className="py-8">
                     <h1 className="text-center pt-4">
-                      SPURS LINE CUTTER ANODE SPECIFICATIONS
+                      QUICK BTQ / BTR THRUSTER ANODE SPECIFICATIONS
                     </h1>
                   </th>
                 </tr>
@@ -88,7 +87,7 @@ const spur = () => {
                   <th>A: INSIDE WIDTH</th>
                   <th>B: OVERALL HEIGHT</th>
                 </tr>
-                {spurData.map((item, id) => (
+                {bowThrusterData.map((item, id) => (
                   <Chart2Dim
                     key={id}
                     znCode={item.znCode}
@@ -105,36 +104,46 @@ const spur = () => {
                 ))}
               </tbody>
             </table>
-            <div className="flex flex-col md:flex-row">
+            <div className="flex flex-col md:flex-row md:w-[80%]">
               <div className="flex flex-col items-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/232573112-a2b80387-7d49-4003-9b74-9f36bcac6ac6.png"
+                  src="https://user-images.githubusercontent.com/77664153/232617087-be2f87ad-2ad6-463b-a558-fb41337d548f.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
                   width={200}
                   height={100}
                 />
-                <p className="py-4"></p>
+                <p className="py-4">TOP VIEW</p>
               </div>
               <div className="flex flex-col items-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/232573113-221a0424-11fc-443f-abb6-b1d158c038d3.png"
+                  src="https://user-images.githubusercontent.com/77664153/232617088-47836f5a-1059-4856-8e49-ec7ce2ba1c3d.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
                   width={200}
                   height={100}
                 />
-                <p className="py-4">SIZES A TO E</p>
+                <p className="py-4">INSIDE VIEW</p>
               </div>
               <div className="flex flex-col items-center lg:pl-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/232573114-e7230f1b-485b-4b34-83d9-b955efddcde7.png"
+                  src="https://user-images.githubusercontent.com/77664153/232617080-1880d126-e25d-442d-ab54-e6c4fe6968e4.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={130}
+                  height={0}
                 />
-                <p className="py-4">SIZE F-F1</p>
+                <p className="py-4 text-center">SIDE VIEW OF MD-BTQ 140MM / MD-BTQ 185MM</p>
+              </div>
+              <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/232617085-40422e3d-294c-4564-a1cf-c393c905adc3.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={130}
+                  height={50}
+                />
+                <p className="py-4 text-center">SIDE VIEW OF MD-BTQ 250MM / MD-BTQ 300MM</p>
               </div>
             </div>
           </main>
@@ -144,4 +153,4 @@ const spur = () => {
   );
 };
 
-export default spur;
+export default bowThruster;
