@@ -63,7 +63,7 @@ const spur = () => {
         <SideBarPC />
         <article>
           <main>
-            <h1>SPURS LINE CUTTER ANODE SPECIFICATIONS</h1>
+            <h1 className="text-center pt-4">SPURS LINE CUTTER ANODE SPECIFICATIONS</h1>
             <table>
               <tbody>
                 <tr>
