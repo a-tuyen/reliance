@@ -4,7 +4,7 @@ import SideBarPC from "@/components/SideBarPC";
 import Chart2Dim from "@/components/Chart2Dim";
 import Image from "next/image";
 
-const bowThrusterData = [
+const btqData = [
   {
     znCode: "MD-BTQ140MM",
     znLb: "0.3 lb",
@@ -87,7 +87,7 @@ const bowThruster = () => {
                   <th>A: INSIDE WIDTH</th>
                   <th>B: OVERALL HEIGHT</th>
                 </tr>
-                {bowThrusterData.map((item, id) => (
+                {btqData.map((item, id) => (
                   <Chart2Dim
                     key={id}
                     znCode={item.znCode}
