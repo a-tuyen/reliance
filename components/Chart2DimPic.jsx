@@ -14,7 +14,9 @@ const Chart2DimPic = ({
   widIn,
   widMm,
   width,
-  height
+  height,
+  aDim,
+  bDim
 
 }) => {
   return (
@@ -27,8 +29,8 @@ const Chart2DimPic = ({
             <div className="px-2">(kg)</div>
           </div>
         </th>
-        <th>A: LENGTH</th>
-        <th>B: WIDTH</th>
+        <th>{aDim}</th>
+        <th>{bDim}</th>
       </tr>
       <tr>
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
@@ -39,8 +41,8 @@ const Chart2DimPic = ({
             <div className="px-2">{znKg}</div>
           </div>
         </td>
-        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{diaIn}</td>
-        <td className="border-b-0 align-bottom lg:align-middle pb-2 lg:pb-0">{widIn}</td>
+        <td className="border-b-0 pb-2 lg:pb-0">{diaIn}</td>
+        <td className="border-b-0 pb-2 lg:pb-0">{widIn}</td>
       </tr>
 
       <tr>
@@ -49,12 +51,13 @@ const Chart2DimPic = ({
         <td className="bg-alumLight border-r-0">
           {alLb} {alKg}
         </td>
-        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{diaMm}</td>
-        <td className="border-t-0 align-top lg:align-middle pt-2 lg:pt-0">{widMm}</td>     
+        <td className="border-t-0 pt-2 lg:pt-0">{diaMm}</td>
+        <td className="border-t-0 pt-2 lg:pt-0">{widMm}</td>     
       </tr>
       <tr>
         <td colSpan={8} className="bg-white">
           <div className="flex flex-col justify-center items-center">
+          <p className="font-black tracking-wider text-xl pt-4 pb-0">{znCode}</p>
             <Image
               src={img}
               alt="picture of anode"
@@ -62,6 +65,7 @@ const Chart2DimPic = ({
               width={width}
               height={height}
             />
+            
           </div>
         </td>
       </tr>
