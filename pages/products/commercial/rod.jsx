@@ -138,21 +138,9 @@ const rod = () => {
                   <th colSpan={6}>NOMINAL WEIGHT</th>
                 </tr>
                 <tr>
-                  <th colSpan={3} className="bg-zinc">
-                    ZINC ANODE
-                  </th>
-                  <th colSpan={3} className="bg-alum">
-                    ALUMINUM ANODE
-                  </th>
-                </tr>
-
-                <tr>
-                  <th className="bg-zinc">ITEM #</th>
-                  <th className="bg-zinc border-r-0">lb</th>
-                  <th className="bg-zinc border-l-0">(kg)</th>
-                  <th className="bg-alum">ITEM #</th>
-                  <th className="bg-alum border-r-0">lb</th>
-                  <th className="bg-alum border-l-0">(kg)</th>
+                  <th colSpan={2}>ITEM #</th>
+                  <th className="border-r-0">lb</th>
+                  <th className="border-l-0">(kg)</th>
                 </tr>
                 {rodData.map((item, id) => (
                   <ChartNoDim
