@@ -354,36 +354,48 @@ const bowThruster = () => {
                 ))}
               </tbody>
             </table>
-<table>
-    <tbody>
-        <tr>
-            <th colSpan={5}><h1>KEY POWER BOW THRUSTER ANODE SPECIFICATIONS</h1></th>
-        </tr>
-        <tr>
-            <th colSpan={5}>NOMINAL WEIGHT</th>
-        </tr>
-        <tr>
-            <th colSpan={2}>ITEM #</th>
-            <th>lb</th>
-            <th>(kg)</th>
-
-        </tr>
-        {keyPowerData.map((item, id) => (
-            <ChartNoDim
-            key={id}
-            img={item.img}
-            znCode={item.znCode}
-            znLb={item.znLb}
-            znKg={item.znKg}
-            alCode={item.alCode}
-            alLb={item.alLb}
-            alKg={item.alKg}
-            />
-
-        ))}
-
-    </tbody>
-</table>
+            <table>
+              <tbody>
+                <tr>
+                  <th colSpan={5} className="py-8">
+                    <h1>KEY POWER BOW THRUSTER ANODE SPECIFICATIONS</h1>
+                  </th>
+                </tr>
+                <tr>
+                  <th colSpan={5}>NOMINAL WEIGHT</th>
+                </tr>
+                <tr>
+                  <th colSpan={2}>ITEM #</th>
+                  <th>lb</th>
+                  <th>(kg)</th>
+                </tr>
+                {keyPowerData.map((item, id) => (
+                  <ChartNoDim
+                    key={id}
+                    img={item.img}
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    alCode={item.alCode}
+                    alLb={item.alLb}
+                    alKg={item.alKg}
+                  />
+                ))}
+              </tbody>
+            </table>
+            <div className=" flex flex-col items-center text-center font-extrabold tracking-wider text-xl">
+              <p>{keyPowerData[0].znCode}</p>
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/233128270-232198c5-6eb8-400a-ae6e-89ad4be02adc.png"
+                alt="pictore of anode"
+                width="200"
+                height="100"
+              />
+              <p className="font-normal">THREADED CORE: 1/2", 7/16", 1/4"</p>
+              <p className="font-extrabold">
+                PLEASE SPECIFY THREAD SIZE WHEN ORDERING
+              </p>
+            </div>
 
             <table>
               <tbody>
