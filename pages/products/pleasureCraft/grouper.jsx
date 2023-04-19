@@ -61,11 +61,11 @@ const grouper = () => {
                   </th>
                   <th>
                     B:
-                    <p className="text-sm md:text-lg">DIA</p>
+                    <p className="text-sm md:text-lg">HEIGHT</p>
                   </th>
                   <th>
                     C:
-                    <p className="text-sm md:text-lg">PLUG OD</p>
+                    <p className="text-sm md:text-lg">THICKNESS</p>
                   </th>
                 </tr>
                 {grouperData.map((item, id) => (
