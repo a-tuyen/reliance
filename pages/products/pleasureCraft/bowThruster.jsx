@@ -391,7 +391,7 @@ const bowThruster = () => {
                 width="200"
                 height="100"
               />
-              <p className="font-normal">THREADED CORE: 1/2", 7/16", 1/4"</p>
+              <p className="font-normal">THREADED CORE: 1/2&quot;, 7/16&quot;, 1/4&quot;</p>
               <p className="font-extrabold">
                 PLEASE SPECIFY THREAD SIZE WHEN ORDERING
               </p>
