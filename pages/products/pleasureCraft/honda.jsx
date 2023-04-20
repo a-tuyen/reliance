@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
-import ChartNoDimNote from "@/components/ChartNoDimNote";
+import ChartNoDimNotePic from "@/components/ChartNoDimNotePic";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -146,7 +146,7 @@ const honda = () => {
                   <th colSpan={3}>NOMINAL DIMENSIONS</th>
                 </tr> */}
                 {hondaData.map((item, id) => (
-                  <ChartNoDimNote
+                  <ChartNoDimNotePic
                     key={id}
                     img={item.img}
                     znCode={item.znCode}
@@ -156,6 +156,7 @@ const honda = () => {
                     alLb={item.alLb}
                     alKg={item.alKg}
                     notes={item.notes}
+                    headerNotes="CROSS REFERENCE / ALTERNATE NAME"
                   />
                 ))}
               </tbody>

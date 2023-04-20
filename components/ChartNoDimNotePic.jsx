@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ChartNoDimNote = ({
+const ChartNoDimNotePic = ({
   img,
   znCode,
   znLb,
@@ -10,6 +10,7 @@ const ChartNoDimNote = ({
   alLb,
   alKg,
   notes,
+  headerNotes
 }) => {
   return (
     <>
@@ -21,7 +22,7 @@ const ChartNoDimNote = ({
             <div className="px-2">(kg)</div>
           </div>
         </th>
-        <th>CROSS REFERENCE / ALTERNATE NAME</th>
+        <th>{headerNotes}</th>
       </tr>
 
       <tr>
@@ -57,4 +58,4 @@ const ChartNoDimNote = ({
   );
 };
 
-export default ChartNoDimNote;
+export default ChartNoDimNotePic;
