@@ -387,7 +387,7 @@ const mercury = () => {
       <Hero
         heading={"Mercury Anodes"}
         message={
-          "Carefully designed by our skilled technicians to fit like an OEM part"
+          "These are direct replacement components for Mercury and Volvo engines and meet or exceed the specs of anodes on original equipment"
         }
         img={"bg-img2"}
       />
