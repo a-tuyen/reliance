@@ -141,10 +141,6 @@ const honda = () => {
                     </p>
                   </th>
                 </tr>
-                {/* <tr>
-                  <th colSpan={3}>NOMINAL WEIGHT</th>
-                  <th colSpan={3}>NOMINAL DIMENSIONS</th>
-                </tr> */}
                 {hondaData.map((item, id) => (
                   <ChartNoDimNotePic
                     key={id}

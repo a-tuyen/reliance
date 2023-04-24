@@ -405,10 +405,10 @@ const mercury = () => {
                     </p>
                   </th>
                 </tr>
-                {/* <tr>
+                <tr>
                   <th colSpan={3}>NOMINAL WEIGHT</th>
                   <th colSpan={3}>NOMINAL DIMENSIONS</th>
-                </tr> */}
+                </tr>
                 {mercuryData.map((item, id) => (
                   <ChartNoDimNotePic
                     key={id}
