@@ -145,7 +145,7 @@ const hj = () => {
                     alLb={item.alLb}
                     alKg={item.alKg}
                     notes={item.notes}
-                    headerNotes="notes"
+                    headerNotes="NOTES"
                   />
                 ))}
               </tbody>

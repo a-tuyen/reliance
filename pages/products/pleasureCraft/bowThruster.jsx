@@ -366,8 +366,8 @@ const bowThruster = () => {
                 </tr>
                 <tr>
                   <th colSpan={2}>ITEM #</th>
-                  <th>lb</th>
-                  <th>(kg)</th>
+                  <th className="border-r-0">lb</th>
+                  <th className="border-l-0">(kg)</th>
                 </tr>
                 {keyPowerData.map((item, id) => (
                   <ChartNoDim
