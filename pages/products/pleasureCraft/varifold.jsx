@@ -1,7 +1,7 @@
 import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
-import Chart3DimPic from "@/components/Chart3DimPic";
+import Chart2DimPicNote from "@/components/Chart2DimPicNote";
 import Image from "next/image";
 
 const varifoldData = [
@@ -14,10 +14,9 @@ const varifoldData = [
   alKg: '(0.14 kg)',
   diaIn: '1 3/4"',
   diaMm: '(44 mm)',
-  widIn: 'M16 x 2',
-  widMm: '',
-  cDiaIn: '1 3/10"',
-  cDiaMm: '(33 mm)'},
+  widIn: '1 3/10"',
+  widMm: '(33 mm)',
+  notes: 'M16 x 2'},
   
   {img: 'https://user-images.githubusercontent.com/77664153/236291186-990eca2a-bdf4-4b4b-8797-91f5de7e173e.png',
   znCode: 'MD-VF4AN',
@@ -28,10 +27,10 @@ const varifoldData = [
   alKg: '(0.46 kg)',
   diaIn: '2 17/27"',
   diaMm: '(67 mm)',
-  widIn: 'M16',
-  widMm: '',
-  cDiaIn: '2 3/4"',
-  cDiaMm: '(70 mm)'},
+  widIn: '2 3/4"',
+  widMm: '(70 mm)',
+  notes: 'M16'},
+  
   
 ];
 
@@ -58,7 +57,7 @@ const varifold = () => {
                   <th colSpan={3}>NOMINAL DIMENSIONS</th>
                 </tr>
                 {varifoldData.map((item, id) => (
-                  <Chart3DimPic
+                  <Chart2DimPicNote
                     key={id}
                     img={item.img}
                     znCode={item.znCode}
@@ -73,11 +72,12 @@ const varifold = () => {
                     widMm={item.widMm}
                     cDiaIn={item.cDiaIn}
                     cDiaMm={item.cDiaMm}
+                    notes={item.notes}
                     width="300"
                     height="180"
                     aDim="DIAMETER"
-                    bDim="THREADED MOUNTING"
-                    cDim="HEIGHT"
+                    bDim="HEIGHT"
+                    notesHeading="THREADED MOUNTING HOLE"
                   />
                 ))}
               </tbody>
