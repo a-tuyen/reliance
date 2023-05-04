@@ -186,7 +186,13 @@ const fernstrumKeelData = [
 const keelCooler = () => {
   return (
     <div>
-      <Hero heading={"Keel Cooler Anodes"} message={"Designed to provide maximum protection to your fresh water cooling system by protectiong the heat exchanger from galvanic corrosion"} img={"bg-img2"} />
+      <Hero
+        heading={"Keel Cooler Anodes"}
+        message={
+          "Designed to provide maximum protection to your fresh water cooling system by protectiong the heat exchanger from galvanic corrosion"
+        }
+        img={"bg-img2"}
+      />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarPC />
         <article>
@@ -242,22 +248,22 @@ const keelCooler = () => {
                   <th colSpan={5}>NOMINAL DIMENSIONS</th>
                 </tr>
                 <tr>
-        <th colSpan={2}>ITEM #</th>
+                  <th colSpan={2}>ITEM #</th>
 
-        <th className="border-r-0 ">
-          <div className="flex flex-col md:flex-row justify-center items-center">
-            <div>lb</div>
-            <div className="px-2">(kg)</div>
-          </div>
-        </th>      
-        <th>A: LENGTH</th>
-        <th>B: WIDTH</th>
-        <th>C: DEPTH</th>
-        <th>D: C/C</th>
-        <th>HOLE DIAMETER</th>
-      </tr>
+                  <th className="border-r-0 ">
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                      <div>lb</div>
+                      <div className="px-2">(kg)</div>
+                    </div>
+                  </th>
+                  <th>A: LENGTH</th>
+                  <th>B: WIDTH</th>
+                  <th>C: DEPTH</th>
+                  <th>D: C/C</th>
+                  <th>HOLE DIAMETER</th>
+                </tr>
                 {fernstrumKeelData.map((item, id) => (
-                    <Chart5Dim
+                  <Chart5Dim
                     key={id}
                     znCode={item.znCode}
                     znLb={item.znLb}
@@ -275,16 +281,17 @@ const keelCooler = () => {
                     dMeasureMm={item.dMeasureMm}
                     eMeasureIn={item.eMeasureIn}
                     eMeasureMm={item.eMeasureMm}
-                    />
+                  />
                 ))}
               </tbody>
             </table>
             <div>
-                <Image
+              <Image
                 src="https://user-images.githubusercontent.com/77664153/233488586-985ef5fa-e9dd-40a6-a325-9dee5bc8dfee.png"
                 alt="pic0ture of anode"
                 width={300}
-                height={180}/>
+                height={180}
+              />
             </div>
           </main>
         </article>
