@@ -18,6 +18,7 @@ const pcData = [
   { category: "Donut Anodes", link: "/products/pleasureCraft/donut" },
   { category: "Engine Anodes", link: "/products/pleasureCraft/engine" },
   { category: "Fernstrum", link: "/products/pleasureCraft/fernstrum" },
+  { category: "Flexofold", link: "/products/pleasureCraft/flexofold" },
   { category: "Frigoboat Anodes", link: "/products/pleasureCraft/frigoboat" },
   { category: "Galvion Anodes", link: "/products/pleasureCraft/galvion" },
   {
