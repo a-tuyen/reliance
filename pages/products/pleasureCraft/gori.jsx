@@ -148,9 +148,9 @@ const gori = () => {
   return (
     <div>
       <Hero
-        heading={"gori Anode"}
+        heading={"Gori Propeller Anodes"}
         message={
-          "A hanging anode that helps with general corrosion protection on and around your boat"
+          ""
         }
         img={"bg-img2"}
       />
