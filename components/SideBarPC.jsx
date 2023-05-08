@@ -46,6 +46,10 @@ const pcData = [
     category: "Mercury Anode Kits",
     link: "/products/pleasureCraft/mercuryKits",
   },
+  {
+    category: "MJP UltraJet Anodes",
+    link: "/products/pleasureCraft/mjp",
+  },
   { category: "Miscellaneous", link: "/products/pleasureCraft/misc" },
   {
     category: "Nissan / Tohatsu Outdrives",
