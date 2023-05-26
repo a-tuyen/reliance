@@ -452,8 +452,11 @@ const donut = () => {
               <tbody>
                 <tr>
                   <th colSpan={13} className="py-8">
-                    <h1>DONUT ANODE SPECIFICATIONS</h1>
-                    <p>MDC SERIES</p>
+                    <h1>DONUT</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
+                    <p>MDC STANDARD SERIES</p>
                   </th>
                 </tr>
                 <tr>
@@ -518,7 +521,10 @@ const donut = () => {
               <tbody>
                 <tr>
                   <th colSpan={6} className="py-8">
-                    <h1>DONUT ANODE SPECIFICATIONS</h1>
+                    <h1>DONUT</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                     <p>MDC HEAVY SERIES</p>
                   </th>
                 </tr>
@@ -562,7 +568,10 @@ const donut = () => {
               <tbody>
                 <tr>
                   <th colSpan={13} className="py-8">
-                    <h1>DONUT ANODE SPECIFICATIONS</h1>
+                    <h1>DONUT</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                     <p>MDC METRIC SERIES</p>
                   </th>
                 </tr>
