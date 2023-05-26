@@ -238,9 +238,10 @@ const bowThruster = () => {
               <tbody>
                 <tr>
                   <th colSpan={5} className="py-8">
-                    <h1 className="text-center pt-4">
-                      QUICK BTQ / BTR THRUSTER ANODE SPECIFICATIONS
-                    </h1>
+                    <h1>QUICK BTQ / BTR THRUSTER</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>

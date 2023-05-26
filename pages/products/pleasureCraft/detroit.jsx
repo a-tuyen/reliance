@@ -86,7 +86,10 @@ const detroit = () => {
               <tbody>
                 <tr>
                   <th colSpan={7} className="py-8">
-                    <h1> DETROIT DIESEL ENGINE ANODES SPECIFICATIONS</h1>
+                  <h1>DETROIT DIESEL ENGINE</h1>
+                  <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                     <p>REPLACEMENT comes with just the Anode</p>
                     <p>COMPLETE comes with the Anode and Brass Plug</p>
                     <p>Not available in Aluminum</p>

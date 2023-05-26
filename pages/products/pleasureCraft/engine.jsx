@@ -383,7 +383,10 @@ const engine = () => {
               <tbody>
                 <tr>
                   <th colSpan={7} className="py-8">
-                    <h1>ENGINE ANODES SPECIFICATIONS</h1>
+                    <h1>ENGINE</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                     <p>REPLACEMENT comes with just the Anode</p>
                     <p>COMPLETE comes with the Anode and Brass Plug</p>
                     <p>Not available in Aluminum</p>
@@ -474,7 +477,12 @@ const engine = () => {
             <table>
               <tbody>
                 <tr>
-                  <th colSpan={4} className="py-8"><h1>BRASS PLUG SPECIFICATIONS</h1></th>
+                  <th colSpan={4} className="py-8">
+                    <h1>BRASS PLUG</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      SPECIFICATIONS
+                    </p>
+                  </th>
                 </tr>
                 <tr>
                   <th>ITEM #</th>
@@ -499,7 +507,10 @@ const engine = () => {
             </table>
             <p className="text-center pb-4">
               For more engine anodes, please see our{" "}
-              <Link href="/products/pleasureCraft/caterpillar">CATERPILLAR</Link> and{" "}
+              <Link href="/products/pleasureCraft/caterpillar">
+                CATERPILLAR
+              </Link>{" "}
+              and{" "}
               <Link href="/products/pleasureCraft/detroit">DETROIT DIESEL</Link>{" "}
               sections.
             </p>

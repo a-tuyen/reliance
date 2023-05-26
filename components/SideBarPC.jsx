@@ -14,7 +14,7 @@ const pcData = [
     link: "/products/pleasureCraft/caterpillar",
   },
   { category: "De-Icer Shaft Anode", link: "/products/pleasureCraft/deIcer" },
-  { category: "Detroit Diesel Anode", link: "/products/pleasureCraft/deIcer" },
+  { category: "Detroit Diesel Anode", link: "/products/pleasureCraft/detroit" },
   { category: "Donut Anodes", link: "/products/pleasureCraft/donut" },
   { category: "Engine Anodes", link: "/products/pleasureCraft/engine" },
   { category: "Fernstrum", link: "/products/pleasureCraft/fernstrum" },
