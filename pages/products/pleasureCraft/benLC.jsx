@@ -195,8 +195,11 @@ const benLC = () => {
               <tbody>
                 <tr>
                   <th colSpan={13} className="py-8">
-                    <h1>BENETEAU LC EURO COLLAR ANODE SPECIFICATIONS</h1>
-                    <p>Metric</p>
+                    <h1>BENETEAU LC EURO COLLAR</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
+                    <p className="pt-2">METRIC</p>
                   </th>
                 </tr>
                 <tr>
@@ -261,8 +264,11 @@ const benLC = () => {
               <tbody>
                 <tr>
                   <th colSpan={6} className="py-8">
-                    <h1>BENETEAU STD LC COLLAR ANODE SPECIFICATIONS</h1>
-                    <p>Imperial</p>
+                    <h1>BENETEAU STD LC COLLAR</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
+                    <p className="pt-2">IMPERIAL</p>
                   </th>
                 </tr>
                 <tr>
@@ -303,8 +309,7 @@ const benLC = () => {
             </table>
             <p className="text-center pb-4">
               For more LC Collar Anodes, please see our{" "}
-              <Link href="/products/pleasureCraft/donut">DONUT</Link>{" "}
-              section.
+              <Link href="/products/pleasureCraft/donut">DONUT</Link> section.
             </p>
           </main>
         </article>

@@ -40,7 +40,10 @@ const arneson = () => {
               <tbody>
                 <tr>
                   <th colSpan={5} className="py-8">
-                    <h1>KEY POWER BOW THRUSTER ANODE SPECIFICATIONS</h1>
+                  <h1>ARNESON</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
