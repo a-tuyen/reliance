@@ -60,6 +60,7 @@ const pcData = [
     link: "/products/pleasureCraft/omc",
   },
   { category: "Propeller Nuts", link: "/products/pleasureCraft/propNuts" },
+  { category: "Reference Zinc Anodes", link: "/products/pleasureCraft/reference" },
   { category: "Rudder Anodes", link: "/products/pleasureCraft/rudder" },
   { category: "Sea Strainer Anodes", link: "/products/pleasureCraft/strainer" },
   { category: "Shaft Anodes", link: "/products/pleasureCraft/shaft" },
