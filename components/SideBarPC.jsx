@@ -77,7 +77,7 @@ const pcData = [
     link: "/products/pleasureCraft/yamahaKits",
   },
   { category: "Yanmar Marine Anodes", link: "/products/pleasureCraft/yanmar" },
-  { category: "Plate Anodes", link: "/products/pleasureCraft/plates" },
+  { category: "Plate Anodes", link: "/products/pleasureCraft/plate" },
 ];
 
 const SideBarPC = () => {
