@@ -13,7 +13,7 @@ const plateData = [
     alCode: "APWW-M",
     alLb: "0.66 lb",
     alKg: "(0.3 kg)",
-    note1: "4 1/2 x 2 1/2 x 11/16 ",
+    note1: '4 1/2" x 2 1/2" x 11/16" ',
     note2: "WITH BONDING WIRE ",
   },
 
@@ -24,7 +24,7 @@ const plateData = [
     alCode: "APNW-M",
     alLb: "0.66 lb",
     alKg: "(0.3 kg)",
-    note1: "4 1/2 x 2 1/2 x 11/16 ",
+    note1: '4 1/2" x 2 1/2" x 11/16" ',
     note2: "NO BONDING WIRE ",
   },
 
@@ -35,7 +35,7 @@ const plateData = [
     alCode: "APWW-N",
     alLb: "1.21 lb",
     alKg: "(0.55 kg)",
-    note1: "6 x 3 x 3/4 ",
+    note1: '6" x 3" x 3/4" ',
     note2: "WITH BONDING WIRE ",
   },
 
@@ -46,7 +46,7 @@ const plateData = [
     alCode: "APNW-N",
     alLb: "1.21 lb",
     alKg: "(0.55 kg)",
-    note1: "6 x 3 x 3/4 ",
+    note1: '6" x 3" x 3/4" ',
     note2: "NO BONDING WIRE ",
   },
 
@@ -57,7 +57,7 @@ const plateData = [
     alCode: "APWW-O",
     alLb: "1.52 lb",
     alKg: "(0.69 kg)",
-    note1: "6 x 4 x 3/4 ",
+    note1: '6" x 4" x 3/4" ',
     note2: "WITH BONDING WIRE ",
   },
 
@@ -68,7 +68,7 @@ const plateData = [
     alCode: "APNW-O",
     alLb: "1.52 lb",
     alKg: "(0.69 kg)",
-    note1: "6 x 4 x 3/4 ",
+    note1: '6" x 4" x 3/4" ',
     note2: "NO BONDING WIRE ",
   },
 
@@ -79,7 +79,7 @@ const plateData = [
     alCode: "APWW-P",
     alLb: "3.24 lb",
     alKg: "(1.47 kg)",
-    note1: "6 x 3 x 3/4 ",
+    note1: '6" x 3" x 3/4" ',
     note2: "WITH BONDING WIRE ",
   },
 
@@ -90,7 +90,7 @@ const plateData = [
     alCode: "APNW-P",
     alLb: "3.24 lb",
     alKg: "(1.47 kg)",
-    note1: "6 x 3 x 3/4 ",
+    note1: '6" x 3" x 3/4" ',
     note2: "NO BONDING WIRE ",
   },
 ];
@@ -143,7 +143,7 @@ const plate = () => {
             <div className=" flex flex-col items-center text-center font-extrabold tracking-wider text-xl">
               <p>PLATE ANODES</p>
               <Image
-                src="https://user-images.githubusercontent.com/77664153/236056635-663ee016-fdcf-4d1a-a285-37abfc373141.png"
+                src="https://user-images.githubusercontent.com/77664153/242953539-ff623de8-ed15-46c6-b0e2-7bd3a0e03f1b.png"
                 alt="pictore of anode"
                 width="200"
                 height="100"
