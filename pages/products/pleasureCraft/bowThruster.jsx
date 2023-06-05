@@ -326,7 +326,10 @@ const bowThruster = () => {
               <tbody>
                 <tr>
                   <th colSpan={5} className="py-8">
-                    <h1>VETUS BOW THRUSTERS ANODE SPECIFICATIONS</h1>
+                    <h1>VETUS BOW THRUSTERS</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
@@ -359,7 +362,10 @@ const bowThruster = () => {
               <tbody>
                 <tr>
                   <th colSpan={5} className="py-8">
-                    <h1>KEY POWER BOW THRUSTER ANODE SPECIFICATIONS</h1>
+                    <h1>KEY POWER BOW THRUSTER</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
@@ -402,7 +408,10 @@ const bowThruster = () => {
               <tbody>
                 <tr>
                   <th colSpan={5} className="py-8">
-                    <h1>SIDE POWER BOW THRUSTERS ANODE SPECIFICATIONS</h1>
+                    <h1>SIDE POWER BOW THRUSTER</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
