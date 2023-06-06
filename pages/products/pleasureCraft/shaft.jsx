@@ -394,7 +394,7 @@ const shaft = () => {
             <div className="flex">
               <div className="flex flex-col items-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/228628906-530dc637-bda7-4c85-bf57-72b134a7fa25.png"
+                  src="https://user-images.githubusercontent.com/77664153/243854960-b17e086d-9267-4525-a5b0-22978f1c7520.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
                   width={200}
@@ -410,7 +410,7 @@ const shaft = () => {
                   width={200}
                   height={100}
                 />
-                {/* <p className="py-4">MDCT-3 HEX / MDCT-5 HEX</p> */}
+
               </div>
             </div>
             <p className="text-center pb-4">
