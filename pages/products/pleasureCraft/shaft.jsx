@@ -292,93 +292,48 @@ const shaftStdData = [
   },
 
   {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
+    znCode: "MDX-17 - 4 BOLT",
+    znLb: "14.40 lb",
+    znKg: "(6.53 kg)",
+    alCode: "AMDX-17 - 4 BOLT",
+    alLb: "5.54 lb",
+    alKg: "(2.51 kg)",
+    diaIn: '4"',
+    diaMm: "(102 mm)",
     widIn: '5 5/8"',
     widMm: "(143 mm)",
     cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
+    cDiaMm: "(95 mm)",
   },
 
   {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
-    widIn: '5 5/8"',
-    widMm: "(143 mm)",
+    znCode: "MDX-18 - 4 BOLT",
+    znLb: "11.50 lb",
+    znKg: "(5.22 kg)",
+    alCode: "AMDX-18 - 4 BOLT",
+    alLb: "4.6 lb",
+    alKg: "(2.09 kg)",
+    diaIn: '4 1/2"',
+    diaMm: "(114 mm)",
+    widIn: '6 3/4"',
+    widMm: "(171 mm)",
     cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
+    cDiaMm: "(95 mm)",
   },
 
   {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
-    widIn: '5 5/8"',
-    widMm: "(143 mm)",
+    znCode: "MDX-20 - 4 BOLT",
+    znLb: "13 lb",
+    znKg: "(5.9 kg)",
+    alCode: "N/A",
+    alLb: " lb",
+    alKg: "( kg)",
+    diaIn: '5 1/2"',
+    diaMm: "(140 mm)",
+    widIn: '7 1/2"',
+    widMm: "(191 mm)",
     cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
-  },
-
-  {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
-    widIn: '5 5/8"',
-    widMm: "(143 mm)",
-    cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
-  },
-
-  {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
-    widIn: '5 5/8"',
-    widMm: "(143 mm)",
-    cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
-  },
-
-  {
-    znCode: "MDX-6 - 4 BOLT",
-    znLb: "1.03 lb",
-    znKg: "(0.47 kg)",
-    alCode: "AMDX-6 - 4 BOLT",
-    alLb: "0.4 lb",
-    alKg: "(0.18 kg)",
-    diaIn: '3 3/4"',
-    diaMm: "(95 mm)",
-    widIn: '5 5/8"',
-    widMm: "(143 mm)",
-    cDiaIn: '2 1/8"',
-    cDiaMm: "(98 mm)",
+    cDiaMm: "(95 mm)",
   },
 ];
 
@@ -436,6 +391,28 @@ const shaft = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex">
+              <div className="flex flex-col items-center lg:pr-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/228628906-530dc637-bda7-4c85-bf57-72b134a7fa25.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                {/* <p className="py-4">MDCT-3</p> */}
+              </div>
+              <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/243854071-e0766baa-2355-408d-9601-a60e032f0ef6.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                {/* <p className="py-4">MDCT-3 HEX / MDCT-5 HEX</p> */}
+              </div>
+            </div>
             <p className="text-center pb-4">
               For more LC Collar Anodes, please see our{" "}
               <Link href="/products/pleasureCraft/donut">DONUT</Link> section.
