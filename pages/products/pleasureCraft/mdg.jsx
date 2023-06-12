@@ -328,19 +328,20 @@ const mdg = () => {
                   src="https://user-images.githubusercontent.com/77664153/244805611-1547e1f6-bf17-4a60-9c88-c3b0a1e158c2.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={250}
+                  height={150}
                 />
-                {/* <p className="py-4">MDCT-3</p> */}
+                <p className="py-4">2-Bolt Style</p>
               </div>
               <div className="flex flex-col items-center lg:pl-10">
                 <Image
                   src="https://user-images.githubusercontent.com/77664153/244805604-b3ede7d8-e255-4534-9e64-039c12581557.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={250}
+                  height={150}
                 />
+                <p className="py-4">4-Bolt Style</p>
               </div>
             </div>
 
