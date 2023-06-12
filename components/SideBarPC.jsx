@@ -38,6 +38,8 @@ const pcData = [
     link: "/products/pleasureCraft/keelCooler",
   },
   { category: "Maxi Prop", link: "/products/pleasureCraft/maxiProp" },
+  { category: "MDG Shaft", link: "/products/pleasureCraft/mdg" },
+
   {
     category: "Mercury Anodes",
     link: "/products/pleasureCraft/mercury",
@@ -59,8 +61,12 @@ const pcData = [
     category: "OMC/Johnson Evinrude Anodes",
     link: "/products/pleasureCraft/omc",
   },
+  { category: "Plate Anodes", link: "/products/pleasureCraft/plate" },
   { category: "Propeller Nuts", link: "/products/pleasureCraft/propNuts" },
-  { category: "Reference Zinc Anodes", link: "/products/pleasureCraft/reference" },
+  {
+    category: "Reference Zinc Anodes",
+    link: "/products/pleasureCraft/reference",
+  },
   { category: "Rudder Anodes", link: "/products/pleasureCraft/rudder" },
   { category: "Sea Strainer Anodes", link: "/products/pleasureCraft/strainer" },
   { category: "Shaft Anodes", link: "/products/pleasureCraft/shaft" },
@@ -77,7 +83,7 @@ const pcData = [
     link: "/products/pleasureCraft/yamahaKits",
   },
   { category: "Yanmar Marine Anodes", link: "/products/pleasureCraft/yanmar" },
-  { category: "Plate Anodes", link: "/products/pleasureCraft/plate" },
+
 ];
 
 const SideBarPC = () => {
