@@ -423,7 +423,10 @@ const semiStreamlined = () => {
               <tbody>
                 <tr>
                   <th colSpan={7} className="py-8">
-                    <h1>SEMI-STREAMLINED ANODE SPECIFICATIONS</h1>
+                    <h1>SEMI-STREAMLINED</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>

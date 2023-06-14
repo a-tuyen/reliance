@@ -147,7 +147,10 @@ const teardrop = () => {
               <tbody>
                 <tr>
                   <th colSpan={9} className="py-8">
-                    <h1>TEARDROP SPECIFICATIONS</h1>
+                    <h1>TEARDROP</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
