@@ -53,6 +53,7 @@ const pcData = [
     link: "/products/pleasureCraft/mjp",
   },
   { category: "Miscellaneous", link: "/products/pleasureCraft/misc" },
+  { category: "Nanni", link: "/products/pleasureCraft/nanni" },
   {
     category: "Nissan / Tohatsu Outdrives",
     link: "/products/pleasureCraft/nissan",

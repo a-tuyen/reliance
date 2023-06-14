@@ -184,7 +184,7 @@ const benLC = () => {
     <div>
       <Hero
         heading={"Beneteau LC Euro Collar Anodes "}
-        message={"Limited Clearance anodes in Metric and Imperial sizes"}
+        message={"Limited Clearance anodes in Metric and Standard sizes"}
         img={"bg-img2"}
       />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
@@ -268,7 +268,7 @@ const benLC = () => {
                     <p className="font-boldHeading text-2xl tracking-wider">
                       ANODE SPECIFICATIONS
                     </p>
-                    <p className="pt-2">IMPERIAL</p>
+                    <p className="pt-2">STANDARD</p>
                   </th>
                 </tr>
                 <tr>
