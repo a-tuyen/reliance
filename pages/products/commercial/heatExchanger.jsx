@@ -134,7 +134,10 @@ const heatExchanger = () => {
               <tbody>
                 <tr>
                   <th colSpan={6} className="py-8">
-                    <h1>HEAT EXCHANGER ANODE SPECIFICATIONS</h1>
+                  <h1>HEAT EXCHANGER</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>

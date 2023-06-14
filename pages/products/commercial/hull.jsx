@@ -602,7 +602,10 @@ const hull = () => {
               <tbody>
                 <tr>
                   <th colSpan={8} className="py-8">
-                    <h1>HULL ANODE SPECIFICATIONS</h1>
+                    <h1>HULL</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>

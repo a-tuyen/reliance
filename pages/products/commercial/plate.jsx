@@ -115,28 +115,20 @@ const plate = () => {
               <tbody>
                 <tr>
                   <th colSpan={12} className="py-8">
-                    <h1>plate ANODE SPECIFICATIONS</h1>
+                    <h1>PLATE</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider pb-4">
+                      ANODE SPECIFICATIONS
+                    </p>
                   </th>
                 </tr>
                 <tr>
-                  <th colSpan={6}>NOMINAL WEIGHT</th>
+                <th colSpan={2}>NOMINAL DIMENSIONS</th>
+                  <th colSpan={2}>NOMINAL WEIGHT</th>
                 </tr>
                 <tr>
-                  <th colSpan={3} className="bg-zinc">
-                    ZINC ANODE
-                  </th>
-                  <th colSpan={3} className="bg-alum">
-                    ALUMINUM ANODE
-                  </th>
-                </tr>
-
-                <tr>
-                  <th className="bg-zinc">ITEM #</th>
-                  <th className="bg-zinc border-r-0">lb</th>
-                  <th className="bg-zinc border-l-0">(kg)</th>
-                  <th className="bg-alum">ITEM #</th>
-                  <th className="bg-alum border-r-0">lb</th>
-                  <th className="bg-alum border-l-0">(kg)</th>
+                  <th colSpan={2} className="">ITEM #</th>
+                  <th className="border-r-0">lb</th>
+                  <th className= "border-l-0">(kg)</th>
                 </tr>
                 {plateData.map((item, id) => (
                   <ChartNoDim
