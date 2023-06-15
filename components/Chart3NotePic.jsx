@@ -61,7 +61,7 @@ const ChartNoDim2NotePic = ({
         </td>
       </tr>
       <tr>
-        <td colSpan={5} className="bg-white py-4">
+        <td colSpan={6} className="bg-white py-4">
           <div className=" flex flex-col items-center w-[100%]">
             <p className="font-extrabold pb-2">{znCode}</p>
             <Image src={img} alt="picture of anode" width="200" height="150" />
