@@ -38,7 +38,6 @@ const Chart3DimPicNote = ({
         <th>{aDim}</th>
         <th>{bDim}</th>
         <th>{cDim}</th>
-        <th>{notesHeading}</th>
       </tr>
       <tr>
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
@@ -52,8 +51,7 @@ const Chart3DimPicNote = ({
         <td className="border-b-0 pb-2 lg:pb-0">{diaIn}</td>
         <td className="border-b-0 pb-2 lg:pb-0">{widIn}</td>
         <td className="border-b-0 pb-2 lg:pb-0">{cDiaIn}</td>
-        <td rowSpan={2}>{notes}</td>
-      </tr>
+       </tr>
 
       <tr>
         <td className="bg-alum text-white border-l-0">AL</td>
@@ -67,7 +65,7 @@ const Chart3DimPicNote = ({
       </tr>
       <tr>
         <td colSpan={8} className="bg-white">
-          <div className="flex flex-col justify-center items-center">
+          <div className="flex flex-col justify-center items-center pb-6">
           <p className="font-black tracking-wider text-xl pt-4 pb-0">{znCode}</p>
             <Image
               src={img}
@@ -76,7 +74,9 @@ const Chart3DimPicNote = ({
               width={width}
               height={height}
             />
-            
+            <div>
+            <p className="font-bold">{notesHeading}:</p><p>{notes}</p>
+            </div>
           </div>
         </td>
       </tr>

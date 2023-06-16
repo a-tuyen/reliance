@@ -582,7 +582,7 @@ const volvo = () => {
                     aDim="DIAMETER"
                     bDim="THICKNESS"
                     cDim="HOLE DIAMETER"
-                    notesHeading="NOTES"
+                    notesHeading="NOTE"
                   />
                 ))}
               </tbody>
