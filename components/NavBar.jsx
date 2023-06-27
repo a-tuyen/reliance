@@ -177,8 +177,8 @@ const NavBar = () => {
             <div
               className={
                 nav
-                  ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-[10] text-center ease-in duration-300"
-                  : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-[#5c90d2] z-[10] text-center ease-in duration-300"
+                  ? "md:hidden absolute top-0 left-[50%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-accent z-[10] text-center ease-in duration-300"
+                  : "md:hidden absolute top-0 left-[100%] right-0 bottom-0 flex justify-center items-center w-[50%] h-screen bg-accent z-[10] text-center ease-in duration-300"
               }
             >
               <ul>
