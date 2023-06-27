@@ -17,7 +17,7 @@ const NavBar = () => {
 
   useEffect(() => {
     const changeColor = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 450) {
         setColor("#ffffff");
         setTextColor("#52525b");
         setLogoDark(true);

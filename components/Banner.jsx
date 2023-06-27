@@ -5,7 +5,7 @@ const Banner = () => {
 
   useEffect(() => {
     const changeDisplay = () => {
-      if (window.scrollY >= 90) {
+      if (window.scrollY >= 450) {
         setBannerHidden(false);
       } else {
         setBannerHidden(true);
