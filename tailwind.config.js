@@ -12,7 +12,8 @@ module.exports = {
     extend: {
       fontFamily: {
         boldHeading: ["Bebas Neue"],
-        heading: ["Oswald"]
+        heading: ["Oswald"],
+        banner: ["Kaushan Script"]
       },
       colors: {
         darkMain: '#393b3e',
