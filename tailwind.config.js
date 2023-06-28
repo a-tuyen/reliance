@@ -19,7 +19,9 @@ module.exports = {
         darkMain: '#393b3e',
         main: '#4C4E52',
         lightMain:'#d1d5db',
-        accent: '#5c90d2',
+        accent: '#147197',
+        // accent: '#5c90d2',
+        // #004080
         alum:'#0D47A1',
         alumLight:'#BBDEFB',
         zinc:'#00796B',
