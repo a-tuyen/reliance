@@ -18,10 +18,10 @@ const Banner = () => {
     <>
       <div className={bannerHidden ? "hidden" : "fixed top-[120px] left-[0%] w-[100%] z-30 text-center"}>
         <div className="flex flex-col md:flex-row justify-center w-[100%] bg-accent py-1">
-        <h1 className="font-banner text-white text-lg tracking-wider">
+        <h1 className="font-banner text-white text-lg font-thin tracking-wider">
           Zinc for salt water.
         </h1>
-        <h1 className="font-banner text-white text-lg tracking-wider pl-0 lg:pl-2">
+        <h1 className="font-banner text-white text-lg font-thin tracking-wider pl-0 md:pl-2">
           Aluminum for salt and brackish water.
         </h1>
         </div>

@@ -37,7 +37,7 @@ const pcData = [
     category: "Keel Cooler Anodes",
     link: "/products/pleasureCraft/keelCooler",
   },
-  { category: "Maxi Prop", link: "/products/pleasureCraft/maxiProp" },
+  { category: "Max Prop", link: "/products/pleasureCraft/maxProp" },
   { category: "MDG Shaft", link: "/products/pleasureCraft/mdg" },
 
   {
