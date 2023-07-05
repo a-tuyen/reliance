@@ -14,17 +14,15 @@ const index = () => {
         }
         img={"bg-img6"}
       />
-  <div className="flex flex-col lg:flex-col items-center lg:items-center lg:justify-start pt-10 lg:py-20 w-[100%]">
-  <h2>Commercial</h2>
-     <SideBarComm />
-     <h2>Pleasure Craft</h2>
-     <SideBarPC />
-     <main>
-      <article>
-
-      </article>
-     </main>
-     </div>
+      <div className="flex flex-col lg:flex-col items-center lg:items-center lg:justify-start pt-10 lg:py-20 w-[100%]">
+        <h2>Commercial</h2>
+        <SideBarComm />
+        <h2>Pleasure Craft</h2>
+        <SideBarPC />
+        <main>
+          <article></article>
+        </main>
+      </div>
     </div>
   );
 };

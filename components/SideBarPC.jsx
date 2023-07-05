@@ -84,14 +84,12 @@ const pcData = [
     link: "/products/pleasureCraft/yamahaKits",
   },
   { category: "Yanmar Marine Anodes", link: "/products/pleasureCraft/yanmar" },
-
 ];
 
 const SideBarPC = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1">
-        {/* <h4 className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1">Pleasure Craft</h4> */}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1 mx-1">
         {pcData.map((item, id) => (
           <SideBarItem key={id} category={item.category} link={item.link} />
         ))}

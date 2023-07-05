@@ -35,14 +35,6 @@ const SideBarComm = () => {
         ))}
       </div>
     </div>
-
-    // <div className="flex">
-    //   <h4 className="border-[1px] border-white bg-gray-300 w-[16%] text-center uppercase">Commercial Anodes</h4>
-    //     {commData.map((item, id) => (
-    //   <SideBarItem key={id} category={item.category} link={item.link} />
-    //     ))}
-
-    // </div>
   );
 };
 
