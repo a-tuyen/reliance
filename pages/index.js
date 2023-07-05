@@ -20,11 +20,11 @@ export default function Home() {
       {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
       <Hero
         heading="A World Leader in Cathodic Protection"
-        message="Reliance Anodes are made of the highest quality Mil-Spec grade metals. You can always rely on us for your corrosion needs"
+        message="Reliance Anodes are made of the highest quality Mil-Spec metals. You can always rely on us for your corrosion needs"
         img={"bg-img4"}
       />
       <div className="bg-white flex flex-col justify-center items-center mt-0">
-        <div className="w-[70%] text-center py-[50px]">
+        {/* <div className="w-[70%] text-center py-[50px]">
           <p>
             ​​Metal Distributors is a leading non-ferrous metal manufacturer and
             precision machining company serving a variety of different
@@ -44,74 +44,11 @@ export default function Home() {
             design and pouring to metal finishing and coating. We can help you
             find a solution to your metal needs.
           </p>
-          <h2 className="mt-[2rem] mb-[0]">Our Products</h2>
-        </div>
+        </div> */}
+
+        <h2 className="mt-[2rem] mb-[10]">Our Products</h2>
         <div className="grid grid-cols-1 md:grid-cols-3">
-          {/* <Link href="/products/commercial">
-            <div className="relative">
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/222281908-00f261f9-58e7-410d-8a3c-89381ed67eff.png"
-                width="200"
-                height="200"
-                className="m-5 rounded-xl"
-              />
-              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
-                <p className="hidden group-hover:block">
-                  <Image
-                    src="https://user-images.githubusercontent.com/77664153/222214493-729de5a9-b5ad-443b-b5c5-8d9f296f54b9.png"
-                    width="200"
-                    height="200"
-                    className="m-5 rounded-xl"
-                  />
-                </p>
-              </div>
-            </div>
-          </Link>
-
-          <Link href="/products/pleasureCraft">
-            <div className="relative">
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/222281911-7bbd782b-83fc-4d37-acc5-bc6fc1be8b70.png"
-                width="200"
-                height="200"
-                className="m-5 rounded-xl"
-              />
-              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
-                <p className="hidden group-hover:block">
-                  <Image
-                    src="https://user-images.githubusercontent.com/77664153/222215824-61e99c3b-4243-4760-853b-30ed501ddc73.png"
-                    width="200"
-                    height="200"
-                    className="m-5 rounded-xl"
-                  />
-                </p>
-              </div>
-            </div>
-          </Link>
-
-          <Link href="/products/zincCap">
-            <div className="relative">
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/222281913-00374a4a-38f1-40c9-b6cf-fc4f82627b68.png"
-                width="200"
-                height="200"
-                className="m-5 rounded-xl"
-              />
-              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
-                <p className="hidden group-hover:block">
-                  <Image
-                    src="https://user-images.githubusercontent.com/77664153/222214492-7f878efc-9be3-497c-890c-981d6e0f9d62.png"
-                    width="200"
-                    height="200"
-                    className="m-5 rounded-xl"
-                  />
-                </p>
-              </div>
-            </div>
-          </Link> */}
-
-
-<Link href="/products/commercial">
+          <Link href="/products/commercial">
             <div className="relative">
               <Image
                 src="https://user-images.githubusercontent.com/77664153/222294003-89b287be-9a93-44a4-955e-872676633832.png"
@@ -173,10 +110,18 @@ export default function Home() {
               </div>
             </div>
           </Link>
-
-
-
         </div>
+        <div className="flex justify-center py-10">
+          <Link href="/about">
+        <Image
+          src="https://user-images.githubusercontent.com/77664153/251285473-c98f43c9-17d2-497e-bda8-5726bb8cd960.png"
+          alt="picture of anode"
+          className="min-w-[80px]"
+          width={1500}
+          height={800}
+        />
+        </Link>
+      </div>
       </div>
     </>
   );
