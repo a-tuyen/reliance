@@ -109,19 +109,33 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </Link>s
+          </Link>
         </div>
+
         <div className="flex justify-center py-10">
-          <Link href="/RelianceCatalogue.pdf" locale={false}>
-        <Image
-          src="https://user-images.githubusercontent.com/77664153/251527484-1e99e9c6-a883-4ad2-8e97-760c83f3f57d.png"
-          alt="Click to view Product Catalogue Banner"
-          className="min-w-[80px]"
-          width={1500}
-          height={800}
-        />
-        </Link>
-      </div>
+          <Link target="_blank" href="/RelianceCatalogue.pdf" locale={false}>
+            <div className="relative">
+              <Image
+                src="https://user-images.githubusercontent.com/77664153/251527484-1e99e9c6-a883-4ad2-8e97-760c83f3f57d.png"
+                alt="Click to view Product Catalogue Banner"
+                className="min-w-[80px]"
+                width={1500}
+                height={800}
+              />
+              <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
+                <div className="hidden group-hover:block">
+                  <Image
+                    src="https://user-images.githubusercontent.com/77664153/251585483-e1bcf0c0-b4fc-47e7-bd3d-0dc1fd4e5125.png"
+                    alt="Click to view Product Catalogue Banner"
+                    className="min-w-[80px]"
+                    width={1500}
+                    height={800}
+                  />
+                </div>
+              </div>
+            </div>
+          </Link>
+        </div>
       </div>
     </>
   );
