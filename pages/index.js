@@ -109,13 +109,13 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </Link>
+          </Link>s
         </div>
         <div className="flex justify-center py-10">
-          <Link href="/about">
+          <Link href="/RelianceCatalogue.pdf" locale={false}>
         <Image
-          src="https://user-images.githubusercontent.com/77664153/251285473-c98f43c9-17d2-497e-bda8-5726bb8cd960.png"
-          alt="picture of anode"
+          src="https://user-images.githubusercontent.com/77664153/251527484-1e99e9c6-a883-4ad2-8e97-760c83f3f57d.png"
+          alt="Click to view Product Catalogue Banner"
           className="min-w-[80px]"
           width={1500}
           height={800}
