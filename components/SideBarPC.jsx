@@ -89,7 +89,7 @@ const pcData = [
 const SideBarPC = () => {
   return (
     <div>
-      <div className="grid grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-1">
         {pcData.map((item, id) => (
           <SideBarItem key={id} category={item.category} link={item.link} />
         ))}
