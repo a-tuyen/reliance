@@ -125,7 +125,7 @@ export default function Home() {
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <div className="hidden group-hover:block">
                   <Image
-                    src="https://user-images.githubusercontent.com/77664153/251585483-e1bcf0c0-b4fc-47e7-bd3d-0dc1fd4e5125.png"
+                    src="https://user-images.githubusercontent.com/77664153/251814292-5c631d1d-bafd-48b9-8ea6-6447f153f4b8.png"
                     alt="Click to view Product Catalogue Banner"
                     className="min-w-[80px]"
                     width={1500}

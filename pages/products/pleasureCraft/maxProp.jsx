@@ -170,23 +170,13 @@ const maxProp = () => {
             <div className="flex">
               <div className="flex flex-col items-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/229937680-99c38228-add5-4013-93d4-b45e69d6e782.png"
+                  src="https://user-images.githubusercontent.com/77664153/252425802-943d15dc-77c8-4bb7-99aa-dc0157d7e285.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={300}
+                  height={200}
                 />
-                {/* <p className="py-4">MDCT-3</p> */}
-              </div>
-              <div className="flex flex-col items-center lg:pl-10">
-                <Image
-                  src="https://user-images.githubusercontent.com/77664153/228628913-20d5eb4d-f4c3-47ef-a780-be98d9028e96.png"
-                  alt="picture of anode"
-                  className="min-w-[80px]"
-                  width={200}
-                  height={100}
-                />
-                {/* <p className="py-4">MDCT-3 HEX / MDCT-5 HEX</p> */}
+                <p className="py-4">Max Prop</p>
               </div>
             </div>
             <table>
@@ -236,6 +226,18 @@ const maxProp = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex">
+              <div className="flex flex-col items-center lg:pr-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/252425847-c5ffa386-a40f-482f-be20-767b6fdac787.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={300}
+                  height={200}
+                />
+                <p className="py-4">Max Prop Universal</p>
+              </div>
+            </div>
           </main>
         </article>
       </div>
