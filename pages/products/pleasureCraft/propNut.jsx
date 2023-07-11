@@ -206,21 +206,14 @@ const propNut = () => {
                     </div>
                   </th>
                   <th>
-                    A:
-                    <p className="text-sm md:text-lg">LENGTH</p>
+                    <p className="text-sm md:text-lg">SHAFT SIZE</p>
                   </th>
                   <th>
-                    B:
-                    <p className="text-sm md:text-lg">DIA</p>
+                    <p className="text-sm md:text-lg">OD</p>
                   </th>
                   <th>
-                    C:
-                    <p className="text-sm md:text-lg">PLUG OD</p>
-                  </th>
-                  <th>
-                    C:
                     <p className="px-2 text-sm md:text-lg">
-                      THREAD INTERVAL (NPT)
+                      THREAD SIZE PER INCH
                     </p>
                   </th>
                 </tr> 
