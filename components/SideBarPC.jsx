@@ -63,7 +63,7 @@ const pcData = [
     link: "/products/pleasureCraft/omc",
   },
   { category: "Plate Anodes", link: "/products/pleasureCraft/plate" },
-  { category: "Propeller Nuts", link: "/products/pleasureCraft/propNuts" },
+  { category: "Propeller Nut", link: "/products/pleasureCraft/propNut" },
   {
     category: "Reference Zinc Anodes",
     link: "/products/pleasureCraft/reference",
