@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import Chart4pt2DimNote from "@/components/Chart4pt2DimNote";
+import ChartNoDim from "@/components/ChartNoDim";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -19,9 +20,9 @@ const propNutData = [
     replAlCode: "AA",
     replAlLb: "0.09 lb",
     replAlKg: "(0.04 kg)",
-    diaIn: '3/4"',
+    diaIn: "3/4",
     diaMm: "(19 mm)",
-    widIn: '1 1/4"',
+    widIn: "1 1/4",
     widMm: "(32 mm)",
     cPlugThread: "1/2 NC 13",
   },
@@ -39,9 +40,9 @@ const propNutData = [
     replAlCode: "AB",
     replAlLb: "0.19 lb",
     replAlKg: "(0.09 kg)",
-    diaIn: '7/8"',
+    diaIn: "7/8",
     diaMm: "(22 mm)",
-    widIn: '1 5/8"',
+    widIn: "1 5/8",
     widMm: "(41 mm)",
     cPlugThread: "5/8 NC 11",
   },
@@ -59,9 +60,9 @@ const propNutData = [
     replAlCode: "AC",
     replAlLb: "0.43 lb",
     replAlKg: "(0.2 kg)",
-    diaIn: '1"',
+    diaIn: "1",
     diaMm: "(25 mm)",
-    widIn: '2"',
+    widIn: "2",
     widMm: "(51 mm)",
     cPlugThread: "3/4 NC 10",
   },
@@ -79,9 +80,9 @@ const propNutData = [
     replAlCode: "AD",
     replAlLb: "0.61 lb",
     replAlKg: "(0.28 kg)",
-    diaIn: '1 1/4"',
+    diaIn: "1 1/4",
     diaMm: "(32 mm)",
-    widIn: '2 5/16"',
+    widIn: "2 5/16",
     widMm: "(59 mm)",
     cPlugThread: "7/8 NC 9",
   },
@@ -99,9 +100,9 @@ const propNutData = [
     replAlCode: "AE",
     replAlLb: "0.69 lb",
     replAlKg: "(0.31 kg)",
-    diaIn: '1 3/8"',
+    diaIn: "1 3/8",
     diaMm: "(35 mm)",
-    widIn: '2 1/2"',
+    widIn: "2 1/2",
     widMm: "(64 mm)",
     cPlugThread: "1 NC 8",
   },
@@ -119,9 +120,9 @@ const propNutData = [
     replAlCode: "AF",
     replAlLb: "0.82 lb",
     replAlKg: "(0.37 kg)",
-    diaIn: '1 1/2"',
+    diaIn: "1 1/2",
     diaMm: "(38 mm)",
-    widIn: '2 3/4"',
+    widIn: "2 3/4",
     widMm: "(70 mm)",
     cPlugThread: "1 1/8 NC 7",
   },
@@ -139,9 +140,9 @@ const propNutData = [
     replAlCode: "AG",
     replAlLb: "1.1 lb",
     replAlKg: "(0.5 kg)",
-    diaIn: '1 3/4"',
+    diaIn: "1 3/4",
     diaMm: "(44 mm)",
-    widIn: '3 1/8"',
+    widIn: "3 1/8",
     widMm: "(79 mm)",
     cPlugThread: "1 1/4 NC 7",
   },
@@ -159,11 +160,58 @@ const propNutData = [
     replAlCode: "AH",
     replAlLb: "1.24 lb",
     replAlKg: "(0.56 kg)",
-    diaIn: '2"',
+    diaIn: "2",
     diaMm: "(51 mm)",
-    widIn: '3 3/8"',
+    widIn: "3 3/8",
     widMm: "(86 mm)",
     cPlugThread: "1/2 NC 6",
+  },
+];
+
+const benPNData = [
+  {
+    znCode: "BEN-22/25 (JEANNEAU JR)",
+    znLb: "0.30 lb",
+    znKg: "(0.14 kg)",
+    alCode: "ABEN-22/25 (JEANNEAU JR)",
+    alLb: "0.12 lb",
+    alKg: "(0.05 kg)",
+  },
+
+  {
+    znCode: "BEN-30 (JEANNEAU)",
+    znLb: "0.59 lb",
+    znKg: "(0.27 kg)",
+    alCode: "ABEN-30 (JEANNEAU)",
+    alLb: "0.23 lb",
+    alKg: "(0.1 kg)",
+  },
+
+  {
+    znCode: "BEN-35",
+    znLb: "0.72 lb",
+    znKg: "(0.33 kg)",
+    alCode: "ABEN-35",
+    alLb: "0.28 lb",
+    alKg: "(0.13 kg)",
+  },
+
+  {
+    znCode: "BEN-40",
+    znLb: "1.11 lb",
+    znKg: "(0.5 kg)",
+    alCode: "ABEN-40",
+    alLb: "0.43 lb",
+    alKg: "(0.2 kg)",
+  },
+
+  {
+    znCode: "BEN-45",
+    znLb: "1.57 lb",
+    znKg: "(0.71 kg)",
+    alCode: "ABEN-45",
+    alLb: "0.61 lb",
+    alKg: "(0.28 kg)",
   },
 ];
 
@@ -239,7 +287,7 @@ const propNut = () => {
             </table>
             <div className="flex flex-col lg:flex-row">
               <div className="flex flex-col items-center justify-center lg:pr-10">
-              <p className="py-4 font-bold">PROP NUT</p>
+                <p className="py-4 font-bold">PROP NUT</p>
                 <Image
                   src="https://user-images.githubusercontent.com/77664153/252786322-7161b0af-889e-4c0e-ba31-43340322c971.png"
                   alt="picture of anode"
@@ -249,13 +297,53 @@ const propNut = () => {
                 />
               </div>
             </div>
-
+            <table>
+              <tbody>
+                <tr>
+                  <th colSpan={5} className="py-8">
+                    <h1>BENETEAU PROP NUT</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
+                  </th>
+                </tr>
+                <tr>
+                  <th colSpan={5}>NOMINAL WEIGHT</th>
+                </tr>
+                <tr>
+                  <th colSpan={2}>ITEM #</th>
+                  <th className="border-r-0">lb</th>
+                  <th className="border-l-0">(kg)</th>
+                </tr>
+                {benPNData.map((item, id) => (
+                  <ChartNoDim
+                    key={id}
+                    img={item.img}
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    alCode={item.alCode}
+                    alLb={item.alLb}
+                    alKg={item.alKg}
+                  />
+                ))}
+              </tbody>
+            </table>
+            <div className="flex flex-col lg:flex-row">
+              <div className="flex flex-col items-center justify-center lg:pr-10">
+                <p className="py-4 font-bold">BENETEAU PROP NUT</p>
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/252811136-4469c6e8-e24c-4255-8bd5-8f1a5d950bee.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+              </div>
+            </div>
             <p className="text-center pt-6 pb-4">
               For more Prop Nut anodes, please see our{" "}
-              <Link href="/products/pleasureCraft/gori">
-                GORI
-              </Link>{" "}
-              section.
+              <Link href="/products/pleasureCraft/gori">GORI</Link> section.
             </p>
           </main>
         </article>
