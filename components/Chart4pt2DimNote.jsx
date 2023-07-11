@@ -23,13 +23,16 @@ const Chart4pt2DimNote = ({
     <>
       <tr>
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
-        <td className="bg-zincLight pl-1">
-          {replZnCode} - <p className="text-sm md:text-lg">REPLACEMENT</p>
+        <td className="bg-zincLight">
+          <div className="flex flex-col lg:flex-row justify-center">
+            {replZnCode} -
+            <p className="text-sm md:text-lg lg:pl-1">REPLACEMENT</p>
+          </div>
         </td>
         <td className="bg-zincLight border-r-0">
-          <div className="flex flex-col md:flex-row justify-center items-center px-1">
+          <div className="flex flex-col lg:flex-row justify-center items-center px-1">
             <div>{replZnLb}</div>
-            <div className="pl-2">{replZnKg}</div>
+            <div className="lg:pl-2">{replZnKg}</div>
           </div>
         </td>
         <td className="border-b-0"></td>
@@ -40,13 +43,15 @@ const Chart4pt2DimNote = ({
       </tr>
       <tr>
         <td className="bg-alum text-white border-l-0 px-1">AL </td>
-        <td className="bg-alumLight pl-1 ">
-          {replAlCode} - <p className="text-sm md:text-lg">REPLACEMENT</p>
+        <td className="bg-alumLight">
+          <div className="flex flex-col lg:flex-row justify-center">
+            {replAlCode} - <p className="text-sm md:text-lg lg:pl-1">REPLACEMENT</p>
+          </div>
         </td>
         <td className="bg-alumLight border-r-0">
-          <div className="flex flex-col md:flex-row justify-center items-center px-1">
+          <div className="flex flex-col lg:flex-row justify-center items-center px-1">
             <div>{replAlLb}</div>
-            <div className="pl-2">{replAlKg}</div>
+            <div className="lg:pl-2">{replAlKg}</div>
           </div>
         </td>
         <td className="border-t-0 border-b-0">{diaIn}</td>
@@ -56,13 +61,15 @@ const Chart4pt2DimNote = ({
       <tr>
         <td className="bg-zinc text-white border-l-0 px-1">ZN</td>
 
-        <td className="bg-zincLight pl-1">
-          {compZnCode} - <p className="text-sm md:text-lg">COMPLETE</p>
+        <td className="bg-zincLight">
+          <div className="flex flex-col lg:flex-row justify-center">
+            {compZnCode} - <p className="text-sm md:text-lg lg:pl-1">COMPLETE</p>
+          </div>
         </td>
         <td className="bg-zincLight border-r-0">
-          <div className="flex flex-col md:flex-row justify-center items-center px-1">
+          <div className="flex flex-col lg:flex-row justify-center items-center px-1">
             <div>{compZnLb}</div>
-            <div className="pl-2">{compZnKg}</div>
+            <div className="lg:pl-2">{compZnKg}</div>
           </div>
         </td>
 
@@ -74,12 +81,14 @@ const Chart4pt2DimNote = ({
         <td className="bg-alum text-white border-l-0 px-1">AL</td>
 
         <td className="bg-alumLight pl-1">
-          {compAlCode} - <p className="text-sm md:text-lg">COMPLETE</p>
+          <div className="flex flex-col lg:flex-row justify-center">
+            {compAlCode} - <p className="text-sm md:text-lg lg:pl-1">COMPLETE</p>
+          </div>
         </td>
         <td className="bg-alumLight border-r-0 border-b-0">
-          <div className="flex flex-col md:flex-row justify-center items-center border-b-0 px-1">
+          <div className="flex flex-col lg:flex-row justify-center items-center border-b-0 px-1">
             <div>{compAlLb}</div>
-            <div className="pl-2">{compAlKg}</div>
+            <div className="lg:pl-2">{compAlKg}</div>
           </div>
         </td>
         <td className="border-t-0 border-b-4"></td>
