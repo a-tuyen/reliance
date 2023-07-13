@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "@/components/Hero";
 import SideBarPC from "@/components/SideBarPC";
 import Chart3DimPic from "@/components/Chart3DimPic";
+import Chart1pt2DimNote from "@/components/Chart1pt2DimNote";
 import Image from "next/image";
 
 const azimutData = [
@@ -86,6 +87,63 @@ const azimutData = [
   },
 ];
 
+const azimutPNData = [
+  {
+    znCode: "40 mm ",
+    znLb: "1 lb",
+    znKg: "(0.45 kg)",
+    diaIn: '1 3/5"',
+    diaMm: "(41 mm)",
+    widIn: '2 3/5"',
+    widMm: "(66 mm)",
+    thread: "24 x 200",
+  },
+
+  {
+    znCode: "45 mm ",
+    znLb: "1.75 lb",
+    znKg: "(0.79 kg)",
+    diaIn: '1 3/5"',
+    diaMm: "(41 mm)",
+    widIn: '3"',
+    widMm: "(76 mm)",
+    thread: "33 x 200",
+  },
+
+  {
+    znCode: "50 mm ",
+    znLb: "2.2 lb",
+    znKg: "(1 kg)",
+    diaIn: '2 9/10"',
+    diaMm: "(74 mm)",
+    widIn: '3 3/10"',
+    widMm: "(84 mm)",
+    thread: "36 x 300",
+  },
+
+  {
+    znCode: "55 mm ",
+    znLb: "2.25 lb",
+    znKg: "(1.02 kg)",
+    diaIn: '3"',
+    diaMm: "(76 mm)",
+    widIn: '3 2/5"',
+    widMm: "(86 mm)",
+    thread: "40 x 300",
+  },
+
+  {
+    znCode: "60 mm ",
+    znLb: "3.5 lb",
+    znKg: "(1.59 kg)",
+    diaIn: '3 1/5"',
+    diaMm: "(81 mm)",
+    widIn: '3 4/5"',
+    widMm: "(97 mm)",
+    thread: "45 x 300",
+  },
+];
+
 const azimut = () => {
   return (
     <div>
@@ -129,6 +187,49 @@ const azimut = () => {
                     aDim="DIAMETER"
                     bDim="THICKNESS"
                     cDim="HOLE DIAMETER"
+                  />
+                ))}
+              </tbody>
+            </table>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th colSpan={6} className="py-8">
+                    <h1>NANNI ENGINE</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE SPECIFICATIONS
+                    </p>
+                  </th>
+                </tr>
+                <tr>
+                  <th colSpan={3}>NOMINAL WEIGHT</th>
+                  <th colSpan={3}>NOMINAL DIMENSIONS</th>
+                </tr>
+                <tr>
+                  <th colSpan={2}>ITEM #</th>
+                  <th className="border-r-0 ">
+                    <div className="flex flex-col md:flex-row justify-center items-center">
+                      <div>lb</div>
+                      <div className="px-2">(kg)</div>
+                    </div>
+                  </th>
+                  <th>HEIGHT</th>
+                  <th>BASE DIAMETER</th>
+                  <th>THREAD SIZE</th>
+                </tr>
+                {azimutPNData.map((item, id) => (
+                  <Chart1pt2DimNote
+                    key={id}
+                    img={item.img}
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    diaIn={item.diaIn}
+                    diaMm={item.diaMm}
+                    widIn={item.widIn}
+                    widMm={item.widMm}
+                    notes={item.thread}
                   />
                 ))}
               </tbody>

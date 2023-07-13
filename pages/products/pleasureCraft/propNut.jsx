@@ -173,7 +173,7 @@ const benPNData = [
     znCode: "BEN-22/25 (JEANNEAU JR)",
     znLb: "0.30 lb",
     znKg: "(0.14 kg)",
-    alCode: "ABEN-22/25 (JEANNEAU JR)",
+    alCode: "ABEN-22/25 (A-JEANNEAU JR)",
     alLb: "0.12 lb",
     alKg: "(0.05 kg)",
   },
@@ -182,7 +182,7 @@ const benPNData = [
     znCode: "BEN-30 (JEANNEAU)",
     znLb: "0.59 lb",
     znKg: "(0.27 kg)",
-    alCode: "ABEN-30 (JEANNEAU)",
+    alCode: "ABEN-30 (A-JEANNEAU)",
     alLb: "0.23 lb",
     alKg: "(0.1 kg)",
   },
@@ -333,7 +333,7 @@ const propNut = () => {
               <div className="flex flex-col items-center justify-center lg:pr-10">
                 <p className="py-4 font-bold">BENETEAU PROP NUT</p>
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/252811136-4469c6e8-e24c-4255-8bd5-8f1a5d950bee.png"
+                  src="https://user-images.githubusercontent.com/77664153/253323290-58a43f84-d9be-4291-a440-b2a36a1d8b0a.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
                   width={200}
