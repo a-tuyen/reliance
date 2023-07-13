@@ -196,7 +196,7 @@ const azimut = () => {
               <tbody>
                 <tr>
                   <th colSpan={6} className="py-8">
-                    <h1>NANNI ENGINE</h1>
+                    <h1>AZIMUT PROP NUT</h1>
                     <p className="font-boldHeading text-2xl tracking-wider">
                       ANODE SPECIFICATIONS
                     </p>
@@ -234,6 +234,19 @@ const azimut = () => {
                 ))}
               </tbody>
             </table>
+            <div className="flex">
+              <div className="flex flex-col items-center lg:pr-10">
+              <p className="py-4 font-bold">AZIMUT PROP NUT</p>
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/253323290-58a43f84-d9be-4291-a440-b2a36a1d8b0a.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                
+              </div>
+            </div>
           </main>
         </article>
       </div>
