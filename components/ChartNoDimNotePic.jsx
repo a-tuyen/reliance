@@ -40,6 +40,7 @@ const ChartNoDimNotePic = ({
       </tr>
 
       <tr>
+        
         <td className="bg-alum text-white border-l-0 border-b-4">AL</td>
         <td className="bg-alumLight border-b-4">{alCode}</td>
         <td className="bg-alumLight border-r-0 border-b-4">

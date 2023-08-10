@@ -37,7 +37,8 @@ const faqData = [
     question:
       "Certain Manufacturers claim the anodes they produce are 99.99% pure Zinc.  Does that make sense? ",
     answer:
-      "No, it  does not.  The fact is Mil Spec Anodes Zinc are not 99.99% pure zinc.  Mil Spec Zinc are constructed with the following alloys specifications:",
+      "No, it  does not.  The fact is Mil Spec Anodes Zinc are not 99.99% pure zinc.  Mil Spec Zinc are constructed with the <Link href='https://blog.bitsrc.io/double-quotes-vs-single-quotes-vs-backticks-in-javascript-3cab5aaea55'></Link>"
+
   },
   {
     question: "What would happen if I didn't use Mil-Spec zinc?",
@@ -68,6 +69,7 @@ const faq = () => {
         <FaqItem key={id} question={item.question} answer={item.answer} />
       ))}
       </div>
+
     </div>
   );
 };
