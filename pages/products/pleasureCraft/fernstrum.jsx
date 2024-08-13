@@ -158,7 +158,7 @@ const fernstrum = () => {
             <div className=" flex flex-col items-center text-center font-extrabold tracking-wider text-xl">
               <p>Fernstrum</p>
               <Image
-                src="/anodes/fernstrum.png"
+                src="/anodes/fernstrum-drawing.png"
                 alt="pictore of anode"
                 width="200"
                 height="100"

@@ -4,153 +4,100 @@ import React from 'react'
 const milSpec = () => {
   return (
     <>
-    <div className="bg-white flex flex-col justify-center">
-     <Hero heading={"What is Mil-Spec?"} img={"bg-img2"}/> 
+      <div className="bg-white flex flex-col justify-center">
+        <Hero heading={"What is Mil-Spec?"} img={"bg-img2"} />
       </div>
       <main>
-        <article>
+        <article className="bg-white flex flex-col justify-center items">
           <h2>Understanding &quot;Mil-Spec: MIL-A-18001&quot;</h2>
-          <p>
-          In the early 1950s, the United States Naval Command joined forces with the International Zinc Institute to research and improve the performance of common zinc as a sacrificial anode.  They discovered the elimination of iron contamination to less than fourteen parts in ten thousand, coupled with the addition of controlled amounts of aluminum and cadmium, enhanced the anodes performance significantly.  The research yielded the US Naval Mil-Spec MIL-A-18001, the highest standard of anodes quality.
+          <p className='mb-4'>
+            In the early 1950s, the United States Naval Command joined forces with the International Zinc Institute to research and improve the performance of common zinc as a sacrificial anode.  They discovered the elimination of iron contamination to less than fourteen parts in ten thousand, coupled with the addition of controlled amounts of aluminum and cadmium, enhanced the anodes performance significantly.  The research yielded the US Naval Mil-Spec MIL-A-18001, the highest standard of anodes quality.
+          </p>
+
+          <p className='mb-4'>Prior to the mid 1950's, corrosion prevention for underwater hulls and fittings, based on zinc sacrificial anodes. was quite unreliable.  No one could explain why one vessel using these anodes would suffer little to no corrosion of its underwater metals while another similar vessel using zinc anodes that appeared to be the same would receive extensive corrosion damage.  Subsequent studies indicated that some zinc anodes did not remain electrochemically active, becoming relatively inert (passivated) over time due to a buildup of a dense, tightly adherent film on the zinc's surface.  The passivating film was mainly made of iron oxide and the source of the iron was the elemental iron present in the zinc when the anodes were manufactured.
+</p>
+          <p className='mb-4'>  
+            These studies determined that the maximum allowable iron content for reliable sacrificial zinc anode performance was 0.0014%.  Hence, the first U.S. Military zinc anode specification, A18001A, was born.  This specification also limited several other contaminating elements such as copper and silicon, but excessive iron was the main cause of anode passivation.  To produce anodes that met the specification, manufacturers had to start with the purest grade of zinc available from the smelters (Special High Grade) and not contaminate it while producing the anodes.  This was, and is, very difficult to do.
+            </p>
+            <p className='mb-4'>
+            Work continued on the problem over the years with metallurgists seeking an alloy that would perform as or more reliably than Super High Grade zinc and be easier to produce.  They discovered that by alloying the zinc with small amounts of certain elements and cadmium, an increased amount of iron could be tolerated.  So the sacrificial anode specification was changed to allow an increase in the iron content to 0.005%.  Zinc anodes meeting this new specification and all of the subsequent specifications form a loosely adherent film that is principally zinc oxide.  This film readily sloughs off the anode's surface to expose fresh zinc alloy to the water, allowing the anode to be continuously electrochemically active.  Thus, the zinc will not passivate.  It is only through continuously electro chemical action at its surface that a zinc anode can provide corrosion protection for the metal structure to which it is attached.  Installing zinc anodes that are not certified to meet the current U.S. Military Specification runs the risk that the anodes will be contaminated and will fail to protect the metals to which they are attached.
           </p>
 
           <table>
             <tbody>
               <tr>
                 <th colSpan={"3"} className="border-2 border-white py-4">
-                  <h1>SHG ZINC COMPOSITION</h1>
+                  <h1>US MIL-SPEC COMPOSITION</h1>
                 </th>
               </tr>
               <tr>
                 <th>MATERIAL</th>
-                <th>MIL-A-18001J SPECIFICATIONS</th>
-                <th>ASTM B418-80 SPECIFICATIONS</th>
+                <th><p>ZINC ALLOY</p><p>MIL-A-18001 & ASTM B-418 - TYPE 1</p></th>
+                <th><p>ALUMINUM ALLOY</p><p>MIL-A-24779</p></th>
               </tr>
               <tr>
-                <td>Aluminum</td>
-                <td>0.10 - 0.50%</td>
-                <td>0.10 - 0.4%</td>
-              </tr>
-              <tr>
-                <td>Cadmium</td>
-                <td>0.025 - 0.15%</td>
-                <td>0.03 - 0.10%</td>
-              </tr>
-              <tr>
-                <td>Iron (maximum)</td>
-                <td>0.005%</td>
-                <td>0.005%</td>
-              </tr>
-              <tr>
-                <td>Lead (maximum)</td>
-                <td>0.006%</td>
+                <td>Cadmium (Cd)</td>
+                <td>0.025% - 0.07%</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td>Copper (maximum)</td>
+                <td>Copper (Cu)</td>
+                <td>0.005% MAX</td>
+                <td>0.004% MAX</td>
+              </tr>
+              <tr>
+                <td>Iron (Fe)</td>
                 <td>0.005%</td>
+                <td>0.09%</td>
+              </tr>
+              <tr>
+                <td>Indium (In)</td>
+                <td>-</td>
+                <td>0.014% - 0.020%</td>
+              </tr>
+              <tr>
+                <td>Lead (Pb)</td>
+                <td>0.006% MAX</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td>Silicon (maximum)</td>
-                <td>0.125%</td>
+                <td>Magnesium (Mg)</td>
                 <td>-</td>
+                <td>0.001% MAX</td>
               </tr>
               <tr>
-                <td>Zinc</td>
+                <td>Silicon (Si)</td>
+                <td>-</td>
+                <td>0.080% - 0.2%</td>
+              </tr>
+              <tr>
+                <td>Aluminum (Al)</td>
+                <td>0.1%-0.5%</td>
+                <td>REMAINDER</td>
+              </tr>
+              <tr>
+                <td>Zinc (Zn)</td>
                 <td>Remainder</td>
-                <td>Remainder</td>
+                <td>4%-6.5%</td>
+              </tr>
+              <tr>
+                <td>Other</td>
+                <td>-</td>
+                <td>0.020% MAX</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>USE FOR SALT WATER ONLY</td>
+                <td>USE FOR SALT AND BRACKISH WATER</td>
               </tr>
             </tbody>
           </table>
 
-          <h2>How Zinc Anode Caps Work</h2>
-          <p className="">
-            Corrosion is an electrochemical process in which metal parts form a
-            galvanic cell when they are in contact with moisture. Using the
-            common battery as an example, moisture becomes the electrolyte while
-            the different metals in the system (such as bolts, nuts, fittings
-            etc.) become the positive and negative ends of the battery. The
-            &quot;more negative&quot; component loses material thru corrosion
-            while protecting the &quot;positive&quot; component, which becomes
-            shielded. Zinc being much more negative than most other materials,
-            the protected &quot;positive&quot; component is essentially immune
-            to corrosion as long as there is Zinc remaining to consume. Zinc
-            Anode Caps offer protection for system components made of steel,
-            cast iron, ductile iron, brass and copper. The quantity of Zinc
-            Anode Caps used determines the service life of the protected
-            component. Zinc Anode Caps should be installed on all exposed bolts
-            of pipeline fittings depending on soil conditions.
-          </p>
-
-          <h3>These anodes are suitable for:</h3>
-          <ul className="list-disc pb-8">
-            <li>Pipeline installers and manufacturers</li>
-            <li>Pipeline flange manufacturers and suppliers</li>
-            <li>Dredging companies</li>
-            <li>Submersible pump manufacturers and suppliers</li>
-            <li>Water boards and Utility providers</li>
-            <li>Councils, water and sewage departments</li>
-            <li>Corrosion engineering</li>
-            <li>Wharf and jetty construction companies </li>
-          </ul>
-
-          <table>
-            <tbody>
-              <tr>
-                <th colSpan={"9"} className="py-4">
-                  <h1>Reliance Zinc Cap Specifications</h1>
-                </th>
-              </tr>
-              <tr className="uppercase">
-                <th>Thread Size</th>
-                <th colSpan={"6"}>Dimensions</th>
-                <th colSpan={"2"}>Nominal Weight</th>
-              </tr>
-              <tr className="uppercase">
-                <th>A</th>
-                <th colSpan={"2"}>B</th>
-                <th colSpan={"2"}>C</th>
-                <th colSpan={"2"}>D</th>
-                <th colSpan={"2"}></th>
-              </tr>
-              <tr>
-                <th className="border-2 border-white text-center">
-                  Reliance Zinc Cap - 6 oz
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  lb
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  kg
-                </th>
-              </tr>
-
-            </tbody>
-          </table>
           <div className="flex mb-10">
           </div>
         </article>
       </main>
-      </>
+    </>
   )
 }
 
