@@ -24,7 +24,7 @@ const milSpec = () => {
             </p>
 
             <p className='mb-4'>
-              As mentioned before, a metal that is more active electrically is less noble.  On the Noble Scale these are the approximate negative voltages from Least to Most Noble (referenced with a silver/silver chloride half cell):</p>
+              As mentioned before, a metal that is more electrically active is less noble.  On the Noble Scale these are the approximate negative voltages from Least to Most Noble (referenced with a silver/silver chloride half cell):</p>
           </div>
 
           <table className='mb-2'>
