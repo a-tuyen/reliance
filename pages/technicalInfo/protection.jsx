@@ -124,10 +124,34 @@ const milSpec = () => {
           </p>
 
           <h4 className='mb-4'>TYPES OF ANODES AND APPLICATIONS</h4>
-          <p className='mb-4'>Magnesium - these are the most active anodes on the Galvanic Scale ( least Noble) and are recommended only for pure fresh water.  Can be used with Fiberglass or Steel Hulls with Inboard Drives or Wood, Fiberglass, Aluminum and Steel Hulls with Out drives.  These anodes can easily overprotect in other kinds of water with the resulting damage as explained above.</p>
+          <p className='mb-4'>Magnesium Anodes - these are the most active anodes on the Galvanic Scale (least Noble) and are recommended only for use in pure fresh water. They can easily overprotect in other kinds of water - Can be used with Fiberglass or Steel Hulls with Inboard Drives or Wood, Fiberglass, Aluminum and Steel Hulls with Outdrives. </p>
           <p className='mb-4'>Zinc and Aluminum - these are generally suitable for all water conditions but there are preferences depending on hull type/drive type.</p>
-          <p className='mb-4'></p>
-          <p className='mb-4'></p>
+
+          <ul className='mb-4'>
+            <p>Wood hull</p>
+            <li>with inboard, zinc is preferable</li>
+            <li>with outdrive or outboard, zinc or aluminum anodes. (Aluminum stern drives prefer aluminum anodes.  The type of aluminum for anodes is less noble than the drive.)</li>
+            <li>In fresh water, aluminum anodes with aluminum prop: magnesium or aluminum with stainless prop.</li>
+          </ul>
+
+          <ul>
+            <p>Fibreglass, Aluminum, Steel Hull</p>
+            <li>can use zinc or aluminum</li>
+            <li>in fresh water, magnesium is preferred.</li>
+          </ul>
+
+          <h4>DOCKED VESSESLS</h4>
+          <p className='mb-4'>
+            A potentially serious problem can arise with a boat at dockside using shore power to the vessel.  The ground wire will connect all boats galvanically.  This means, if a boat alongside yours is also connected to shore power and he doesn't have anodes on his boat, then your boat will protect his as well.  After the anodes are consumed, the metal components which are higher on the Galvanic Scale will now start being consumed.  A galvanic isolator will remedy this by blocking the low voltage DC current flow that leads to this condition. (Attaches to the ground wire).
+          </p>
+          <h4>Stray Current</h4>
+          <p className='mb-4'>It is recommended to test your boat for DC voltage leaks stray currents can emanate from within a boat (faulty or exposed wiring), from shore side fittings and / or cables, or from neighboring boats.  A leak can have a devastating effect because of accelerated electron flow.  Extreme causes can destroy hardware in a matter of hours.  It doesn't take much current to overwhelm the low level protection of the cathodic system.
+
+            Basically, any metal that is feeding a current into the water will be ruined.  Wiring systems cannot have a path back to the source of power.
+
+            Keep DC wires above water level in the bilge to avoid stray current and AC wires to avoid a shock hazard.
+
+            Bonding system-to help prevent stray currents, all electrical and underwater metal components should be connected to the battery's negative terminal or it's bus thus equalizing the voltage between them.</p>
           <p className='mb-4'></p>
           <p className='mb-4'></p>
 
