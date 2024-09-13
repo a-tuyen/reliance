@@ -150,16 +150,16 @@ const milSpec = () => {
 
           <h4>DOCKED VESSELS</h4>
           <p className='mb-4'>
-            A potentially serious problem can arise with a boat at dockside using shore power to the vessel.  The ground wire will connect all boats galvanically.  This means, if a boat alongside yours is also connected to shore power and he doesn't have anodes on his boat, then your boat will protect his as well.  After the anodes are consumed, the metal components which are higher on the Galvanic Scale will now start being consumed.  A galvanic isolator will remedy this by blocking the low voltage DC current flow that leads to this condition. (Attaches to the ground wire).
+            A potentially serious problem can arise with a boat at dockside using shore power to the vessel.  The ground wire will connect all boats galvanically.  This means that if a boat alongside yours is also connected to shore power and he doesn&apos;t have anodes on his boat, then your boat will protect his as well.  After the anodes are consumed, the metal components which are higher on the Galvanic Scale will now start being consumed.  A galvanic isolator will remedy this by blocking the low voltage DC current flow that leads to this condition. (Attaches to the ground wire).
           </p>
           <h4>STRAY CURRENT</h4>
-          <p className='mb-4'>It is recommended to test your boat for DC voltage leaks stray currents can emanate from within a boat (faulty or exposed wiring), from shore side fittings and / or cables, or from neighboring boats.  A leak can have a devastating effect because of accelerated electron flow.  Extreme causes can destroy hardware in a matter of hours.  It doesn't take much current to overwhelm the low level protection of the cathodic system.
+          <p className='mb-4'>It is recommended to test your boat for DC voltage leaks. Stray currents can emanate from within a boat (faulty or exposed wiring), from shoreside fittings and / or cables, or from neighbouring boats.  A leak can have a devastating effect because of accelerated electron flow.  Extreme cases can destroy hardware in a matter of hours.  It doesn&apos;t take much current to overwhelm the low level protection of the cathodic system.
 
             Basically, any metal that is feeding a current into the water will be ruined.  Wiring systems cannot have a path back to the source of power.
 
             Keep DC wires above water level in the bilge to avoid stray current and AC wires to avoid a shock hazard.
 
-            Bonding system-to help prevent stray currents, all electrical and underwater metal components should be connected to the battery's negative terminal or it's bus thus equalizing the voltage between them.</p>
+            Bonding system-to help prevent stray currents, all electrical and underwater metal components should be connected to the battery&apos;s negative terminal or it&apos;s bus thus equalizing the voltage between them.</p>
           <p className='mb-4'></p>
           <p className='mb-4'></p>
 
