@@ -11,7 +11,7 @@ const milSpec = () => {
         <article className="bg-white flex flex-col justify-center items-center">
           <h2>Considerations for Boat Protection</h2>
           <div>
-            <h4>GALVANIC CORROSION</h4>
+            <h4 className="flex justify-center">GALVANIC CORROSION</h4>
             <p className='mb-4'>
               When two or more dissimiliar metals are in contact with each other and immersed in an electroyte (a liquid that can conduct electricity), the more electrically active metal (less noble) will sacrifice itself by electron flow from the more negatively charged metal (the anode) to the more positively charged metal (the cathode).  Hence, for protection of metal fittings on boats as well as hulls and drive units, a comprehensive plan of protection needs to be employed.
             </p>
