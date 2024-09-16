@@ -37,7 +37,7 @@ const faqData = [
   {
     question: "What would happen if I didn't use Mil-Spec zinc?",
     answer:
-      'If Mil Spec zinc is not used on your vessel, you are risking components on your boat becoming "anodes", hence sacrificing themselves because of contamination in the zinc that\'s being used.  You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done.  Their research has given them the proper alloy to consistently provide adequate protection and predictable results.',
+      'If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming "anodes", hence sacrificing themselves because of contamination in the zinc that\'s being used.  You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done.  Their research has given them the proper alloy to consistently provide adequate protection and predictable results.',
   },
   {
     question:

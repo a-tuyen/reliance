@@ -14,14 +14,27 @@ const index = () => {
         }
         img={"bg-img6"}
       />
-      <div className="flex flex-col lg:flex-row items-center lg:items-center lg:justify-center pt-10 lg:py-20 w-[100%]">
+      {/* <div className="flex flex-col lg:flex-row items-center lg:justify-items-end lg:align-center pt-10 lg:py-20 w-[100%] border-8"> */}
+      <h2>SACRIFICIAL ANODES</h2>
+      <div className="flex flex-col lg:flex-row w-full justify-between lg:items-start lg:ml-[20%]">
+        
         <div>
-        <h2>Commercial</h2>
-        <SideBarComm />
+          <h2 className="my-6">Commercial</h2>
+          <SideBarComm />
         </div>
-        <div>
-        <h2>Pleasure Craft</h2>
-        <SideBarPC />
+        <div className="lg:ml-[5%] mb-6">
+          <h2 className="whitespace-nowrap my-6">Pleasure Craft</h2>
+          <SideBarPC />
+        </div>
+        <div className="lg:ml-[5%] mb-6">
+          <h2 className="whitespace-nowrap my-6">Zinc Caps</h2>
+          <div>
+            <ul>
+              <li className="border-[1px] border-white bg-gray-300  text-center w-[100%] px-4 mx-0">
+                <Link href="/products/zincCap">Zinc Anode Caps</Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <main>
           <article></article>

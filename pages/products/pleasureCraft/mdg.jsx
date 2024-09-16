@@ -395,7 +395,7 @@ const mdg = () => {
 
             <p className="text-center pb-4">
               For more Shaft Anodes, please see our{" "}
-              <Link href="/products/pleasureCraft/mdg">MDG</Link> section.
+              <Link href="/products/pleasureCraft/shaft">SHAFT</Link> section.
             </p>
           </main>
         </article>
