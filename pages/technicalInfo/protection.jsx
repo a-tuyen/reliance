@@ -133,7 +133,8 @@ const milSpec = () => {
               <tr>
                 <td className=' font-bold'>MAGNESIUM ANODES</td>
                 <td className='text-left p-1'><p>- These are the most active anodes on the Galvanic Scale (least Noble) and are recommended only for use in pure fresh water. They can easily overprotect in any other kind of water.</p>
-                  <p>- Can be used with Fibreglass or Steel Hulls with Inboard Drives or Wood, Fibreglass, Aluminum and Steel Hulls with Outdrives.</p></td>
+                  <p>- Can be used with Fibreglass or Steel Hulls with Inboard Drives or Wood, Fibreglass, Aluminum and Steel Hulls with Outdrives.</p>
+                  <p>- <span className="font-bold">In fresh water with Stainless Steel Propeller</span> - Either Magnesium or Aluminum Anodes work</p></td>
               </tr>
               <tr>
                 <td className=' font-bold'>ZINC AND ALUMINUM ANODES</td>

@@ -61,6 +61,11 @@ const bnt = () => {
                 ))}
               </tbody>
             </table>
+
+            <p className="text-center pb-4">
+              Also available as a kit which includes 2ea x BNT-1 anodes and hardware.
+            </p>
+
           </main>
         </article>
       </div>

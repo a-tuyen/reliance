@@ -30,7 +30,7 @@ const faqData = [
       "It is caused by a build-up of iron oxides that occur from the iron content in the anode.",
   },
   {
-    question: "How can the anodes avoid becoming passivated?",
+    question: "How can you help prevent the anodes from becoming passivated?",
     answer:
       "By insisting on Military Specification A-18001-K, you are insuring proper protection for your boat, as the alloy limits impurities and adds elements that allow the anode to properly scarifice itself at optimum efficiency.",
   },
