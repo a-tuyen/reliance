@@ -6,7 +6,7 @@ import SideBarPC from "@/components/SideBarPC";
 
 const index = () => {
   return (
-    <div className="bg-white flex  flex-col justify-center">
+    <div className="bg-white flex flex-col justify-center">
       <Hero
         heading={"OUR PRODUCTS"}
         message={
@@ -15,10 +15,10 @@ const index = () => {
         img={"bg-img6"}
       />
       {/* <div className="flex flex-col lg:flex-row items-center lg:justify-items-end lg:align-center pt-10 lg:py-20 w-[100%] border-8"> */}
-      <h2>SACRIFICIAL ANODES</h2>
-      <div className="flex flex-col lg:flex-row w-full justify-between lg:items-start lg:ml-[20%]">
+      <h2 className="mt-10 border-solid border-black border-2">SACRIFICIAL ANODES</h2>
+      <div className="flex flex-col lg:flex-row w-[100%] justify-self-center lg:items-start border-solid border-black border-2">
         
-        <div>
+        <div className="">
           <h2 className="my-6">Commercial</h2>
           <SideBarComm />
         </div>
