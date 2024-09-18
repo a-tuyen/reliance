@@ -15,18 +15,18 @@ const index = () => {
         img={"bg-img6"}
       />
       {/* <div className="flex flex-col lg:flex-row items-center lg:justify-items-end lg:align-center pt-10 lg:py-20 w-[100%] border-8"> */}
-      <h2 className="mt-10 border-solid border-black border-2">SACRIFICIAL ANODES</h2>
-      <div className="flex flex-col lg:flex-row w-[100%] justify-self-center lg:items-start border-solid border-black border-2">
+      <h2 className="mt-10">SACRIFICIAL ANODES</h2>
+      <section className="flex flex-col lg:flex-row w-[100%] justify-center lg:items-start lg:ml-[20vw]">
         
         <div className="">
           <h2 className="my-6">Commercial</h2>
           <SideBarComm />
         </div>
-        <div className="lg:ml-[5%] mb-6">
+        <div className="lg:ml-[10%] mb-6">
           <h2 className="whitespace-nowrap my-6">Pleasure Craft</h2>
           <SideBarPC />
         </div>
-        <div className="lg:ml-[5%] mb-6">
+        <div className="lg:ml-[10%] mb-6">
           <h2 className="whitespace-nowrap my-6">Zinc Caps</h2>
           <div>
             <ul>
@@ -39,7 +39,7 @@ const index = () => {
         <main>
           <article></article>
         </main>
-      </div>
+      </section>
     </div>
   );
 };
