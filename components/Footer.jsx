@@ -8,8 +8,8 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#4C4E52]">
-        <div className="bg-[#393b3e] h-[17rem] w-[100%] md:w-[60%] lg:w-[35%] pl-[2%] ml-[0] md:ml-[4%] flex justify-center">
+      <div className="bg-[#4C4E52] flex flex-col lg:flex-row">
+        <div className="bg-[#393b3e] h-[17rem] w-[100%] md:w-[60%] lg:w-[35%] pl-[2%] ml-[0] md:ml-[4%] flex justify-center border-solid border-5 border-blue-500">
           <ul className="text-white text-xl">
             <h4 className="text-4xl pt-6 pb-3 font-heading tracking-wide z-40">
               WE ARE HERE TO HELP
@@ -31,7 +31,20 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-      </div>
+   
+        <div className="flex-col justify-center lg:justify-end items-center w-[100%] py-2.5 border-solid border-5 border-red-500">
+          <Image
+            className="flex pr-2"
+            src="/images/made-in-canada-reliance.png"
+            width={80}
+            height={50}
+          />
+          <div className="flex flex-col text-white text-s lg:text-base text-left font-fancy w-[25%] lg:w-[15%] lg:pl-2">
+            <p>PROUDLY</p> <p>MADE IN</p> <p>CANADA</p>
+          </div>
+        </div>
+  
+        </div>
     </>
   );
 };
