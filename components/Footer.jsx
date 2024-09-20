@@ -31,7 +31,10 @@ const Footer = () => {
             </li>
             <li className="flex items-center p-2">
               <TbMap2 size={30} />
-              <p className="pl-2">7220 Winston Street, Burnaby, BC V5A 2G9</p>
+              <div className="flex flex-col">
+              <p className="pl-2">7220 Winston Street, </p>
+              <p className="pl-2">Burnaby, BC V5A 2G9</p>
+              </div>
             </li>
             <li>
               <p className="pt-2">Copyright © 2022 Metal Distributors LTD</p>
