@@ -20,7 +20,10 @@ const Footer = () => {
             </h4>
             <li className="flex items-center p-2 z-40">
               <GiRotaryPhone size={30} />{" "}
+              <div className="flex flex-col md:flex-row">
+              <p className="pl-2">604 420 3731 /</p>
               <p className="pl-2">1 (877) 420 3731</p>
+              </div>
             </li>
             <li className="flex items-center p-2">
               <IoIosMail size={30} />
