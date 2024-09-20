@@ -194,7 +194,7 @@ const hullBarWeldData = [
   dMeasureMm: '(140 mm)',
   notes: '',},
   
-  {img: '',
+  {img: '/anodes/MD-DDX6X12LouveredZincAnode.png',
   znCode: 'MD-DDX 6x12 DIVERS DELUXE',
   znLb: '9.38 lb',
   znKg: '(4.25 kg)',

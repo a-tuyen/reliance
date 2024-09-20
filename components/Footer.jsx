@@ -18,18 +18,18 @@ const Footer = () => {
             <h4 className="text-4xl pt-6 pb-3 font-heading tracking-wide z-40">
               WE ARE HERE TO HELP
             </h4>
-            <li className="flex items-center p-2 z-40">
+            <li className="flex items-center p-1 z-40">
               <GiRotaryPhone size={30} />{" "}
               <div className="flex flex-col md:flex-row">
               <p className="pl-2">604 420 3731 /</p>
               <p className="pl-2">1 (877) 420 3731</p>
               </div>
             </li>
-            <li className="flex items-center p-2">
+            <li className="flex items-center p-1">
               <IoIosMail size={30} />
               <p className="pl-2 ">info@metaldist.com</p>
             </li>
-            <li className="flex items-center p-2">
+            <li className="flex items-center p-1">
               <TbMap2 size={30} />
               <div className="flex flex-col">
               <p className="pl-2">7220 Winston Street, </p>
@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </li>
             <li>
-              <p className="pt-2">Copyright © 2022 Metal Distributors LTD</p>
+              <p className="">Copyright © 2022 Metal Distributors LTD</p>
             </li>
           </ul>
         </div>
