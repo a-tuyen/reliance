@@ -105,7 +105,7 @@ const hjData = [
     alKg: '(2.48 kg)',
     notes: ''},
     
-    {img: '',
+    {img: '/anodes/HJ-212094.png',
     znCode: 'MD-HJ-212094',
     znLb: '0.34 lb',
     znKg: '(0.15 kg)',
