@@ -5,12 +5,16 @@ import { IoIosMail } from "react-icons/io";
 import { GrMapLocation } from "react-icons/gr";
 import Image from "next/image";
 
+// bg-[#393b3e]
+
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#4C4E52] flex flex-col lg:flex-row">
-        <div className="bg-[#393b3e] h-[17rem] w-[100%] md:w-[60%] lg:w-[35%] pl-[2%] ml-[0] md:ml-[4%] flex justify-center border-solid border-5 border-blue-500">
-          <ul className="text-white text-xl">
+      <div className="bg-[#393b3e] md:bg-[#4C4E52] flex flex-col md:flex-row items-center justify-between w-[100%]">
+        {/* <div className="h-[25vw] w-[100%] md:w-[60%] lg:w-[35%] pl-[2%] ml-[0] md:ml-[4%] flex justify-center"> */}
+
+        <div className="flex flex-col items-center w-[100%] bg-[#393b3e] md:w-[60%] lg:w-[35%] pl-[%] ml-[0] md:ml-[4%] justify-center">
+          <ul className="text-white text-xl px-3 pb-3">
             <h4 className="text-4xl pt-6 pb-3 font-heading tracking-wide z-40">
               WE ARE HERE TO HELP
             </h4>
@@ -32,15 +36,15 @@ const Footer = () => {
           </ul>
         </div>
    
-        <div className="flex-col justify-center lg:justify-end items-center w-[100%] py-2.5 border-solid border-5 border-red-500">
+        <div className=" flex flex-col justify-center items-center md:items-center md:mr-4">
           <Image
             className="flex pr-2"
             src="/images/made-in-canada-reliance.png"
-            width={80}
+            width={100}
             height={50}
           />
-          <div className="flex flex-col text-white text-s lg:text-base text-left font-fancy w-[25%] lg:w-[15%] lg:pl-2">
-            <p>PROUDLY</p> <p>MADE IN</p> <p>CANADA</p>
+          <div className="flex md:flex-col text-white text-s text-center font-fancy">
+            <p className="pr-1 md:pr-0">PROUDLY</p> <p className="pr-1 md:pr-0">MADE IN</p> <p>CANADA</p>
           </div>
         </div>
   
