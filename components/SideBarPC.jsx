@@ -41,12 +41,8 @@ const pcData = [
   { category: "MDG Shaft", link: "/products/pleasureCraft/mdg" },
 
   {
-    category: "Mercury Anodes",
+    category: "Mercury Anodes & Kits",
     link: "/products/pleasureCraft/mercury",
-  },
-  {
-    category: "Mercury Anode Kits",
-    link: "/products/pleasureCraft/mercuryKits",
   },
   {
     category: "MJP UltraJet Anodes",

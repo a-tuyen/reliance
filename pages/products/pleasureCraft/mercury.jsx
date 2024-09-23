@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const mercuryData = [
+  // 0
   {
     img: "https://user-images.githubusercontent.com/77664153/233703530-8a1fcb04-6695-47ca-802e-2a39b3354c58.png",
     znCode: "MD-31640",
@@ -16,7 +17,7 @@ const mercuryData = [
     alKg: "(0.19 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 1
   {
     img: "https://user-images.githubusercontent.com/77664153/233703543-09a71411-79c3-420b-a26e-be4da55ba4a6.png",
     znCode: "MD-34127",
@@ -27,7 +28,7 @@ const mercuryData = [
     alKg: "(0.23 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 2
   {
     img: "https://user-images.githubusercontent.com/77664153/233703531-b26f127b-b62a-4d01-919f-220c798e6b17.png",
     znCode: "MD-34762",
@@ -38,7 +39,7 @@ const mercuryData = [
     alKg: "(0.09 kg)",
     notes: "",
   },
-
+// 3
   {
     img: "https://user-images.githubusercontent.com/77664153/233703532-4e494cb6-412e-4d56-a2ce-54f29ffa1d66.png",
     znCode: "MD-46399",
@@ -49,7 +50,7 @@ const mercuryData = [
     alKg: "(0.15 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 4
   {
     img: "https://user-images.githubusercontent.com/77664153/233703539-96ade914-585e-46ea-aea5-d87f3e84b3f0.png",
     znCode: "MD-55989 (1/2)",
@@ -60,7 +61,7 @@ const mercuryData = [
     alKg: "(0.04 kg)",
     notes: "1/2-13 UNC",
   },
-
+// 5
   {
     img: "https://user-images.githubusercontent.com/77664153/233703539-96ade914-585e-46ea-aea5-d87f3e84b3f0.png",
     znCode: "MD-55989 (1/4)",
@@ -71,7 +72,7 @@ const mercuryData = [
     alKg: "(0.04 kg)",
     notes: "1/4-20 UNC",
   },
-
+// 6
   {
     img: "https://user-images.githubusercontent.com/77664153/233703539-96ade914-585e-46ea-aea5-d87f3e84b3f0.png",
     znCode: "MD-55989 (7/16)",
@@ -82,7 +83,7 @@ const mercuryData = [
     alKg: "(0.04 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 7
   {
     img: "https://user-images.githubusercontent.com/77664153/233703533-415e21b2-ffd3-47b8-8bdc-e40e751db366.png",
     znCode: "MD-76214",
@@ -93,7 +94,7 @@ const mercuryData = [
     alKg: "(0.11 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 8
   {
     img: "https://user-images.githubusercontent.com/77664153/233703533-415e21b2-ffd3-47b8-8bdc-e40e751db366.png",
     znCode: "MD-76214-4 (UNTHREADED)",
@@ -104,7 +105,7 @@ const mercuryData = [
     alKg: "(0.11 kg)",
     notes: "UNTHREADED",
   },
-
+// 9
   {
     img: "https://user-images.githubusercontent.com/77664153/233703533-415e21b2-ffd3-47b8-8bdc-e40e751db366.png",
     znCode: "MD-76214-5",
@@ -115,7 +116,7 @@ const mercuryData = [
     alKg: "(0.11 kg)",
     notes: "7/16-14 UNC",
   },
-
+// 10
   {
     img: "https://user-images.githubusercontent.com/77664153/233703537-5a651e6e-4a3f-46e9-be1d-32a8ac189a53.png",
     znCode: "MD-43994",
@@ -126,7 +127,7 @@ const mercuryData = [
     alKg: "(- kg)",
     notes: "",
   },
-
+// 11
   {
     img: "https://user-images.githubusercontent.com/77664153/233703541-bfbef6a0-2483-4a9b-858a-15d24f258696.png",
     znCode: "MD-43396",
@@ -137,7 +138,7 @@ const mercuryData = [
     alKg: "(- kg)",
     notes: "",
   },
-
+// 12
   {
     img: "https://user-images.githubusercontent.com/77664153/233703547-09dc85c0-5772-454c-9d57-986071f7d91d.png",
     znCode: "MD-806105",
@@ -148,7 +149,7 @@ const mercuryData = [
     alKg: "(0.09 kg)",
     notes: "",
   },
-
+// 13
   {
     img: "https://user-images.githubusercontent.com/77664153/233703549-b76dab73-b17e-4fd5-92ac-621b7f28e8b4.png",
     znCode: "MD-806189",
@@ -159,7 +160,7 @@ const mercuryData = [
     alKg: "(0.03 kg)",
     notes: "",
   },
-
+// 14
   {
     img: "https://user-images.githubusercontent.com/77664153/233703535-57898cb0-cddd-4b76-a5ee-d3114e583104.png",
     znCode: "MD-822157-C2",
@@ -170,7 +171,7 @@ const mercuryData = [
     alKg: "(- kg)",
     notes: "",
   },
-
+// 15
   {
     img: "https://user-images.githubusercontent.com/77664153/233703573-2a17a32c-ef38-4121-bb5a-a01c9ae91e62.png",
     znCode: "MD-823912",
@@ -181,7 +182,7 @@ const mercuryData = [
     alKg: "(0.06 kg)",
     notes: "",
   },
-
+// 16
   {
     img: "https://user-images.githubusercontent.com/77664153/233703573-2a17a32c-ef38-4121-bb5a-a01c9ae91e62.png",
     znCode: "MD-823913",
@@ -192,7 +193,7 @@ const mercuryData = [
     alKg: "(0.2 kg)",
     notes: "",
   },
-
+// 17
   {
     img: "https://user-images.githubusercontent.com/77664153/233703548-f3c2a397-9472-4b01-bae8-9d8bf2291fd4.png",
     znCode: "MD-892227",
@@ -203,7 +204,7 @@ const mercuryData = [
     alKg: "(0.05 kg)",
     notes: "",
   },
-
+// 18
   {
     img: "https://user-images.githubusercontent.com/77664153/233703550-5f03001b-4311-42c4-9262-d6d5c49baabd.png",
     znCode: "MD-826134",
@@ -214,7 +215,7 @@ const mercuryData = [
     alKg: "(0.15 kg)",
     notes: "",
   },
-
+// 19
   {
     img: "https://user-images.githubusercontent.com/77664153/233703565-51a06e9d-1f73-4436-a96b-d429dbdd60d8.png",
     znCode: "MD-847266",
@@ -225,7 +226,7 @@ const mercuryData = [
     alKg: "(0.02 kg)",
     notes: "",
   },
-
+// 20
   {
     img: "https://user-images.githubusercontent.com/77664153/233703553-442271b0-6bbb-43dc-9b4c-f6865ef218bd.png",
     znCode: "MD-89949",
@@ -236,7 +237,7 @@ const mercuryData = [
     alKg: "(- kg)",
     notes: "",
   },
-
+// 21
   {
     img: "https://user-images.githubusercontent.com/77664153/233703557-9cd78768-5546-4dd9-a6c2-44459bfcf2b5.png",
     znCode: "MD-818298",
@@ -247,7 +248,7 @@ const mercuryData = [
     alKg: "(0.25 kg)",
     notes: "",
   },
-
+// 22
   {
     img: "https://user-images.githubusercontent.com/77664153/233703558-b218e50c-b04c-4514-b8cc-2e2682062c1f.png",
     znCode: "MD-821629",
@@ -258,7 +259,7 @@ const mercuryData = [
     alKg: "(0.28 kg)",
     notes: "1/4-20 UNC",
   },
-
+// 23
   {
     img: "https://user-images.githubusercontent.com/77664153/233703561-576ff112-729d-45f6-9052-ea8df7d243e8.png",
     znCode: "MD-821630",
@@ -269,7 +270,7 @@ const mercuryData = [
     alKg: "(0.39 kg)",
     notes: "",
   },
-
+// 24
   {
     img: "https://user-images.githubusercontent.com/77664153/233703538-d5ee40c0-4163-454a-88f5-efc9c5e23ea4.png",
     znCode: "MD-821631",
@@ -280,7 +281,7 @@ const mercuryData = [
     alKg: "(0.35 kg)",
     notes: "",
   },
-
+// 25
   {
     img: "https://user-images.githubusercontent.com/77664153/233703570-841c9e75-3c3c-459c-8bb4-e6c35fdd2494.png",
     znCode: "MD-806190",
@@ -291,7 +292,7 @@ const mercuryData = [
     alKg: "(0.12 kg)",
     notes: "",
   },
-
+// 26
   {
     img: "https://user-images.githubusercontent.com/77664153/233703562-dbc75772-3ec7-438c-813a-9ada914efd72.png",
     znCode: "MD-98432-5",
@@ -302,7 +303,7 @@ const mercuryData = [
     alKg: "(0.17 kg)",
     notes: "M8 x 1.25",
   },
-
+// 27
   {
     img: "https://user-images.githubusercontent.com/77664153/233703568-3b1edca1-abf9-49a0-ad8f-2ec71f1ff34f.png",
     znCode: "MD-806188",
@@ -313,7 +314,7 @@ const mercuryData = [
     alKg: "(0.06 kg)",
     notes: "",
   },
-
+// 28
   {
     img: "https://user-images.githubusercontent.com/77664153/233703572-f33a4a84-eabe-4353-bf9f-68113ec4175b.png",
     znCode: "MD-865182",
@@ -324,7 +325,7 @@ const mercuryData = [
     alKg: "(0.2 kg)",
     notes: "",
   },
-
+// 29
   {
     img: "https://user-images.githubusercontent.com/77664153/233703567-1c583c44-f2d8-430e-bfd2-d906658e066c.png",
     znCode: "MD-848653T K-PLANE",
@@ -335,7 +336,7 @@ const mercuryData = [
     alKg: "(0.29 kg)",
     notes: "",
   },
-
+// 30
   {
     img: "https://user-images.githubusercontent.com/77664153/233703565-51a06e9d-1f73-4436-a96b-d429dbdd60d8.png",
     znCode: "MD-847332 K-PLANE",
@@ -346,7 +347,7 @@ const mercuryData = [
     alKg: "(0.2 kg)",
     notes: "",
   },
-
+// 31
   {
     img: "https://user-images.githubusercontent.com/77664153/233703565-51a06e9d-1f73-4436-a96b-d429dbdd60d8.png",
     znCode: "MD-847266 K-PLANE",
@@ -357,7 +358,7 @@ const mercuryData = [
     alKg: "(0.08 kg)",
     notes: "",
   },
-
+// 32
   {
     img: "https://user-images.githubusercontent.com/77664153/233703564-6826dd07-8a19-4cd7-a8eb-fba4d1715b67.png",
     znCode: "MD-875208",
@@ -368,7 +369,7 @@ const mercuryData = [
     alKg: "(0.01 kg)",
     notes: "",
   },
-
+// 33
   {
     img: "https://user-images.githubusercontent.com/77664153/233703571-a6ea106b-fbd0-4f79-b82c-e68beb6aa7ad.png",
     znCode: "MD-880653",
@@ -425,6 +426,305 @@ const mercury = () => {
                 ))}
               </tbody>
             </table>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th className="py-8">
+                    <h1>MERCURY ANODE KITS</h1>
+                    <p>Available in ZINC and ALUMINUM</p>
+                    <p>Hardware Included</p>
+                  </th>
+                </tr>
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    ALPHA 1 ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[0].znCode}</p>
+                      <Image src={mercuryData[0].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[24].znCode}</p>
+                      <Image src={mercuryData[24].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[4].znCode}</p>
+                      <Image src={mercuryData[4].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    ALPHA 1 GEN II ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[24].znCode}</p>
+                      <Image src={mercuryData[24].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[22].znCode}</p>
+                      <Image src={mercuryData[22].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[13].znCode}</p>
+                      <Image src={mercuryData[13].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[12].znCode}</p>
+                      <Image src={mercuryData[12].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    ALPHA 1 GEN II W/FIN ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[0].znCode}</p>
+                      <Image src={mercuryData[0].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[24].znCode}</p>
+                      <Image src={mercuryData[24].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[22].znCode}</p>
+                      <Image src={mercuryData[22].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[13].znCode}</p>
+                      <Image src={mercuryData[13].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[12].znCode}</p>
+                      <Image src={mercuryData[12].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRAVO I ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[23].znCode}</p>
+                      <Image src={mercuryData[23].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[25].znCode}</p>
+                      <Image src={mercuryData[25].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[27].znCode}</p>
+                      <Image src={mercuryData[27].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRAVO I & II ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[23].znCode}</p>
+                      <Image src={mercuryData[23].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[25].znCode}</p>
+                      <Image src={mercuryData[25].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRAVO III (2004+) ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[7].znCode}</p>
+                      <Image src={mercuryData[7].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[23].znCode}</p>
+                      <Image src={mercuryData[23].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[25].znCode}</p>
+                      <Image src={mercuryData[25].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[28].znCode}</p>
+                      <Image src={mercuryData[28].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRAVO III (2003) ADD ON ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[28].znCode}</p>
+                      <Image src={mercuryData[28].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    VERADO 4 ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[21].znCode}</p>
+                      <Image src={mercuryData[21].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[18].znCode}</p>
+                      <Image src={mercuryData[18].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    VERADO 4 W/ FIN ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[21].znCode}</p>
+                      <Image src={mercuryData[21].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[0].znCode}</p>
+                      <Image src={mercuryData[0].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[18].znCode}</p>
+                      <Image src={mercuryData[18].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    VERADO 6 ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white flex flex-col md:flex-row md:justify-evenly">
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[33].znCode}</p>
+                      <Image src={mercuryData[33].img} width={200} height={100} />
+                      <p className="py-4">1 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[17].znCode}</p>
+                      <Image src={mercuryData[17].img} width={200} height={100} />
+                      <p className="py-4">4 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[18].znCode}</p>
+                      <Image src={mercuryData[18].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    <div className="flex flex-col items-center pb-4">
+                      <p className="py-4">{mercuryData[9].znCode}</p>
+                      <Image src={mercuryData[9].img} width={200} height={100} />
+                      <p className="py-4">2 each</p>
+                    </div>
+                    </td>
+                </tr>
+
+
+              </tbody>
+            </table>
+
           </main>
         </article>
       </div>
