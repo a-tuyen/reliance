@@ -7,6 +7,7 @@ import Chart3NotePic from "@/components/Chart3NotePic";
 import Image from "next/image";
 
 const volvoData = [
+  //0
   {
     img: "https://user-images.githubusercontent.com/77664153/236573202-d4f2fea1-621e-4661-9d17-c7a90cf3d8a7.png",
     znCode: "MDV-15",
@@ -23,7 +24,7 @@ const volvoData = [
     cDiaMm: "(51 mm)",
     notes: "ENGINE MODEL: 100",
   },
-
+  //1
   {
     img: "https://user-images.githubusercontent.com/77664153/236573202-d4f2fea1-621e-4661-9d17-c7a90cf3d8a7.png",
     znCode: "MDV-16",
@@ -40,7 +41,7 @@ const volvoData = [
     cDiaMm: "(57 mm)",
     notes: "ENGINE MODEL: 200",
   },
-
+  //2
   {
     img: "https://user-images.githubusercontent.com/77664153/236573202-d4f2fea1-621e-4661-9d17-c7a90cf3d8a7.png",
     znCode: "MDV-17",
@@ -57,7 +58,7 @@ const volvoData = [
     cDiaMm: "(57 mm)",
     notes: "ENGINE MODEL: 250-270",
   },
-
+  //3
   {
     img: "https://user-images.githubusercontent.com/77664153/236894259-33fe6533-4b67-4483-bddf-f30d88b67800.png",
     znCode: "MDV-18 / MD-875815-3",
@@ -74,7 +75,7 @@ const volvoData = [
     cDiaMm: "(60 mm)",
     notes: "ENGINE MODEL: 280-290",
   },
-
+  //4
   {
     img: "https://user-images.githubusercontent.com/77664153/236895700-c10a94c1-e6fe-4238-ae5c-16168daa6dd3.png",
     znCode: "MD-358407",
@@ -91,7 +92,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "",
   },
-
+  //5
   {
     img: "https://user-images.githubusercontent.com/77664153/236572632-e1856dfc-3e1c-4cef-a785-1a02ba8f58e6.png",
     znCode: "MD-823661",
@@ -108,7 +109,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "ENGINE MODEL: DIESEL",
   },
-
+  //6
   {
     img: "https://user-images.githubusercontent.com/77664153/236886991-463d4ee4-bf91-471f-9bce-3a5bc8183d93.png",
     znCode: "MD-832598",
@@ -125,7 +126,7 @@ const volvoData = [
     cDiaMm: "(146 mm)",
     notes: "ENGINE MODEL: 250-270",
   },
-
+  //7
   {
     img: "https://user-images.githubusercontent.com/77664153/236894259-33fe6533-4b67-4483-bddf-f30d88b67800.png",
     znCode: "MD-851983",
@@ -142,7 +143,7 @@ const volvoData = [
     cDiaMm: "(94 mm)",
     notes: "ENGINE MODEL: 120F SAIL DRIVE",
   },
-
+  //8
   {
     img: "https://user-images.githubusercontent.com/77664153/236887284-c412e638-9fde-405e-b56b-4e4632c4f654.png",
     znCode: "MD-852835",
@@ -159,7 +160,7 @@ const volvoData = [
     cDiaMm: "(86 mm)",
     notes: "ENGINE MODEL: 290",
   },
-
+  //9
   {
     img: "https://user-images.githubusercontent.com/77664153/236894259-33fe6533-4b67-4483-bddf-f30d88b67800.png",
     znCode: "MD-875812",
@@ -176,7 +177,7 @@ const volvoData = [
     cDiaMm: "(54 mm)",
     notes: "ENGINE MODEL: SAIL DRIVE",
   },
-
+  //10
   {
     img: "https://user-images.githubusercontent.com/77664153/236894259-33fe6533-4b67-4483-bddf-f30d88b67800.png",
     znCode: "MD-875821",
@@ -193,7 +194,7 @@ const volvoData = [
     cDiaMm: "(86 mm)",
     notes: "ENGINE MODEL: 290",
   },
-
+  //11
   {
     img: "https://user-images.githubusercontent.com/77664153/236886917-05494dec-d38a-47f9-adfe-7dd1d3e12b02.png",
     znCode: "MD-838929",
@@ -210,7 +211,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "M8 x 1.25",
   },
-
+  //12
   {
     img: "https://user-images.githubusercontent.com/77664153/236895924-26ca1610-4f1c-46b7-83c1-15e8b3520456.png",
     znCode: "MD-3588745",
@@ -227,7 +228,7 @@ const volvoData = [
     cDiaMm: "(86 mm)",
     notes: "ENGINE ANODE",
   },
-
+  //13
   {
     img: "https://user-images.githubusercontent.com/77664153/236947172-5cbbe448-efe2-4c80-8e64-4b80e48e7e00.png",
     znCode: "MD-3593881",
@@ -244,7 +245,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "",
   },
-
+  //14
   {
     img: "https://user-images.githubusercontent.com/77664153/236896056-0d5a2433-6814-4443-8eb1-1969bb597c7e.png",
     znCode: "MD-3841427",
@@ -261,7 +262,7 @@ const volvoData = [
     cDiaMm: "(30 mm)",
     notes: "",
   },
-
+  //15
   {
     img: "https://user-images.githubusercontent.com/77664153/236895886-1dee42c9-a51f-4270-90ad-2e03ac5a6ae5.png",
     znCode: "MD-3854130",
@@ -278,7 +279,7 @@ const volvoData = [
     cDiaMm: "(38 mm)",
     notes: "",
   },
-
+  //16
   {
     img: "https://user-images.githubusercontent.com/77664153/236894974-27aeeb64-6119-47d6-a76a-34b0791ce7fe.png",
     znCode: "MD-3855411",
@@ -295,7 +296,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "1/4-20 UNC",
   },
-
+  //17
   {
     img: "https://user-images.githubusercontent.com/77664153/236895982-6c991cba-8367-4851-9a0a-4826fdf82e5c.png",
     znCode: "MD-3863206",
@@ -312,7 +313,7 @@ const volvoData = [
     cDiaMm: "(35 mm)",
     notes: "",
   },
-
+  //18
   {
     img: "https://user-images.githubusercontent.com/77664153/236947685-f076c86d-be10-428b-8140-ea1f03579e23.png",
     znCode: "MD-3858399",
@@ -329,7 +330,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "",
   },
-
+  //19
   {
     img: "https://user-images.githubusercontent.com/77664153/236896110-0a1b666f-898a-45a8-9fa0-1d82b29e5d1f.png",
     znCode: "MD-3883728",
@@ -346,7 +347,7 @@ const volvoData = [
     cDiaMm: "(28 mm)",
     notes: "",
   },
-
+  //20
   {
     img: "https://user-images.githubusercontent.com/77664153/236887520-e00395da-6131-4e01-aa73-ad42fba40e6e.png",
     znCode: "MD-872139",
@@ -363,7 +364,7 @@ const volvoData = [
     cDiaMm: "(29 mm)",
     notes: "",
   },
-
+  //21
   {
     img: "https://user-images.githubusercontent.com/77664153/236944580-d5774d7b-5359-4849-9f25-2a747c7779f9.png",
     znCode: "MD-873395",
@@ -380,7 +381,7 @@ const volvoData = [
     cDiaMm: "(32 mm)",
     notes: "",
   },
-
+  //22
   {
     img: "https://user-images.githubusercontent.com/77664153/236895831-68cbcf78-56ba-40a6-86d4-24c5db3e314f.png",
     znCode: "MD-872793",
@@ -397,7 +398,7 @@ const volvoData = [
     cDiaMm: "(29 mm)",
     notes: "",
   },
-
+  //23
   {
     img: "https://user-images.githubusercontent.com/77664153/236895760-8734c927-d9cd-4e2d-b676-b284beb54aab.png",
     znCode: "MD-22651246",
@@ -414,7 +415,7 @@ const volvoData = [
     cDiaMm: "(- mm)",
     notes: "ENGINE MODEL: SAIL DRIVE",
   },
-
+  //24
   {
     img: "https://user-images.githubusercontent.com/77664153/236895630-10460e8f-2f63-4288-9034-f6f2d9c26ebd.png",
     znCode: "MD-40005206 / MD-21174476",
@@ -431,7 +432,7 @@ const volvoData = [
     cDiaMm: "(30 mm)",
     notes: '5.45" C/C',
   },
-
+  //25
   {
     img: "https://user-images.githubusercontent.com/77664153/236895630-10460e8f-2f63-4288-9034-f6f2d9c26ebd.png",
     znCode: "MD-40005875",
@@ -663,6 +664,76 @@ const volvo = () => {
                 ))}
               </tbody>
             </table>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th className="py-8">
+                    <h1>VOLVO ANODE KITS</h1>
+                    <p>Available in ZINC and ALUMINUM</p>
+                  </th>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    VOLVO PENTA 280 ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[0].znCode}</p>
+                        <Image src={volvoData[0].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[24].znCode}</p>
+                        <Image src={volvoData[24].img} width={200} height={100} />
+                        <p className="py-4">2 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[4].znCode}</p>
+                        <Image src={volvoData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                    <p>Hardware Included</p>
+                  </td>
+                </tr>
+
+                
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    VOLVO PENTA 280 DUO PROP ANODE KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[0].znCode}</p>
+                        <Image src={volvoData[0].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[24].znCode}</p>
+                        <Image src={volvoData[24].img} width={200} height={100} />
+                        <p className="py-4">2 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-4">
+                        <p className="py-4">{volvoData[4].znCode}</p>
+                        <Image src={volvoData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                    <div><p>Hardware Included</p></div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
           </main>
         </article>
       </div>
