@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const omcData = [
+  //0
   {
     img: "https://user-images.githubusercontent.com/77664153/242035185-27a1544d-27b5-46e5-9a0e-b4d17d93801f.png",
     znCode: "MD-5031705",
@@ -17,7 +18,7 @@ const omcData = [
     note1: "0.75",
     note2: "1/4-20 UNC",
   },
-
+  //1
   {
     img: "https://user-images.githubusercontent.com/77664153/242034457-196fe390-d2e1-4041-928c-6fd52bcc8269.png",
     znCode: "MD-367",
@@ -29,7 +30,7 @@ const omcData = [
     note1: "7.625",
     note2: "",
   },
-
+  //2
   {
     img: "https://user-images.githubusercontent.com/77664153/242034482-ffdab9a3-91df-4c30-9ad3-c66ac1c3ffe1.png",
     znCode: "MD-123009",
@@ -41,7 +42,7 @@ const omcData = [
     note1: "Threaded",
     note2: "10-24 UNC",
   },
-
+  //3
   {
     img: "https://user-images.githubusercontent.com/77664153/242034482-ffdab9a3-91df-4c30-9ad3-c66ac1c3ffe1.png",
     znCode: "MD-327606",
@@ -53,7 +54,7 @@ const omcData = [
     note1: "UNTHREADED",
     note2: "",
   },
-
+  //4
   {
     img: "https://user-images.githubusercontent.com/77664153/242034509-fce4ddb1-5033-4bd1-bcb5-d604b7c95201.png",
     znCode: "MD-393023",
@@ -65,7 +66,7 @@ const omcData = [
     note1: "1.5",
     note2: "",
   },
-
+  //5
   {
     img: "https://user-images.githubusercontent.com/77664153/242034531-7434722d-7a42-4516-a895-125f6e72df14.png",
     znCode: "MD-398331",
@@ -77,7 +78,7 @@ const omcData = [
     note1: "2.25",
     note2: "",
   },
-
+  //6
   {
     img: "https://user-images.githubusercontent.com/77664153/242034559-2bc237ba-d70e-4e75-ab6e-5bb530a8b47c.png",
     znCode: "MD-392462",
@@ -89,7 +90,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //7
   {
     img: "https://user-images.githubusercontent.com/77664153/242034588-9223203c-7774-40b6-9328-faa8bdaf1b01.png",
     znCode: "MD-980756",
@@ -101,7 +102,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //8
   {
     img: "https://user-images.githubusercontent.com/77664153/242034614-b6634759-6527-42f3-b16a-d7e814ad0b75.png",
     znCode: "MD-982277",
@@ -113,7 +114,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //9
   {
     img: "https://user-images.githubusercontent.com/77664153/242034683-3edef350-b788-49e4-8f66-a861a4c88f43.png",
     znCode: "MD-982438",
@@ -125,7 +126,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //10
   {
     img: "https://user-images.githubusercontent.com/77664153/242034758-2e193582-14f3-4f02-83ed-cdbab0d21bbc.png",
     znCode: "MD-392123",
@@ -137,7 +138,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //11
   {
     img: "https://user-images.githubusercontent.com/77664153/242034818-a8db65ad-134a-4ca7-9aca-2371866fd0ca.png",
     znCode: "MD-984513",
@@ -149,7 +150,7 @@ const omcData = [
     note1: "COBRA",
     note2: "1/4-20 UNC",
   },
-
+  //12
   {
     img: "https://user-images.githubusercontent.com/77664153/242034859-3ee25b50-9a76-4469-99be-5dbf5825e446.png",
     znCode: "MD-984547",
@@ -161,7 +162,7 @@ const omcData = [
     note1: "COBRA",
     note2: "",
   },
-
+  //13
   {
     img: "https://user-images.githubusercontent.com/77664153/242034915-62a75541-6559-4b7b-8413-23da4f392d8b.png",
     znCode: "MD-983952",
@@ -173,7 +174,7 @@ const omcData = [
     note1: "COBRA",
     note2: "",
   },
-
+  //14
   {
     img: "https://user-images.githubusercontent.com/77664153/242034943-a3ca244b-839b-43ce-bc1c-b409e25a80b3.png",
     znCode: "MD-983494",
@@ -185,7 +186,7 @@ const omcData = [
     note1: "COBRA",
     note2: "1/4-20 UNC",
   },
-
+  //15
   {
     img: "https://user-images.githubusercontent.com/77664153/242034990-9018609f-7005-4701-8373-becfdd8f6cce.png",
     znCode: "MD-397768",
@@ -197,7 +198,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //16
   {
     img: "https://user-images.githubusercontent.com/77664153/242098073-00c1b050-f5c6-45c4-ae49-a9e8ab4801e2.png",
     znCode: "MD-395780",
@@ -209,7 +210,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //17
   {
     img: "https://user-images.githubusercontent.com/77664153/242035037-c7581d05-3e57-42ae-a8fd-dd895ebd68b9.png",
     znCode: "MD-C983191",
@@ -221,7 +222,7 @@ const omcData = [
     note1: "SEA DRIVE",
     note2: "",
   },
-
+  //18
   {
     img: "https://user-images.githubusercontent.com/77664153/242035071-51c15d0f-d9b3-47c1-bf74-ffed16b8c186.png",
     znCode: "MD-C389999",
@@ -233,7 +234,7 @@ const omcData = [
     note1: "SAIL DRIVE",
     note2: "1/4-20 UNC",
   },
-
+  //19
   {
     img: "https://user-images.githubusercontent.com/77664153/242035132-74518ea8-fa4e-44a2-9ab3-17c3f88e708c.png",
     znCode: "MD-431708",
@@ -245,7 +246,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //20
   {
     img: "https://user-images.githubusercontent.com/77664153/242035220-e242fd8d-f4b8-4a9e-9fae-47cd260a8655.png",
     znCode: "MD-398873",
@@ -257,7 +258,7 @@ const omcData = [
     note1: "",
     note2: "",
   },
-
+  //21
   {
     img: "https://user-images.githubusercontent.com/77664153/242087327-e4eaa810-3edf-41bb-88bf-0cd46fdef271.png",
     znCode: "MD-433580",
@@ -315,6 +316,118 @@ const omc = () => {
                 ))}
               </tbody>
             </table>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th className="py-8">
+                    <h1>BRP (OMC / JOHNSON EVINRUDE) ANODE KITS</h1>
+                    <p>Available in ZINC and ALUMINUM</p>
+                    <p className="pt-2">Hardware Included</p>
+                  </th>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRP OMC STRINGER KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[14].znCode}</p>
+                        <Image src={omcData[14].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[4].znCode}</p>
+                        <Image src={omcData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[19].znCode}</p>
+                        <Image src={omcData[19].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRP OMC COBRA KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[11].znCode}</p>
+                        <Image src={omcData[11].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[4].znCode}</p>
+                        <Image src={omcData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[19].znCode}</p>
+                        <Image src={omcData[19].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRP OMC 50-75HP KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[4].znCode}</p>
+                        <Image src={omcData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[6].znCode}</p>
+                        <Image src={omcData[6].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th className="bg-lightMain text-black py-2">
+                    BRP OMC V4-V6 KIT
+                  </th>
+                </tr>
+                <tr>
+                  <td className="bg-white ">
+                    <div className="flex flex-col md:flex-row md:justify-evenly">
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[4].znCode}</p>
+                        <Image src={omcData[4].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                      <div className="flex flex-col items-center pb-2">
+                        <p className="py-4">{omcData[10].znCode}</p>
+                        <Image src={omcData[10].img} width={200} height={100} />
+                        <p className="py-4">1 each</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+
           </main>
         </article>
       </div>
