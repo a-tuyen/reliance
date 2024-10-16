@@ -193,13 +193,12 @@ const caterpillar = () => {
                     <p className="text-sm md:text-lg">DIA</p>
                   </th>
                   <th>
-                    C:
-                    <p className="text-sm md:text-lg">PLUG OD</p>
+                    <p className="text-sm md:text-lg">PLUG OD (NPT)</p>
                   </th>
                   <th>
-                    C:
+                    C-PLUG
                     <p className="px-2 text-sm md:text-lg">
-                      THREAD INTERVAL (NPT)
+                      THREAD INTERVAL
                     </p>
                   </th>
                 </tr>

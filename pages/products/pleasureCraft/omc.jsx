@@ -276,7 +276,7 @@ const omc = () => {
   return (
     <div>
       <Hero
-        heading={"omc Anodes"}
+        heading={"BRP - OMC / JOHNSON EVINRUDE Anodes"}
         message={
           "Carefully designed by our skilled technicians to fit like an OEM part"
         }
@@ -290,7 +290,7 @@ const omc = () => {
               <tbody>
                 <tr>
                   <th colSpan={6} className="py-8">
-                    <h1>omc</h1>
+                    <h1>BRP - OMC / JOHNSON EVINRUDE</h1>
                     <p className="font-boldHeading text-2xl tracking-wider">
                       ANODE SPECIFICATIONS
                     </p>
@@ -321,7 +321,7 @@ const omc = () => {
               <tbody>
                 <tr>
                   <th className="py-8">
-                    <h1>BRP (OMC / JOHNSON EVINRUDE) ANODE KITS</h1>
+                    <h1>BRP - OMC / JOHNSON EVINRUDE ANODE KITS</h1>
                     <p>Available in ZINC and ALUMINUM</p>
                     <p className="pt-2">Hardware Included</p>
                   </th>
