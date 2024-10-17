@@ -160,34 +160,15 @@ const galvion = () => {
               </tbody>
             </table>
             <div className="flex flex-col lg:flex-row">
-              <div className="flex flex-col items-center justify-center lg:pr-10">
-                <Image
-                  src="https://user-images.githubusercontent.com/77664153/231299671-9b2dcc83-7ed5-4454-94b6-4ff7f8176d5f.png"
-                  alt="picture of anode"
-                  className="min-w-[80px]"
-                  width={200}
-                  height={100}
-                />
-              </div>
               <div className="flex flex-col items-center lg:pl-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/230496615-0482b4f2-6dfd-4aca-a8e2-50c433736e0b.png"
+                  src="/anodes/GalvionIMG.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
                   width={200}
                   height={100}
                 />
                 <p>Galvion Anode</p>
-              </div>
-              <div className="flex flex-col items-center lg:pl-10">
-                <Image
-                  src="https://user-images.githubusercontent.com/77664153/231298152-9273af43-a9e3-46af-aadb-a34389bcc658.png"
-                  alt="picture of anode"
-                  className="min-w-[80px]"
-                  width={200}
-                  height={100}
-                />
-                <p>GALVION Brass Plug</p>
               </div>
             </div>
 
@@ -244,14 +225,18 @@ const galvion = () => {
               </tbody>
             </table>
 
-            <p className="text-center py-4">
-              For more engine anodes, please see our{" "}
-              <Link href="/products/pleasureCraft/engine">ENGINE</Link> and{" "}
-              <Link href="/products/pleasureCraft/caterpillar">
-                CATERPILLAR
-              </Link>{" "}
-              sections.
-            </p>
+            <div className="flex flex-col lg:flex-row">
+              <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="/anodes/GalvionBrassIMG.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                <p>GALVION Brass Plug</p>
+              </div>
+            </div>
           </main>
         </article>
       </div>
