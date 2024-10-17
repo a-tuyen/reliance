@@ -4,7 +4,7 @@ import SideBarPC from "@/components/SideBarPC";
 import Chart2Dim from "@/components/Chart2Dim";
 import Image from "next/image";
 
-const rudderData = [
+const referenceData = [
   {
     znCode: 'MDR-1',
     znLb: '0.23 lb',
@@ -116,13 +116,13 @@ const rudderData = [
 
 ];
 
-const rudder = () => {
+const reference = () => {
   return (
     <div>
       <Hero
-        heading={"Rudder Anodes "}
+        heading={"reference Anodes "}
         message={
-          "Consist of two anodes for mounting on each side of the rudder."
+          ""
         }
         img={"bg-img2"}
       />
@@ -134,7 +134,7 @@ const rudder = () => {
               <tbody>
                 <tr>
                   <th colSpan={11} className="py-8">
-                    <h1>RUDDER ANODE SPECIFICATIONS</h1>
+                    <h1>REFERENCE ANODE SPECIFICATIONS</h1>
                     {/* <p>SPECIFICATIONS</p> */}
                   </th>
                 </tr>
@@ -153,7 +153,7 @@ const rudder = () => {
                   <th>A: SHAFT DIAMETER</th>
                   <th>B: DIAMETER</th>
                 </tr>
-                {rudderData.map((item, id) => (
+                {referenceData.map((item, id) => (
                   <Chart2Dim
                     key={id}
                     znCode={item.znCode}
@@ -210,4 +210,4 @@ const rudder = () => {
   );
 };
 
-export default rudder;
+export default reference;

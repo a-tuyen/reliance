@@ -160,7 +160,7 @@ const galvion = () => {
               </tbody>
             </table>
             <div className="flex flex-col lg:flex-row">
-              <div className="flex flex-col items-center lg:pl-10">
+              <div className="flex flex-col items-center">
                 <Image
                   src="/anodes/GalvionIMG.png"
                   alt="picture of anode"
@@ -168,7 +168,7 @@ const galvion = () => {
                   width={200}
                   height={100}
                 />
-                <p>Galvion Anode</p>
+                <p className="mt-6">Galvion Anode</p>
               </div>
             </div>
 
@@ -234,7 +234,7 @@ const galvion = () => {
                   width={200}
                   height={100}
                 />
-                <p>GALVION Brass Plug</p>
+                <p className="mt-6">Galvion Brass Plug</p>
               </div>
             </div>
           </main>
