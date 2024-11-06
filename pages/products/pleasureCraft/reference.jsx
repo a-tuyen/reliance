@@ -6,112 +6,52 @@ import Image from "next/image";
 
 const referenceData = [
   {
-    znCode: 'MDR-1',
-    znLb: '0.23 lb',
-    znKg: '(0.1 kg)',
-    alCode: 'AMDR-1',
+    znCode: 'MD-RZG-1',
+    znLb: '0.15 lb',
+    znKg: '(0.07 kg)',
+    alCode: 'AMD-RZG-1',
     alLb: '0.09 lb',
     alKg: '(0.04 kg)',
-    diaIn: '1 7/8"',
-    diaMm: '(48 mm)',
-    widIn: '1/4"',
-    widMm: '(6 mm)'
+    diaIn: '3/4"',
+    diaMm: '(19 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)'
   },
   {
-    znCode: 'MDR-2',
+    znCode: 'MD-RZG-2-21',
     znLb: '0.9 lb',
     znKg: '(0.41 kg)',
-    alCode: 'AMDR-2',
+    alCode: 'AMD-RZG-2-21',
     alLb: '0.35 lb',
     alKg: '(0.16 kg)',
-    diaIn: '1 7/8"',
-    diaMm: '(48 mm)',
-    widIn: '1/4"',
-    widMm: '(6 mm)'
+    diaIn: '3/4"',
+    diaMm: '(19 mm)',
+    widIn: '3/4"',
+    widMm: '(19 mm)'
   },
   {
-    znCode: 'MDR-2',
-    znLb: '0.9 lb',
-    znKg: '(0.41 kg)',
-    alCode: 'AMDR-2',
-    alLb: '0.35 lb',
-    alKg: '(0.16 kg)',
-    diaIn: '2 13/16"',
-    diaMm: '(71 mm)',
-    widIn: '1/2"',
-    widMm: '(13 mm)'
+    znCode: 'MD-RZG-2-25',
+    znLb: '0.15 lb',
+    znKg: '(0.07 kg)',
+    alCode: 'AMD-RZG-2-25',
+    alLb: '0.06 lb',
+    alKg: '(0.03 kg)',
+    diaIn: '3/4"',
+    diaMm: '(19 mm)',
+    widIn: '7/8"',
+    widMm: '(22 mm)'
   },
   {
-    znCode: 'MDR-3',
-    znLb: '1.57 lb',
-    znKg: '(0.71 kg)',
-    alCode: 'AMDR-3',
-    alLb: '0.61 lb',
-    alKg: '(0.28 kg)',
+    znCode: 'MD-RZG-2-27.5',
+    znLb: '0.17 lb',
+    znKg: '(0.08 kg)',
+    alCode: 'AMD-RZG-2-27.5',
+    alLb: '0.07 lb',
+    alKg: '(0.03 kg)',
     diaIn: '3 3/4"',
     diaMm: '(95 mm)',
-    widIn: '1/2"',
-    widMm: '(13 mm)'
-  },
-  {
-    znCode: 'MDR-3 HEAVY',
-    znLb: '2.6 lb',
-    znKg: '(1.18 kg)',
-    alCode: 'AMDR-3 HEAVY',
-    alLb: '1.02 lb',
-    alKg: '(0.46 kg)',
-    diaIn: '4"',
-    diaMm: '(102 mm)',
-    widIn: '5/8"',
-    widMm: '(16 mm)'
-  },
-  {
-    znCode: 'MDR-4',
-    znLb: '3.54 lb',
-    znKg: '(1.61 kg)',
-    alCode: 'AMDR-4',
-    alLb: '1.38 lb',
-    alKg: '(0.63 kg)',
-    diaIn: '5"',
-    diaMm: '(127 mm)',
-    widIn: '5/8"',
-    widMm: '(16 mm)'
-  },
-  {
-    znCode: 'MDR-5',
-    znLb: '4.83 lb',
-    znKg: '(2.19 kg)',
-    alCode: 'AMDR-5',
-    alLb: '1.89 lb',
-    alKg: '(0.86 kg)',
-    diaIn: '5 1/8"',
-    diaMm: '(130 mm)',
-    widIn: '7/8"',
-    widMm: '(22 mm)'
-  },
-  {
-    znCode: 'MDR-7',
-    znLb: '9.17 lb',
-    znKg: '(4.16 kg)',
-    alCode: 'AMDR-7',
-    alLb: '3.58 lb',
-    alKg: '(1.62 kg)',
-    diaIn: '6 1/2"',
-    diaMm: '(165 mm)',
-    widIn: '7/8"',
-    widMm: '(22 mm)'
-  },
-  {
-    znCode: 'MDR-8',
-    znLb: '6.6 lb',
-    znKg: '(2.99 kg)',
-    alCode: 'AMDR-8',
-    alLb: '2.58 lb',
-    alKg: '(1.17 kg)',
-    diaIn: '7 1/2"',
-    diaMm: '(191 mm)',
-    widIn: '1"',
-    widMm: '(25 mm)'
+    widIn: '1 1/8"',
+    widMm: '(29 mm)'
   },
 
 ];
@@ -150,8 +90,8 @@ const reference = () => {
                       <div className="px-2">(kg)</div>
                     </div>
                   </th>
-                  <th>A: SHAFT DIAMETER</th>
-                  <th>B: DIAMETER</th>
+                  <th>A: LENGTH</th>
+                  <th>B: WIDTH</th>
                 </tr>
                 {referenceData.map((item, id) => (
                   <Chart2Dim
@@ -170,39 +110,40 @@ const reference = () => {
                 ))}
               </tbody>
             </table>
-            <div className="flex flex-row items-center">
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/229620612-c8c88126-eebc-4af5-9a44-db20f29795f5.png"
-                alt="picture of anode"
-                className="min-w-[80px]"
-                width={200}
-                height={100}
-              />
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/229620615-99191688-b720-4b87-833b-bc72dd0891be.png"
-                alt="picture of anode"
-                className="min-w-[80px]"
-                width={200}
-                height={100}
-              />
+            <div className="flex flex-row w-[100%] justify-evenly">
+              <div className="flex flex-col items-center lg:pr-10">
+                <Image
+                  src="/anodes/Reference-1-IMG.png"
+                  alt="picture of anode"
+                  className="min-w-[80px] pt-4"
+                  width={300}
+                  height={120}
+                />
+                <p className="text-center">
+                  MD-RGZ-1
+                </p>
+              </div>
+
+              <div className="flex flex-col items-center lg:pr-10">
+                <Image
+                  src="/anodes/Reference-2-IMG.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={300}
+                  height={120}
+                />
+                <p className="text-center">
+                  MD-RGZ-2-21
+                </p>
+                <p className="text-center">
+                  MD-RGZ-2-25
+                </p>
+                <p className="text-center">
+                  MD-RGZ-2-27.5
+                </p>
+              </div>
             </div>
-            <p className="py-4 text-center lg:w-[80%]">
-              Rudder Anodes come with 2 halves and stainless steel
-              hardware. Nuts are set into the anode and slot head screws come
-              standard. Socket cap screws are available upon request.
-            </p>
-            <div className="flex flex-col items-center lg:pr-10">
-              <Image
-                src="https://user-images.githubusercontent.com/77664153/229620617-42a28340-8ea3-414d-a5f1-885ae732842d.png"
-                alt="picture of anode"
-                className="min-w-[80px] pt-4"
-                width={200}
-                height={100}
-              />
-              <p className="py-4 text-center">
-                Also available as Halves with nut set into anode. Screw is not included.
-              </p>
-            </div>
+
           </main>
         </article>
       </div>
