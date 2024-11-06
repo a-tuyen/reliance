@@ -72,8 +72,7 @@ const pcData = [
   { category: "Teardrop Anodes", link: "/products/pleasureCraft/teardropPC" },
   { category: "Varifold Anodes", link: "/products/pleasureCraft/varifold" },
   { category: "Vetus Anodes", link: "/products/pleasureCraft/vetus" },
-  { category: "Volvo Penta Anodes", link: "/products/pleasureCraft/volvo" },
-  { category: "Volvo Anode Kits", link: "/products/pleasureCraft/volvoKits" },
+  { category: "Volvo Anodes", link: "/products/pleasureCraft/volvo" },
   { category: "Yamaha Anodes", link: "/products/pleasureCraft/yamaha" },
   {
     category: "Yamaha Anodes Kits",

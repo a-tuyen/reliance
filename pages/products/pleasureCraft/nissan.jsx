@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const nissanData = [
-  {img: '',
+  {img: 'https://user-images.githubusercontent.com/77664153/241778620-cc1cdc01-1adc-40ea-a70f-aa6bb6568c1d.png',
   znCode: 'MD-3C7602181',
   znLb: '1.77 lb',
   znKg: '(0.8 kg)',
