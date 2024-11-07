@@ -136,17 +136,6 @@ const maxProp = () => {
                   <th colSpan={3}>NOMINAL WEIGHT</th>
                   <th colSpan={2}>NOMINAL DIMENSIONS</th>
                 </tr>
-                <tr>
-                  <th colSpan={2}>ITEM #</th>
-                  <th>
-                    <div className="flex flex-col md:flex-row justify-center items-center">
-                      <div>lb</div>
-                      <div className="px-2">(kg)</div>
-                    </div>
-                  </th>
-                  <th>MOUNTING HOLES C/C</th>
-                  <th>SHAFT DIAMETER</th>
-                </tr>
                 {maxPropData.map((item, id) => (
                   <Chart2DimNotesBottom
                     key={id}
