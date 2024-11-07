@@ -506,11 +506,11 @@ const hullPC = () => {
                   <th colSpan={3}>NOMINAL WEIGHT</th>
                   <th colSpan={4}>NOMINAL DIMENSIONS</th>
                 </tr>
-                <tr>
+                {/* <tr>
                   <th colSpan={15} className="text-center text-2xl py-1">
                     BAR ANODES - WELD ON
                   </th>
-                </tr>
+                </tr> */}
 
                 {hullBarWeldData.map((item, id) => (
                   <Chart4DimPic
@@ -533,11 +533,11 @@ const hullPC = () => {
                     notes={item.notes}
                   />
                 ))}
-                <tr>
+                {/* <tr>
                   <th colSpan={15} className="text-center text-2xl py-1">
                     BAR ANODES - BOLT ON
                   </th>
-                </tr>
+                </tr> */}
                 {hullBarBoltData.map((item, id) => (
                   <Chart4DimPic
                     key={id}
@@ -559,11 +559,11 @@ const hullPC = () => {
                     notes={item.notes}
                   />
                 ))}
-                <tr>
+                {/* <tr>
                   <th colSpan={15} className="text-center text-2xl py-1">
                     PLATE ANODES - WELD ON
                   </th>
-                </tr>
+                </tr> */}
                 {hullPlateWeldData.map((item, id) => (
                   <Chart4DimPic
                     key={id}
@@ -585,11 +585,11 @@ const hullPC = () => {
                     notes={item.notes}
                   />
                 ))}
-                <tr>
+                {/* <tr>
                   <th colSpan={15} className="text-center text-2xl py-1">
                     PLATE ANODES - BOLT ON
                   </th>
-                </tr>
+                </tr> */}
                 {hullPlateBoltData.map((item, id) => (
                   <Chart4DimPic
                     key={id}
