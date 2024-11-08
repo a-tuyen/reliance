@@ -73,10 +73,6 @@ const pcData = [
   { category: "Vetus Anodes", link: "/products/pleasureCraft/vetus" },
   { category: "Volvo Anodes", link: "/products/pleasureCraft/volvo" },
   { category: "Yamaha Anodes", link: "/products/pleasureCraft/yamaha" },
-  {
-    category: "Yamaha Anodes Kits",
-    link: "/products/pleasureCraft/yamahaKits",
-  },
   { category: "Yanmar Marine Anodes", link: "/products/pleasureCraft/yanmar" },
 ];
 
