@@ -10,7 +10,7 @@ const index = () => {
       <Hero
         heading={"OUR PRODUCTS"}
         message={
-          "We offer anodes to protect a wide range of Commercial and Pleasure Craft assets as well as Zinc caps for underground asset protection"
+          "We offer anodes to protect a wide range of Commercial and Pleasure Craft assets as well as Zinc Caps for underground asset protection"
         }
         img={"bg-img6"}
       />

@@ -9,18 +9,18 @@ const index = () => {
       <Hero
         heading={"Pleasure Craft Anodes"}
         message={
-          ""
+          "We carry a variety of anodes for pleasure craft vessels. All carefully designed by our skilled technicians to fit like an OEM part"
         }
         img={"bg-img2"}
       />
-  <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
-     <SideBarPC />
-     <main>
-      <article>
-
-      </article>
-     </main>
-     </div>
+      <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
+        <SideBarPC />
+        <main>
+          <article>
+            {/* <h3></h3> */}
+          </article>
+        </main>
+      </div>
     </div>
   );
 };
