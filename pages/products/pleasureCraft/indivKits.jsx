@@ -36,6 +36,22 @@ const ff2Data = [
 
 ];
 
+const zeusPodData = [
+  {
+    img: '/anodes/ZeusPod-IMG.png',
+    znCode: 'ZEUS POD KIT',
+    znLb: '4.6 lb',
+    znKg: '(2.09 kg)',
+    alCode: 'A-ZEUS POD KIT',
+    alLb: '2 lb',
+    alKg: '(0.91 kg)',
+    note1: '6 1-4" (160 mm) x 5 3/4" (145mm)',
+    note2: '1/2" (13mm)"',
+    note3: '2 Anodes, no hardware '
+  },
+
+];
+
 const indivKits = () => {
   return (
     <div>
@@ -105,6 +121,41 @@ const indivKits = () => {
                     alKg={item.alKg}
                     notes={item.notes}
                     headerNotes="WHAT'S INCLUDED"
+                  />
+                ))}
+              </tbody>
+            </table>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th colSpan={6} className="py-8">
+                    <h1>ZEUS POD</h1>
+                    <p className="font-boldHeading text-2xl tracking-wider">
+                      ANODE KIT SPECIFICATIONS
+                    </p>
+                  </th>
+                </tr>
+                <tr>
+                  <th colSpan={3}>NOMINAL WEIGHT</th>
+                  <th colSpan={3}>NOMINAL DIMENSIONS</th>
+                </tr>
+                {zeusPodData.map((item, id) => (
+                  <Chart3NotePic
+                    key={id}
+                    img={item.img}
+                    znCode={item.znCode}
+                    znLb={item.znLb}
+                    znKg={item.znKg}
+                    alCode={item.alCode}
+                    alLb={item.alLb}
+                    alKg={item.alKg}
+                    note1={item.note1}
+                    note2={item.note2}
+                    note3={item.note3}
+                    headerNotes="DIMENSIONS ( L x W )"
+                    headerNotes2="THICKNESS"
+                    headerNotes3="WHAT'S INCLUDED"
                   />
                 ))}
               </tbody>
