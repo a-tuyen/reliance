@@ -6,7 +6,7 @@ import SideBarPC from "@/components/SideBarPC";
 
 const index = () => {
   return (
-    <div className="bg-white flex flex-col justify-center">
+    <div className="bg-white flex flex-col justify-center w-[100%]">
       <Hero
         heading={"OUR PRODUCTS"}
         message={
@@ -14,32 +14,32 @@ const index = () => {
         }
         img={"bg-img6"}
       />
-      {/* <div className="flex flex-col lg:flex-row items-center lg:justify-items-end lg:align-center pt-10 lg:py-20 w-[100%] border-8"> */}
+      <div className="flex flex-col items-center w-[100%]">
       <h2 className="mt-10">SACRIFICIAL ANODES</h2>
-      <section className="flex flex-col lg:flex-row w-[100%] justify-center lg:items-start lg:ml-[20vw]">
-        
-        <div className="">
-          <h2 className="my-6">Commercial</h2>
-          <SideBarComm />
-        </div>
-        <div className="lg:ml-[10%] mb-6">
-          <h2 className="whitespace-nowrap my-6">Pleasure Craft</h2>
-          <SideBarPC />
-        </div>
-        <div className="lg:ml-[10%] mb-6">
-          <h2 className="whitespace-nowrap my-6">Zinc Caps</h2>
-          <div>
-            <ul>
-              <li className="border-[1px] border-white bg-gray-300  text-center w-[100%] px-4 mx-0">
-                <Link href="/products/zincCap">Zinc Anode Caps</Link>
-              </li>
-            </ul>
+      <section className="flex flex-col lg:flex-row justify-center">
+          <div className="flex flex-col">
+            <h2 className="my-6">Commercial</h2>
+            <SideBarComm />
           </div>
-        </div>
-        <main>
-          <article></article>
-        </main>
-      </section>
+          <div className="flex flex-col mb-6 mx-[10%]">
+            <h2 className="whitespace-nowrap my-6">Pleasure Craft</h2>
+            <SideBarPC />
+          </div>
+          <div className="flex flex-col mb-6">
+            <h2 className="whitespace-nowrap my-6">Zinc Caps</h2>
+            <div>
+              <ul>
+                <li className="border-[1px] border-white bg-gray-300  text-center px-4 mx-0">
+                  <Link href="/products/zincCap">Zinc Anode Caps</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <main>
+            <article></article>
+          </main>
+        </section>
+      </div>
     </div>
   );
 };
