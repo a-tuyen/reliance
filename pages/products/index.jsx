@@ -17,15 +17,15 @@ const index = () => {
       <div className="flex flex-col items-center w-[100%]">
       <h2 className="mt-10">SACRIFICIAL ANODES</h2>
       <section className="flex flex-col lg:flex-row justify-center">
-          <div className="flex flex-col">
+          <div className="">
             <h2 className="my-6">Commercial</h2>
             <SideBarComm />
           </div>
-          <div className="flex flex-col mb-6 mx-[10%]">
+          <div className="mb-6 lg:mx-[20%]">
             <h2 className="whitespace-nowrap my-6">Pleasure Craft</h2>
             <SideBarPC />
           </div>
-          <div className="flex flex-col mb-6">
+          <div className="mb-6">
             <h2 className="whitespace-nowrap my-6">Zinc Caps</h2>
             <div>
               <ul>
