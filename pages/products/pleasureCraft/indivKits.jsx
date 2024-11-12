@@ -15,7 +15,7 @@ const bntData = [
     alCode: 'ABNT-1 KIT',
     alLb: '0.17 lb',
     alKg: '(0.08 kg)',
-    note1: '3 3/4" (95 mm) x 1/2" (13mm)',
+    note1: '3 3/4" (95 mm) x 1 1/8" (29mm) x 1/2" (13mm)',
     note2: '1 1/2" (38mm)"',
     note3: '2 Anodes and hardware '
   },
@@ -87,13 +87,18 @@ const indivKits = () => {
                     note1={item.note1}
                     note2={item.note2}
                     note3={item.note3}
-                    headerNotes="DIMENSIONS"
+                    headerNotes="DIMENSIONS ( L x W x H )"
                     headerNotes2="C/C"
                     headerNotes3="WHAT'S INCLUDED"
                   />
                 ))}
               </tbody>
             </table>
+
+            <p className="text-center pb-4">
+              Also available as <Link href="/products/pleasureCraft/bnt" className="underline hover:text-zinc">single anodes</Link>.
+            </p>
+
 
             <table>
               <tbody>
