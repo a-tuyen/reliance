@@ -13,7 +13,7 @@ const index = () => {
         }
         img={"bg-img5"}
       />
-  <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
+  <div className="flex flex-col lg:items-center pt-10 lg:py-20 w-[100%] mb-10 lg:mb-6">
      <SideBarComm />
      <main>
       <article>
