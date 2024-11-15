@@ -51,7 +51,7 @@ export default function Home() {
           <Link href="/products/commercial">
             <div className="relative">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/222294003-89b287be-9a93-44a4-955e-872676633832.png"
+                src="/home/home-comm1.png"
                 width="300"
                 height="300"
                 className="m-5 rounded-xl"
@@ -59,7 +59,7 @@ export default function Home() {
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="https://user-images.githubusercontent.com/77664153/222294004-a4f469fa-4dec-4741-a319-e4272b758032.png"
+                    src="/home/home-comm2.png"
                 width="300"
                 height="300"
                     className="m-5 rounded-xl"
@@ -72,7 +72,7 @@ export default function Home() {
           <Link href="/products/pleasureCraft">
             <div className="relative">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/222294007-44f33fa7-5d32-4b6d-9cba-3e8ffb30526c.png"
+                src="/home/home-pc1.png"
                 width="300"
                 height="300"
                 className="m-5 rounded-xl"
@@ -80,7 +80,7 @@ export default function Home() {
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="https://user-images.githubusercontent.com/77664153/222294009-8e220790-7a68-47b3-8f82-3f6209eb9efa.png"
+                    src="/home/home-pc2.png"
                 width="300"
                 height="300"
                     className="m-5 rounded-xl"
@@ -93,7 +93,7 @@ export default function Home() {
           <Link href="/products/zincCap">
             <div className="relative">
               <Image
-                src="https://user-images.githubusercontent.com/77664153/222497524-34cea9df-3134-4d04-be46-a8da13df7416.png"
+                src="/home/home-zncap1.png"
                 width="300"
                 height="300"
                 className="m-5 rounded-xl"
@@ -101,7 +101,7 @@ export default function Home() {
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="https://user-images.githubusercontent.com/77664153/222496861-bab7a987-f244-4c02-b59a-4ab1bf53dbe2.png"
+                    src="/home/home-zncap2.png"
                 width="300"
                 height="300"
                     className="m-5 rounded-xl"
