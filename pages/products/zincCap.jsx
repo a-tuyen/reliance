@@ -417,8 +417,9 @@ const zincCap = () => {
             </tbody>
           </table>
           <div className="flex mb-10">
-          <Image src="https://user-images.githubusercontent.com/77664153/223801644-dc344141-f089-4946-b770-16100e070bd4.png" width={200} height="200" className="mr-5" />
-          <Image src="https://user-images.githubusercontent.com/77664153/223801648-40575300-8898-404b-8dea-11824d5c6fa8.png" width={200} height="200" className="ml-5"/>
+            <Image src="/anodes/zn-cap.png" width={200} height="200" ></Image>
+          {/* <Image src="https://user-images.githubusercontent.com/77664153/223801644-dc344141-f089-4946-b770-16100e070bd4.png" width={400} height="240" className="mr-5" />
+          <Image src="https://user-images.githubusercontent.com/77664153/223801648-40575300-8898-404b-8dea-11824d5c6fa8.png" width={200} height="200" className="ml-5"/> */}
           </div>
         </article>
       </main>
