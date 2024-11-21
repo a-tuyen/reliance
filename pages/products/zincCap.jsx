@@ -108,310 +108,166 @@ const zincCap = () => {
           <table>
             <tbody>
               <tr>
-                <th colSpan={"9"} className="py-4">
+                <th colSpan={"5"} className="py-4">
                   <h1>Reliance Zinc Cap Specifications</h1>
                 </th>
               </tr>
               <tr className="uppercase">
                 <th>Thread Size</th>
-                <th colSpan={"6"}>Dimensions</th>
-                <th colSpan={"2"}>Nominal Weight</th>
+                <th colSpan={"3"}>Dimensions</th>
+                <th colSpan={"1"}>Nominal Weight</th>
               </tr>
               <tr className="uppercase">
                 <th>A</th>
-                <th colSpan={"2"}>B</th>
-                <th colSpan={"2"}>C</th>
-                <th colSpan={"2"}>D</th>
-                <th colSpan={"2"}></th>
+                <th>B</th>
+                <th>C</th>
+                <th>D</th>
+                <th></th>
               </tr>
               <tr>
                 <th className="border-2 border-white text-center">
                   Reliance Zinc Cap - 6 oz
                 </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  lb
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  kg
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>lb</div>
+                    <div className="pl-2">(kg)</div>
+                  </div>
                 </th>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   1/2&quot; x 13 UNC
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.5
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>1.5"</div>
+                    <div className="pl-2">(38.1 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  38.1
+                <td rowSpan={5} className=" border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>0.98"</div>
+                    <div className="pl-2">(24.9 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.98
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>1.69"</div>
+                    <div className="pl-2">(42.95 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  24.9
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.69
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  42.95
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.4
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.15
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>0.4 lb</div>
+                    <div className="pl-2">(0.15 kg)</div>
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   5/8&quot; x 11 UNC
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.5
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  38.1
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.98
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  24.9
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.69
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  42.95
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.4
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.15
-                </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   3/4&quot; x 10 UNC
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.5
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  38.1
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.98
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  24.9
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.69
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  42.95
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.4
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.15
                 </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   7/8&quot; x 9 UNC
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.5
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  38.1
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.98
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  24.9
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.69
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  42.95
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.4
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.15
-                </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   1&quot; x 8 UNC
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.5
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  38.1
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.98
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  24.9
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.69
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  42.95
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.4
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.15
                 </td>
               </tr>
               <tr>
                 <th className="border-2 border-white text-center">
                   Reliance Zinc Cap - 14 oz
                 </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  Inches
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>in</div>
+                    <div className="pl-2">(mm)</div>
+                  </div>
                 </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  in
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  mm
-                </th>
-                <th className="border-2 border-white border-r-0 text-center">
-                  lb
-                </th>
-                <th className="border-2 border-white border-l-0 text-center">
-                  kg
+                <th className="">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>lb</div>
+                    <div className="pl-2">(kg)</div>
+                  </div>
                 </th>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   1 1/8&quot; x 7 UNC
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  2.3
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>1.5"</div>
+                    <div className="pl-2">(38.1 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  58.4
+                <td rowSpan={5} className=" border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>0.98"</div>
+                    <div className="pl-2">(24.9 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.25
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>1.69"</div>
+                    <div className="pl-2">(42.95 mm)</div>
+                  </div>
                 </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  31.8
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.88
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  47.75
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.9
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.4
+                <td rowSpan={5} className="border-2 border-white text-center">
+                  <div className="flex flex-col md:flex-row justify-center items-center px-1">
+                    <div>0.4 lb</div>
+                    <div className="pl-2">(0.15 kg)</div>
+                  </div>
                 </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   1 1/4&quot; x 7 UNC
                 </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  2.3
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  58.4
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.25
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  31.8
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.88
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  47.75
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.9
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.4
-                </td>
               </tr>
               <tr>
                 <td className="border-2 border-white text-center">
                   1 1/2&quot; x 7 UNC
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  2.3
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  58.4
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.25
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  31.8
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  1.88
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  47.75
-                </td>
-                <td className="border-2 border-white border-r-0 text-center">
-                  0.7
-                </td>
-                <td className="border-2 border-white border-l-0 text-center">
-                  0.3
                 </td>
               </tr>
             </tbody>
