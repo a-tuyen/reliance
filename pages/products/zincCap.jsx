@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const zincCap = () => {
   return (
@@ -20,8 +21,7 @@ const zincCap = () => {
             Reliance Zinc Anode Caps are made from &quot;Special High
             Grade&quot; Zinc that conforms to the highest industry standards.
             All our Zinc Caps meet or exceed all MIL-A-18001J and ASTM B418-80
-            specifications. We offer Reliance branded zinc caps as well as
-            private label caps.
+            specifications. 
           </p>
 
           <table>
@@ -47,23 +47,23 @@ const zincCap = () => {
                 <td>0.03 - 0.10%</td>
               </tr>
               <tr>
-                <td>Iron (maximum)</td>
-                <td>0.005%</td>
-                <td>0.005%</td>
+                <td>Iron</td>
+                <td>0.005% MAX</td>
+                <td>0.005% MAX</td>
               </tr>
               <tr>
-                <td>Lead (maximum)</td>
-                <td>0.006%</td>
+                <td>Lead</td>
+                <td>0.006% MAX</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td>Copper (maximum)</td>
-                <td>0.005%</td>
+                <td>Copper</td>
+                <td>0.005% MAX</td>
                 <td>-</td>
               </tr>
               <tr>
-                <td>Silicon (maximum)</td>
-                <td>0.125%</td>
+                <td>Silicon</td>
+                <td>0.125% MAX</td>
                 <td>-</td>
               </tr>
               <tr>
@@ -272,8 +272,10 @@ const zincCap = () => {
               </tr>
             </tbody>
           </table>
-          <div className="flex mb-10">
+          <div className="flex flex-col items-center mb-10">
             <Image src="/anodes/zn-cap.png" width={625} height="375" ></Image>
+            <p className="text-center mt-2 w-[100%]">We offer Reliance branded zinc caps as well as
+            private label caps. <Link href="/contact" className="underline hover:text-zinc">Contact us</Link>  today to talk about your corrosion needs</p>
           </div>
         </article>
       </main>
