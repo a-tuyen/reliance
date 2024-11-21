@@ -159,19 +159,19 @@ const zincCap = () => {
                 </td>
                 <td rowSpan={5} className="border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>1.5"</div>
+                    <div>1.5&quot;</div>
                     <div className="pl-2">(38.1 mm)</div>
                   </div>
                 </td>
                 <td rowSpan={5} className=" border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>0.98"</div>
+                    <div>0.98&quot;</div>
                     <div className="pl-2">(24.9 mm)</div>
                   </div>
                 </td>
                 <td rowSpan={5} className="border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>1.69"</div>
+                    <div>1.69&quot;</div>
                     <div className="pl-2">(42.95 mm)</div>
                   </div>
                 </td>
@@ -237,19 +237,19 @@ const zincCap = () => {
                 </td>
                 <td rowSpan={5} className="border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>1.5"</div>
+                    <div>1.5&quot;</div>
                     <div className="pl-2">(38.1 mm)</div>
                   </div>
                 </td>
                 <td rowSpan={5} className=" border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>0.98"</div>
+                    <div>0.98&quot;</div>
                     <div className="pl-2">(24.9 mm)</div>
                   </div>
                 </td>
                 <td rowSpan={5} className="border-2 border-white text-center">
                   <div className="flex flex-col md:flex-row justify-center items-center px-1">
-                    <div>1.69"</div>
+                    <div>1.69&quot;</div>
                     <div className="pl-2">(42.95 mm)</div>
                   </div>
                 </td>
