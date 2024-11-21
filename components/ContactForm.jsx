@@ -5,7 +5,7 @@ const ContactForm = () => {
     <>
       <div className="flex flex-col-reverse md:flex-row justify-start w-full">
         <div className="flex flex-col justify-center items-center text-black my-10 w-full">
-          <div className="grid gap-6 mb-6 w-[60%] bg-white p-8 rounded-xl">
+          <div className="grid gap-6 mb-6 w-[90%] lg:w-[50%] bg-white p-8 rounded-xl">
             <div className="flex justify-center">
               <h2>Send Us A Message</h2>
             </div>
@@ -44,7 +44,7 @@ const ContactForm = () => {
                 <button
                   type="submit"
                   className="bg-accent hover:bg-darkMain w-[40%]"
-                >
+                > 
                   Send
                 </button>
               </div>
