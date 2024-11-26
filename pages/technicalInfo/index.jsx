@@ -7,7 +7,10 @@ const index = () => {
   return (
     <>
       <div className="bg-white flex flex-col justify-center">
-        <Hero heading={"Technical Information"} img={"bg-img1"} />
+        <Hero 
+        heading={"Technical Information"}
+        message={"See our resorces below to help you get started on your corrosion control journey"}
+        img={"bg-img1"} />
       </div>
 
       <div className="bg-white flex flex-col justify-center items-center mt-0">
@@ -18,7 +21,7 @@ const index = () => {
                 src="/tech/tech-info1A.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -26,7 +29,7 @@ const index = () => {
                     src="/tech/tech-info1B.png"
                     width="300"
                     height="300"
-                    className="rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -39,7 +42,7 @@ const index = () => {
                 src="/tech/tech-info2A.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -47,7 +50,7 @@ const index = () => {
                     src="/tech/tech-info2B.png"
                     width="300"
                     height="300"
-                    className="rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -60,7 +63,7 @@ const index = () => {
                 src="/tech/tech-info3A.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -68,7 +71,7 @@ const index = () => {
                     src="/tech/tech-info3B.png"
                     width="300"
                     height="300"
-                    className="rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>

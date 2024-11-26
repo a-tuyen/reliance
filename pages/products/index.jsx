@@ -15,18 +15,18 @@ const index = () => {
         img={"bg-img6"}
       />
       <div className="flex flex-col items-center w-[100%]">
-      <h2 className="mt-10">SACRIFICIAL ANODES</h2>
-      <section className="flex flex-col lg:flex-row justify-center">
+        <h2 className="mt-10">SACRIFICIAL ANODES</h2>
+        <section className="flex flex-col lg:flex-row justify-center">
           <div className="">
-          <Link href="/products/commercial"><h2 className="my-6">Commercial</h2></Link>
+            <Link href="/products/commercial"><h2 className="my-6">Commercial</h2></Link>
             <SideBarComm />
           </div>
           <div className="mb-6 lg:mx-[20%]">
-          <Link href="/products/pleasureCraft"><h2 className="whitespace-nowrap my-6">Pleasure Craft</h2></Link>
+            <Link href="/products/pleasureCraft"><h2 className="whitespace-nowrap my-6">Pleasure Craft</h2></Link>
             <SideBarPC />
           </div>
           <div className="mb-6">
-          <Link href="/products/zincCap"><h2 className="whitespace-nowrap my-6">Zinc Caps</h2></Link>
+            <Link href="/products/zincCap"><h2 className="whitespace-nowrap my-6">Zinc Caps</h2></Link>
             <div>
               <ul>
                 <li className="border-[1px] border-white bg-gray-300  text-center px-4 mx-0">
