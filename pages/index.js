@@ -47,7 +47,7 @@ export default function Home() {
         </div> */}
 
         <h2 className="mt-[2rem] mb-[10]">Our Products</h2>
-        <div className="grid grid-cols-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 lg:grid-cols-3">
           <Link href="/products/commercial">
             <div className="relative">
               <Image
