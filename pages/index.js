@@ -46,7 +46,8 @@ export default function Home() {
           </p>
         </div> */}
 
-        <h2 className="mt-[2rem] mb-[10]">Our Products</h2>
+        <h2 className="mt-[10vw] lg:mt-[5vw]">Our Products</h2>
+
         <div className="grid grid-cols-1 lg:grid-cols-3">
           <Link href="/products/commercial">
             <div className="relative">
@@ -54,7 +55,7 @@ export default function Home() {
                 src="/home/comm-1.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -62,7 +63,7 @@ export default function Home() {
                     src="/home/comm-2.png"
                 width="300"
                 height="300"
-                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -75,7 +76,7 @@ export default function Home() {
                 src="/home/pc-1.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -83,7 +84,7 @@ export default function Home() {
                     src="/home/pc-2.png"
                 width="300"
                 height="300"
-                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -96,7 +97,7 @@ export default function Home() {
                 src="/home/zncap-1.png"
                 width="300"
                 height="300"
-                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
@@ -104,7 +105,7 @@ export default function Home() {
                     src="/home/zncap-2.png"
                 width="300"
                 height="300"
-                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[5vw] rounded-xl"
                   />
                 </p>
               </div>
