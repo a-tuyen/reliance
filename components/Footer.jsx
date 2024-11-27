@@ -42,9 +42,9 @@ const Footer = () => {
           </ul>
         </div>
    
-        <div className=" flex flex-col justify-center items-center md:items-center md:mr-4">
+        <div className="flex flex-col justify-center items-center md:mr-4">
           <Image
-            className="flex pr-2"
+            className="flex"
             src="/images/made-in-canada-reliance.png"
             width={100}
             height={50}
