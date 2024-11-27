@@ -51,18 +51,18 @@ export default function Home() {
           <Link href="/products/commercial">
             <div className="relative">
               <Image
-                src="/home/home-comm1.png"
+                src="/home/comm-1.png"
                 width="300"
                 height="300"
-                className="m-5 rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="/home/home-comm2.png"
+                    src="/home/comm-2.png"
                 width="300"
                 height="300"
-                    className="m-5 rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -72,18 +72,18 @@ export default function Home() {
           <Link href="/products/pleasureCraft">
             <div className="relative">
               <Image
-                src="/home/home-pc1.png"
+                src="/home/pc-1.png"
                 width="300"
                 height="300"
-                className="m-5 rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="/home/home-pc2.png"
+                    src="/home/pc-2.png"
                 width="300"
                 height="300"
-                    className="m-5 rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>
@@ -93,18 +93,18 @@ export default function Home() {
           <Link href="/products/zincCap">
             <div className="relative">
               <Image
-                src="/home/home-zncap1.png"
+                src="/home/zncap-1.png"
                 width="300"
                 height="300"
-                className="m-5 rounded-xl"
+                className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
               />
               <div className="flex justify-center w-full h-full items-center absolute top-0 left-0 right-0 bottom-0 rounded-xl group">
                 <p className="hidden group-hover:block">
                   <Image
-                    src="/home/home-zncap2.png"
+                    src="/home/zncap-2.png"
                 width="300"
                 height="300"
-                    className="m-5 rounded-xl"
+                    className="mx-[10vw] my-[10vw] lg:mx-[5vw] lg:my-[10vw] rounded-xl"
                   />
                 </p>
               </div>
