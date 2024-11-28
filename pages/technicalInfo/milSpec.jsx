@@ -8,13 +8,13 @@ const milSpec = () => {
         <Hero heading={"What is Mil-Spec?"} img={"bg-img2"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center items">
+        <article className="bg-white flex flex-col justify-center items mt-4">
           <h2>Understanding &quot;Mil-Spec: MIL-A-18001&quot;</h2>
-          <p className='mb-4'>
+          <p className='my-4'>
             In the early 1950s, the United States Naval Command joined forces with the International Zinc Institute to research and improve the performance of common zinc as a sacrificial anode.  They discovered the elimination of iron contamination to less than fourteen parts in ten thousand, coupled with the addition of controlled amounts of aluminum and cadmium, enhanced the anodes performance significantly.  The research yielded the US Naval Mil-Spec MIL-A-18001, the highest standard of anodes quality.
           </p>
 
-          <p className='mb-4'>Prior to the mid 1950&lsquo;s, corrosion prevention for underwater hulls and fittings, based on zinc sacrificial anodes. was quite unreliable.  No one could explain why one vessel using these anodes would suffer little to no corrosion of its underwater metals while another similar vessel using zinc anodes that appeared to be the same would receive extensive corrosion damage.  Subsequent studies indicated that some zinc anodes did not remain electrochemically active, becoming relatively inert (passivated) over time due to a buildup of a dense, tightly adherent film on the zinc&lsquo;s surface.  The passivating film was mainly made of iron oxide and the source of the iron was the elemental iron present in the zinc when the anodes were manufactured.
+          <p className='mb-4'>Prior to the mid 1950&lsquo;s, corrosion prevention for underwater hulls and fittings based on zinc sacrificial anodes, was quite unreliable.  No one could explain why one vessel using these anodes would suffer little to no corrosion of its underwater metals while another similar vessel using zinc anodes that appeared to be the same would receive extensive corrosion damage.  Subsequent studies indicated that some zinc anodes did not remain electrochemically active, becoming relatively inert (passivated) over time due to a buildup of a dense, tightly adherent film on the zinc&lsquo;s surface.  The passivating film was mainly made of iron oxide and the source of the iron was the elemental iron present in the zinc when the anodes were manufactured.
 </p>
           <p className='mb-4'>  
             These studies determined that the maximum allowable iron content for reliable sacrificial zinc anode performance was 0.0014%.  Hence, the first U.S. Military zinc anode specification, A18001A, was born.  This specification also limited several other contaminating elements such as copper and silicon, but excessive iron was the main cause of anode passivation.  To produce anodes that met the specification, manufacturers had to start with the purest grade of zinc available from the smelters (Special High Grade) and not contaminate it while producing the anodes.  This was, and is, very difficult to do.
@@ -77,7 +77,7 @@ const milSpec = () => {
               </tr>
               <tr>
                 <td>Zinc (Zn)</td>
-                <td>Remainder</td>
+                <td>REMAINDER</td>
                 <td>4%-6.5%</td>
               </tr>
               <tr>

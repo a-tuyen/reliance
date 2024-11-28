@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </li>
             <li>
-              <p className="">Copyright © 2022 Metal Distributors LTD</p>
+              <p className="">Copyright © Metal Distributors LTD</p>
             </li>
           </ul>
         </div>
