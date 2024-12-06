@@ -114,13 +114,13 @@ const milSpec = () => {
           <p className='mb-4'>
             The ability to attain the -200 mv negative shift is dependent on the amount of current (amperage) the anode generates in relationship to the area of coverage.  This is determined by the anode&apos;s surface area and proximity to the metal being protected.
 
-            Factors that cause current requirements to be higher are exposed areas (uncoated), water speed, and water temperature.  Pure zinc has a theoretical capacity of 372 Ampere Hours per pound.  That means at 1 amp, it would take 372 hours to consume a pound of zinc.  Now, zinc operates at about 95% efficiency so it would actually be approximately 353 Ampere Hours.
+            Factors that cause current requirements to be higher are exposed areas (uncoated), water speed, and water temperature.  Pure zinc has a theoretical capacity of 372 Ampere-Hours(Ah) per pound.  That means at 1 amp, it would take 372 hours to consume a pound of zinc.  Now, zinc operates at about 95% efficiency so it would actually be approximately 353 amp-hours.
 
             On a steel hull, the current requirements for protection could be between .3 ma (milliamp) and 6 ma. per sq. ft. for submerged protection depending on coating quality or lack thereof and very little water flow.
 
             For aluminum hulls, this range could be between .5 ma. and 8 ma.
 
-            So an example would be a Z26 (25lbs) putting out 2 amps would last approx. (25lbs x 353 amphrs/ 2 amps/24hrs) or 8825/2=4412.5/24 = 183.8 days.  Keep in mind that this is all theoretical and has many variables involved.  A good rule of thumb is to be ready to change the anode when it reaches 50% consumption.
+            So an example would be a Z26 (25lbs) putting out 2 amps would last approx. (25lbs x 353 amp-hrs / 2 amps / 24hrs) or 8825 / 2 = 4412.5 / 24 = 183.8 days.  Keep in mind that this is all theoretical and has many variables involved.  A good rule of thumb is to be ready to change the anode when it reaches 50% consumption.
           </p>
 
           <h4 className='mt-6'>TYPES OF ANODES AND APPLICATIONS</h4>
