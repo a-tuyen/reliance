@@ -413,12 +413,15 @@ const engine = () => {
                     <p className="text-sm md:text-lg">DIA</p>
                   </th>
                   <th>
-                    <p className="text-sm md:text-lg">PLUG OD (NPT)</p>
+                    C: PLUG
+                    <p className="px-2 text-sm md:text-lg">
+                      INTERNAL THREAD
+                    </p>
                   </th>
                   <th>
-                    C-PLUG
+                    D: PLUG 
                     <p className="px-2 text-sm md:text-lg">
-                      THREAD INTERVAL
+                    EXTERNAL THREAD (NPT)
                     </p>
                   </th>
                 </tr>
