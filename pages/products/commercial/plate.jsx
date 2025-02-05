@@ -106,7 +106,7 @@ const plateData = [
 const plate = () => {
   return (
     <div>
-      <Hero heading={"commercial plate Anodes"} message={""} img={"bg-img5"} />
+      <Hero heading={"commercial plate Anodes"} message={'Available in 1/2", 3/4" and 1" thicknesses.'} img={"bg-img5"} />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarComm />
         <article>
@@ -115,7 +115,7 @@ const plate = () => {
               <tbody>
                 <tr>
                   <th colSpan={12} className="py-8">
-                    <h1>PLATE</h1>
+                    <h1>COMMERCIAL PLATE</h1>
                     <p className="font-boldHeading text-2xl tracking-wider pb-4">
                       ANODE SPECIFICATIONS
                     </p>

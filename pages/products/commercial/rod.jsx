@@ -130,7 +130,7 @@ const rod = () => {
             <table>
               <tbody>
                 <tr>
-                  <th colSpan={12} className="py-8">
+                  <th colSpan={4} className="py-8">
                     <h1>ROD</h1>
                     <p className="font-boldHeading text-2xl tracking-wider pb-4">
                       ANODE SPECIFICATIONS
@@ -138,7 +138,8 @@ const rod = () => {
                   </th>
                 </tr>
                 <tr>
-                  <th colSpan={6}>NOMINAL WEIGHT</th>
+                  <th colSpan={2}>NOMINAL DIMENSIONS</th>
+                  <th colSpan={2}>NOMINAL WEIGHT</th>
                 </tr>
                 <tr>
                   <th colSpan={2}>ITEM #</th>

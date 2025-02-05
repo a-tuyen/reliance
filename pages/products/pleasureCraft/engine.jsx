@@ -448,11 +448,11 @@ const engine = () => {
             <div className="flex flex-col lg:flex-row">
               <div className="flex flex-col items-center justify-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/230451905-ec4c863a-ef8b-426e-bf3f-338cb250fe59.png"
+                  src="/anodes/Engine.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={250}
+                  height={150}
                 />
               </div>
               <div className="flex flex-col items-center lg:pl-10">

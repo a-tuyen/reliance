@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const ChartNoDim2NotePic = ({
+const Chart3NotePic = ({
   img,
   znCode,
   znLb,
@@ -72,4 +72,4 @@ const ChartNoDim2NotePic = ({
   );
 };
 
-export default ChartNoDim2NotePic;
+export default Chart3NotePic;

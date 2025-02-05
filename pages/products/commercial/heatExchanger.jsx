@@ -125,7 +125,7 @@ const heatExchangerCircleData = [
 const heatExchanger = () => {
   return (
     <div>
-      <Hero heading={"Heat Exchanger Anodes"} message={""} img={"bg-img5"} />
+      <Hero heading={"Heat Exchanger Anodes"} message={"Used for protection of Heat Exchangers and for other areas where space is limited"} img={"bg-img5"} />
       <div className="flex flex-col lg:flex-row items-center lg:items-start lg:justify-start pt-10 lg:py-20 w-[100%]">
         <SideBarComm />
         <article>
@@ -153,9 +153,9 @@ const heatExchanger = () => {
                       <div className="px-2">(kg)</div>
                     </div>
                   </th>
-                  <th>A-LENGTH</th>
-                  <th>B-WIDTH</th>
-                  <th>C-DEPTH</th>
+                  <th>A: LENGTH</th>
+                  <th>B: WIDTH</th>
+                  <th>C: DEPTH</th>
                 </tr>
                 <tr>
                   <th colSpan={6} className="text-left px-5">
