@@ -181,6 +181,26 @@ const fernstrumKeelData = [
     eMeasureIn: '9/16"',
     eMeasureMm: "(14 mm)",
   },
+
+  {
+    znCode: 'MD-3583A',
+    znLb: '11 lb',
+    znKg: '(4.99 kg)',
+    alCode: 'AMD-3583A',
+    alLb: '4.3 lb',
+    alKg: '(1.95 kg)',
+    diaIn: '11"',
+    diaMm: '(279 mm)',
+    widIn: '2 25/51"',
+    widMm: '(63 mm)',
+    cDiaIn: '2 2/25"',
+    cDiaMm: '(53 mm)',
+    dMeasureIn: '4"',
+    dMeasureMm: '(102 mm)',
+    eMeasureIn: '9/16"',
+    eMeasureMm: '(14 mm)'
+  },
+
 ];
 
 const keelCooler = () => {
