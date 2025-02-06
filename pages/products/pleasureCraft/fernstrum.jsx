@@ -159,9 +159,9 @@ const fernstrum = () => {
               <p>Fernstrum</p>
               <Image
                 src="/anodes/fernstrum-drawing.png"
-                alt="pictore of anode"
-                width="200"
-                height="100"
+                alt="picture of anode"
+                width="300"
+                height="200"
               />
             </div>
           </main>

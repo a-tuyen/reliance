@@ -193,12 +193,15 @@ const caterpillar = () => {
                     <p className="text-sm md:text-lg">DIA</p>
                   </th>
                   <th>
-                    <p className="text-sm md:text-lg">PLUG OD (NPT)</p>
+                    C: PLUG
+                    <p className="px-2 text-sm md:text-lg">
+                      INTERNAL THREAD
+                    </p>
                   </th>
                   <th>
-                    C-PLUG
+                    D: PLUG 
                     <p className="px-2 text-sm md:text-lg">
-                      THREAD INTERVAL
+                    EXTERNAL THREAD (NPT)
                     </p>
                   </th>
                 </tr>
@@ -223,13 +226,13 @@ const caterpillar = () => {
               </tbody>
             </table>
             <div className="flex flex-col lg:flex-row">
-              <div className="flex flex-col items-center justify-center lg:pr-10">
+            <div className="flex flex-col items-center justify-center lg:pr-10">
                 <Image
-                  src="https://user-images.githubusercontent.com/77664153/230451905-ec4c863a-ef8b-426e-bf3f-338cb250fe59.png"
+                  src="/anodes/Engine.png"
                   alt="picture of anode"
                   className="min-w-[80px]"
-                  width={200}
-                  height={100}
+                  width={250}
+                  height={150}
                 />
               </div>
               <div className="flex flex-col items-center lg:pl-10">
