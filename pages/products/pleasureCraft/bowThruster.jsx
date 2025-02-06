@@ -66,10 +66,10 @@ const vetusData = [
     alCode: "AMD-BP-129",
     alLb: "0.5 lb",
     alKg: "(0.23 kg)",
-    diaIn: '-"',
-    diaMm: "(- mm)",
-    widIn: '-"',
-    widMm: "(- mm)",
+    diaIn: '-',
+    diaMm: "-",
+    widIn: '-',
+    widMm: "-",
   },
 
   {
@@ -96,8 +96,8 @@ const vetusData = [
     alKg: "(0.23 kg)",
     diaIn: '2 1/4"',
     diaMm: "(57 mm)",
-    widIn: '-"',
-    widMm: "(- mm)",
+    widIn: '-',
+    widMm: "-",
   },
 
   {
@@ -124,8 +124,8 @@ const vetusData = [
     alKg: "(0.23 kg)",
     diaIn: '2"',
     diaMm: "(51 mm)",
-    widIn: '-"',
-    widMm: "(- mm)",
+    widIn: '-',
+    widMm: "-",
   },
 
   {
@@ -138,8 +138,8 @@ const vetusData = [
     alKg: "(0.01 kg)",
     diaIn: '1 1/2"',
     diaMm: "(38 mm)",
-    widIn: '-"',
-    widMm: "(- mm)",
+    widIn: '-',
+    widMm: "-",
   },
 ];
 

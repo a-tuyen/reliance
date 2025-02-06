@@ -507,7 +507,17 @@ const engine = () => {
                 ))}
               </tbody>
             </table>
-            <p className="text-center pb-4">
+            <div className="flex flex-col items-center lg:pl-10">
+                <Image
+                  src="https://user-images.githubusercontent.com/77664153/230496617-d40b4723-cf00-4542-a22f-892ce6e5bfb4.png"
+                  alt="picture of anode"
+                  className="min-w-[80px]"
+                  width={200}
+                  height={100}
+                />
+                <p>Engine Brass Plug</p>
+              </div>
+            <p className="text-center py-4">
               For more engine anodes, please see our{" "}
               <Link href="/products/pleasureCraft/caterpillar">
                 CATERPILLAR
