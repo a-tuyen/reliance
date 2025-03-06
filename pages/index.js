@@ -24,7 +24,7 @@ export default function Home() {
         img={"bg-img4"}
       />
       <div className="bg-white flex flex-col justify-center items-center mt-0">
-        <div className="w-[100%] h-[1100px] lg:h-[800px] text-center bg-lightMain flex flex-col lg:flex-row">
+        <div className="w-[100%] h-[1100px] lg:h-[800px] text-center bg-[#e7e9ec] flex flex-col lg:flex-row">
           <Image
             src="/home/open-pour-square-banner.png"
             width="1200"
@@ -32,20 +32,16 @@ export default function Home() {
           />
           <div className="my-4 text-xl lg:text-3xl tracking-widest font-thin flex flex-col justify-center px-8">
             <p>
-              Reliance Anodes is a brand of Metal Distributors, a metal fabrication company that has been in operation since 1949. In 1988, we started our Pressure Die-casting Division called Reliance Anodes, producing sacrificial anodes in Aluminum and Zinc Alloys. Since then, Reliance Anodes has earned a high reputation for our high quality die-casting and machined components.
+              Reliance Anodes is a brand of Metal Distributors, a metal fabrication company that has been in operation since 1949. In 1988, we started our Pressure Die-casting Division, called Reliance Anodes, producing sacrificial anodes in Aluminum and Zinc Alloys. Since then, Reliance Anodes has earned a high reputation for our high quality die-casting and machined components.
             </p>
             <p className="pt-4">
-              We proudly manufacture our parts in Canada and source our raw materials from only reputable sources. All our anodes meet Mil-Spec standards.
+              We proudly manufacture our anodes in Canada and only source our raw materials reputable sources. All our anodes meet Mil-Spec standards and are crafted with care and precision. By choosing Reliance Anodes, you can trust that your investment is properly protected.
             </p>
-
-            {/* <p>
-              We have a fully equipped die casting facility where all pleasure craft and commercial anodes are produced in-house.  We also have our own fully equipped tool room where all our dies for the casting of parts are made.  By producing our own dies in-house and casting right on the premises, the lead time for casting of parts and the manufacturing or maintenance of dies is much quicker and of superior quality.
-            </p> */}
           </div>
         </div>
 
-        <h2 className="mt-[10vw] lg:mt-[5vw]">Explore Our Large Collection of Anodes</h2>
-        <p className="lg:text-3xl text-center py-6 px-2">From smalller recreation boats to large commercial vessels to underground fittings, we have something to cover all your corrosion control needs </p>
+        <h2 className="mt-[10vw] lg:mt-[5vw]">Explore Our Expansive Collection of Anodes</h2>
+        <p className="lg:text-3xl text-center py-6 px-2">From small recreation boats to large commercial vessels to underground fittings, we have something to cover all your corrosion control needs </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3">
           <Link href="/products/commercial">
