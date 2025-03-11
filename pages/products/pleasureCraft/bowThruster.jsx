@@ -144,75 +144,67 @@ const vetusData = [
 ];
 
 const sidePowerData = [
-  {
-    img: "https://user-images.githubusercontent.com/77664153/232909894-7fbd521d-7847-42b4-8cab-26b5032d1e63.png",
-    znCode: "MD-SM-31180",
-    znLb: "0.13 lb",
-    znKg: "(0.06 kg)",
-    alCode: "AMD-SM-31180",
-    alLb: "0.05 lb",
-    alKg: "(0.02 kg)",
+  {img: 'https://user-images.githubusercontent.com/77664153/232909894-7fbd521d-7847-42b4-8cab-26b5032d1e63.png',
+    znCode: 'MD-SM-31180',
+    znLb: '0.055 lb',
+    znKg: '(0.02 kg)',
+    alCode: 'AMD-SM-31180',
+    alLb: '0.02 lb',
+    alKg: '(0.01 kg)',
     diaIn: '15/16"',
-    diaMm: "(24 mm)",
+    diaMm: '(24 mm)',
     widIn: '1/2"',
-    widMm: "(13 mm)",
-  },
-
-  {
-    img: "https://user-images.githubusercontent.com/77664153/232909903-7cd88e85-3ca5-417a-b65d-7d4646e13508.png",
-    znCode: "MD-SM-71190 / MD-SM-51180",
-    znLb: "0.25 lb",
-    znKg: "(0.11 kg)",
-    alCode: "AMD-SM-71190 / AMD-SM-51180",
-    alLb: "0.1 lb",
-    alKg: "(0.05 kg)",
+    widMm: '(13 mm)'},
+    
+    {img: 'https://user-images.githubusercontent.com/77664153/232909903-7cd88e85-3ca5-417a-b65d-7d4646e13508.png',
+    znCode: 'MD-SM-71190 / MD-SM-51180',
+    znLb: '0.25 lb',
+    znKg: '(0.11 kg)',
+    alCode: 'AMD-SM-71190 / AMD-SM-51180',
+    alLb: '0.1 lb',
+    alKg: '(0.05 kg)',
     diaIn: '1 3/4"',
-    diaMm: "(44 mm)",
+    diaMm: '(44 mm)',
     widIn: '3/4"',
-    widMm: "(19 mm)",
-  },
-
-  {
-    img: "https://user-images.githubusercontent.com/77664153/232909894-7fbd521d-7847-42b4-8cab-26b5032d1e63.png",
-    znCode: "MD-SM-61180",
-    znLb: "0.10 lb",
-    znKg: "(0.05 kg)",
-    alCode: "AMD-SM-61180",
-    alLb: "0.04 lb",
-    alKg: "(0.02 kg)",
+    widMm: '(19 mm)'},
+    
+    {img: 'https://user-images.githubusercontent.com/77664153/232909894-7fbd521d-7847-42b4-8cab-26b5032d1e63.png',
+    znCode: 'MD-SM-61180',
+    znLb: '.093 lb',
+    znKg: '(0.04 kg)',
+    alCode: 'AMD-SM-61180',
+    alLb: '0.04 lb',
+    alKg: '(0.02 kg)',
     diaIn: '1"',
-    diaMm: "(25 mm)",
+    diaMm: '(25 mm)',
     widIn: '3/4"',
-    widMm: "(19 mm)",
-  },
-
-  {
-    img: "https://user-images.githubusercontent.com/77664153/232909901-10e5ebb7-dd1f-4ad0-bcfb-89fe52aafcc0.png",
-    znCode: "MD-SM-201180",
-    znLb: "0.60 lb",
-    znKg: "(0.27 kg)",
-    alCode: "AMD-SM-201180",
-    alLb: "0.23 lb",
-    alKg: "(0.1 kg)",
+    widMm: '(19 mm)'},
+    
+    {img: 'https://user-images.githubusercontent.com/77664153/232909901-10e5ebb7-dd1f-4ad0-bcfb-89fe52aafcc0.png',
+    znCode: 'MD-SM-201180',
+    znLb: '0.60 lb',
+    znKg: '(0.27 kg)',
+    alCode: 'AMD-SM-201180',
+    alLb: '0.23 lb',
+    alKg: '(0.1 kg)',
     diaIn: '1 7/8"',
-    diaMm: "(48 mm)",
+    diaMm: '(48 mm)',
     widIn: '1 5/8"',
-    widMm: "(41 mm)",
-  },
-
-  {
-    img: "https://user-images.githubusercontent.com/77664153/232909898-98df9601-8a53-4e49-877b-23de8846d40b.png",
-    znCode: "MD-SM-501180",
-    znLb: "2.42 lb",
-    znKg: "(1.1 kg)",
-    alCode: "AMD-SM-501180",
-    alLb: "0.95 lb",
-    alKg: "(0.43 kg)",
+    widMm: '(41 mm)'},
+    
+    {img: 'https://user-images.githubusercontent.com/77664153/232909898-98df9601-8a53-4e49-877b-23de8846d40b.png',
+    znCode: 'MD-SM-501180',
+    znLb: '2.42 lb',
+    znKg: '(1.1 kg)',
+    alCode: 'AMD-SM-501180',
+    alLb: '0.95 lb',
+    alKg: '(0.43 kg)',
     diaIn: '2 3/4"',
-    diaMm: "(70 mm)",
+    diaMm: '(70 mm)',
     widIn: '2"',
-    widMm: "(51 mm)",
-  },
+    widMm: '(51 mm)'},
+    
+    
 ];
 
 const keyPowerData = [
@@ -398,7 +390,7 @@ const bowThruster = () => {
                 width="200"
                 height="100"
               />
-              <p className="font-normal">THREADED CORE: 1/2&quot;, 7/16&quot;, 1/4&quot;</p>
+              <p className="font-normal">THREADED CORE: 1/2&quot;, 7/16&quot;, or 1/4&quot;</p>
               <p className="font-extrabold">
                 PLEASE SPECIFY THREAD SIZE WHEN ORDERING
               </p>
