@@ -30,12 +30,13 @@ export default function Home() {
             width="1200"
             height="1000"
           />
-          <div className="my-4 text-xl lg:text-3xl tracking-widest font-thin flex flex-col justify-center px-8">
+          <div className="my-4 mx-8 lg:mx-[10%] text-xl lg:text-3xl tracking-widest font-thin flex flex-col justify-center align">
             <p>
-              Celebrating over 75 years of experience in the Metal Fabrication Industry, Reliance Anodes has earned a reputation for our high quality die-casting and machined components.
+              Reliance Anodes is a brand of Metal Distributors, and we are proud to be celebrating over 75 years in the Metal Fabrication Industry!
             </p>
             <p className="pt-4">
-              We proudly manufacture our anodes in Canada and only source our raw materials reputable sources. All our anodes meet Mil-Spec standards and are crafted with care and precision. By choosing Reliance Anodes, you can trust that your vessel is properly protected.
+              With the experience of our skilled technicians and our unwavering commitment to quality, we have become an internationally recognized brand that is known for producing precise, high performing anodes.
+              <p className="pt-4">We only source our raw materials from reputable sources and all our marine anodes are produced to US Military Specification standards: MIL-A-18001 for zinc anodes and MIL-A-24779 for aluminum anodes. By choosing Reliance Anodes, you can trust your anodes will protect and perform.</p>
             </p>
           </div>
         </div>
