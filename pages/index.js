@@ -26,7 +26,7 @@ export default function Home() {
       <div className="bg-white flex flex-col justify-center items-center mt-0">
         <div className="w-[100%] h-[1100px] lg:h-[800px] text-center bg-[#e7e9ec] flex flex-col lg:flex-row">
           <Image
-            src="/home/open-pour-square-banner.png"
+            src="/home/celebrating-square-banner.png"
             width="1200"
             height="1000"
           />
@@ -36,8 +36,8 @@ export default function Home() {
             </p>
             <p className="pt-4">
               With the experience of our skilled technicians and our unwavering commitment to quality, we have become an internationally recognized brand that is known for producing precise, high performing anodes.
-              <p className="pt-4">We only source our raw materials from reputable sources and all our marine anodes are produced to US Military Specification standards: MIL-A-18001 for zinc anodes and MIL-A-24779 for aluminum anodes. By choosing Reliance Anodes, you can trust your anodes will protect and perform.</p>
             </p>
+            <p className="pt-4">We only source our raw materials from reputable sources and all our marine anodes are produced to US Military Specification standards: MIL-A-18001 for zinc anodes and MIL-A-24779 for aluminum anodes. By choosing Reliance Anodes, you can trust your anodes will protect and perform.</p>
           </div>
         </div>
 
