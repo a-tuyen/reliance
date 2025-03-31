@@ -20,11 +20,12 @@ export default function Home() {
       {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
       <Hero
         heading="A World Leader in Cathodic Protection"
-        message="Reliance Anodes are made of the highest quality Mil-Spec metals. You can always rely on us for your corrosion needs"
+        message="Reliance Anodes are crafted from the highest quality MIL-Spec aluminum and zinc alloys, delivering reliable, long-lasting corrosion protection."
         img={"bg-img4"}
+        tagline="Trusted worldwide. Proven to perform."
       />
       <div className="bg-white flex flex-col justify-center items-center mt-0">
-        <div className="w-[100%] h-[1100px] lg:h-[800px] text-center bg-[#e7e9ec] flex flex-col lg:flex-row">
+        <div className="w-[100%] h-[950px] lg:h-[600px] text-center bg-[#e7e9ec] flex flex-col lg:flex-row">
           <Image
             src="/home/celebrating-square-banner.png"
             width="1200"
@@ -32,17 +33,24 @@ export default function Home() {
           />
           <div className="my-4 mx-8 lg:mx-[10%] text-xl lg:text-3xl tracking-widest font-thin flex flex-col justify-center align">
             <p>
-              Reliance Anodes is a brand of Metal Distributors, and we are proud to be celebrating over 75 years in the Metal Fabrication Industry!
+              Reliance Anodes is a division of Metal Distributors Ltd., proudly serving the industry since 1949.
             </p>
             <p className="pt-4">
-              With the experience of our skilled technicians and our unwavering commitment to quality, we have become an internationally recognized brand that is known for producing precise, high performing anodes.
+              Backed by decades of experience and skilled technicians, we’ve earned a global reputation for precision-crafted, high-performance anodes.
             </p>
-            <p className="pt-4">We only source our raw materials from reputable sources and all our marine anodes are produced to US Military Specification standards: MIL-A-18001 for zinc anodes and MIL-A-24779 for aluminum anodes. By choosing Reliance Anodes, you can trust your anodes will protect and perform.</p>
+            <p className="pt-4">We use only trusted raw materials, and all our marine anodes meet <span className='font-bold'>U.S. Military Specifications</span>:
+            </p>
+            <p>
+              <span className='font-bold'>MIL-A-18001</span> for zinc and <span className='font-bold'>MIL-A-24779</span> for aluminum.
+            </p>
+            <p className="pt-4">
+              With Reliance Anodes, you’re getting more than protection—you’re getting performance you can count on.
+            </p>
           </div>
         </div>
 
         <h2 className="mt-[10vw] lg:mt-[5vw]">Explore Our Expansive Collection of Anodes</h2>
-        <p className="lg:text-3xl text-center py-6 px-2">From small recreation boats to large commercial vessels to underground fittings, we have something to cover all your corrosion control needs </p>
+        <p className="lg:text-3xl text-center py-6 px-2">From small recreational boats to large commercial vessels—and even underground infrastructure—we offer solutions for all your corrosion protection needs.</p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3">
           <Link href="/products/commercial">

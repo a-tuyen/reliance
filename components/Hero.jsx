@@ -5,7 +5,7 @@ import bg2 from "../public/backgrounds/relianceBg2.jpeg";
 import bg3 from "../public/backgrounds/relianceBg3.jpeg";
 import bg4 from "../public/backgrounds/relianceBg4.jpeg";
 
-const Hero = ({ heading, message, img }) => {
+const Hero = ({ heading, message, tagline, img }) => {
   return (
     <div className="h-[100%] pb-0 mb-0">
       <div
@@ -21,6 +21,7 @@ const Hero = ({ heading, message, img }) => {
         <p className="absolute justify-center w-[80%] md:w-[70%] py-2 md:py-10 top-[60%] sm:top-[55%] font-heading text-2xl md:text-3xl text-white text-center font-thin z-[10]">
           {message}
         </p>
+        <p className="absolute justify-center w-[80%] md:w-[70%] py-2 md:py-10 top-[80%] sm:top-[65%] font-heading text-2xl md:text-3xl text-white text-center font-medium z-[10]">{tagline}</p>
       </div>
     </div>
   );
