@@ -7,13 +7,17 @@ const about = () => {
     <div className="bg-white flex flex-col">
       <Hero heading={"About Us"} img={"bg-img3"} />
       
-      <article className='flex lg:flex-row items-center justify-center ml-[10%] mt-[10%] lg:mt-[5%]'>
+      <article className='flex lg:flex-row items-center justify-center ml-[10%] mt-[10%] lg:mt-[1%]'>
         <div className="text-xl w-[90%] lg:w-[50%] lg:text-3xl tracking-widest font-thin flex flex-col">
+          <h3 className='pb-4'>A Legacy Cast in Metal</h3>
           <p>
-            Reliance Anodes is a brand of Metal Distributors, a metal fabrication company that has been in operation since 1949. In 1988, we started our Pressure Die-casting Division, called Reliance Anodes, producing sacrificial anodes in Aluminum and Zinc Alloys. Since then, Reliance Anodes has earned a reputation for our high quality die-casting and machined components.
+          Reliance Anodes was founded in 1988 by Bob, continuing a family tradition that began in 1949. Three generations later, we’re still hands-on, quality-focused, and proudly manufacturing under conditions that prioritize people, process, and precision.
           </p>
           <p className="pt-4">
-            We proudly manufacture our anodes in Canada and only source our raw materials reputable sources. All our anodes meet Mil-Spec standards and are crafted with care and precision. By choosing Reliance Anodes, you can trust that your investment is properly protected.
+          We don’t just make anodes—we make them right. It’s a product of experience, of high standards, and of a belief that honest work should lead to something that lasts.
+          </p>
+          <p className="pt-4 italic">
+          For us, it’s not just corrosion protection. It’s a piece of the Canadian dream—realized through craftsmanship, care, and doing the job right.
           </p>
         </div>
         <Image
