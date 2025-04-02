@@ -9,7 +9,7 @@ const index = () => {
       <Hero
         heading={"Commercial Anodes"}
         message={
-          "We offer anodes to protect a wide range of commercial assets including: Merchant and naval vessels, piers, dry docks and retaining walls, offshore drilling platforms and pipelines and oceanographic equipment"
+          "Reliable anode protection for merchant and naval vessels, piers, dry docks, retaining walls, offshore platforms, pipelines, and oceanographic equipment."
         }
         img={"bg-img5"}
       />
