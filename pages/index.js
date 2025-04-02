@@ -17,28 +17,28 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <Hero heading='Reliance Anodes' message='A Tradition of Excellence' /> */}
       <Hero
         heading="A World Leader in Cathodic Protection"
         message="Reliance Anodes are crafted from the highest quality MIL-Spec aluminum and zinc alloys, delivering reliable, long-lasting corrosion protection."
         img={"bg-img4"}
         tagline="Trusted worldwide. Proven to perform."
       />
+      {/* "max-[600px]:bg-sky-300 min-[320px]:text-center */}
       <div className="bg-white flex flex-col justify-center items-center mt-0">
-        <div className="w-[100%] h-[950px] lg:h-[600px] text-center bg-[#e7e9ec] flex flex-col lg:flex-row">
+        <div className="w-[100%] h-[1050px] lg:h-[950px] lg:h-[850px] text-center bg-[#e7e9ec] flex flex-col min-[1075px]:flex-row">
           <Image
             src="/home/celebrating-square-banner.png"
-            width="1200"
-            height="1000"
+            width="800"
+            height="6000"
           />
-          <div className="my-4 mx-8 lg:mx-[10%] text-xl lg:text-3xl tracking-widest font-thin flex flex-col justify-center align">
+          <div className="my-2 mx-8 md:mx-[5] text-xl xl:ml-[8%] min-[1250px]:text-3xl tracking-wide font-thin flex flex-col justify-center">
             <p>
               Reliance Anodes is a division of Metal Distributors Ltd., proudly serving the industry since 1949.
             </p>
             <p className="pt-4">
               Backed by decades of experience and skilled technicians, we’ve earned a global reputation for precision-crafted, high-performance anodes.
             </p>
-            <p className="pt-4">We use only trusted raw materials, and all our marine anodes meet <span className='font-bold'>U.S. Military Specifications</span>:
+            <p className="pt-4 pb-2">We use only trusted raw materials, and all our marine anodes meet <span className='font-bold'>U.S. Military Specifications</span>:
             </p>
             <p>
               <span className='font-bold'>MIL-A-18001</span> for zinc and <span className='font-bold'>MIL-A-24779</span> for aluminum.
