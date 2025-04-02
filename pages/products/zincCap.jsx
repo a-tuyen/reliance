@@ -15,10 +15,10 @@ const zincCap = () => {
       />
 
       <main>
-        <article>
+        <article className="px-2">
           <h2>Why Reliance Zinc Anode Caps Outperform the Rest</h2>
-          <p>
-            Not all anode caps are created equal. At Reliance, we don&apos;t cut corners—we cast with purpose. Here&apos;s what sets our zinc caps apart:
+          <p className="pt-4">
+             Not all anode caps are created equal. At Reliance, we don&apos;t cut corners—we cast with purpose. Here&apos;s what sets our zinc caps apart:
           </p>
 
           <ul className="list-disc mt-4">
@@ -40,7 +40,7 @@ const zincCap = () => {
               Trusted in critical infrastructure—from buried pipelines to water treatment systems—our caps deliver protection that holds up over time.
             </li>
           </ul>
-          <p className="font-bold text-2xl pt-4">When it comes to corrosion control, shortcuts cost more. Choose quality. Choose Reliance.</p>
+          <p className="font-bold text-2xl py-4 text-center">When it comes to corrosion control, shortcuts cost more. Choose quality. Choose Reliance.</p>
 
           <table>
             <tbody>
