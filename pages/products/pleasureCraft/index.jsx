@@ -9,7 +9,7 @@ const index = () => {
       <Hero
         heading={"Pleasure Craft Anodes"}
         message={
-          "We carry a variety of anodes for pleasure craft vessels. All carefully designed by our skilled technicians to fit like an OEM part"
+          "Designed with precision and care, our anodes for recreational vessels offer a reliable, OEM-style fit and long-lasting protection."
         }
         img={"bg-img2"}
       />
