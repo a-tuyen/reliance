@@ -9,7 +9,7 @@ const index = () => {
       <div className="bg-white flex flex-col justify-center">
         <Hero 
         heading={"Technical Information"}
-        message={"See our resorces below to help you get started on your corrosion control journey"}
+        message={"See our resources below to help you get started on your corrosion control journey"}
         img={"bg-img1"} />
       </div>
 
