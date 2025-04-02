@@ -9,19 +9,16 @@ const zincCap = () => {
       <Hero
         heading={"Zinc Anode Caps"}
         message={
-          "Reliance Zinc Anode Caps offer cathodic protection to underground and submerged threads, bolts and nuts on glands, flanges and mechanical fittings.  They are designed to be used on buried pipelines, in water treatment plants, weirs, lock gates and any other structures with exposed metallic threads."
+          "Reliance Zinc Anode Caps provide targeted cathodic protection for underground and submerged threads, bolts, and nuts on glands, flanges, and mechanical fittings. Designed for use on buried pipelines, in water treatment plants, weirs, lock gates, and other structures with exposed metal threads, these caps help prevent corrosion where it matters most."
         }
         img={"bg-img3"}
       />
 
       <main>
         <article>
-          <h2>Why Choose Reliance Zinc Anode Caps?</h2>
+          <h2>Why Reliance Zinc Anode Caps Outperform the Rest</h2>
           <p>
-            Reliance Zinc Anode Caps are made from &quot;Special High
-            Grade&quot; Zinc that conforms to the highest industry standards.
-            All our Zinc Caps meet or exceed all MIL-A-18001J and ASTM B418-80
-            specifications. 
+          Not all anode caps are created equal. At Reliance, we don&quot;t cut corners—we cast with purpose. Here&quot;s what sets our zinc caps apart:
           </p>
 
           <table>
