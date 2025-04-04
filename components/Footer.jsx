@@ -15,9 +15,9 @@ const Footer = () => {
 
         <div className="flex flex-col items-center w-[100%] bg-[#393b3e] md:w-[60%] lg:w-[35%] pl-[%] ml-[0] md:ml-[4%] justify-center">
           <ul className="text-white text-xl px-3 pb-3">
-            <h4 className="text-4xl pt-6 pb-3 font-heading tracking-wide z-40">
+            <h1 className="text-4xl pt-6 pb-3 font-heading tracking-wide z-40">
               WE ARE HERE TO HELP
-            </h4>
+            </h1>
             <li className="flex items-center p-1 z-40">
               <GiRotaryPhone size={30} />{" "}
               <div className="flex flex-col md:flex-row">

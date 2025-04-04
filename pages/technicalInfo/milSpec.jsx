@@ -8,9 +8,9 @@ const milSpec = () => {
         <Hero heading={"What is Mil-Spec?"} img={"bg-img2"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center items mt-4 text-start">
+        <article className="bg-white flex flex-col justify-center mt-4 text-left">
           <h2>Understanding Mil-Spec: MIL-A-18001</h2>
-          <p className="font-bold text-2xl py-4">The Benchmark for Zinc Anode Quality</p>
+          <h4>The Benchmark for Zinc Anode Quality</h4>
           <p className='my-4'>
             In the early 1950s, the U.S. Naval Command partnered with the International Zinc Institute to investigate the inconsistent performance of zinc anodes in marine environments. Their research uncovered a key insight: <span className='font-bold'>even small amounts of iron contamination</span> in zinc (greater than 0.0014%) could cause <span className='font-bold'>passivation</span>—a condition where the anode becomes inactive and stops protecting the structure it’s attached to.
           </p>
@@ -18,7 +18,7 @@ const milSpec = () => {
           <p className='mb-4'>To address this, they developed the first U.S. military specification for zinc anodes: <span className='font-bold'>MIL-A-18001A.</span>
           </p>
 
-          <p className="font-bold text-2xl py-4">Why Anodes Used to Fail</p>
+          <h4>Why Anodes Used to Fail</h4>
           <p className='mb-4'>
             Before this specification, the effectiveness of sacrificial anodes was unpredictable. Two seemingly identical vessels using zinc anodes could have completely different corrosion outcomes. The issue?
           </p>
@@ -26,7 +26,7 @@ const milSpec = () => {
             Many zinc anodes weren’t staying electrochemically active over time. A dense film—mainly <span className='font-bold'>iron oxide</span>—would form on the surface, caused by <span className='font-bold'>excess iron in the zinc itself,</span> rendering the anode inert.
           </p>
 
-          <p className="font-bold text-2xl py-4">The Birth of MIL-A-18001</p>
+          <h4>The Birth of MIL-A-18001</h4>
           <p className="pb-4">The new military spec required:</p>
           <ul className="list-disc pb-8">
 
@@ -37,12 +37,12 @@ const milSpec = () => {
           </ul>
           <p className="pb-4">This created a reliable standard that dramatically improved the consistency and protection of zinc anodes in service.</p>
 
-          <p className="font-bold text-2xl py-4">Refinement Through Alloying</p>
+          <h4>Refinement Through Alloying</h4>
           <p className='mb-4'>
             Over time, metallurgists discovered that by <span className='font-bold'>adding controlled amounts of aluminum and cadmium,</span> anodes could tolerate slightly higher iron content—up to 0.005%—without passivating. These alloyed zinc anodes form a <span className='font-bold'>loosely adherent zinc oxide layer</span> that naturally sheds in water, exposing fresh metal and keeping the anode continuously active.
           </p>
 
-          <p className="font-bold text-2xl py-4">Why MIL-Spec Still Matters Today</p>
+          <h4>Why MIL-Spec Still Matters Today</h4>
           <p className='mb-4'>
             Only through continuous electrochemical activity can a zinc anode provide lasting protection. Anodes that don’t meet MIL-A-18001 risk being contaminated, underperforming, or worse—<span className='font-bold'>failing to protect your structure altogether.</span></p>
             <p className='mb-4'><span className='font-bold'>That’s why every Reliance Zinc Anode is certified to meet or exceed MIL-A-18001 standards—because when it comes to corrosion protection, there’s no room for compromise.</span></p>
