@@ -13,19 +13,71 @@ const milSpec = () => {
           <div>
             <h4 className="flex justify-center mt-4">Galvanic Corrosion: What It Is</h4>
             <p className='mb-4'>
-              When two or more dissimiliar metals are in contact with each other and immersed in an electroyte (a liquid that can conduct electricity), the more electrically active metal (less noble) will sacrifice itself by electron flow from the more negatively charged metal (the anode) to the more positively charged metal (the cathode).  Hence, for protection of metal fittings on boats as well as hulls and drive units, a comprehensive plan of protection needs to be employed.
+              Galvanic corrosion is an electrochemical reaction that occurs when <span className='font-bold'>two or more dissimilar metals</span> are in contact and submerged in an <span className='font-bold'>electrolyte</span>—such as seawater or brackish water. This creates a galvanic cell, where electrical current flows between the metals.
+            </p>
+            <h4>How It Works</h4>
+            <p className='mb-4'>In this system, the <span className='font-bold'>less noble</span> (more electrically active) metal becomes the <span className='font-bold'>anode</span> and sacrifices itself by corroding. It releases electrons that flow toward the <span className='font-bold'>more noble</span> metal, the <span className='font-bold'>cathode</span>, which is protected from corrosion.</p>
+
+            <h4>Why It Matters for Boats</h4>
+            <p className='mb-4'>Boats often contain a mix of metals—steel hulls, brass fittings, aluminum drives, etc.—all of which are at risk when submerged. Without proper protection, the less noble components will corrode quickly.
             </p>
 
-            <p className='mb-4'>By utilizing sacrificial anodes, these components will be protected because they are not corroding themselves with the loss of material, instead the anode is.  For example, on a steel hulled boat with brass fittings submerged underwater, the two metals provide the anode (steel) and cathode (brass).  The water completes the circuit just like a battery.  In this arrangement, the steel will deteriorate as it is less noble than the brass.  To protect both metals, a third metal is introduced that is less noble than the other two.  The metals widely used for this cathodic production are zinc, aluminum and magnesium.  Each element has characteristics that make them suitable for certain applications.</p>
-            <p className='mb-4'>Factors that affect galvanic corrosion are the salinity of water, the pollutants present, the water flow rate, cavitation, oxygen content, temperature, etc.
-            </p>
+            <h4>Sacrificial Anodes to the Rescue</h4>
             <p className='mb-4'>
-              Anodes are supplied in varying weights and sizes.  The surface area determines the amperage (current), which governs the amount of protection, and the weight determines the service life of the anodes.
+              By installing <span className='font-bold'>sacrificial anodes</span> —typically made of <span className='font-bold'>zinc, aluminum, or magnesium</span> —the corrosion is redirected to the anode instead of valuable components.
             </p>
 
+            <h4>Example:</h4>
             <p className='mb-4'>
-              As mentioned before, a metal that is more electrically active is less noble.  On the Noble Scale these are the approximate negative voltages from Least to Most Noble (referenced with a silver/silver chloride half cell):</p>
+              A <span className='font-bold'>steel hull</span> with <span className='font-bold'>brass fittings</span> in water will cause the steel to corrode. But with a zinc anode installed (which is less noble than both), the zinc corrodes instead, preserving both the steel and brass.
+            </p>
+
+            <h4>Choosing the Right Anode Material</h4>
+
+            <ul className="list-disc pb-8">
+              <p className='mb-4'>Each material has unique properties suited to specific marine environments.</p>
+              <li><span className='font-bold'>Zinc</span> &rarr; Saltwater</li>
+              <li><span className='font-bold'>Aluminum</span> &rarr; Salt or brackish water</li>
+              <li><span className='font-bold'>Magnesium</span> &rarr; Freshwater only</li>
+            </ul>
+
+            <h4>Factors That Influence Corrosion</h4>
+
+            <ul className="list-disc pb-8">
+              <li>Water salinity</li>
+              <li>Pollution levels</li>
+              <li>Flow rate or turbulence</li>
+              <li>Oxygen concentration</li>
+              <li>Temperature</li>
+              <li>Metal surface area and coatings</li>
+            </ul>
+
+            <h4>Anode Size & Lifespan</h4>
+            <ul className="list-disc pb-8">
+              <p className='mb-4'>Choosing the right size and number of anodes ensures long-term protection for your vessel’s components.</p>
+              <li><span className='font-bold'>Surface area </span>determines how much protective current the anode provides.</li>
+              <li><span className='font-bold'>Weight</span> determines how long the anode will last.</li>
+            </ul>
+            <h4>Understanding the Noble Scale</h4>
+            <p className='mb-4'>
+              The <span className='font-bold'>Noble Scale</span> ranks metals based on their electrochemical activity in an electrolyte (like seawater), using a <span className='font-bold'>silver/silver chloride half cell</span> as the reference point.</p>
+            <p className='mb-4'>
+              Metals that are <span className='font-bold'>more negative</span> on the scale are <span className='font-bold'>less noble</span> and more likely to corrode. Those that are <span className='font-bold'>more noble</span> (closer to 0 mV or positive) are less reactive and more resistant to corrosion.
+            </p>
           </div>
+
+          <h4>How to Read It</h4>
+          <ul className="list-disc pb-8">
+            <p className='mb-4'></p>
+            <li>The more negative the value, the <span className='font-bold'>less noble</span> the metal—and the more likely it will corrode.</li>
+            <li>The <span className='font-bold'>anode</span> should always be <span className='font-bold'>less noble</span> than the metal it’s protecting.</li>
+          </ul>
+
+          <h4>Voltage Example</h4>
+            <p className='mb-4'>If you’re using <span className='font-bold'>zinc (-1050 mV)</span>  to protect <span className='font-bold'>brass (-450 mV)</span>:</p>
+            <p className='mb-4 font-bold'> Zinc (-1050) – Brass (-450) = -600 mV</p>
+            <p className='mb-4'>This -600 mV differential is what drives cathodic protection, causing the zinc to corrode and the brass to remain untouched.</p>
+
 
           <table className='mb-2'>
             <tbody>
@@ -89,18 +141,15 @@ const milSpec = () => {
                 <td>0</td>
                 <td>Gold</td>
               </tr>
-
-
             </tbody>
           </table>
 
-          <div className=''>Example:  If a zinc was protecting a brass fitting, the &quot;driving&quot; (or protecting) voltage would be:
-            <p className='flex justify-center mt-1 mb-4'>( -1050 Zinc) - (-450 Brass) = -600 mV or -0.6 V.</p>
-          </div>
+
+
 
           <p className='mb-6'>A general rule of thumb for cathodic protection is to provide a negative voltage that is at a minimum of -0.2V(-200mV) relative to the least noble metal being protected.  There is, however, the possiblity of overprotection as well as under-protection in certain situations.
 
-            Overprotection can cause damage in the form of alkali corrosion to aluminum, delignification to wooden hull (the breakdown of the fibres), and hull coatings (blistering).  This can occur, for example, if a magnesium anode is used on aluminum, in water that is polluted, brackish (in between fresh and seawater) or seawater resulting in too much voltage. Another cause is stray DC current from defective wiring or equipment.</p> 
+            Overprotection can cause damage in the form of alkali corrosion to aluminum, delignification to wooden hull (the breakdown of the fibres), and hull coatings (blistering).  This can occur, for example, if a magnesium anode is used on aluminum, in water that is polluted, brackish (in between fresh and seawater) or seawater resulting in too much voltage. Another cause is stray DC current from defective wiring or equipment.</p>
 
           <h4>APPROXIMATE RECOMMENDED RANGE OF CATHODIC PROTECTION</h4>
           <ul className='mb-4'>
@@ -146,7 +195,7 @@ const milSpec = () => {
                   <p>- <span className="font-bold">In fresh water with Stainless Steel Propeller</span> - Either Magnesium or Aluminum Anodes work</p>
                 </td>
               </tr>
-                </tbody>
+            </tbody>
           </table>
 
           <h4>DOCKED VESSELS</h4>

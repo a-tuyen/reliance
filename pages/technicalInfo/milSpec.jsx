@@ -8,10 +8,10 @@ const milSpec = () => {
         <Hero heading={"What is Mil-Spec?"} img={"bg-img2"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center mt-4 text-left">
+        <article className="bg-white flex flex-col justify-center items-center mt-4">
           <h2>Understanding Mil-Spec: MIL-A-18001</h2>
           <h4>The Benchmark for Zinc Anode Quality</h4>
-          <p className='my-4'>
+          <p className='mb-4'>
             In the early 1950s, the U.S. Naval Command partnered with the International Zinc Institute to investigate the inconsistent performance of zinc anodes in marine environments. Their research uncovered a key insight: <span className='font-bold'>even small amounts of iron contamination</span> in zinc (greater than 0.0014%) could cause <span className='font-bold'>passivation</span>—a condition where the anode becomes inactive and stops protecting the structure it’s attached to.
           </p>
 
@@ -45,7 +45,7 @@ const milSpec = () => {
           <h4>Why MIL-Spec Still Matters Today</h4>
           <p className='mb-4'>
             Only through continuous electrochemical activity can a zinc anode provide lasting protection. Anodes that don’t meet MIL-A-18001 risk being contaminated, underperforming, or worse—<span className='font-bold'>failing to protect your structure altogether.</span></p>
-            <p className='mb-4'><span className='font-bold'>That’s why every Reliance Zinc Anode is certified to meet or exceed MIL-A-18001 standards—because when it comes to corrosion protection, there’s no room for compromise.</span></p>
+          <p className='mb-4'><span className='font-bold'>That’s why every Reliance Zinc Anode is certified to meet or exceed MIL-A-18001 standards—because when it comes to corrosion protection, there’s no room for compromise.</span></p>
 
 
           <table className='w-full border border-gray-300 text-gray-800 font-light">'>
