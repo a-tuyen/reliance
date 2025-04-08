@@ -66,19 +66,6 @@ const milSpec = () => {
             </p>
           </div>
 
-          <h4>How to Read It</h4>
-          <ul className="list-disc pb-8">
-            <p className='mb-4'></p>
-            <li>The more negative the value, the <span className='font-bold'>less noble</span> the metal—and the more likely it will corrode.</li>
-            <li>The <span className='font-bold'>anode</span> should always be <span className='font-bold'>less noble</span> than the metal it’s protecting.</li>
-          </ul>
-
-          <h4>Voltage Example</h4>
-            <p className='mb-4'>If you’re using <span className='font-bold'>zinc (-1050 mV)</span>  to protect <span className='font-bold'>brass (-450 mV)</span>:</p>
-            <p className='mb-4 font-bold'> Zinc (-1050) – Brass (-450) = -600 mV</p>
-            <p className='mb-4'>This -600 mV differential is what drives cathodic protection, causing the zinc to corrode and the brass to remain untouched.</p>
-
-
           <table className='mb-2'>
             <tbody>
               <tr>
@@ -145,6 +132,63 @@ const milSpec = () => {
           </table>
 
 
+          <h4>How to Read It</h4>
+          <ul className="list-disc pb-8">
+            <p className='mb-4'></p>
+            <li>The more negative the value, the <span className='font-bold'>less noble</span> the metal—and the more likely it will corrode.</li>
+            <li>The <span className='font-bold'>anode</span> should always be <span className='font-bold'>less noble</span> than the metal it’s protecting.</li>
+          </ul>
+
+          <h4>Voltage Example</h4>
+          <p className='mb-4'>If you’re using <span className='font-bold'>zinc (-1050 mV)</span>  to protect <span className='font-bold'>brass (-450 mV)</span>:</p>
+          <p className='mb-4 font-bold'> Zinc (-1050) – Brass (-450) = -600 mV</p>
+          <p className='mb-4'>This <span className='font-bold'>-600 mV differential</span> is what drives cathodic protection, causing the zinc to corrode and the brass to remain untouched.</p>
+
+          <h4>Target Voltage for Cathodic Protection</h4>
+          <p className='mb-4'>To effectively protect metal components from galvanic corrosion, a <span className='font-bold'>negative voltage shift of at least -200 mV (or -0.2 V)</span> relative to the least noble metal in the system is generally required.</p>
+          <p className='mb-4'>This ensures that current flows away from the protected metal and into the sacrificial anode.</p>
+
+          <h4>The Risk of Overprotection</h4>
+          <p className='mb-4'>Too much voltage can be just as harmful as too little. <span className='font-bold'>Overprotection</span> may lead to:</p>
+          <ul className="list-disc pb-8">
+            <li><span className='font-bold'>Alkali corrosion </span> in aluminum components</li>
+            <li><span className='font-bold'>Delignification </span> in wooden hulls (breakdown of wood fibers)</li>
+            <li><span className='font-bold'>Blistering</span> of protective coatings</li>
+          </ul>
+          <p className='mb-4'>One common cause is using a <span className='font-bold'>magnesium anode</span> in brackish or saltwater, where it generates too high a voltage. Another is <span className='font-bold'>stray DC current</span> from faulty wiring or equipment onboard or at the dock.</p>
+
+          <div className="max-w-6xl mx-auto px-4 py-10">
+            <h4 className="mb-4">Recommended Cathodic Protection Ranges</h4>
+
+            <table className="w-full border border-gray-300 text-gray-800 font-light">
+              <tbody>
+                <tr className="bg-gray-100 text-left">
+                  <th className="px-3 py-2 border-b border-gray-300">Hull or Component Type</th>
+                  <th className="px-3 py-2 border-b border-gray-300">Target Range (mV)</th>
+                </tr>
+                <tr className="bg-white">
+                  <td className="px-3 py-2 border-t border-gray-200">Wood Hull</td>
+                  <td className="px-3 py-2 border-t border-gray-200">–500 to –600</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-3 py-2 border-t border-gray-200">Fibreglass Hull</td>
+                  <td className="px-3 py-2 border-t border-gray-200">–550 to –900</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="px-3 py-2 border-t border-gray-200">Steel Hull</td>
+                  <td className="px-3 py-2 border-t border-gray-200">–800 to –1050</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="px-3 py-2 border-t border-gray-200">Non-metallic Hull with Aluminum Drive</td>
+                  <td className="px-3 py-2 border-t border-gray-200">–900 to –1050</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="px-3 py-2 border-t border-gray-200">Aluminum Hull</td>
+                  <td className="px-3 py-2 border-t border-gray-200">–900 to –1100</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
 
           <p className='mb-6'>A general rule of thumb for cathodic protection is to provide a negative voltage that is at a minimum of -0.2V(-200mV) relative to the least noble metal being protected.  There is, however, the possiblity of overprotection as well as under-protection in certain situations.
@@ -159,6 +203,7 @@ const milSpec = () => {
             <li>Non-metallic with Aluminum Drive: -900 to -1050 mV</li>
             <li>Aluminum Hull: -900 to -1100 mV</li>
           </ul>
+
 
           <p className='mb-4'>
             The ability to attain the -200 mv negative shift is dependent on the amount of current (amperage) the anode generates in relationship to the area of coverage.  This is determined by the anode&apos;s surface area and proximity to the metal being protected.
@@ -212,7 +257,6 @@ const milSpec = () => {
             Bonding system-to help prevent stray currents, all electrical and underwater metal components should be connected to the battery&apos;s negative terminal or it&apos;s bus thus equalizing the voltage between them.</p>
           <p className='mb-4'></p>
           <p className='mb-4'></p>
-
 
         </article>
       </main>
