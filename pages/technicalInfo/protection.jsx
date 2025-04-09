@@ -8,7 +8,7 @@ const milSpec = () => {
         <Hero heading={"Boat Protection Basics"} img={"bg-img3"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center items-center mt-4">
+        <article className="bg-white flex flex-col justify-center items-center mt-4 max-w-6xl mx-auto px-4 py-4">
           <h2>Considerations for Boat Protection</h2>
           <div>
             <h4 className="flex justify-center mt-4">Galvanic Corrosion: What It Is</h4>
@@ -220,7 +220,7 @@ const milSpec = () => {
 
 
               <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Magnesium</h3>
+                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Magnesium</h3>
                 <ul class="list-disc list-inside space-y-1">
                   <li>Most active on the Galvanic Scale</li>
                   <li>Best for <span class="font-medium">freshwater only</span></li>
@@ -228,57 +228,70 @@ const milSpec = () => {
                   <li>Outdrives on wood, fiberglass, aluminum, or steel</li>
                   <li>Freshwater with stainless steel props</li>
                 </ul>
-                <p class="mt-3 text-xs text-yellow-700 italic">⚠ May overprotect in salt or brackish water</p>
+                <p class="mt-3 text-orange-500 italic">⚠ May overprotect in salt or brackish water</p>
               </div>
 
 
               <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Zinc</h3>
+                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Zinc</h3>
                 <ul class="list-disc list-inside space-y-1">
                   <li>Reliable in <span class="font-medium">saltwater</span></li>
                   <li>Preferred on wood hulls with inboards</li>
                   <li>Compatible with outboards and outdrives</li>
                   <li>Best when vessel stays in saltwater</li>
                 </ul>
-                <p class="mt-3 text-xs text-gray-600 italic">✔ Traditional marine standard</p>
+                <p class="mt-3 text-green-500 italic">✔ Traditional marine standard</p>
               </div>
 
 
               <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Aluminum</h3>
+                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Aluminum</h3>
                 <ul class="list-disc list-inside space-y-1">
                   <li>Versatile in <span class="font-medium">salt, brackish & freshwater</span></li>
                   <li>Ideal for aluminum sterndrives</li>
                   <li>Recommended for aluminum props in freshwater</li>
                   <li>Works with stainless steel props</li>
                 </ul>
-                <p class="mt-3 text-xs text-green-700 italic">✔ Long lifespan & wide compatibility</p>
+                <p class="mt-3 text-green-500 italic">✔ Long lifespan & wide compatibility</p>
               </div>
 
             </div>
           </section>
 
 
-
-
-
-          <h4 className='mt-6'>TYPES OF ANODES AND APPLICATIONS</h4>
-   
-
-          <h4>DOCKED VESSELS</h4>
-          <p className='mb-4'>
-            A potentially serious problem can arise with a boat at dockside using shore power to the vessel.  The ground wire will connect all boats galvanically.  This means that if a boat alongside yours is also connected to shore power and he doesn&apos;t have anodes on his boat, then your boat will protect his as well.  After the anodes are consumed, the metal components which are higher on the Galvanic Scale will now start being consumed.  A galvanic isolator will remedy this by blocking the low voltage DC current flow that leads to this condition. (Attaches to the ground wire).
+          <h4>Docked Vessels & Shore Power Corrosion</h4>
+          <p className='mb-4 font-thin'>
+            When a boat is connected to shore power, the <span className='font-bold'>ground wire</span> creates a shared electrical pathway between your vessel and others on the dock. If nearby boats aren’t properly protected with anodes, your boat’s system can end up doing the work—<span className='font-bold'>protecting theirs at the expense of your own</span>.
           </p>
-          <h4>STRAY CURRENT</h4>
-          <p className='mb-4'>It is recommended to test your boat for DC voltage leaks. Stray currents can emanate from within a boat (faulty or exposed wiring), from shoreside fittings and / or cables, or from neighbouring boats.  A leak can have a devastating effect because of accelerated electron flow.  Extreme cases can destroy hardware in a matter of hours.  It doesn&apos;t take much current to overwhelm the low level protection of the cathodic system.
+          <p>Over time, this causes your anodes to deplete faster. Once they’re consumed, your boat’s underwater metals—especially those higher on the galvanic scale—are left vulnerable to corrosion.</p>
 
-            Basically, any metal that is feeding a current into the water will be ruined.  Wiring systems cannot have a path back to the source of power.
 
-            Keep DC wires above water level in the bilge to avoid stray current and AC wires to avoid a shock hazard.
+          <h4>How to Prevent It</h4>
+          <p className='mb-4 font-thin'>
+            The most effective solution is to install a <span className='font-bold'>galvanic isolator</span> on the shore power ground wire. This device blocks <span className='font-bold'>low-voltage DC current</span>, which is responsible for dockside galvanic corrosion, while still maintaining the essential safety grounding required for your electrical system.
+          </p>
+          <p>With a galvanic isolator in place, your anodes will continue protecting your vessel—and only your vessel.</p>
 
-            Bonding system-to help prevent stray currents, all electrical and underwater metal components should be connected to the battery&apos;s negative terminal or it&apos;s bus thus equalizing the voltage between them.</p>
-          <p className='mb-4'></p>
-          <p className='mb-4'></p>
+          <h4 className='mt-6'>Stray Current Corrosion: A Hidden Threat</h4>
+          <p className='mb-4'>Stray current corrosion is one of the most aggressive and destructive forms of marine corrosion. Unlike galvanic corrosion, it doesn’t require two dissimilar metals—it happens when <span className='font-bold'> unintended electrical current enters the water</span> and begins to attack any nearby metal.</p>
+          <p className='mb-4'>Even a small DC voltage leak can completely <span className='font-bold'>override your anode system.</span> In severe cases, stray current can destroy metal hardware in a matter of hours.</p>
+
+          <h4>Common Sources of Stray Current</h4>
+            <ul className="list-disc pb-8">
+              <li>Faulty or exposed DC wiring inside the boat</li>
+              <li>Improperly grounded shore power systems</li>
+              <li>Electrical leaks from neighboring vessels or marina infrastructure</li>
+            </ul>
+
+            <h4>How to Protect Against It</h4>
+            <ul className="list-disc pb-8">
+              <li>Test your boat regularly for <span className='font-bold'>DC voltage leaks</span></li>
+              <li>Keep <span className='font-bold'>DC wiring above the bilge</span> to prevent water contact</li>
+              <li>Ensure <span className='font-bold'>AC systems</span> are properly insulated to reduce the risk of electric shock</li>
+              <li>Use a proper <span className='font-bold'>bonding system</span>:
+                <p>All electrical and underwater metal components should be connected to the <span className='font-bold'>battery&apos;s negative terminal or its ground bus</span>, equalizing voltage across the system and minimizing current flow into the water</p>
+              </li>
+            </ul>
 
         </article>
       </main>
