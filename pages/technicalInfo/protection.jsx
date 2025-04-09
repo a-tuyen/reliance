@@ -191,6 +191,32 @@ const milSpec = () => {
           </div>
 
 
+          <h4>What Determines Voltage Shift?</h4>
+          <p className='mb-4'>Achieving proper protection depends on the amount of current the anode provides in relation to the <span className='font-bold'>area of metal exposed</span>. This is affected by:</p>
+          <ul className="list-disc pb-8">
+            <li><span className='font-bold'>Anode surface area</span> (which determines amperage)</li>
+            <li><span className='font-bold'>Proximity</span> to the protected metal</li>
+            <li><span className='font-bold'>Coating quality</span> on the hull</li>
+            <li><span className='font-bold'>Water temperature and speed</span></li>
+          </ul>
+
+          <h4>Anode Capacity & Lifespan</h4>
+          <p className='mb-4'>Pure zinc has a theoretical capacity of <span className='font-bold'>372 amp-hours per pound</span>, but in practice it runs at about <span className='font-bold'>95% efficiency</span> giving <span className='font-bold'>~353 Ah/lb.</span></p>
+          <ul className="list-disc pb-8">
+            <p className='mb-1 font-bold'>Example:</p>
+            <p className='mb-2'>A 25 lb zinc anode (e.g., Z26) delivering 2 amps would last:</p>
+            <li>25 lbs × 353 Ah = <span className='font-bold'>8,825 Ah</span></li>
+            <li>8,825 Ah ÷ 2 amps = <span className='font-bold'>4,412.5 hours</span></li>
+            <li>4,412.5 hours ÷ 24 = <span className='font-bold'>~184 days</span></li>
+          </ul>
+
+          <h4>Rule of Thumb:</h4>
+          <p className='mb-4'>Be prepared to <span className='font-bold'>replace anodes when they reach 50% consumption </span>to maintain effective protection.</p>
+
+
+
+
+
           <p className='mb-6'>A general rule of thumb for cathodic protection is to provide a negative voltage that is at a minimum of -0.2V(-200mV) relative to the least noble metal being protected.  There is, however, the possiblity of overprotection as well as under-protection in certain situations.
 
             Overprotection can cause damage in the form of alkali corrosion to aluminum, delignification to wooden hull (the breakdown of the fibres), and hull coatings (blistering).  This can occur, for example, if a magnesium anode is used on aluminum, in water that is polluted, brackish (in between fresh and seawater) or seawater resulting in too much voltage. Another cause is stray DC current from defective wiring or equipment.</p>
