@@ -214,60 +214,56 @@ const milSpec = () => {
           <p className='mb-4'>Be prepared to <span className='font-bold'>replace anodes when they reach 50% consumption </span>to maintain effective protection.</p>
 
 
+          <section class="max-w-6xl mx-auto px-4 py-4">
+            <h3 class="tracking-wide mb-6">Types of Anodes & Best Applications</h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm font-light text-gray-800">
+
+
+              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Magnesium</h3>
+                <ul class="list-disc list-inside space-y-1">
+                  <li>Most active on the Galvanic Scale</li>
+                  <li>Best for <span class="font-medium">freshwater only</span></li>
+                  <li>Inboard drives on fiberglass or steel hulls</li>
+                  <li>Outdrives on wood, fiberglass, aluminum, or steel</li>
+                  <li>Freshwater with stainless steel props</li>
+                </ul>
+                <p class="mt-3 text-xs text-yellow-700 italic">⚠ May overprotect in salt or brackish water</p>
+              </div>
+
+
+              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Zinc</h3>
+                <ul class="list-disc list-inside space-y-1">
+                  <li>Reliable in <span class="font-medium">saltwater</span></li>
+                  <li>Preferred on wood hulls with inboards</li>
+                  <li>Compatible with outboards and outdrives</li>
+                  <li>Best when vessel stays in saltwater</li>
+                </ul>
+                <p class="mt-3 text-xs text-gray-600 italic">✔ Traditional marine standard</p>
+              </div>
+
+
+              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 class="text-lg font-semibold text-gray-700 mb-2 tracking-wide uppercase">Aluminum</h3>
+                <ul class="list-disc list-inside space-y-1">
+                  <li>Versatile in <span class="font-medium">salt, brackish & freshwater</span></li>
+                  <li>Ideal for aluminum sterndrives</li>
+                  <li>Recommended for aluminum props in freshwater</li>
+                  <li>Works with stainless steel props</li>
+                </ul>
+                <p class="mt-3 text-xs text-green-700 italic">✔ Long lifespan & wide compatibility</p>
+              </div>
+
+            </div>
+          </section>
 
 
 
-          <p className='mb-6'>A general rule of thumb for cathodic protection is to provide a negative voltage that is at a minimum of -0.2V(-200mV) relative to the least noble metal being protected.  There is, however, the possiblity of overprotection as well as under-protection in certain situations.
 
-            Overprotection can cause damage in the form of alkali corrosion to aluminum, delignification to wooden hull (the breakdown of the fibres), and hull coatings (blistering).  This can occur, for example, if a magnesium anode is used on aluminum, in water that is polluted, brackish (in between fresh and seawater) or seawater resulting in too much voltage. Another cause is stray DC current from defective wiring or equipment.</p>
-
-          <h4>APPROXIMATE RECOMMENDED RANGE OF CATHODIC PROTECTION</h4>
-          <ul className='mb-4'>
-            <li>Wood Hull: -500 to -600 mV</li>
-            <li>Fibreglass Hull: -550 to -900 mV</li>
-            <li>Steel Hull: -800 to -1050 mV</li>
-            <li>Non-metallic with Aluminum Drive: -900 to -1050 mV</li>
-            <li>Aluminum Hull: -900 to -1100 mV</li>
-          </ul>
-
-
-          <p className='mb-4'>
-            The ability to attain the -200 mv negative shift is dependent on the amount of current (amperage) the anode generates in relationship to the area of coverage.  This is determined by the anode&apos;s surface area and proximity to the metal being protected.
-
-            Factors that cause current requirements to be higher are exposed areas (uncoated), water speed, and water temperature.  Pure zinc has a theoretical capacity of 372 Ampere-Hours(Ah) per pound.  That means at 1 amp, it would take 372 hours to consume a pound of zinc.  Now, zinc operates at about 95% efficiency so it would actually be approximately 353 amp-hours.
-
-            On a steel hull, the current requirements for protection could be between .3 ma (milliamp) and 6 ma. per sq. ft. for submerged protection depending on coating quality or lack thereof and very little water flow.
-
-            For aluminum hulls, this range could be between .5 ma. and 8 ma.
-
-            So an example would be a Z26 (25lbs) putting out 2 amps would last approx. (25lbs x 353 amp-hrs / 2 amps / 24hrs) or 8825 / 2 = 4412.5 / 24 = 183.8 days.  Keep in mind that this is all theoretical and has many variables involved.  A good rule of thumb is to be ready to change the anode when it reaches 50% consumption.
-          </p>
 
           <h4 className='mt-6'>TYPES OF ANODES AND APPLICATIONS</h4>
-          <table>
-            <tbody>
-              <tr>
-                <th>ANODE TYPE</th>
-                <th>BEST USES</th>
-              </tr>
-              <tr>
-                <td className=' font-bold'>MAGNESIUM ANODES</td>
-                <td className='text-left p-1'><p>- These are the most active anodes on the Galvanic Scale (least Noble) and are recommended only for use in pure fresh water. They can easily overprotect in any other kind of water.</p>
-                  <p>- Can be used with Fibreglass or Steel Hulls with Inboard Drives or Wood, Fibreglass, Aluminum and Steel Hulls with Outdrives.</p>
-                  <p>- <span className="font-bold">In fresh water with Stainless Steel Propeller</span> - Either Magnesium or Aluminum Anodes work</p></td>
-              </tr>
-              <tr>
-                <td className=' font-bold'>ZINC AND ALUMINUM ANODES</td>
-                <td className='text-left p-1'><p>- These are generally suitable for all water conditions but there are preferences depending on hull/drive type:</p>
-                  <p>- <span className="font-bold">Wood Hull with Inboard</span> - Zinc Anodes are preferable</p>
-                  <p>- <span className="font-bold">Wood Hull with Outdrive or Outboard</span> - Either Zinc or Aluminum Anodes work</p>
-                  <p>- <span className="font-bold">Aluminum Sterndrives </span> - Aluminum Anodes preferred. The type of aluminum in the anodes is less noble than the aluminum in the Sterndrive.</p>
-                  <p>- <span className="font-bold">In fresh water with Aluminum Propeller</span> - Aluminum anodes preferred. </p>
-                  <p>- <span className="font-bold">In fresh water with Stainless Steel Propeller</span> - Either Magnesium or Aluminum Anodes work</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+   
 
           <h4>DOCKED VESSELS</h4>
           <p className='mb-4'>
