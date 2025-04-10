@@ -119,12 +119,12 @@ const faq = () => {
 
     <details class="border border-gray-200 rounded-md p-4">
       <summary class="font-semibold text-gray-800 cursor-pointer">Which zinc is best?</summary>
-      <p class="mt-2 text-sm text-gray-700">The best zinc to use is the "MIL-Spec" alloy, which was developed by the US Navy back in the 1950's and has continued to this day with the most recent specification, A-18001-K.</p>
+      <p class="mt-2 text-sm text-gray-700">The best zinc to use is the &quot;MIL-Spec alloy&quot;, which was developed by the US Navy back in the 1950's and has continued to this day with the most recent specification, A-18001-K.</p>
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
       <summary class="font-semibold text-gray-800 cursor-pointer">Why should I use Mil-Spec zinc?</summary>
-      <p class="mt-2 text-sm text-gray-700">The reason you should use Mil-Spec zinc is that it will consistently keep working by sacrificing itself so your boat's components will not corrode due to passivation.</p>
+      <p class="mt-2 text-sm text-gray-700">The reason you should use Mil-Spec zinc is that it will consistently keep working by sacrificing itself so your boat&apos;s components will not corrode due to passivation.</p>
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
@@ -144,7 +144,7 @@ const faq = () => {
 
     <details class="border border-gray-200 rounded-md p-4">
       <summary class="font-semibold text-gray-800 cursor-pointer">What would happen if I didn't use Mil-Spec zinc?</summary>
-      <p class="mt-2 text-sm text-gray-700">If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming "anodes", hence sacrificing themselves because of contamination in the zinc that's being used. You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done. Their research has given them the proper alloy to consistently provide adequate protection and predictable results.</p>
+      <p class="mt-2 text-sm text-gray-700">If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming &quot;anodes&quot;, hence sacrificing themselves because of contamination in the zinc that&apos;s being used. You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done. Their research has given them the proper alloy to consistently provide adequate protection and predictable results.</p>
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
