@@ -114,12 +114,12 @@ const faq = () => {
 
     <details class="border border-gray-200 rounded-md p-4">
       <summary class="font-semibold text-gray-800 cursor-pointer">Are all zinc anodes the same?</summary>
-      <p class="mt-2 text-sm text-gray-700">No, all zinc anodes are not the same. The chemical make-up of the alloy (or lack of alloy), has a significant effect on the anode's ability to protect a vessel.</p>
+      <p class="mt-2 text-sm text-gray-700">No, all zinc anodes are not the same. The chemical make-up of the alloy (or lack of alloy), has a significant effect on the anode&apos;s ability to protect a vessel.</p>
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
       <summary class="font-semibold text-gray-800 cursor-pointer">Which zinc is best?</summary>
-      <p class="mt-2 text-sm text-gray-700">The best zinc to use is the &quot;MIL-Spec alloy&quot;, which was developed by the US Navy back in the 1950's and has continued to this day with the most recent specification, A-18001-K.</p>
+      <p class="mt-2 text-sm text-gray-700">The best zinc to use is the &quot;MIL-Spec alloy&quot;, which was developed by the US Navy back in the 1950&apos;s and has continued to this day with the most recent specification, A-18001-K.</p>
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
@@ -143,7 +143,7 @@ const faq = () => {
     </details>
 
     <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">What would happen if I didn't use Mil-Spec zinc?</summary>
+      <summary class="font-semibold text-gray-800 cursor-pointer">What would happen if I didn&apos;t use Mil-Spec zinc?</summary>
       <p class="mt-2 text-sm text-gray-700">If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming &quot;anodes&quot;, hence sacrificing themselves because of contamination in the zinc that&apos;s being used. You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done. Their research has given them the proper alloy to consistently provide adequate protection and predictable results.</p>
     </details>
 
