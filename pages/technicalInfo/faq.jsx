@@ -56,7 +56,7 @@ const faqData = [
 
 const faq = () => {
   return (
-    <div className="bg-white flex flex-col justify-center items">
+    <div className="bg-white">
       <Hero heading={"Frequently Asked Questions"} message={"Find the answers to all your corrosion questions here"} img={"bg-img4"} />
 
       {/* <div className="flex flex-col ml-[20%] mr-[20%] mb-[8%]">
@@ -106,101 +106,101 @@ const faq = () => {
           </table>
         </div>
       </div> */}
+      <article className='flex w-[100%]'>
+        <section class="w-full max-w-5xl py-12 px-4">
+          <h2 class="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
+          <p class="text-sm text-gray-600 mb-8">Find the answers to all your corrosion questions here.</p>
+          <div class="space-y-4">
 
-<section class="max-w-6xl mx-auto px-4 py-12">
-  <h2 class="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
-  <p class="text-sm text-gray-600 mb-8">Find the answers to all your corrosion questions here.</p>
-  <div class="space-y-4">
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Are all zinc anodes the same?</summary>
+              <p class="mt-2 text-sm text-gray-700">No, all zinc anodes are not the same. The chemical make-up of the alloy (or lack of alloy), has a significant effect on the anode&apos;s ability to protect a vessel.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Are all zinc anodes the same?</summary>
-      <p class="mt-2 text-sm text-gray-700">No, all zinc anodes are not the same. The chemical make-up of the alloy (or lack of alloy), has a significant effect on the anode&apos;s ability to protect a vessel.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Which zinc is best?</summary>
+              <p class="mt-2 text-sm text-gray-700">The best zinc to use is the &quot;MIL-Spec alloy&quot;, which was developed by the US Navy back in the 1950&apos;s and has continued to this day with the most recent specification, A-18001-K.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Which zinc is best?</summary>
-      <p class="mt-2 text-sm text-gray-700">The best zinc to use is the &quot;MIL-Spec alloy&quot;, which was developed by the US Navy back in the 1950&apos;s and has continued to this day with the most recent specification, A-18001-K.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Why should I use Mil-Spec zinc?</summary>
+              <p class="mt-2 text-sm text-gray-700">The reason you should use Mil-Spec zinc is that it will consistently keep working by sacrificing itself so your boat&apos;s components will not corrode due to passivation.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Why should I use Mil-Spec zinc?</summary>
-      <p class="mt-2 text-sm text-gray-700">The reason you should use Mil-Spec zinc is that it will consistently keep working by sacrificing itself so your boat&apos;s components will not corrode due to passivation.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">What is passivation?</summary>
+              <p class="mt-2 text-sm text-gray-700">Passivation means the anode stopped working or has reduced effectiveness.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">What is passivation?</summary>
-      <p class="mt-2 text-sm text-gray-700">Passivation means the anode stopped working or has reduced effectiveness.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">What causes passivation?</summary>
+              <p class="mt-2 text-sm text-gray-700">It is caused by a build-up of iron oxides that occur from the iron content in the anode.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">What causes passivation?</summary>
-      <p class="mt-2 text-sm text-gray-700">It is caused by a build-up of iron oxides that occur from the iron content in the anode.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">How can you help prevent the anodes from becoming passivated?</summary>
+              <p class="mt-2 text-sm text-gray-700">By insisting on Military Specification A-18001-K, you are ensuring proper protection for your boat, as the alloy limits impurities and adds elements that allow the anode to properly sacrifice itself at optimum efficiency.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">How can you help prevent the anodes from becoming passivated?</summary>
-      <p class="mt-2 text-sm text-gray-700">By insisting on Military Specification A-18001-K, you are ensuring proper protection for your boat, as the alloy limits impurities and adds elements that allow the anode to properly sacrifice itself at optimum efficiency.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">What would happen if I didn&apos;t use Mil-Spec zinc?</summary>
+              <p class="mt-2 text-sm text-gray-700">If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming &quot;anodes&quot;, hence sacrificing themselves because of contamination in the zinc that&apos;s being used. You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done. Their research has given them the proper alloy to consistently provide adequate protection and predictable results.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">What would happen if I didn&apos;t use Mil-Spec zinc?</summary>
-      <p class="mt-2 text-sm text-gray-700">If Mil Spec zinc is not used on your vessel, you are risking the components on your boat becoming &quot;anodes&quot;, hence sacrificing themselves because of contamination in the zinc that&apos;s being used. You, like the US Navy, have too much of an investment to take a chance with a product that may or may not get the job done. Their research has given them the proper alloy to consistently provide adequate protection and predictable results.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Some Anode manufacturers claim that their anodes last longer than all others. Does that make sense?</summary>
+              <p class="mt-2 text-sm text-gray-700">No, it does not. For Anodes to work properly they must be consumed. If Anodes do not sacrifice themselves they are not functioning correctly. If Anodes are passivated, serious corrosion damage could occur to the metal hull or other metal parts of the boat or ship causing several thousand dollars in damage. The last thing a boat owner should want is for their anodes to last a long time. The fact is, the anodes lifespan is governed by its weight. If the consumption of the anode is slower, there is a considerable risk that the minimum voltage relative to the most susceptible metal component on the hull, may not be met, resulting in corrosion.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Some Anode manufacturers claim that their anodes last longer than all others. Does that make sense?</summary>
-      <p class="mt-2 text-sm text-gray-700">No, it does not. For Anodes to work properly they must be consumed. If Anodes do not sacrifice themselves they are not functioning correctly. If Anodes are passivated, serious corrosion damage could occur to the metal hull or other metal parts of the boat or ship causing several thousand dollars in damage. The last thing a boat owner should want is for their anodes to last a long time. The fact is, the anodes lifespan is governed by its weight. If the consumption of the anode is slower, there is a considerable risk that the minimum voltage relative to the most susceptible metal component on the hull, may not be met, resulting in corrosion.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Is it true some manufacturers use reclaimed Zinc in the production of their anodes?</summary>
+              <p class="mt-2 text-sm text-gray-700">Yes, apparently so. This is not a good idea as one has no idea where the zinc originates and the manufacturer is taking great risk of producing contaminated anodes that do not perform.</p>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Is it true some manufacturers use reclaimed Zinc in the production of their anodes?</summary>
-      <p class="mt-2 text-sm text-gray-700">Yes, apparently so. This is not a good idea as one has no idea where the zinc originates and the manufacturer is taking great risk of producing contaminated anodes that do not perform.</p>
-    </details>
+            <details class="border border-gray-200 rounded-md p-4">
+              <summary class="font-semibold text-gray-800 cursor-pointer">Certain Manufacturers claim the anodes they produce are 99.99% pure Zinc. Does that make sense?</summary>
+              <p class="mt-2 text-sm text-gray-700">No, it does not. The fact is Anodes made with Mil Spec Zinc are not 99.99% pure zinc. Mil Spec Zinc is alloyed to the following specifications:</p>
+              <div class="overflow-x-auto mt-4">
+                <table class="min-w-full border border-gray-300 text-sm text-gray-700">
+                  <thead class="bg-gray-100">
+                    <tr>
+                      <th class="text-left px-4 py-2 border-b border-gray-300">Material</th>
+                      <th class="text-left px-4 py-2 border-b border-gray-300">Zinc Alloy (% Content)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="px-4 py-2 border-b border-gray-200">Cadmium (Cd)</td>
+                      <td class="px-4 py-2 border-b border-gray-200">0.025% - 0.07%</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-4 py-2 border-b border-gray-200">Copper (Cu)</td>
+                      <td class="px-4 py-2 border-b border-gray-200">0.005% MAX</td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-2 border-b border-gray-200">Iron (Fe)</td>
+                      <td class="px-4 py-2 border-b border-gray-200">0.005%</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-4 py-2 border-b border-gray-200">Lead (Pb)</td>
+                      <td class="px-4 py-2 border-b border-gray-200">0.006% MAX</td>
+                    </tr>
+                    <tr>
+                      <td class="px-4 py-2 border-b border-gray-200">Aluminum (Al)</td>
+                      <td class="px-4 py-2 border-b border-gray-200">0.1% - 0.5%</td>
+                    </tr>
+                    <tr class="bg-gray-50">
+                      <td class="px-4 py-2">Zinc (Zn)</td>
+                      <td class="px-4 py-2">Remainder</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </details>
 
-    <details class="border border-gray-200 rounded-md p-4">
-      <summary class="font-semibold text-gray-800 cursor-pointer">Certain Manufacturers claim the anodes they produce are 99.99% pure Zinc. Does that make sense?</summary>
-      <p class="mt-2 text-sm text-gray-700">No, it does not. The fact is Anodes made with Mil Spec Zinc are not 99.99% pure zinc. Mil Spec Zinc is alloyed to the following specifications:</p>
-      <div class="overflow-x-auto mt-4">
-        <table class="min-w-full border border-gray-300 text-sm text-gray-700">
-          <thead class="bg-gray-100">
-            <tr>
-              <th class="text-left px-4 py-2 border-b border-gray-300">Material</th>
-              <th class="text-left px-4 py-2 border-b border-gray-300">Zinc Alloy (% Content)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="px-4 py-2 border-b border-gray-200">Cadmium (Cd)</td>
-              <td class="px-4 py-2 border-b border-gray-200">0.025% - 0.07%</td>
-            </tr>
-            <tr class="bg-gray-50">
-              <td class="px-4 py-2 border-b border-gray-200">Copper (Cu)</td>
-              <td class="px-4 py-2 border-b border-gray-200">0.005% MAX</td>
-            </tr>
-            <tr>
-              <td class="px-4 py-2 border-b border-gray-200">Iron (Fe)</td>
-              <td class="px-4 py-2 border-b border-gray-200">0.005%</td>
-            </tr>
-            <tr class="bg-gray-50">
-              <td class="px-4 py-2 border-b border-gray-200">Lead (Pb)</td>
-              <td class="px-4 py-2 border-b border-gray-200">0.006% MAX</td>
-            </tr>
-            <tr>
-              <td class="px-4 py-2 border-b border-gray-200">Aluminum (Al)</td>
-              <td class="px-4 py-2 border-b border-gray-200">0.1% - 0.5%</td>
-            </tr>
-            <tr class="bg-gray-50">
-              <td class="px-4 py-2">Zinc (Zn)</td>
-              <td class="px-4 py-2">Remainder</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </details>
-
-  </div>
-</section>
-
+          </div>
+        </section>
+      </article>
     </div>
   );
 };
