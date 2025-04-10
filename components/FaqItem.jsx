@@ -2,10 +2,12 @@ import React from 'react'
 
 const FaqItem = ({question, answer}) => {
   return (
-    <div className='mt-[5%]'>
-        <h2>{question}</h2>
-        <p>{answer}</p>
-    </div>
+
+    <details className="border border-gray-200 rounded-md p-4">
+    <summary className="font-semibold text-gray-800 cursor-pointer">{question}</summary>
+    <p className="mt-2 text-sm text-gray-700">{answer}</p>
+  </details>
+
   )
 }
 
