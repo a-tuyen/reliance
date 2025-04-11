@@ -48,11 +48,11 @@ html {
   }
 
   th {
-    @apply bg-black text-white text-center border-2 border-white 
+    @apply bg-black text-white text-center border-2 border-white
   }
 
   td {
-    @apply bg-gray-300 text-center border-2 border-white 
+    @apply bg-gray-200 text-center border-2 border-white
   }
 
   button {
@@ -63,6 +63,9 @@ html {
     @apply bg-gray-50 border border-darkMain rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 mb-3
   }
 
+  p {
+    @apply text-gray-600 font-thin
+  }
 }
 
 .custom-img {
@@ -71,7 +74,7 @@ html {
   /* background-image: url(https://images.pexels.com/photos/2253573/pexels-photo-2253573.jpeg); */
   /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
   /* background-image: url(https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
-  background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); 
+  background-image: url(https://images.pexels.com/photos/1784712/pexels-photo-1784712.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
 
 }
 
@@ -81,9 +84,9 @@ html {
 }
 
 .bg-img2 {
-    /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
-    /* underwater */
-    background-image: url(https://user-images.githubusercontent.com/77664153/228633772-4c020692-d900-41bd-8894-155c762cd893.png);
+  /* background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg); */
+  /* underwater */
+  background-image: url(https://user-images.githubusercontent.com/77664153/228633772-4c020692-d900-41bd-8894-155c762cd893.png);
 }
 
 .bg-img3 {
@@ -107,7 +110,3 @@ html {
 .bg-img6 {
   background-image: url(https://images.pexels.com/photos/2397651/pexels-photo-2397651.jpeg);
 }
-
-
-
-
