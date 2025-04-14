@@ -21,7 +21,7 @@ const Footer = () => {
             <li className="flex items-center p-1 z-40">
               <GiRotaryPhone size={30} />{" "}
               <div className="flex flex-col md:flex-row">
-              <p className="pl-2">604 420 3731 /</p>
+              <p className="pl-2 text-white">604 420 3731 /</p>
               <p className="pl-2">1 (877) 420 3731</p>
               </div>
             </li>

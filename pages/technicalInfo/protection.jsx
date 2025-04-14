@@ -8,7 +8,7 @@ const milSpec = () => {
         <Hero heading={"Boat Protection Basics"} img={"bg-img3"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center items-center mt-4 max-w-6xl mx-auto px-4 py-4">
+        <article className="bg-white mt-4 max-w-6xl mx-auto px-4 py-4">
           <h2>Considerations for Boat Protection</h2>
           <div>
             <h4 className="flex justify-center mt-4">Galvanic Corrosion: What It Is</h4>
@@ -32,38 +32,41 @@ const milSpec = () => {
               A <span className='font-bold'>steel hull</span> with <span className='font-bold'>brass fittings</span> in water will cause the steel to corrode. But with a zinc anode installed (which is less noble than both), the zinc corrodes instead, preserving both the steel and brass.
             </p>
 
-            <h4>Choosing the Right Anode Material</h4>
-
-            <ul className="list-disc pb-8">
+            <div className='flex flex-col items-center'>
+              <h4>Choosing the Right Anode Material</h4>
               <p className='mb-4'>Each material has unique properties suited to specific marine environments.</p>
-              <li><span className='font-bold'>Zinc</span> &rarr; Saltwater</li>
-              <li><span className='font-bold'>Aluminum</span> &rarr; Salt or brackish water</li>
-              <li><span className='font-bold'>Magnesium</span> &rarr; Freshwater only</li>
-            </ul>
+              <ul className="list-disc pb-8">
+                <li><span className='font-bold'>Zinc</span> &rarr; Saltwater</li>
+                <li><span className='font-bold'>Aluminum</span> &rarr; Salt or brackish water</li>
+                <li><span className='font-bold'>Magnesium</span> &rarr; Freshwater only</li>
+              </ul>
+            </div>
 
-            <h4>Factors That Influence Corrosion</h4>
+            <div className='flex flex-col items-center'>
+              <h4>Factors That Influence Corrosion</h4>
 
-            <ul className="list-disc pb-8">
-              <li>Water salinity</li>
-              <li>Pollution levels</li>
-              <li>Flow rate or turbulence</li>
-              <li>Oxygen concentration</li>
-              <li>Temperature</li>
-              <li>Metal surface area and coatings</li>
-            </ul>
+              <ul className="list-disc pb-8">
+                <li>Water salinity</li>
+                <li>Pollution levels</li>
+                <li>Flow rate or turbulence</li>
+                <li>Oxygen concentration</li>
+                <li>Temperature</li>
+                <li>Metal surface area and coatings</li>
+              </ul>
 
-            <h4>Anode Size & Lifespan</h4>
-            <ul className="list-disc pb-8">
-              <p className='mb-4'>Choosing the right size and number of anodes ensures long-term protection for your vessel’s components.</p>
-              <li><span className='font-bold'>Surface area </span>determines how much protective current the anode provides.</li>
-              <li><span className='font-bold'>Weight</span> determines how long the anode will last.</li>
-            </ul>
-            <h4>Understanding the Noble Scale</h4>
-            <p className='mb-4'>
-              The <span className='font-bold'>Noble Scale</span> ranks metals based on their electrochemical activity in an electrolyte (like seawater), using a <span className='font-bold'>silver/silver chloride half cell</span> as the reference point.</p>
-            <p className='mb-4'>
-              Metals that are <span className='font-bold'>more negative</span> on the scale are <span className='font-bold'>less noble</span> and more likely to corrode. Those that are <span className='font-bold'>more noble</span> (closer to 0 mV or positive) are less reactive and more resistant to corrosion.
-            </p>
+              <h4>Anode Size & Lifespan</h4>
+              <ul className="list-disc pb-8">
+                <p className='mb-4'>Choosing the right size and number of anodes ensures long-term protection for your vessel’s components.</p>
+                <li><span className='font-bold'>Surface area </span>determines how much protective current the anode provides.</li>
+                <li><span className='font-bold'>Weight</span> determines how long the anode will last.</li>
+              </ul>
+              <h4>Understanding the Noble Scale</h4>
+              <p className='mb-4'>
+                The <span className='font-bold'>Noble Scale</span> ranks metals based on their electrochemical activity in an electrolyte (like seawater), using a <span className='font-bold'>silver/silver chloride half cell</span> as the reference point.</p>
+              <p className='mb-4'>
+                Metals that are <span className='font-bold'>more negative</span> on the scale are <span className='font-bold'>less noble</span> and more likely to corrode. Those that are <span className='font-bold'>more noble</span> (closer to 0 mV or positive) are less reactive and more resistant to corrosion.
+              </p>
+            </div>
           </div>
 
           <table className='min-w-full border border-gray-300'>
@@ -203,7 +206,7 @@ const milSpec = () => {
           <h4>Anode Capacity & Lifespan</h4>
           <p className='mb-4'>Pure zinc has a theoretical capacity of <span className='font-bold'>372 amp-hours per pound</span>, but in practice it runs at about <span className='font-bold'>95% efficiency</span> giving <span className='font-bold'>~353 Ah/lb.</span></p>
           <ul className="list-disc pb-8">
-            <p className='mb-1 font-bold'>Example:</p>
+            <p className='mb-1 font-bold text-gray-600'>Example:</p>
             <p className='mb-2'>A 25 lb zinc anode (e.g., Z26) delivering 2 amps would last:</p>
             <li>25 lbs × 353 Ah = <span className='font-bold'>8,825 Ah</span></li>
             <li>8,825 Ah ÷ 2 amps = <span className='font-bold'>4,412.5 hours</span></li>
@@ -216,7 +219,7 @@ const milSpec = () => {
 
           <section className="max-w-6xl mx-auto px-4 py-4">
             <h4>Types of Anodes & Best Applications</h4>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm font-light text-gray-800">
 
               <div className="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
@@ -277,21 +280,23 @@ const milSpec = () => {
           <p className='mb-4'>Even a small DC voltage leak can completely <span className='font-bold'>override your anode system.</span> In severe cases, stray current can destroy metal hardware in a matter of hours.</p>
 
           <h4>Common Sources of Stray Current</h4>
-            <ul className="list-disc pb-8">
-              <li>Faulty or exposed DC wiring inside the boat</li>
-              <li>Improperly grounded shore power systems</li>
-              <li>Electrical leaks from neighboring vessels or marina infrastructure</li>
-            </ul>
+          <ul className="list-disc pb-8">
+            <li>Faulty or exposed DC wiring inside the boat</li>
+            <li>Improperly grounded shore power systems</li>
+            <li>Electrical leaks from neighboring vessels or marina infrastructure</li>
+          </ul>
 
+          <div className='flex flex-col items-center w-[100%]'>
             <h4>How to Protect Against It</h4>
             <ul className="list-disc pb-8">
               <li>Test your boat regularly for <span className='font-bold'>DC voltage leaks</span></li>
               <li>Keep <span className='font-bold'>DC wiring above the bilge</span> to prevent water contact</li>
               <li>Ensure <span className='font-bold'>AC systems</span> are properly insulated to reduce the risk of electric shock</li>
               <li>Use a proper <span className='font-bold'>bonding system</span>:
-                <p>All electrical and underwater metal components should be connected to the <span className='font-bold'>battery&apos;s negative terminal or its ground bus</span>, equalizing voltage across the system and minimizing current flow into the water</p>
+                <p className='w-[100%] flex flex-col'>All electrical and underwater metal components should be connected to the <span className='font-bold'>battery&apos;s negative terminal or its ground bus,</span> equalizing voltage across the system and minimizing current flow into the water</p>
               </li>
             </ul>
+          </div>
 
         </article>
       </main>
