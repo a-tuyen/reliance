@@ -59,50 +59,9 @@ const faq = () => {
     <div className="bg-white">
       <Hero heading={"Frequently Asked Questions"} message={"Find the answers to all your corrosion questions here"} img={"bg-img4"} />
 
-
-      {/* <table>
-            <tbody>
-              <tr>
-                <th colSpan={"2"} className="border-2 border-white py-4">
-                  <h1>US MIL-SPEC COMPOSITION</h1>
-                </th>
-              </tr>
-              <tr>
-                <th>MATERIAL</th>
-                <th><p>ZINC ALLOY</p><p>MIL-A-18001 & ASTM B-418 - TYPE 1</p></th>
-              </tr>
-              <tr>
-                <td>Cadmium (Cd)</td>
-                <td>0.025% - 0.07%</td>
-              </tr>
-              <tr>
-                <td>Copper (Cu)</td>
-                <td>0.005% MAX</td>
-              </tr>
-              <tr>
-                <td>Iron (Fe)</td>
-                <td>0.005%</td>
-              </tr>
-              <tr>
-                <td>Lead (Pb)</td>
-                <td>0.006% MAX</td>
-              </tr>
-              <tr>
-                <td>Aluminum (Al)</td>
-                <td>0.1% - 0.5%</td>
-              </tr>
-              <tr>
-                <td>Zinc (Zn)</td>
-                <td>Remainder</td>
-              </tr>
-            </tbody>
-            
-          </table> */}
-
-
       <article className='flex w-[100%]'>
         <section class="w-full max-w-5xl py-12 px-4">
-          <h2 class="text-3xl font-bold text-gray-800 mb-6">Frequently Asked Questions</h2>
+          <h2 class="text-3xl font-bold mb-10">Frequently Asked Questions</h2>
           <div class="space-y-4">
 
             {faqData.map((item, id) => (
@@ -114,11 +73,11 @@ const faq = () => {
               <summary className="font-semibold text-gray-800 cursor-pointer">Certain Manufacturers claim the anodes they produce are 99.99% pure Zinc. Does that make sense?</summary>
               <p className="mt-2 text-gray-700">No, it does not. The fact is Anodes made with Mil Spec Zinc are not 99.99% pure zinc. Mil Spec Zinc is alloyed to the following specifications:</p>
               <div className="overflow-x-auto mt-4">
-                <table className="min-w-full border border-gray-300 ">
+                <table className="min-w-full border border-gray-300">
                   <tbody>
                     <tr>
-                      <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">Material</th>
-                      <th className=" px-4 py-2 bg-gray-200 border-b border-gray-200 text-gray-700">Zinc Alloy (% Content)</th>
+                      <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">MATERIAL</th>
+                      <th className=" px-4 py-2 bg-gray-200 border-b border-gray-200 text-gray-700">% OF CONTENT</th>
                     </tr>
                     <tr>
                       <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Cadmium (Cd)</td>

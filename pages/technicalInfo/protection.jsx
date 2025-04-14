@@ -66,67 +66,67 @@ const milSpec = () => {
             </p>
           </div>
 
-          <table className='mb-2'>
+          <table className='min-w-full border border-gray-300'>
             <tbody>
               <tr>
-                <th colSpan={"2"} className="border-2 border-white py-4">
-                  <h1>NOBLE SCALE</h1>
+                <th colSpan={"2"} className="border-2 border-white py-4 bg-white">
+                  <h3>NOBLE SCALE</h3>
                   <p>LEAST TO MOST NOBLE</p>
                 </th>
               </tr>
               <tr>
-                <th>MILLIVOLTS</th>
-                <th>METAL OR ALLOY</th>
+                <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">MILLIVOLTS</th>
+                <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">METAL OR ALLOY</th>
               </tr>
               <tr>
-                <td>-1580</td>
-                <td>Magnesium</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-1580</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Magnesium</td>
               </tr>
               <tr>
-                <td>-1100</td>
-                <td>
+                <td className="px-4 py-2 border-b border-gray-200">-1100</td>
+                <td className="px-4 py-2 border-b border-gray-200">
                   Aluminum with Indium
                 </td>
               </tr>
               <tr>
-                <td>-1050</td>
-                <td>Zinc</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-1050</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Zinc</td>
               </tr>
               <tr>
-                <td>-860</td>
-                <td>Cadmium</td>
+                <td className="px-4 py-2 border-b border-gray-200">-860</td>
+                <td className="px-4 py-2 border-b border-gray-200">Cadmium</td>
               </tr>
               <tr>
-                <td>-790</td>
-                <td>Mild Steel</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-790</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Mild Steel</td>
               </tr>
               <tr>
-                <td>-750</td>
-                <td>Aluminum Stern Drive</td>
+                <td className="px-4 py-2 border-b border-gray-200">-750</td>
+                <td className="px-4 py-2 border-b border-gray-200">Aluminum Stern Drive</td>
               </tr>
               <tr>
-                <td>-500</td>
-                <td>Tin</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-500</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Tin</td>
               </tr>
               <tr>
-                <td>-450</td>
-                <td>Naval Brass</td>
+                <td className="px-4 py-2 border-b border-gray-200">-450</td>
+                <td className="px-4 py-2 border-b border-gray-200">Naval Brass</td>
               </tr>
               <tr>
-                <td>-340</td>
-                <td>Copper</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-340</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Copper</td>
               </tr>
               <tr>
-                <td>-240</td>
-                <td>Lead</td>
+                <td className="px-4 py-2 border-b border-gray-200">-240</td>
+                <td className="px-4 py-2 border-b border-gray-200">Lead</td>
               </tr>
               <tr>
-                <td>-80</td>
-                <td>Silver</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-80</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">Silver</td>
               </tr>
               <tr>
-                <td>0</td>
-                <td>Gold</td>
+                <td className="px-4 py-2 border-b border-gray-200">0</td>
+                <td className="px-4 py-2 border-b border-gray-200">Gold</td>
               </tr>
             </tbody>
           </table>
@@ -160,31 +160,31 @@ const milSpec = () => {
           <div className="max-w-6xl mx-auto px-4 py-10">
             <h4 className="mb-4">Recommended Cathodic Protection Ranges</h4>
 
-            <table className="w-full border border-gray-300 text-gray-800 font-light">
+            <table className="min-w-full border border-gray-300">
               <tbody>
-                <tr className="bg-gray-100 text-left">
-                  <th className="px-3 py-2 border-b border-gray-300">Hull or Component Type</th>
-                  <th className="px-3 py-2 border-b border-gray-300">Target Range (mV)</th>
+                <tr>
+                  <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">Hull or Component Type</th>
+                  <th className="px-4 py-2 bg-gray-200 border-b border-gray-200  text-gray-700">Target Range (mV)</th>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-3 py-2 border-t border-gray-200">Wood Hull</td>
-                  <td className="px-3 py-2 border-t border-gray-200">–500 to –600</td>
+                <tr>
+                  <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Wood Hull</td>
+                  <td className="px-4 py-2 border-b border-gray-200 bg-white">–500 to –600</td>
                 </tr>
-                <tr className="bg-gray-50">
+                <tr>
                   <td className="px-3 py-2 border-t border-gray-200">Fibreglass Hull</td>
                   <td className="px-3 py-2 border-t border-gray-200">–550 to –900</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-3 py-2 border-t border-gray-200">Steel Hull</td>
-                  <td className="px-3 py-2 border-t border-gray-200">–800 to –1050</td>
+                <tr>
+                  <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Steel Hull</td>
+                  <td className="px-4 py-2 border-b border-gray-200 bg-white">–800 to –1050</td>
                 </tr>
-                <tr className="bg-gray-50">
+                <tr>
                   <td className="px-3 py-2 border-t border-gray-200">Non-metallic Hull with Aluminum Drive</td>
                   <td className="px-3 py-2 border-t border-gray-200">–900 to –1050</td>
                 </tr>
-                <tr className="bg-white">
-                  <td className="px-3 py-2 border-t border-gray-200">Aluminum Hull</td>
-                  <td className="px-3 py-2 border-t border-gray-200">–900 to –1100</td>
+                <tr>
+                  <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Aluminum Hull</td>
+                  <td className="px-4 py-2 border-b border-gray-200 bg-white">–900 to –1100</td>
                 </tr>
               </tbody>
             </table>
@@ -214,45 +214,45 @@ const milSpec = () => {
           <p className='mb-4'>Be prepared to <span className='font-bold'>replace anodes when they reach 50% consumption </span>to maintain effective protection.</p>
 
 
-          <section class="max-w-6xl mx-auto px-4 py-4">
-            <h3 class="tracking-wide mb-6">Types of Anodes & Best Applications</h3>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm font-light text-gray-800">
+          <section className="max-w-6xl mx-auto px-4 py-4">
+            <h4>Types of Anodes & Best Applications</h4>
+            
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm font-light text-gray-800">
 
-
-              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Magnesium</h3>
-                <ul class="list-disc list-inside space-y-1">
+              <div className="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 className="text-lg font-semibold mb-2 tracking-wide uppercase">Magnesium</h3>
+                <ul className="list-disc list-inside space-y-1">
                   <li>Most active on the Galvanic Scale</li>
-                  <li>Best for <span class="font-medium">freshwater only</span></li>
+                  <li>Best for <span className="font-medium">freshwater only</span></li>
                   <li>Inboard drives on fiberglass or steel hulls</li>
                   <li>Outdrives on wood, fiberglass, aluminum, or steel</li>
                   <li>Freshwater with stainless steel props</li>
                 </ul>
-                <p class="mt-3 text-orange-500 italic">⚠ May overprotect in salt or brackish water</p>
+                <p className="mt-3 text-orange-500 italic">⚠ May overprotect in salt or brackish water</p>
               </div>
 
 
-              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Zinc</h3>
-                <ul class="list-disc list-inside space-y-1">
-                  <li>Reliable in <span class="font-medium">saltwater</span></li>
+              <div className="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 className="text-lg font-semibold mb-2 tracking-wide uppercase">Zinc</h3>
+                <ul className="list-disc list-inside space-y-1">
+                  <li>Reliable in <span className="font-medium">saltwater</span></li>
                   <li>Preferred on wood hulls with inboards</li>
                   <li>Compatible with outboards and outdrives</li>
                   <li>Best when vessel stays in saltwater</li>
                 </ul>
-                <p class="mt-3 text-green-500 italic">✔ Traditional marine standard</p>
+                <p className="mt-3 text-green-500 italic">✔ Traditional marine standard</p>
               </div>
 
 
-              <div class="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
-                <h3 class="text-xl font-semibold mb-2 tracking-wide uppercase">Aluminum</h3>
-                <ul class="list-disc list-inside space-y-1">
-                  <li>Versatile in <span class="font-medium">salt, brackish & freshwater</span></li>
+              <div className="border border-gray-200 p-5 rounded-md shadow-sm bg-white">
+                <h3 className="text-lg font-semibold mb-2 tracking-wide uppercase">Aluminum</h3>
+                <ul className="list-disc list-inside space-y-1">
+                  <li>Versatile in <span className="font-medium">salt, brackish & freshwater</span></li>
                   <li>Ideal for aluminum sterndrives</li>
                   <li>Recommended for aluminum props in freshwater</li>
                   <li>Works with stainless steel props</li>
                 </ul>
-                <p class="mt-3 text-green-500 italic">✔ Long lifespan & wide compatibility</p>
+                <p className="mt-3 text-green-500 italic">✔ Long lifespan & wide compatibility</p>
               </div>
 
             </div>
