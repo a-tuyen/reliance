@@ -31,7 +31,7 @@ export default function Home() {
             width="800"
             height="6000"
           />
-          <div className="my-2 mx-8 md:mx-[5] text-xl xl:ml-[8%] min-[1250px]:text-3xl tracking-wide font-thin flex flex-col justify-center">
+          <div className="my-2 mx-8 md:mx-[5] xl:ml-[8%] min-[1250px]:text-3xl tracking-wide font-thin flex flex-col justify-center">
             <p>
               Reliance Anodes is a division of Metal Distributors Ltd., proudly serving the industry since 1949.
             </p>
