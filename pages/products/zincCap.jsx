@@ -15,7 +15,7 @@ const zincCap = () => {
       />
 
       <main>
-        <article className="px-2">
+        <article className="bg-white mt-4 max-w-6xl mx-auto px-4 py-4">
           <h2>Why Reliance Zinc Anode Caps Outperform the Rest</h2>
           <p className="pt-4">
              Not all anode caps are created equal. At Reliance, we don&apos;t cut corners—we cast with purpose. Here&apos;s what sets our zinc caps apart:
@@ -98,9 +98,10 @@ const zincCap = () => {
           </p>
           <p className="pt-4">In this system, the more negatively charged metal (the anode) corrodes first, sacrificing itself to protect the more noble, or positive, metal. Zinc is significantly more negative than most common metals, making it ideal as a sacrificial anode. As long as zinc remains, the protected component is effectively shielded from corrosion.</p>
           <p className="pt-4">Zinc Anode Caps are designed to protect system components made from steel, cast iron, ductile iron, brass, and copper. The number of caps used directly impacts the length of protection—more zinc means longer service life.</p>
-          <p className="pt-4">For optimal performance, Zinc Anode Caps should be installed on all exposed bolts and fittings, particularly in corrosive or moisture-prone soil conditions.</p>
+          <p className="py-4">For optimal performance, Zinc Anode Caps should be installed on all exposed bolts and fittings, particularly in corrosive or moisture-prone soil conditions.</p>
 
-          <h3>Suitable Applications for Zinc Anode Caps</h3>
+          <h2>Suitable Applications for Zinc Anode Caps</h2>
+          <div className="flex flex-col items-end justify-center">
           <ul className="list-disc pb-8">
           <p className="pb-4">Reliance Zinc Anode Caps are trusted by a wide range of industries and professionals, including:</p>
             <li>Pipeline installers and manufacturers</li>
@@ -112,6 +113,7 @@ const zincCap = () => {
             <li>Corrosion engineers and consultants</li>
             <li>Wharf and jetty construction companies </li>
           </ul>
+          </div>
 
           <table>
             <tbody>
