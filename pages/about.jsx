@@ -8,7 +8,7 @@ const about = () => {
 
       <Hero heading={"About Us"} img={"bg-img3"} />
       
-      <article className='flex flex-col lg:flex-row justify-center items-center w-[100%]'>
+      <article className='flex flex-col lg:flex-row justify-center items-center w-[100%] px-4'>
         <div className='flex flex-col items-center lg:flex-row justify-center w-[100%] mb-10'>
         <div className="w-[90%] lg:w-[50%] lg:text-3xl tracking-wide font-thin flex flex-col">
           <h2 className='p-12 lg:pb-12'>A Legacy Cast in Metal</h2>

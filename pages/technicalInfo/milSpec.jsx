@@ -8,7 +8,7 @@ const milSpec = () => {
         <Hero heading={"What is Mil-Spec?"} img={"bg-img2"} />
       </div>
       <main>
-        <article className="bg-white flex flex-col justify-center items-center mt-4">
+        <article className="bg-white mt-4 max-w-6xl mx-auto px-4 py-4">
           <h2>Understanding Mil-Spec: MIL-A-18001</h2>
           <h4>The Benchmark for Zinc Anode Quality</h4>
           <p className='mb-4'>
@@ -48,78 +48,75 @@ const milSpec = () => {
           <p className='mb-4'><span className='font-bold'>That’s why every Reliance Zinc Anode is certified to meet or exceed MIL-A-18001 standards—because when it comes to corrosion protection, there’s no room for compromise.</span></p>
 
 
+          
           <table className='w-full border border-gray-300 text-gray-800 font-light">'>
             <tbody>
+<tr>
+  <th colspan={3} className='bg-white'><h4>US MIL-SPEC COMPOSITION</h4></th>
+</tr>
               <tr>
-                <th colSpan={"3"} className="border-2 border-white py-4">
-                  <h1>US MIL-SPEC COMPOSITION</h1>
-                </th>
+                <th className="px-4 py-2 border-l-gray-200 bg-gray-200 text-gray-700">MATERIAL</th>
+                <th className="px-4 py-2 border-b bg-gray-200 border-r-white border-l-white text-gray-700"><p>ZINC ALLOY</p><p>MIL-A-18001 & ASTM B-418 - TYPE 1</p></th>
+                <th className="px-4 py-2 border-r-gray-200 bg-gray-200 text-gray-700"><p>ALUMINUM ALLOY</p><p>MIL-A-24779</p></th>
               </tr>
               <tr>
-                <th>MATERIAL</th>
-                <th><p>ZINC ALLOY</p><p>MIL-A-18001 & ASTM B-418 - TYPE 1</p></th>
-                <th><p>ALUMINUM ALLOY</p><p>MIL-A-24779</p></th>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Cadmium (Cd)</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">0.025% - 0.07%</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">-</td>
               </tr>
               <tr>
-                <td>Cadmium (Cd)</td>
-                <td>0.025% - 0.07%</td>
-                <td>-</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">Copper (Cu)</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">0.005% MAX</td>
+                <td className="px-3 py-2 border-t border-gray-200">0.004% MAX</td>
               </tr>
               <tr>
-                <td>Copper (Cu)</td>
-                <td>0.005% MAX</td>
-                <td>0.004% MAX</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Iron (Fe)</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">0.005%</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">0.09%</td>
               </tr>
               <tr>
-                <td>Iron (Fe)</td>
-                <td>0.005%</td>
-                <td>0.09%</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">Indium (In)</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">-</td>
+                <td className="px-3 py-2 border-t border-gray-200">0.014% - 0.020%</td>
               </tr>
               <tr>
-                <td>Indium (In)</td>
-                <td>-</td>
-                <td>0.014% - 0.020%</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Lead (Pb)</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">0.006% MAX</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">-</td>
               </tr>
               <tr>
-                <td>Lead (Pb)</td>
-                <td>0.006% MAX</td>
-                <td>-</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">Magnesium (Mg)</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">-</td>
+                <td className="px-3 py-2 border-t border-gray-200">0.001% MAX</td>
               </tr>
               <tr>
-                <td>Magnesium (Mg)</td>
-                <td>-</td>
-                <td>0.001% MAX</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Silicon (Si)</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">-</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">0.080% - 0.2%</td>
               </tr>
               <tr>
-                <td>Silicon (Si)</td>
-                <td>-</td>
-                <td>0.080% - 0.2%</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">Aluminum (Al)</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">0.1% - 0.5%</td>
+                <td className="px-3 py-2 border-t border-gray-200">REMAINDER</td>
               </tr>
               <tr>
-                <td>Aluminum (Al)</td>
-                <td>0.1% - 0.5%</td>
-                <td>REMAINDER</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">Zinc (Zn)</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">REMAINDER</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">4% - 6.5%</td>
               </tr>
               <tr>
-                <td>Zinc (Zn)</td>
-                <td>REMAINDER</td>
-                <td>4% - 6.5%</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">Other</td>
+                <td className="px-3 py-2 border-t border-gray-200 border-r-white">-</td>
+                <td className="px-3 py-2 border-t border-gray-200">0.020% MAX</td>
               </tr>
               <tr>
-                <td>Other</td>
-                <td>-</td>
-                <td>0.020% MAX</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td>USE FOR SALT WATER ONLY</td>
-                <td>USE FOR SALT AND BRACKISH WATER</td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white"></td>
+                <td className="px-4 py-2 border-b border-gray-200 border-r-white bg-white">USE FOR SALT WATER ONLY</td>
+                <td className="px-4 py-2 border-b border-gray-200 bg-white">USE FOR SALT AND BRACKISH WATER</td>
               </tr>
             </tbody>
           </table>
 
-          <div className="flex mb-10">
-          </div>
         </article>
       </main>
     </>
